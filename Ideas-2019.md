@@ -33,4 +33,39 @@ The telepathy library does not have its bindings for Python 3, and porting Telep
 **Expected Mentors**<br>
 [Rahul Bothra](https://www.github.com/pro-panda)
 
+------------
+
+## Improve and maintain 20 Sugar activities
+**Priority:** Medium
+
+**Prerequisites**<br>
+ - Strong experience of working on Sugar activities
+ - Releasing and maintaining activities on ASLO
+
+**Description**<br>
+Sugar has a lot of activities (250+ on GitHub, and more elsewhere). These activities have a scope for improvement; bugs, features, possible ASLO release required. This project will involve working on atleast 20 activities to improve them. Students can choose activities on their own, and are encouraged to select activities which are either a part of Fructose or have a strong pedagogical value. To understand how to locate and work on activities, see our guide to [Modifying Activities](https://github.com/sugarlabs/sugar-docs/blob/master/src/contributing.md#modifying-activities)
+
+In the proposal, students should mention all the issues they will work on. Any new feature suggestion should be discussed on GitHub Issues in advance.
+
+Since there are a lot of activities to work on, more than 1 instance of this project can be selected
+
+**Suggested Issues to work on:**<br>
+ - write-activity: [#28 Port to sugar3.speech](https://github.com/sugarlabs/write-activity/issues/28)
+ - jukebox-activity: [#22 Add collaboration for sharing playlist items](https://github.com/sugarlabs/jukebox-activity/issues/22)
+ - jukebox-activity: [#23 Enable visualisations in the playbin element for audio content](https://github.com/sugarlabs/jukebox-activity/issues/23)
+ - log-activity: [#12 Delete Log File button leaves entry in list](https://github.com/sugarlabs/log-activity/issues/12)
+ - read-activity: [#28 add back EPUB support](https://github.com/sugarlabs/read-activity/issues/28)
+ - infoslicer: [#23 Traceback, motion_notify](https://github.com/sugarlabs/infoslicer/issues/23)
+ - getiabooks: [#6 Ctrl q Ignored](https://github.com/sugarlabs/getiabooks/issues/6)
+ - iq-activity: [#10 Port to Latest Sugargame](https://github.com/sugarlabs/iq-activity/issues/10)
+ - sin-dientes-activity: [#1 Port to GTK+ 3](https://github.com/sugarlabs/sin-dientes-activity/issues/1)
+ - readextexts: [#10 Missing Stop button and continually widening canvas](https://github.com/sugarlabs/readetexts/issues/10)
+
+Suggesting or adding features, fixing bugs, or releasing activities will help you to gain experience
+
+**Expected Mentors**
+[Rahul Bothra](https://www.github.com/pro-panda)
+
+------------
+
 ## Want to fill this place ? Make a PR with your idea!

@@ -68,4 +68,40 @@ Suggesting or adding features, fixing bugs, or releasing activities will help yo
 
 ------------
 
+## Performace in Music Blocks
+**Priority:** High
+
+**Prerequisites**<br>
+ - Strong experience with JavaScript
+ - Experience with Travis (and/or other test environments for JavaScript)
+ - Some experience of working on [Music
+   Blocks](https://www.github.com/sugarlabs/musicblocks) or [Turtle
+   Blocks](https://www.github.com/sugarlabs/turtleblocksjs)
+
+**Desciption**<br>
+
+Music Blocks is written in JavaScript and runs in a web browser. It
+uses a number of libraries, noteably, Tone.js and Easel.js. Since it
+is intended to be used in settings such as schools, where old and
+underpowered computers are common, tuning the performance (both the
+memory footprint and the CPU consumption) is important. Further,
+timing errors in audio are annoying and the Tone.js synths get crackly
+when the CPU is maxed out.
+
+This project involves several steps: (1) charactering the problem,
+e.g., what resources are currently being consumed? (2) identifying
+potential places for improvement (including finding memory leaks,
+etc.); (3) building a test environment so that we can measure the
+impact of any changes to the code base; and (4) making changes to
+enhance performace.
+
+**Suggested issues to work on:**<br>
+ - Any issue tagged with a [Performance](https://github.com/sugarlabs/musicblocks/labels/Performance) Label
+
+**Expected Mentors**<br>
+[Walter Bender](https://www.github.com/walterbender)
+
+------------
+
+
 ## Want to fill this place ? Make a PR with your idea!

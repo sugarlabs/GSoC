@@ -171,6 +171,48 @@ rhythms. Step One is to come up with a design proposal.
 [Walter Bender](https://www.github.com/walterbender) and 
 [Devin Ulibarri](https://github.com/pikurasa)
 
+
+------------
+
+## Export Music Blocks code to JavaScript
+**Priority:** Moderate
+
+**Prerequisites**<br>
+ - Experience with JavaScript
+ - Some experience of working on [Music
+   Blocks](https://www.github.com/sugarlabs/musicblocks) or [Turtle
+   Blocks](https://www.github.com/sugarlabs/turtleblocksjs)
+
+**Description**<br>
+
+Music Blocks is written in JavaScript and runs in a web browser. User
+create programs in a snap-together block language which is inspired by
+Logo. Music Blocks is a fork of Turtle Blocks JS, which is turn is a
+derivitive of [Turtle
+Blocks](https://www.github.com/sugarlabs/turtleblocks), which is
+written in Python.
+
+One feature of the Python code is the ability to export to Python. In
+other words, the block code can be exported as Python and run directly
+by a Python interpreter. The required libraries, e.g., GTK, are
+imported and the code itself reads as if the Turtle Blocks project
+were written in Python. (There are a few anomalies, such as
+the use of a dictionary for all of the Turtle Block boxes, although
+they are in fact implemented as a dictionary internally.)
+
+The goal of this project is to provide similar functionality for Music
+Blocks: an export of a project to a JavaScript program (and HTML file)
+that can run in a browser. The code should look and feel as much like
+JavaScript as possible.
+
+**Suggested issues to work on:**<br>
+ - There are not any issues specific to this project, but working on
+   some open bugs would be a good place to start in understanding the
+   code base. [Bug](https://github.com/sugarlabs/musicblocks/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+label%3Abug+)
+
+**Expected Mentors**<br>
+[Walter Bender](https://www.github.com/walterbender)
+
 ------------
 
 

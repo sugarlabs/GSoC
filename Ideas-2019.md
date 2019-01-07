@@ -103,7 +103,7 @@ enhance performace.
 
 ------------
 
-## Performace in Music Blocks
+## Reconsiling rhythm with pitch in Music Blocks widgets
 **Priority:** Moderate
 
 **Prerequisites**<br>

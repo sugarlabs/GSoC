@@ -18,10 +18,18 @@ For each project, there is a list of 'Suggested issues to work on'. These issues
  - Experience with porting telepathy bindings
  - Strong experience of working on [Sugar](https://www.github.com/sugarlabs/sugar) and activities
 
-**Desciption**<br>
-Sugar runs on Python 2. Support for Python 2 is being withdrawn fast and we need to move to Python 3. The work was started in GSoC 2018, see [link](https://wiki.sugarlabs.org/go/Python_2to3), and needs to be wrapped up. See GitHub Project [Port to Python 3 via six](https://github.com/orgs/sugarlabs/projects/1) for open issues and pull requests
+**Description**<br>
+Sugar runs on Python 2. Support for Python 2 is being withdrawn fast
+and we need to move to Python 3. The work was started in GSoC 2018,
+see [link](https://wiki.sugarlabs.org/go/Python_2to3), and needs to be
+wrapped up. See GitHub Project [Port to Python 3 via
+six](https://github.com/orgs/sugarlabs/projects/1) for open issues and
+pull requests
 
-The telepathy library does not have its bindings for Python 3, and porting Telepathy to its PyGObject binding is a pre requisite for the Port to Python 3 Project, see GitHub Project [Port to TelepathyGLib](https://github.com/orgs/sugarlabs/projects/4).
+The telepathy library does not have its bindings for Python 3, and
+porting Telepathy to its PyGObject binding is a prerequisite for the
+Port to Python 3 Project, see GitHub Project [Port to
+TelepathyGLib](https://github.com/orgs/sugarlabs/projects/4).
 
 **Suggested issues to work on:**<br>
  - Sugar-Toolkit-gtk3: [#402 Port to TelepathyGLib](https://github.com/sugarlabs/sugar-toolkit-gtk3/issues/402)
@@ -43,11 +51,22 @@ The telepathy library does not have its bindings for Python 3, and porting Telep
  - Releasing and maintaining activities on ASLO
 
 **Description**<br>
-Sugar has a lot of activities (250+ on GitHub, and more elsewhere). These activities have a scope for improvement; bugs, features, possible ASLO release required. This project will involve working on atleast 20 activities to improve them. Students can choose activities on their own, and are encouraged to select activities which are either a part of Fructose or have a strong pedagogical value. To understand how to locate and work on activities, see our guide to [Modifying Activities](https://github.com/sugarlabs/sugar-docs/blob/master/src/contributing.md#modifying-activities)
+Sugar has a lot of activities (250+ on GitHub, and more
+elsewhere). These activities have a scope for improvement; bugs,
+features, possible ASLO release required. This project will involve
+working on atleast 20 activities to improve them. Students can choose
+activities on their own, and are encouraged to select activities which
+are either a part of Fructose or have a strong pedagogical value. To
+understand how to locate and work on activities, see our guide to
+[Modifying
+Activities](https://github.com/sugarlabs/sugar-docs/blob/master/src/contributing.md#modifying-activities)
 
-In the proposal, students should mention all the issues they will work on. Any new feature suggestion should be discussed on GitHub Issues in advance.
+In the proposal, students should mention all the issues they will work
+on. Any new feature suggestion should be discussed on GitHub Issues in
+advance.
 
-Since there are a lot of activities to work on, more than 1 instance of this project can be selected
+Since there are a lot of activities to work on, more than 1 instance
+of this project can be selected.
 
 **Suggested Issues to work on:**<br>
  - write-activity: [#28 Port to sugar3.speech](https://github.com/sugarlabs/write-activity/issues/28)
@@ -61,14 +80,15 @@ Since there are a lot of activities to work on, more than 1 instance of this pro
  - sin-dientes-activity: [#1 Port to GTK+ 3](https://github.com/sugarlabs/sin-dientes-activity/issues/1)
  - readextexts: [#10 Missing Stop button and continually widening canvas](https://github.com/sugarlabs/readetexts/issues/10)
 
-Suggesting or adding features, fixing bugs, or releasing activities will help you to gain experience
+Suggesting or adding features, fixing bugs, or releasing activities
+will help you to gain experience
 
 **Expected Mentors**
 [Rahul Bothra](https://www.github.com/pro-panda)
 
 ------------
 
-## Performace in Music Blocks
+## Performance in Music Blocks
 **Priority:** High
 
 **Prerequisites**<br>
@@ -78,17 +98,17 @@ Suggesting or adding features, fixing bugs, or releasing activities will help yo
    Blocks](https://www.github.com/sugarlabs/musicblocks) or [Turtle
    Blocks](https://www.github.com/sugarlabs/turtleblocksjs)
 
-**Desciption**<br>
+**Description**<br>
 
 Music Blocks is written in JavaScript and runs in a web browser. It
 uses a number of libraries, noteably, Tone.js and Easel.js. Since it
 is intended to be used in settings such as schools, where old and
-underpowered computers are common, tuning the performance (both the
+under-powered computers are common, tuning the performance (both the
 memory footprint and the CPU consumption) is important. Further,
 timing errors in audio are annoying and the Tone.js synths get crackly
 when the CPU is maxed out.
 
-This project involves several steps: (1) charactering the problem,
+This project involves several steps: (1) characterizing the problem,
 e.g., what resources are currently being consumed? (2) identifying
 potential places for improvement (including finding memory leaks,
 etc.); (3) building a test environment so that we can measure the
@@ -96,14 +116,16 @@ impact of any changes to the code base; and (4) making changes to
 enhance performace.
 
 **Suggested issues to work on:**<br>
- - Any issue tagged with a [Performance](https://github.com/sugarlabs/musicblocks/labels/Performance) Label
+ - Any issue tagged with a
+   [Performance](https://github.com/sugarlabs/musicblocks/labels/Performance)
+   Label
 
 **Expected Mentors**<br>
 [Walter Bender](https://www.github.com/walterbender)
 
 ------------
 
-## Reconsiling rhythm with pitch in Music Blocks widgets
+## Reconciling rhythm with pitch in Music Blocks widgets
 **Priority:** Moderate
 
 **Prerequisites**<br>
@@ -113,7 +135,7 @@ enhance performace.
    Blocks](https://www.github.com/sugarlabs/musicblocks) or [Turtle
    Blocks](https://www.github.com/sugarlabs/turtleblocksjs)
 
-**Desciption**<br>
+**Description**<br>
 
 Music Blocks is written in JavaScript and runs in a web browser. It
 introduces the concept of a note, which is a temporal quantum which
@@ -141,7 +163,9 @@ keyboard. Or perhaps just making it more intuitive how to import
 rhythms. Step One is to come up with a design proposal.
 
 **Suggested issues to work on:**<br>
- - Any issue tagged with [Widget](https://github.com/sugarlabs/musicblocks/labels/widget) Label
+ - Any issue tagged with
+   [Widget](https://github.com/sugarlabs/musicblocks/labels/widget)
+   Label
 
 **Expected Mentors**<br>
 [Walter Bender](https://www.github.com/walterbender) and 

@@ -196,9 +196,11 @@ One feature of the Python code is the ability to export to Python. In
 other words, the block code can be exported as Python and run directly
 by a Python interpreter. The required libraries, e.g., GTK, are
 imported and the code itself reads as if the Turtle Blocks project
-were written in Python. (There are a few anomalies, such as
-the use of a dictionary for all of the Turtle Block boxes, although
-they are in fact implemented as a dictionary internally.)
+were written in Python. (There are a few anomalies, such as the use of
+a dictionary for all of the Turtle Block boxes, although they are in
+fact implemented as a dictionary internally.) See [Python
+Export](https://wiki.sugarlabs.org/images/1/1a/Final_Report_on_Turtle_Blocks_Python_export.pdf)
+for more details.
 
 The goal of this project is to provide similar functionality for Music
 Blocks: an export of a project to a JavaScript program (and HTML file)

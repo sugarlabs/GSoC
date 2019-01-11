@@ -125,6 +125,56 @@ enhance performace.
 
 ------------
 
+## Platforms for Music Blocks
+**Priority:** High
+
+**Prerequisites**<br>
+ - Extensive experience with JavaScript
+ - Experience with Travis CI (and/or other test environments for JavaScript)
+ - Some experience of working on [Music
+   Blocks](https://www.github.com/sugarlabs/musicblocks) or [Turtle
+   Blocks](https://www.github.com/sugarlabs/turtleblocksjs)
+
+**Description**<br>
+
+Music Blocks is written in JavaScript and runs in a web browser. It
+uses a number of libraries, noteably, Tone.js and Easel.js. Since it
+is intended to be used in settings such as schools, we don't have a
+lot of control over what platforms it will be run on, either in terms
+of hardware, OS, or browser.
+
+This project involves several steps: (1) characterizing the
+performance of Music Blocks across a variety of platforms: different
+versions of Windows (e.g., 7 and 10), Mac OS, GNU/Linux (Fedora,
+Ubuntu, et al.), and Android; different browsers, such as Chrome,
+Chromium, Firefox, Opera, Safari, and Edge; and different hardware
+platforms: low-end PCs, tablets, iPad, Android devices, Raspberry Pi,
+and OLPC XO. Presumably it will work in some situations and not in
+others. (Tone.js will be the issue in some situations -- we need to
+explore porting the latest version, which as of the writing of this
+description has not yet been released.)  (2) identifying potential
+places for improvement (e.g., working around the local storage issues
+associated with Edge); and (3) documenting the results of the
+investigation as well we developing unit tests so that we can track
+changes going forward.
+
+**Suggested issues to work on:**<br> - Any issue tagged with a
+[Performance](https://github.com/sugarlabs/musicblocks/labels/Performance),
+[Android](https://github.com/sugarlabs/musicblocks/labels/Android),
+[Edge](https://github.com/sugarlabs/musicblocks/labels/Edge),
+[Chrome](https://github.com/sugarlabs/musicblocks/labels/Chrome),
+[Chrome on
+Mac](https://github.com/sugarlabs/musicblocks/labels/Chrome%20on%20Mac),
+[Chrome on
+W10](https://github.com/sugarlabs/musicblocks/labels/Chrome%20on%20W10),
+or [Firefox](https://github.com/sugarlabs/musicblocks/labels/Firefox)
+Label
+
+**Expected Mentors**<br>
+[Walter Bender](https://www.github.com/walterbender)
+
+------------
+
 ## Reconciling rhythm with pitch in Music Blocks widgets
 **Priority:** Moderate
 

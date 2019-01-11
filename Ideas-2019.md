@@ -44,7 +44,7 @@ TelepathyGLib](https://github.com/orgs/sugarlabs/projects/4).
 ------------
 
 ## Improve and maintain 20 Sugar activities
-**Priority:** Medium
+**Priority:** Moderate
 
 **Prerequisites**<br>
  - Strong experience of working on Sugar activities
@@ -65,8 +65,8 @@ In the proposal, students should mention all the issues they will work
 on. Any new feature suggestion should be discussed on GitHub Issues in
 advance.
 
-Since there are a lot of activities to work on, more than 1 instance
-of this project can be selected.
+Since there are a lot of activities to work on, **more than 1 instance
+of this project can be selected**.
 
 **Suggested Issues to work on:**<br>
  - write-activity: [#28 Port to sugar3.speech](https://github.com/sugarlabs/write-activity/issues/28)
@@ -83,7 +83,7 @@ of this project can be selected.
 Suggesting or adding features, fixing bugs, or releasing activities
 will help you to gain experience
 
-**Expected Mentors**
+**Expected Mentors**<br>
 [Rahul Bothra](https://www.github.com/pro-panda)
 
 ------------

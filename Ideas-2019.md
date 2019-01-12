@@ -88,10 +88,11 @@ of this project can be selected**.
  - log-activity: [#12 Delete Log File button leaves entry in list](https://github.com/sugarlabs/log-activity/issues/12)
  - read-activity: [#28 add back EPUB support](https://github.com/sugarlabs/read-activity/issues/28)
  - infoslicer: [#23 Traceback, motion_notify](https://github.com/sugarlabs/infoslicer/issues/23)
- - getiabooks: [#6 Ctrl q Ignored](https://github.com/sugarlabs/getiabooks/issues/6)
  - iq-activity: [#10 Port to Latest Sugargame](https://github.com/sugarlabs/iq-activity/issues/10)
- - sin-dientes-activity: [#1 Port to GTK+ 3](https://github.com/sugarlabs/sin-dientes-activity/issues/1)
- - readextexts: [#10 Missing Stop button and continually widening canvas](https://github.com/sugarlabs/readetexts/issues/10)
+ - GTranslator: [#8 Unconnected forks to be merged](https://github.com/sugarlabs/GTranslator/issues/8)
+ - maze-activity: [#16 Add holes](https://github.com/sugarlabs/maze-activity/issues/16)
+ - flappy-birds-activity: [#16 Suggested changes](https://github.com/sugarlabs/flappy-birds-activity/issues/16)
+ - bichos-activity: [#9 Delete repository](https://github.com/sugarlabs/bichos-activity/issues/9)
 
 Suggesting or adding features, fixing bugs, or releasing activities
 will help you to gain experience

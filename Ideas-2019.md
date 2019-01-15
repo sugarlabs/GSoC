@@ -67,5 +67,28 @@ Suggesting or adding features, fixing bugs, or releasing activities will help yo
 [Rahul Bothra](https://www.github.com/pro-panda)
 
 ------------
+## Port Scratch 3.0 to Sugar Desktop and Fix sugar-web
+
+**Priority:** High
+
+**Prerequisites**<br>
+ - Python, GTK, JavaScript knowledge
+ - Strong experience of working on Sugar and activities
+
+**Description**<br>
+Scratch is a programming environment for kids. The goal of this project is to make bring back the Scratch activity to the Sugar Desktop. Scratch 3.0 was created with HTML 5 using [Google’s blocky](https://developers.google.com/blockly/). Port scratch 3.0 as a Sugar activity using [Method1](https://github.com/sugarlabs/sugar-docs/blob/master/src/web-activity.md), a web activity that can run on the Sugar Desktop. Fix Sugar-web as it was broken due to certain reasons. The project involves starting off with working on how to build scratch using the details in the link below and also refer to the latest version of [Scratch 3.0](https://github.com/LLK/scratch-gui): 
+
+https://github.com/EmilyOng/Scratch.activity?fbclid=IwAR1cYK0wM6mQf4Bi4L50NDTxnUY9Vwjypwr74dkhry8tgBBX7FvOLw4-d34
+
+
+
+**Suggested Issues to work on:**<br>
+  -Fix sugar-web: [sugar-web] (https://github.com/sugarlabs/sugar-web/blob/master/env.js#L49)
+
+Suggesting or adding features, fixing bugs, or releasing activities will help you to gain experience
+
+**Expected Mentors**
+1. [Samson Goddy](https://github.com/samswag) <br>
+2. [Iqra Muhammad](https://github.com/iqraceme)
 
 ## Want to fill this place ? Make a PR with your idea!

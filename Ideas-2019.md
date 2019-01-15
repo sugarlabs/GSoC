@@ -67,7 +67,8 @@ Suggesting or adding features, fixing bugs, or releasing activities will help yo
 [Rahul Bothra](https://www.github.com/pro-panda)
 
 ------------
-## Port Scratch 3.0 to Sugar Desktop and Fix sugar-web
+
+## Port Scratch 3.0 to Sugar Desktop and fix sugar-web
 
 **Priority:** High
 
@@ -80,15 +81,13 @@ Scratch is a programming environment for kids. The goal of this project is to ma
 
 https://github.com/EmilyOng/Scratch.activity?fbclid=IwAR1cYK0wM6mQf4Bi4L50NDTxnUY9Vwjypwr74dkhry8tgBBX7FvOLw4-d34
 
-
-
 **Suggested Issues to work on:**<br>
-  -Fix sugar-web: [sugar-web] (https://github.com/sugarlabs/sugar-web/blob/master/env.js#L49)
+ - Fix sugar-web: [sugar-web](https://github.com/sugarlabs/sugar-web/blob/master/env.js#L49)
 
 Suggesting or adding features, fixing bugs, or releasing activities will help you to gain experience
 
-**Expected Mentors**
-1. [Samson Goddy](https://github.com/samswag) <br>
+**Expected Mentors**<br>
+1. [Samson Goddy](https://github.com/samswag)
 2. [Iqra Muhammad](https://github.com/iqraceme)
 
 ## Want to fill this place ? Make a PR with your idea!

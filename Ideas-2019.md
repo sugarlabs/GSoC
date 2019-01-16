@@ -123,9 +123,10 @@ We expect the [Sugar web activity library `sugar-web`](https://github.com/sugarl
 We expect the [Sugar Toolkit for GTK+ 3 `sugar-toolkit-gtk3](https://github.com/sugarlabs/sugar-toolkit-gtk3) may need new fixes.
 
 **Suggested Issues to work on:**<br>
- - Fix sugar-web: [sugar-web](https://github.com/sugarlabs/sugar-web/blob/master/env.js#L49)
+ - backport the changes from Sugarizer to `sugar-web`, such as in [`env.js`](https://github.com/sugarlabs/sugar-web/blob/master/env.js#L49),
+ - fix the user media permission request handing in [Browse](https://github.com/sugarlabs/browse-activity/issues/85) activity,
 
-Suggesting or adding features, fixing bugs, or releasing activities will help you to gain experience
+Suggesting or adding features, fixing bugs, or releasing activities may help you to gain experience.
 
 **Expected Mentors**<br>
 1. [Samson Goddy](https://github.com/samswag)

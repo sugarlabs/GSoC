@@ -108,7 +108,6 @@ will help you to gain experience
 
 **Prerequisites**<br>
  - ability to write in programming languages Python and JavaScript,
- - Strong experience of working on Sugar and activities
 
 **Description**<br>
 Scratch is a programming environment for kids. The goal of this project is to make bring back the Scratch activity to the Sugar Desktop. Scratch 3.0 was created with HTML 5 using [Google’s blocky](https://developers.google.com/blockly/). Port scratch 3.0 as a Sugar activity using [Method1](https://github.com/sugarlabs/sugar-docs/blob/master/src/web-activity.md), a web activity that can run on the Sugar Desktop. Fix Sugar-web as it was broken due to certain reasons. The project involves starting off with working on how to build scratch using the details in the link below and also refer to the latest version of [Scratch 3.0](https://github.com/LLK/scratch-gui): 

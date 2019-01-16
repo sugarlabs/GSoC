@@ -110,9 +110,17 @@ will help you to gain experience
  - ability to write in programming languages Python and JavaScript,
 
 **Description**<br>
-Scratch is a programming environment for kids. The goal of this project is to make bring back the Scratch activity to the Sugar Desktop. Scratch 3.0 was created with HTML 5 using [Google’s blocky](https://developers.google.com/blockly/). Port scratch 3.0 as a Sugar activity using [Method1](https://github.com/sugarlabs/sugar-docs/blob/master/src/web-activity.md), a web activity that can run on the Sugar Desktop. Fix Sugar-web as it was broken due to certain reasons. The project involves starting off with working on how to build scratch using the details in the link below and also refer to the latest version of [Scratch 3.0](https://github.com/LLK/scratch-gui): 
+Scratch is a block-based visual programming language for kids.
 
-https://github.com/EmilyOng/Scratch.activity?fbclid=IwAR1cYK0wM6mQf4Bi4L50NDTxnUY9Vwjypwr74dkhry8tgBBX7FvOLw4-d34
+Scratch 3.0 is written in HTML5 and [Google's blocky](https://developers.google.com/blockly/).  Scratch 3.0 is an activity in Sugarizer, and can work offline.  Scratch 3.0 works in the Browse activity in Sugar, but is online.
+
+The idea is to add a Scratch 3.0 offline editor activity to Sugar, as a [Sugar web activity](https://github.com/sugarlabs/sugar-docs/blob/master/src/web-activity.md).
+
+We expect the [Sugarizer Scratch activity](https://github.com/llaske/sugarizer/tree/dev/activities/Scratch.activity) to be used.  This was ported by [Emily Ong](https://github.com/EmilyOng/Scratch.activity) and has been improved since by [Lionel Llaske](https://github.com/llaske).  Also needed may be the latest version of [Scratch 3.0](https://github.com/LLK/scratch-gui).
+
+We expect the [Sugar web activity library `sugar-web`](https://github.com/sugarlabs/sugar-web) will need fixes backported from Sugarizer.
+
+We expect the [Sugar Toolkit for GTK+ 3 `sugar-toolkit-gtk3](https://github.com/sugarlabs/sugar-toolkit-gtk3) may need new fixes.
 
 **Suggested Issues to work on:**<br>
  - Fix sugar-web: [sugar-web](https://github.com/sugarlabs/sugar-web/blob/master/env.js#L49)

@@ -107,7 +107,7 @@ will help you to gain experience
 **Priority:** High
 
 **Prerequisites**<br>
- - Python, GTK, JavaScript knowledge
+ - ability to write in programming languages Python and JavaScript,
  - Strong experience of working on Sugar and activities
 
 **Description**<br>

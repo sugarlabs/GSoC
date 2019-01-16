@@ -129,8 +129,8 @@ We expect the [Sugar Toolkit for GTK+ 3 `sugar-toolkit-gtk3](https://github.com/
 Suggesting or adding features, fixing bugs, or releasing activities may help you to gain experience.
 
 **Expected Mentors**<br>
-1. [Samson Goddy](https://github.com/samswag)
-2. [Iqra Muhammad](https://github.com/iqraceme)
+1. [Iqra Muhammad](https://github.com/iqraceme)
+2. [James Cameron](https://github.com/quozl)
 
 ------------
 

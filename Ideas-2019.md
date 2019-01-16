@@ -102,7 +102,7 @@ will help you to gain experience
 
 ------------
 
-## Port Scratch 3.0 to Sugar Desktop and fix sugar-web
+## Scratch 3.0 offline editor Sugar activity
 
 **Priority:** High
 

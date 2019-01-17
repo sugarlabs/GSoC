@@ -40,6 +40,8 @@ You should familiarise yourself with our code, by reporting and
 fixing bugs. This will assure us that you will be able to work
 on the project ;-)
 
+We use #sugar on [IRC](https://webchat.freenode.net) and mailing list [sugar-devel@](http://lists.sugarlabs.org/listinfo/sugar-devel) for communication.
+
 Before you start writing your proposal, go through our [Proposal
 Template](Template.md).
 

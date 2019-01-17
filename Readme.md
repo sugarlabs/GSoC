@@ -1,4 +1,4 @@
-# GSoC @Sugar Labs
+# GSoC @ Sugar Labs
 
 ## Shortcuts
 
@@ -52,6 +52,8 @@ to have quality discussions, and not answer questions that are
 already documented, or available on stackoverflow. This doesn't
 mean you can't ask questions, but a clueless user and a lazy
 developer are two different things.
+
+While contributing be sure to read the [Contributing](https://github.com/sugarlabs/sugar-docs/blob/master/src/contributing.md) document. If you want to work on an issue, no need to ask for permission. Just make a pull request to fix the issue. 
 
 Tell things as you see them. Be polite, but don't sugar coat it.
 You don't have to apologize everytime you make a mistake; but

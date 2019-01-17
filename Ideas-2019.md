@@ -281,5 +281,18 @@ JavaScript as possible.
 
 ------------
 
+## Deploy new Activity Center for Sugar Labs & port [existing infrastructure](https://activities.sugarlabs.org/) to ASLOv3
+
+**Priority:** High
+
+**Prerequisites**<br>
+
+**Description**
+
+**Suggested issues to work on:**<br>
+
+**Expected Mentors**<br>
+
+------------
 
 ## Want to fill this place ? Make a PR with your idea!

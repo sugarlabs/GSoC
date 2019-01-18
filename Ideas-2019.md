@@ -56,7 +56,7 @@ TelepathyGLib](https://github.com/orgs/sugarlabs/projects/4).
 
 ------------
 
-## Improve and maintain 20 Sugar activities
+## Improve and maintain 25 Sugar activities
 **Priority:** Moderate
 
 **Prerequisites**<br>
@@ -67,7 +67,7 @@ TelepathyGLib](https://github.com/orgs/sugarlabs/projects/4).
 Sugar has a lot of activities (250+ on GitHub, and more
 elsewhere). These activities have a scope for improvement; bugs,
 features, possible ASLO release required. This project will involve
-working on atleast 20 activities to improve them. Students can choose
+working on atleast 25 activities to improve them. Students can choose
 activities on their own, and are encouraged to select activities which
 are either a part of Fructose or have a strong pedagogical value. To
 understand how to locate and work on activities, see our guide to

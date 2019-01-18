@@ -2,9 +2,9 @@
 
 ## Shortcuts
 
-|[GSoC'19 Ideas](Ideas-2019.md)| [Proposal Template](Template.md) | [Sugar Labs @GitHub](https://github.com/sugarlabs) | [Sugar Labs @IRC](https://webchat.freenode.net) |
+|[GSoC'19 Ideas](Ideas-2019.md)| [Proposal Template](Template.md) | [Sugar Labs @GitHub](https://github.com/sugarlabs) | [Sugar Labs @Gitter](https://webchat.freenode.net) |
 |:-------------------------:|----------------------|----------------------|--------------------------|
-|<a href="Ideas-2019.md">![](assets/gsoc-square.png)</a> | <a href="Template.md">![](assets/template.png)</a> | <a href="https://github.com/sugarlabs">![](assets/github.png)</a> |<a href="https://webchat.freenode.net">![](assets/sugar-labs.png)</a> |
+|<a href="Ideas-2019.md">![](assets/gsoc-square.png)</a> | <a href="Template.md">![](assets/template.png)</a> | <a href="https://github.com/sugarlabs">![](assets/github.png)</a> |<a href="https://gitter.im/Sugar-Labs">![](assets/gitter.png)</a> |
 
 
 ## Introduction
@@ -40,7 +40,7 @@ You should familiarise yourself with our code, by reporting and
 fixing bugs. This will assure us that you will be able to work
 on the project ;-)
 
-We use #sugar on [IRC](https://webchat.freenode.net) and mailing list [sugar-devel@](http://lists.sugarlabs.org/listinfo/sugar-devel) for communication.
+We use [Gitter Channel](https://gitter.im/Sugar-Labs) and mailing list [sugar-devel@](http://lists.sugarlabs.org/listinfo/sugar-devel) for communication.
 
 Before you start writing your proposal, go through our [Proposal
 Template](Template.md).

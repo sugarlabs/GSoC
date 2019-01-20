@@ -40,10 +40,35 @@ You should familiarise yourself with our code, by reporting and
 fixing bugs. This will assure us that you will be able to work
 on the project ;-)
 
-We use [Gitter Channel](https://gitter.im/Sugar-Labs) and mailing list [sugar-devel@](http://lists.sugarlabs.org/listinfo/sugar-devel) for communication.
-
 Before you start writing your proposal, go through our [Proposal
 Template](Template.md).
+
+## How to talk to us ?
+We use [Gitter Channel](https://gitter.im/Sugar-Labs) and
+mailing list
+[sugar-devel@](http://lists.sugarlabs.org/listinfo/sugar-devel)
+for communication. You can join our Gitter Room and mailing list
+to participate in the discussions and asking for help.
+
+## Getting Help
+Got a problem? Ask your mentors, ask other students, or ask the
+Sugar Labs community.
+
+The Sugar Labs community is large, and there are people who are
+not mentors in the contest. Mentors are listed. Everyone else
+you talk with may be a non-mentor.
+
+Students should keep in mind that some people are non-mentors,
+and cannot see the contest progress, dates, or information
+about students. When communicating widely, be sure to;
+ - Introduce yourself, the first time,
+ - Talk about the task as if you want to do it yourself, not
+   because of the contest,
+ - Defend your technical decisions without using the contest as
+   a defense,
+ - Non-mentors may give good guidance on technical decisions,
+   but bad guidance on how they think a task is judged. Always
+   consult with your mentors as well.
 
 ## Community etiquette
 Everyone in the community has to be polite and respectful, and

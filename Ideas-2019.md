@@ -333,4 +333,112 @@ JavaScript as possible.
 ------------
 
 
+## Expand Sugarizer Exerciser activity
+**Priority:** High
+
+**Prerequisites**<br>
+
+- Experience with JavaScript/HTML5 development
+- Experience with ReactJS framework development
+
+**Description**<br>
+Exerciser is a new Sugarizer activity in version 1.1 that allow users to create exercise and let other users play to this exercise. 
+This activity propose different templates (multiple-choice question, reordering a list of items, cloze text) and an editor to customize questions.
+
+![](assets/exerciser_1.png)
+
+Once created, the exercise could be played locally or shared on the network using Sugarizer presence. At the end of the exercise a graph give results for each participants.
+
+![](assets/exerciser_2.png)
+
+The Exerciser was requested by teachers from Sugarizer deployment in Saint-Ouen and was developed during [GSoC 2018](https://wiki.sugarlabs.org/go/Summer_of_Code/2018). The Exerciser activity was inspired by the [Learning Apps web site](https://learningapps.org/).
+
+![](assets/exerciser_3.png)
+
+**Project Task**<br>
+The objective of this project is to expand features of the Exerciser activity. More precisely, expected features are:
+
+- Allow user to integrate multimedia element (images, sounds, videos) for questions and answers. All multimedia elements will come from the Journal. 
+- Add new templates (matching pair, group assignment, free text input)
+- Improve result screen to view detail result on each answer for each user
+- Support access to a remote library of exercises.
+
+These improvements should keep the activity very simple so even a child should be able to create an exercise and share it. Like all Sugarizer activity, Exerciser activity should adopt the Sugar UI, be responsive (work on any screen size), work with the keyboard and with the mouse (to support touch screen), use journal and use localization. 
+
+Technically speaking the Exerciser activity is wrote in Javascript using Sugar-Web framework in ReactJS.
+
+**Fist step to start:**<br>
+
+- Play with the Exerciser activity
+- Complete the [Sugarizer activity development tutorial](https://github.com/llaske/sugarizer/blob/dev/docs/tutorial.md)
+- Study the [source code](https://github.com/llaske/ExerciserReact) of the Exerciser activity, try to fix bug or propose improvement
+- Study integration of Journal in an activity by looking source code of ([Paint](https://github.com/llaske/sugarizer/tree/dev/activities/Paint.activity), [Memorize](https://github.com/llaske/sugarizer/tree/dev/activities/Memorize.activity) or [Fototoon](https://github.com/llaske/sugarizer/tree/dev/activities/Fototoon.activity) activity)
+
+
+
+**Expected Mentors**<br>
+[Lionel Laské](https://www.github.com/llaske) and 
+[Michaël Ohayon](https://github.com/mikklfr)
+
+------------
+
+
+## Write activity for Sugarizer
+**Priority:** Moderate
+
+**Prerequisites**<br>
+
+- Experience with JavaScript/HTML5 development
+
+**Description**<br>
+Write is a major application provided by the Sugar Learning Platform. Write serves as a basic text editing application for Sugar. Write allow text formatting on characters (Font change, Bold, Italic, Underline) and paragraphs (Center, Justify left or right) plus some other extended features (Arrays, images, …), save it as ODF file and export to RTF, PDF, TXT or HTML.
+
+More about Write application features [here](https://help.sugarlabs.org/write.html).
+
+![](assets/write_1.png)
+
+Technically speaking, the Write activity is a port of [AbiWord](https://www.abisource.com/) word processing tool. Write is fully developed in Python/Gtk.
+
+**Project Task**<br>
+The objective of this project is to rewrite an equivalent of Write activity in pure JavaScript to include it in Sugarizer.
+
+This new Write activity should provide:
+
+- Text formatting on characters (font change, bold, italic, underline, foreground/background color, …) 
+- Text formatting on paragraphs (center, justify left or right, list, blockquote, …) 
+- Embedded Images
+- Arrays
+- Export content to an easily editable/printable format (RTF/ODF, PDF)
+- Multi-user editing the same document
+
+Technically speaking this new Write activity could rely on existing web editor ([Quill](https://quilljs.com/), [TinyMCE](https://www.tiny.cloud/), [CKEditor](https://ckeditor.com), [webODF](https://webodf.org/), ...).
+
+![](assets/write_2.png)
+
+BTW the new Write activity should provide unique Sugarizer features:
+
+- Sugarizer look & feel: use of Sugar toolbar and palette
+- Sugarizer storage: load/save content into the Journal
+- Export feature: an easy way to export content to a file format editable in other tools (Word, Open Office, RTF)
+- Print feature: an easy way to export content to a printable format (PDF)
+- Network integration: integrate Sugarizer presence to share the activity on the network so multiple users could edit the document at the same time
+- Multi-device support: should work on any browser (Chrome, Firefox, Safari) and any platform (Android, iOS, Windows, Linux, MacOS) supported by Sugarizer.
+
+As other Sugarizer activities, the new Write activity should be write using JavaScript and Sugar-Web library. BTW any JavaScript framework could also be use: jQuery, Vue.js, ReactJS, …
+
+**Fist step to start:**<br>
+
+- Test the existing Write activity in Sugar
+- Complete the [Sugarizer activity development tutorial](https://github.com/llaske/sugarizer/blob/dev/docs/tutorial.md)
+- Make a study on existing web editors: identify features of each and identify ways to export content to an editable/printable format.
+
+
+
+**Expected Mentors**<br>
+[Lionel Laské](https://www.github.com/llaske) and 
+[Michaël Ohayon](https://github.com/mikklfr)
+
+
+------------
+
 ## Want to fill this place ? Make a PR with your idea!

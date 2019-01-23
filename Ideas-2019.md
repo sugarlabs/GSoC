@@ -27,9 +27,10 @@ try and explore other issues as well ;-)
 **Priority:** High
 
 **Prerequisites**<br>
+ - Experience with Python
  - Experience with porting telepathy bindings
- - Strong experience of working on
-   [Sugar](https://www.github.com/sugarlabs/sugar) and activities
+ - Strong experience with
+   [Sugar Desktop](https://www.github.com/sugarlabs/sugar) and activities
 
 **Description**<br>
 Sugar runs on Python 2. Support for Python 2 is being withdrawn fast
@@ -68,8 +69,9 @@ _(in chronological order)_
 **Priority:** Moderate
 
 **Prerequisites**<br>
- - Strong experience of working on Sugar activities
- - Releasing and maintaining activities on ASLO
+ - Experience with Python
+ - Strong experience with Sugar activities
+ - Experience with maintaining activities on ASLO
 
 **Description**<br>
 Sugar has a lot of activities (250+ on GitHub, and more

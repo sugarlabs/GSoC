@@ -113,6 +113,46 @@ will help you to gain experience
 
 ------------
 
+## Create a new set of activities
+**Priority:** Moderate
+
+**Prerequisites**<br>
+ - Experience with Python
+ - Strong experience with Sugar activities
+
+**Description**<br>
+Sugar has a lot of activities (250+ on GitHub, and more
+elsewhere). To understand how to locate and work on activities, see
+our guide to [Modifying Activities](https://github.com/sugarlabs/sugar-docs/blob/master/src/contributing.md#modifying-activities).
+This project expeects you to think of what new activities can be created.
+The activity / set of activities should add a new learning experience
+for the user, and should also justify the 3 months timeline for GSoC.
+
+See https://www.tandfonline.com/doi/pdf/10.1080/15391523.2017.1388200?needAccess=true
+to understand some user experiences and expectations.
+
+In the proposal, students should clearly mention all the features
+in their proposed activity(ies), and can include preliminary designs
+as well.
+
+**Project Task Checklist:**<br>
+ - [ ] Create the activity; ensure that the code is modular, commented,
+   and does not use any deprecated modules
+ - [ ] Test the activity; put it out for the community to test and
+   implement feature requests or patches for bugs reported
+ - [ ] Release activity on ASLO
+
+**Suggested Issues to work on:**<br>
+ - Fixing issues in activities
+ - Adding new features in activities
+ - Creating new activities
+
+**Expected Mentors**<br>
+1. [Rahul Bothra](https://www.github.com/pro-panda)
+2. [James Cameron](https://www.github.com/quozl)
+
+------------
+
 ## Performance in Music Blocks
 **Priority:** High
 

@@ -52,7 +52,8 @@ TelepathyGLib](https://github.com/orgs/sugarlabs/projects/4).
  - gwebsockets: [#2 Release v0.5](https://github.com/sugarlabs/gwebsockets/issues)
 
 **Expected Mentors**<br>
-[Rahul Bothra](https://www.github.com/pro-panda)
+1. [Rahul Bothra](https://www.github.com/pro-panda)
+2. [James Cameron](https://www.github.com/quozl)
 
 ------------
 
@@ -98,7 +99,8 @@ Suggesting or adding features, fixing bugs, or releasing activities
 will help you to gain experience
 
 **Expected Mentors**<br>
-[Rahul Bothra](https://www.github.com/pro-panda)
+1. [Rahul Bothra](https://www.github.com/pro-panda)
+2. [James Cameron](https://www.github.com/quozl)
 
 ------------
 

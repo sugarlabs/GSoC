@@ -44,12 +44,19 @@ porting Telepathy to its PyGObject binding is a prerequisite for the
 Port to Python 3 Project, see GitHub Project [Port to
 TelepathyGLib](https://github.com/orgs/sugarlabs/projects/4).
 
-**Suggested issues to work on:**<br>
- - Sugar-Toolkit-gtk3: [#402 Port to TelepathyGLib](https://github.com/sugarlabs/sugar-toolkit-gtk3/issues/402)
- - Collabwrapper: [#1 Port to TelepathyGLib](https://github.com/sugarlabs/collabwrapper/issues/1)
- - Sugar: [#815 activitychooser window is not modal and adds dependency of toolkit to jarabe](https://github.com/sugarlabs/sugar/issues/815)
- - Sugar: Completing [#740 Add corner layout](https://github.com/sugarlabs/sugar/pull/740)
- - gwebsockets: [#2 Release v0.5](https://github.com/sugarlabs/gwebsockets/issues)
+**Project Task Checklist**<br>
+_(in chronological order)_
+ - Port all Telepathy bindings to TelepathyGLib, see [Port to
+   TelepathyGLib](https://github.com/orgs/sugarlabs/projects/4).
+ - Make activitychooser window modal and remove its dependency from
+   toolkit to jarabe, see [sugar/#815](https://github.com/sugarlabs/sugar/issues/815)
+ - Release gwebsockets for Python 3, see [gwebsockets/#2](https://github.com/sugarlabs/gwebsockets/issues)
+ - Continue porting sugar-toolkit-gtk3 to six, see [
+   sugar-toolkit-gtk3/#383](https://github.com/sugarlabs/sugar-toolkit-gtk3/pull/383)
+ - Release sugar-toolkit-gtk3 which is compatible with both Python 2
+   and 3
+ - Port Sugar Desktop to Python 3, see [sugar/#805](https://github.com/sugarlabs/sugar/pull/805)
+ - Port all fructose activities to Python 3
 
 **Expected Mentors**<br>
 1. [Rahul Bothra](https://www.github.com/pro-panda)

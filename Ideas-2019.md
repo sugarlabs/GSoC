@@ -124,7 +124,7 @@ will help you to gain experience
 Sugar has a lot of activities (250+ on GitHub, and more
 elsewhere). To understand how to locate and work on activities, see
 our guide to [Modifying Activities](https://github.com/sugarlabs/sugar-docs/blob/master/src/contributing.md#modifying-activities).
-This project expeects you to think of what new activities can be created.
+This project expects you to think of what new activities can be created.
 The activity / set of activities should add a new learning experience
 for the user, and should also justify the 3 months timeline for GSoC.
 
@@ -166,7 +166,7 @@ as well.
 **Description**<br>
 
 Music Blocks is written in JavaScript and runs in a web browser. It
-uses a number of libraries, noteably, Tone.js and Easel.js. Since it
+uses a number of libraries, notably, Tone.js and Easel.js. Since it
 is intended to be used in settings such as schools, where old and
 under-powered computers are common, tuning the performance (both the
 memory footprint and the CPU consumption) is important. Further,
@@ -178,7 +178,7 @@ e.g., what resources are currently being consumed? (2) identifying
 potential places for improvement (including finding memory leaks,
 etc.); (3) building a test environment so that we can measure the
 impact of any changes to the code base; and (4) making changes to
-enhance performace.
+enhance performance.
 
 **Suggested issues to work on:**<br>
  - Any issue tagged with a
@@ -203,7 +203,7 @@ enhance performace.
 **Description**<br>
 
 Music Blocks is written in JavaScript and runs in a web browser. It
-uses a number of libraries, noteably, Tone.js and Easel.js. Since it
+uses a number of libraries, notably, Tone.js and Easel.js. Since it
 is intended to be used in settings such as schools, we don't have a
 lot of control over what platforms it will be run on, either in terms
 of hardware, OS, or browser.

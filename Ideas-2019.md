@@ -110,6 +110,7 @@ will help you to gain experience
 **Expected Mentors**<br>
 1. [Rahul Bothra](https://www.github.com/pro-panda)
 2. [James Cameron](https://www.github.com/quozl)
+3. [Ibiam Chihurumnaya](https://www.github.com/chimosky)
 
 ------------
 
@@ -150,6 +151,7 @@ as well.
 **Expected Mentors**<br>
 1. [Rahul Bothra](https://www.github.com/pro-panda)
 2. [James Cameron](https://www.github.com/quozl)
+3. [Ibiam Chihurumnaya](https://www.github.com/chimosky)
 
 ------------
 

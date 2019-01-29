@@ -304,7 +304,7 @@ rhythms. Step One is to come up with a design proposal.
 Music Blocks is written in JavaScript and runs in a web browser. User
 create programs in a snap-together block language which is inspired by
 Logo. Music Blocks is a fork of Turtle Blocks JS, which is turn is a
-derivitive of [Turtle
+derivative of [Turtle
 Blocks](https://www.github.com/sugarlabs/turtleblocks), which is
 written in Python.
 

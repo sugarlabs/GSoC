@@ -427,7 +427,7 @@ This new Write activity should provide unique Sugarizer features:
 
 As with other Sugarizer activities, the new Write activity should be written using JavaScript and Sugar-Web library.  Any JavaScript framework could also be use: jQuery, Vue.js, ReactJS, …
 
-**Fist step to start:**<br>
+**First step to start:**<br>
 
 - Test the existing Write activity in Sugar
 - Complete the [Sugarizer activity development tutorial](https://github.com/llaske/sugarizer/blob/dev/docs/tutorial.md)

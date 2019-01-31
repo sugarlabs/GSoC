@@ -442,4 +442,44 @@ As with other Sugarizer activities, the new Write activity should be written usi
 
 ------------
 
+## Port Scratch 3.0 to Sugar Desktop and Fix sugar-web
+
+**Priority:** High
+
+**Prerequisites**<br>
+ - Python, GTK, JavaScript knowledge
+ - Strong experience of working on Sugar and activities
+
+
+**Description**<br>
+
+[Scratch](https://scratch.mit.edu/) is a programming environment for kids. The goal of this project is to make bring back the [Scratch activity](https://wiki.sugarlabs.org/go/Activities/Scratch) to the Sugar Desktop. Scratch 3.0 was created with HTML 5 using [Google’s blocky](https://developers.google.com/blockly/). Port scratch 3.0 as a Sugar activity using [Method 1](https://github.com/sugarlabs/sugar-docs/blob/master/src/web-activity.md).Fix Sugar-web as it was broken due to certain reasons. The project involves starting off with working on how to build scratch using the details in the links below: 
+
+https://github.com/EmilyOng/Scratch.activity?fbclid=IwAR1cYK0wM6mQf4Bi4L50NDTxnUY9Vwjypwr74dkhry8tgBBX7FvOLw4-d34
+
+https://github.com/LLK/scratch-gui
+
+Suggested issues to work on:
+
+Fix sugar-web: https://github.com/sugarlabs/sugar-web/blob/master/env.js#L49
+
+Steps to take:
+1. [Setup a Development Environment](https://github.com/sugarlabs/sugar/blob/master/docs/development-environment.md)
+2. Fix all [issues](https://github.com/sugarlabs/sugar-web/issues) listed on the sugar-web repository 
+3. Fix [sugar-web](https://github.com/sugarlabs/sugar-web) and make sure it works.
+4. Test some [Sugarizer activities](https://github.com/llaske/sugarizer/tree/dev/activities) on Sugar to make sure sugar-web is working.
+5. Investigate the current [Scratch 3.0 port](https://github.com/llaske/sugarizer/tree/dev/activities/Scratch.activity) on Sugarizer and play around it.
+6. Get [Music Blocks](https://github.com/sugarlabs/musicblocks) working in Sugar Web
+7. Get [Scratch](https://github.com/LLK/scratch-gui) working in Sugar Web
+8. Make Scratch port as a native activity.
+9. Make Music Blocks port as a native activity
+
+
+
+**Expected Mentors**<br>
+[Samson Goddy](https://github.com/samswag), 
+
+[Iqra Mohammad](https://github.com/iqraceme)
+
+
 ## Want to fill this place ? Make a PR with your idea!

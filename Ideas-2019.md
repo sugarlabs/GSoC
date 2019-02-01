@@ -442,7 +442,7 @@ As with other Sugarizer activities, the new Write activity should be written usi
 
 ------------
 
-## Port Scratch 3.0 to Sugar Desktop and Fix sugar-web
+## Port MB & Scratch 3.0 to Sugar Desktop and Fix sugar-web
 
 **Priority:** High
 

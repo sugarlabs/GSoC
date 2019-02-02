@@ -439,6 +439,62 @@ As with other Sugarizer activities, the new Write activity should be written usi
 [Lionel Laské](https://www.github.com/llaske) and 
 [Michaël Ohayon](https://github.com/mikklfr)
 
+------------
+
+## Colored desktop and activity icons
+**Priority:** Moderate
+
+**Prerequisites**<br>
+- Extensive experience with Python and GTK3
+- Experience with Sugar activities/toolkit
+- Experience with user interface and graphics design (and SVG)
+
+**Description**<br>
+Sugar’s use of color and icons (described in detail here [HIG
+color](https://wiki.sugarlabs.org/go/Human_Interface_Guidelines/The_Sugar_Interface/Colors)
+and [HIG
+icons](https://wiki.sugarlabs.org/go/Human_Interface_Guidelines/The_Sugar_Interface/Icons))
+is functional but a bit tired when compared to modern desktops and
+mobile systems.
+
+This project is about redesigning the use of color in Sugar in order
+to enable full-color icons for both the desktop itself and activities.
+
+The primary role of color in the current icon design is to;
+ - Indicate whether or not an activity has been used
+ - Indicate whether or not an activity is being shared with another
+   Sugar user (the colors of the person who launches the activity show
+   up on the desktops of the people who join the activity.)
+
+Fortunately, Sugar also support a mechanism for putting badges on
+icons. An example is in the neighborhood view, where badges are used
+to indicate which access points are active (See
+[networkviews.py](https://github.com/sugarlabs/sugar/blob/master/src/jarabe/desktop/networkviews.py)).
+
+We could use badges (See
+[icon.py](https://github.com/sugarlabs/sugar-toolkit-gtk3/blob/master/src/sugar3/graphics/icon.py#L49))
+to replace the functionality of color described above: for example, an
+XO badge to indicate an activity has been used. And the color of that
+badge could indicate collaboration. This would free up the icon itself
+to take on any colors deemed suitable by the activity designer.
+
+**Project Task:**<br>
+ - [ ] Add color functionality to the badges;
+ - [ ] Add badges in every instance where we currently use color: the
+       desktop, the journal, the neighborhood view and the activity
+       toolbar;
+ - [ ] Work with the design team to come up with new color icons for
+       all of the core Sugar toolbars, activities and activity toolbars
+
+**Suggested issues to work on:**<br>
+ - There are not any issues specific to this project, but working on
+   some open bugs would be a good place to start in understanding the
+   code base.
+
+**Expected Mentors**<br>
+[Walter Bender](https://www.github.com/walterbender),
+[Peace Ojemeh](https://github.com/perriefidelis) and
+[Rahul Bothra](https://github.com/pro-panda)
 
 ------------
 

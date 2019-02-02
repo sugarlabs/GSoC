@@ -493,7 +493,8 @@ to take on any colors deemed suitable by the activity designer.
 
 **Expected Mentors**<br>
 [Walter Bender](https://www.github.com/walterbender),
-[Peace Ojemeh](https://github.com/perriefidelis)
+[Peace Ojemeh](https://github.com/perriefidelis) and
+[Rahul Bothra](https://github.com/pro-panda)
 
 ------------
 

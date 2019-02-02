@@ -242,7 +242,8 @@ or [Firefox](https://github.com/sugarlabs/musicblocks/labels/Firefox)
 Label
 
 **Expected Mentors**<br>
-[Walter Bender](https://www.github.com/walterbender)
+[Walter Bender](https://www.github.com/walterbender) and
+[Jaskirat Singh](https://github.com/jaskirat2000)
 
 ------------
 
@@ -334,7 +335,8 @@ JavaScript as possible.
    code base. [Bug](https://github.com/sugarlabs/musicblocks/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+label%3Abug+)
 
 **Expected Mentors**<br>
-[Walter Bender](https://www.github.com/walterbender)
+[Walter Bender](https://www.github.com/walterbender) and 
+[Jaskirat Singh](https://github.com/jaskirat2000)
 
 ------------
 

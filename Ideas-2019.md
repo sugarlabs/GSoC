@@ -1,25 +1,25 @@
-# GSoC 2019 Ideas:
-This is the list of potential projects we've planned for this GSoC.
+# GSoC 2019 Ideas
+A list of ideas we've planned for GSoC 2019 projects.
 If you have any ideas which can be useful to us, but are not in the
-list, we'd love to hear from you. You need not be a potential
+list, we'd love to hear from you.  You need not be a potential
 student or a mentor to suggest ideas.
 
-## Criteria for new ideas:
+## Criteria for Ideas
 1. Does it fill an empty pedagogy niche in the activity set for Sugar
    or Sugarizer,
 2. Does it increase quality of our software products (Sugar, activities,
-   Music Blocks, Sugarizer),
+   Music Blocks, or Sugarizer),
 3. Does it _not_ involve any project infrastructure, e.g. not another
    app store, web site, or developer landing page,
 4. Do we have a developer _now_ who would be willing and able to do it
    if a student was not available, and who can _promise_ to do it if a
    student is not selected.
 
-For each project, there is a list of 'Suggested issues to work on'.
-These issues will help you to get familiar with the project. The more
-you work on these issues, the more experienced you will be for the
-project. However, this is not a strict list. You can (read _should_)
-try and explore other issues as well ;-)
+For some ideas, there is a list of 'Suggested issues to work on'.
+These will help you to get familiar with the project.  The more you
+work on these issues, the more experienced you will be for the
+project.  However, this is not a strict list.  You _should_ try and
+explore other issues as well.
 
 ------------
 
@@ -36,9 +36,9 @@ try and explore other issues as well ;-)
 Sugar runs on Python 2. Support for Python 2 is being withdrawn fast
 and we need to move to Python 3. The work was started in GSoC 2018,
 see [link](https://wiki.sugarlabs.org/go/Python_2to3), and needs to be
-wrapped up. See GitHub Project [Port to Python 3 via
+finished and released. See GitHub Project [Port to Python 3 via
 six](https://github.com/orgs/sugarlabs/projects/1) for open issues and
-pull requests
+pull requests.
 
 The telepathy library does not have its bindings for Python 3, and
 porting Telepathy to its PyGObject binding is a prerequisite for the
@@ -60,8 +60,8 @@ _(in chronological order)_
  - Port all fructose activities to Python 3
 
 **Expected Mentors**<br>
-1. [Rahul Bothra](https://www.github.com/pro-panda)
-2. [James Cameron](https://www.github.com/quozl)
+[Rahul Bothra](https://www.github.com/pro-panda) and
+[James Cameron](https://www.github.com/quozl)
 
 ------------
 
@@ -74,22 +74,22 @@ _(in chronological order)_
  - Experience with maintaining activities on ASLO
 
 **Description**<br>
-Sugar has a lot of activities (250+ on GitHub, and more
-elsewhere). These activities have a scope for improvement; bugs,
-features, possible ASLO release required. This project will involve
-working on atleast 25 activities to improve them. Students can choose
+Sugar has a lot of activities, with 250+ on GitHub, and more
+elsewhere. These have scope for improvement; bugs,
+features, updated human translations, and release.  This project will involve
+working on at least 25 activities to improve them. Students can choose
 activities on their own, and are encouraged to select activities which
 are either a part of Fructose or have a strong pedagogical value. To
 understand how to locate and work on activities, see our guide to
 [Modifying
 Activities](https://github.com/sugarlabs/sugar-docs/blob/master/src/contributing.md#modifying-activities)
 
-In the proposal, students should mention all the issues they will work
-on. Any new feature suggestion should be discussed on GitHub Issues in
-advance.
+In their proposal, students should mention some of the issues they will
+work on.  Any new feature suggestion should be discussed on GitHub
+Issues before being added to a proposal.
 
-Since there are a lot of activities to work on, **more than 1 instance
-of this project can be selected**.
+Since there are a lot of activities to work on, **more than one instance
+of this project may be selected**.
 
 **Suggested Issues to work on:**<br>
  - write-activity: [#28 Port to sugar3.speech](https://github.com/sugarlabs/write-activity/issues/28)
@@ -108,8 +108,7 @@ Suggesting or adding features, fixing bugs, or releasing activities
 will help you to gain experience
 
 **Expected Mentors**<br>
-1. [Rahul Bothra](https://www.github.com/pro-panda)
-2. [James Cameron](https://www.github.com/quozl)
+[Rahul Bothra](https://www.github.com/pro-panda), [James Cameron](https://www.github.com/quozl) and [Ibiam Chihurumnaya](https://www.github.com/chimosky).
 
 ------------
 
@@ -124,23 +123,28 @@ will help you to gain experience
 Sugar has a lot of activities (250+ on GitHub, and more
 elsewhere). To understand how to locate and work on activities, see
 our guide to [Modifying Activities](https://github.com/sugarlabs/sugar-docs/blob/master/src/contributing.md#modifying-activities).
-This project expeects you to think of what new activities can be created.
-The activity / set of activities should add a new learning experience
-for the user, and should also justify the 3 months timeline for GSoC.
+This project expects you to think of what new activities can be created.
+The activity or set of activities should add a new learning experience
+for the user, and must be large enough for the three months work for GSoC.
+
+Some ideas (but not limited to) are [Machine Learning Teaching](https://github.com/sugarlabs/GSoC/issues/16),
+[Pronounciation Checker](https://github.com/sugarlabs/GSoC/issues/12),
+[Jupyter Notebook](https://github.com/sugarlabs/GSoC/issues/13),
+[Scratch](https://github.com/sugarlabs/GSoC/issues/5).
 
 See https://www.tandfonline.com/doi/pdf/10.1080/15391523.2017.1388200?needAccess=true
 to understand some user experiences and expectations.
 
-In the proposal, students should clearly mention all the features
-in their proposed activity(ies), and can include preliminary designs
+In the proposal, students must mention the features
+in their proposed activity(ies), and may include preliminary designs
 as well.
 
 **Project Task Checklist:**<br>
  - [ ] Create the activity; ensure that the code is modular, commented,
-   and does not use any deprecated modules
+   and does not use any deprecated modules,
  - [ ] Test the activity; put it out for the community to test and
-   implement feature requests or patches for bugs reported
- - [ ] Release activity on ASLO
+   implement feature requests or patches for bugs reported,
+ - [ ] Release activity for use by primary school children.
 
 **Suggested Issues to work on:**<br>
  - Fixing issues in activities
@@ -148,8 +152,7 @@ as well.
  - Creating new activities
 
 **Expected Mentors**<br>
-1. [Rahul Bothra](https://www.github.com/pro-panda)
-2. [James Cameron](https://www.github.com/quozl)
+[Rahul Bothra](https://www.github.com/pro-panda), [James Cameron](https://www.github.com/quozl) and [Ibiam Chihurumnaya](https://www.github.com/chimosky).
 
 ------------
 
@@ -166,7 +169,7 @@ as well.
 **Description**<br>
 
 Music Blocks is written in JavaScript and runs in a web browser. It
-uses a number of libraries, noteably, Tone.js and Easel.js. Since it
+uses a number of libraries, notably, Tone.js and Easel.js. Since it
 is intended to be used in settings such as schools, where old and
 under-powered computers are common, tuning the performance (both the
 memory footprint and the CPU consumption) is important. Further,
@@ -178,7 +181,7 @@ e.g., what resources are currently being consumed? (2) identifying
 potential places for improvement (including finding memory leaks,
 etc.); (3) building a test environment so that we can measure the
 impact of any changes to the code base; and (4) making changes to
-enhance performace.
+enhance performance.
 
 **Suggested issues to work on:**<br>
  - Any issue tagged with a
@@ -203,25 +206,28 @@ enhance performace.
 **Description**<br>
 
 Music Blocks is written in JavaScript and runs in a web browser. It
-uses a number of libraries, noteably, Tone.js and Easel.js. Since it
+uses a number of libraries, notably, Tone.js and Easel.js. Since it
 is intended to be used in settings such as schools, we don't have a
 lot of control over what platforms it will be run on, either in terms
 of hardware, OS, or browser.
 
-This project involves several steps: (1) characterizing the
-performance of Music Blocks across a variety of platforms: different
-versions of Windows (e.g., 7 and 10), Mac OS, GNU/Linux (Fedora,
-Ubuntu, et al.), and Android; different browsers, such as Chrome,
-Chromium, Firefox, Opera, Safari, and Edge; and different hardware
-platforms: low-end PCs, tablets, iPad, Android devices, Raspberry Pi,
-and OLPC XO. Presumably it will work in some situations and not in
-others. (Tone.js will be the issue in some situations -- we need to
-explore porting the latest version, which as of the writing of this
-description has not yet been released.)  (2) identifying potential
-places for improvement (e.g., working around the local storage issues
-associated with Edge); and (3) documenting the results of the
-investigation as well we developing unit tests so that we can track
-changes going forward.
+This project involves several steps
+
+* characterizing the performance of Music Blocks across a variety of
+platforms: different versions of Windows (e.g., 7 and 10), Mac OS,
+GNU/Linux (Fedora, Ubuntu, et al.), and Android; different browsers,
+such as Chrome, Chromium, Firefox, Opera, Safari, and Edge; and
+different hardware platforms: low-end PCs, tablets, iPad, Android
+devices, Raspberry Pi, and OLPC XO. Presumably it will work in some
+situations and not in others. (Tone.js will be the issue in some
+situations -- we need to explore porting the latest version, which as
+of the writing of this description has not yet been released.)
+
+* identifying potential places for improvement (e.g., working around
+the local storage issues associated with Edge); and
+
+* documenting the results of the investigation as well we developing
+unit tests so that we can track changes going forward.
 
 **Suggested issues to work on:**<br> - Any issue tagged with a
 [Performance](https://github.com/sugarlabs/musicblocks/labels/Performance),
@@ -303,7 +309,7 @@ rhythms. Step One is to come up with a design proposal.
 Music Blocks is written in JavaScript and runs in a web browser. User
 create programs in a snap-together block language which is inspired by
 Logo. Music Blocks is a fork of Turtle Blocks JS, which is turn is a
-derivitive of [Turtle
+derivative of [Turtle
 Blocks](https://www.github.com/sugarlabs/turtleblocks), which is
 written in Python.
 
@@ -332,5 +338,113 @@ JavaScript as possible.
 
 ------------
 
+
+## Expand Sugarizer Exerciser activity
+**Priority:** High
+
+**Prerequisites**<br>
+
+- Experience with JavaScript/HTML5 development
+- Experience with ReactJS framework development
+
+**Description**<br>
+Exerciser is a new Sugarizer activity in version 1.1 that allow users to create exercise and let other users play to this exercise. 
+This activity propose different templates (multiple-choice question, reordering a list of items, cloze text) and an editor to customize questions.
+
+![](assets/exerciser_1.png)
+
+Once created, the exercise could be played locally or shared on the network using Sugarizer presence. At the end of the exercise a graph give results for each participants.
+
+![](assets/exerciser_2.png)
+
+The Exerciser was requested by teachers from Sugarizer deployment in Saint-Ouen and was developed during [GSoC 2018](https://wiki.sugarlabs.org/go/Summer_of_Code/2018). The Exerciser activity was inspired by the [Learning Apps web site](https://learningapps.org/).
+
+![](assets/exerciser_3.png)
+
+**Project Task**<br>
+The objective of this project is to expand features of the Exerciser activity. More precisely, expected features are:
+
+- Allow user to integrate multimedia element (images, sounds, videos) for questions and answers. All multimedia elements will come from the Journal. 
+- Add new templates (matching pair, group assignment, free text input)
+- Improve result screen to view detail result on each answer for each user
+- Support access to a remote library of exercises.
+
+These improvements should keep the activity very simple so even a child should be able to create an exercise and share it. Like all Sugarizer activity, Exerciser activity should adopt the Sugar UI, be responsive (work on any screen size), work with the keyboard and with the mouse (to support touch screen), use journal and use localization. 
+
+Technically speaking the Exerciser activity is wrote in Javascript using Sugar-Web framework in ReactJS.
+
+**Fist step to start:**<br>
+
+- Play with the Exerciser activity
+- Complete the [Sugarizer activity development tutorial](https://github.com/llaske/sugarizer/blob/dev/docs/tutorial.md)
+- Study the [source code](https://github.com/llaske/ExerciserReact) of the Exerciser activity, try to fix bug or propose improvement
+- Study integration of Journal in an activity by looking source code of ([Paint](https://github.com/llaske/sugarizer/tree/dev/activities/Paint.activity), [Memorize](https://github.com/llaske/sugarizer/tree/dev/activities/Memorize.activity) or [Fototoon](https://github.com/llaske/sugarizer/tree/dev/activities/Fototoon.activity) activity)
+
+
+
+**Expected Mentors**<br>
+[Lionel Laské](https://www.github.com/llaske) and 
+[Michaël Ohayon](https://github.com/mikklfr)
+
+------------
+
+
+## Write activity for Sugarizer
+**Priority:** Moderate
+
+**Prerequisites**<br>
+
+- Experience with JavaScript/HTML5 development
+
+**Description**<br>
+Write is a major application provided by the Sugar Learning Platform. Write serves as a basic text editing application for Sugar. Write allow text formatting on characters (Font change, Bold, Italic, Underline) and paragraphs (Center, Justify left or right) plus some other extended features (Arrays, images, …), save it as ODF file and export to RTF, PDF, TXT or HTML.
+
+More about Write features [here](https://help.sugarlabs.org/write.html).
+
+![](assets/write_1.png)
+
+The Write activity is a port of [AbiWord](https://www.abisource.com/) word processing tool. Write is developed in Python and GTK+.
+
+**Project Task**<br>
+The objective of this project is to rewrite an equivalent of Write activity in pure JavaScript to include it in Sugarizer.
+
+This new Write activity should provide:
+
+- Text formatting on characters (font change, bold, italic, underline, foreground/background color, …) 
+- Text formatting on paragraphs (center, justify left or right, list, blockquote, …) 
+- Embedded Images
+- Arrays
+- Export content to an easily editable/printable format (RTF/ODF, PDF)
+- Multi-user editing the same document
+
+This new Write activity may rely on an existing web editor ([Quill](https://quilljs.com/), [TinyMCE](https://www.tiny.cloud/), [CKEditor](https://ckeditor.com), [webODF](https://webodf.org/), ...).
+
+![](assets/write_2.png)
+
+This new Write activity should provide unique Sugarizer features:
+
+- Sugarizer look & feel: use of Sugar toolbar and palette
+- Sugarizer storage: load/save content into the Journal
+- Export feature: an easy way to export content to a file format editable in other tools (Word, Open Office, RTF)
+- Print feature: an easy way to export content to a printable format (PDF)
+- Network integration: integrate Sugarizer presence to share the activity on the network so multiple users could edit the document at the same time
+- Multi-device support: should work on any browser (Chrome, Firefox, Safari) and any platform (Android, iOS, Windows, Linux, MacOS) supported by Sugarizer.
+
+As with other Sugarizer activities, the new Write activity should be written using JavaScript and Sugar-Web library.  Any JavaScript framework could also be use: jQuery, Vue.js, ReactJS, …
+
+**First step to start:**<br>
+
+- Test the existing Write activity in Sugar
+- Complete the [Sugarizer activity development tutorial](https://github.com/llaske/sugarizer/blob/dev/docs/tutorial.md)
+- Make a study on existing web editors: identify features of each and identify ways to export content to an editable/printable format.
+
+
+
+**Expected Mentors**<br>
+[Lionel Laské](https://www.github.com/llaske) and 
+[Michaël Ohayon](https://github.com/mikklfr)
+
+
+------------
 
 ## Want to fill this place ? Make a PR with your idea!

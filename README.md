@@ -48,8 +48,15 @@ We use `#sugar` and `#sugar-meeting` channels on
 [IRC](https://webchat.freenode.net) and 
 [sugar-devel@](http://lists.sugarlabs.org/listinfo/sugar-devel)
 mailing list for communication. You can join our IRC channels
-and mailinig list to participate in the discussions and asking
+and mailing list to participate in the discussions and asking
 for help.
+
+## How to Contribute
+
+At Sugar Labs we have
+[opportunities for contributing](https://github.com/sugarlabs/sugar-docs/blob/master/src/contributing.md)
+with many different
+[programming languages and libraries](https://github.com/sugarlabs/sugar-docs/blob/master/src/languages.md).
 
 ## Getting Help
 Got a problem? Ask your mentors, ask other students, or ask the

@@ -503,4 +503,65 @@ to take on any colors deemed suitable by the activity designer.
 
 ------------
 
+## Improve Sugarizer Server Dashboard
+**Priority:** High
+
+**Prerequisites**<br>
+
+- Experience with JavaScript/HTML5 development
+- Experience with MongoDB
+- Experience with node.js and EJS framework
+
+**Description**<br>
+Sugarizer Server Dashboard is an admin tool for administrators and teachers of a Sugarizer deployment. The dashboard is used to control and manage the work of learners and manage and analyze all activities on a Sugarizer Server.
+
+
+![](assets/dashboard.png)
+
+Wrote two years ago during [GSoC 2017](https://wiki.sugarlabs.org/go/Summer_of_Code/2017), some improvement was requested this year by teachers for the incoming Sugarizer deployment in eight schools in Saint-Ouen.
+
+
+**Project Task**<br>
+The objective of this project is to expand features of the Sugarizer Dashboard. More precisely, expected features are:
+
+- Extend dashboard UI
+	- Provide sort by column on all views in Users/Journal/Activities/Classrooms screen
+	- Add size column on Journal views and allow to sort on it
+	- Add classroom counter in home page
+	- Add export/import to CSV feature for Users/Classrooms screen
+	- Improve Classrooms UI: integrate user icon, sort by name, …
+	- Allow running on mobile (full responsive UI)
+	- Integrate a simple tutorial (inspired by the one in Sugarizer)
+	
+- Create a new teacher profile
+	- Update API to allow a new type of profile named "teacher" with view on its classrooms only
+	- Add screens to handle teacher profile
+	- Update global view to handle teacher profile
+- Build improvement
+	- Use build tools such as gulp, etc to minify and manage public resources
+	- Upgrade outdated EJS version
+- Add scripting
+	- Create an initialization script to generate settings file and automate first admin creation
+	- Provide import/export scripts for Users/Classrooms
+
+Some other features could be added to this list depending of feedbacks on the field (new schools deployed in March).
+
+Technically speaking the Sugarizer Server is wrote in JavaScript with node.js using [EJS](https://ejs.co/) framework.
+
+**Fist step to start:**<br>
+
+- Complete the [Sugarizer activity development tutorial](https://github.com/llaske/sugarizer/blob/dev/docs/tutorial.md) to understand how Sugarizer work
+- Install [Sugarizer Server](https://github.com/llaske/sugarizer-server/tree/dev) and dashboard
+- Create different Sugarizer users and see how the dashboard trace activities and usage
+- Study the [source code](https://github.com/llaske/sugarizer-server/tree/dev/dashboard) of dashboard, try to fix bug, propose improvement or start to implement improvement suggested here.
+
+
+
+**Expected Mentors**<br>
+[Tarun singhal](https://github.com/tarunsinghal92) and
+[Lionel Laské](https://www.github.com/llaske) 
+
+
+------------
+
 ## Want to fill this place ? Make a PR with your idea!

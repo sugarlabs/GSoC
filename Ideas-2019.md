@@ -127,6 +127,11 @@ This project expects you to think of what new activities can be created.
 The activity or set of activities should add a new learning experience
 for the user, and must be large enough for the three months work for GSoC.
 
+Some ideas (but not limited to) are [Machine Learning Teaching](https://github.com/sugarlabs/GSoC/issues/16),
+[Pronounciation Checker](https://github.com/sugarlabs/GSoC/issues/12),
+[Jupyter Notebook](https://github.com/sugarlabs/GSoC/issues/13),
+[Scratch](https://github.com/sugarlabs/GSoC/issues/5).
+
 See https://www.tandfonline.com/doi/pdf/10.1080/15391523.2017.1388200?needAccess=true
 to understand some user experiences and expectations.
 

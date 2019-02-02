@@ -442,7 +442,7 @@ As with other Sugarizer activities, the new Write activity should be written usi
 ------------
 
 ## Colored desktop and activity icons
-**Priority:** High
+**Priority:** Moderate
 
 **Prerequisites**<br>
 - Extensive experience with Python and GTK3

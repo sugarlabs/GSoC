@@ -442,26 +442,28 @@ As with other Sugarizer activities, the new Write activity should be written usi
 
 ------------
 
-## Port MB & Scratch 3.0 to Sugar Desktop and Fix sugar-web
+## Port Sugarizer activities to Sugar
 
 **Priority:** High
 
 **Prerequisites**<br>
- - Python, GTK, JavaScript knowledge
- - Strong experience of working on Sugar and activities
+ - Ability to write in programming languages like Python, GTK, JavaScript 
 
 
 **Description**<br>
+The main aim of this project is to port [sugarizer activities](https://github.com/llaske/sugarizer/tree/dev/activities) back to Sugar Desktop.. Among these sugarizer activities, we also intend to Port Scratch and music blocks to Sugar Desktop. 
+[Scratch](https://scratch.mit.edu/) is a block based visual programming language for kids. Scratch 3.0 was created with HTML 5 using [Google’s blocky](https://developers.google.com/blockly/). Scratch 3.0 is an activity in Sugarizer, and can work offline. Scratch 3.0 works in the Browse activity in Sugar, but is online. 
 
-[Scratch](https://scratch.mit.edu/) is a programming environment for kids. The goal of this project is to make bring back the [Scratch activity](https://wiki.sugarlabs.org/go/Activities/Scratch) to the Sugar Desktop. Scratch 3.0 was created with HTML 5 using [Google’s blocky](https://developers.google.com/blockly/). Port scratch 3.0 as a Sugar activity using [Method 1](https://github.com/sugarlabs/sugar-docs/blob/master/src/web-activity.md).Fix Sugar-web as it was broken due to certain reasons. The project involves starting off with working on how to build scratch using the details in the links below: 
+-We expect the [Sugarizer Scratch activity](https://github.com/llaske/sugarizer/tree/dev/activities/Scratch.activity) to be used.  This was ported by [Emily Ong](https://github.com/EmilyOng/Scratch.activity) and has been improved since by [Lionel Llaske](https://github.com/llaske).  Also needed may be the latest version of [Scratch 3.0](https://github.com/LLK/scratch-gui).
 
-https://github.com/EmilyOng/Scratch.activity?fbclid=IwAR1cYK0wM6mQf4Bi4L50NDTxnUY9Vwjypwr74dkhry8tgBBX7FvOLw4-d34
+ -We expect the [Sugar web activity library `sugar-web`](https://github.com/sugarlabs/sugar-web) will need fixes backported from Sugarizer.
 
-https://github.com/LLK/scratch-gui
+-We expect the [Sugar Toolkit for GTK+ 3 `sugar-toolkit-gtk3`](https://github.com/sugarlabs/sugar-toolkit-gtk3) may need new fixes.
 
 Suggested issues to work on:
 
-Fix sugar-web: https://github.com/sugarlabs/sugar-web/blob/master/env.js#L49
+- backport the changes from Sugarizer to `sugar-web`, such as in [`env.js`](https://github.com/sugarlabs/sugar-web/blob/master/env.js#L49),
+ - Suggesting or adding features, fixing bugs, or releasing activities will help you to gain experience	Suggesting or adding features, fixing bugs, or releasing activities may help you to gain experience.
 
 Steps to take:
 1. [Setup a Development Environment](https://github.com/sugarlabs/sugar/blob/master/docs/development-environment.md)
@@ -469,17 +471,20 @@ Steps to take:
 3. Fix [sugar-web](https://github.com/sugarlabs/sugar-web) and make sure it works.
 4. Test some [Sugarizer activities](https://github.com/llaske/sugarizer/tree/dev/activities) on Sugar to make sure sugar-web is working.
 5. Investigate the current [Scratch 3.0 port](https://github.com/llaske/sugarizer/tree/dev/activities/Scratch.activity) on Sugarizer and play around it.
-6. Get [Music Blocks](https://github.com/sugarlabs/musicblocks) working in Sugar Web
-7. Get [Scratch](https://github.com/LLK/scratch-gui) working in Sugar Web
-8. Make Scratch port as a native activity.
-9. Make Music Blocks port as a native activity
+6. Fix the user media permission request handing in [Browse](https://github.com/sugarlabs/browse-activity/issues/85) activity
+7. Get [Music Blocks](https://github.com/sugarlabs/musicblocks) working in Sugar Web
+8. Get [Scratch](https://github.com/LLK/scratch-gui) working in Sugar Web
+9. Make Scratch port as a native activity.
+10. Make Music Blocks port as a native activity
 
 
 
-**Expected Mentors**<br>
-[Samson Goddy](https://github.com/samswag), 
-
+**Expected Coding Mentors**<br>
+[James Cameron](https://github.com/quozl)
 [Iqra Mohammad](https://github.com/iqraceme)
+
+**Expected Assitant Mentors**<br>
+[Samson Goddy](https://github.com/samswag)
 
 
 ## Want to fill this place ? Make a PR with your idea!

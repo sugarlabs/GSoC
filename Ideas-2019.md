@@ -13,7 +13,23 @@ student or a mentor to suggest ideas.
    app store, web site, or developer landing page,
 4. Do we have a developer _now_ who would be willing and able to do it
    if a student was not available, and who can _promise_ to do it if a
-   student is not selected.
+   student is not selected; these are shown as a _coding mentor_,
+
+## Coding Mentors
+We must have one or more _coding mentors_ willing and able to assist
+students with coding questions.
+
+Requirements for a _coding mentor_ are a demonstrated coding ability
+in the form of contributions of code to Sugar Labs.
+
+## Assisting Mentors
+We also have some mentors _who do not code_ willing to assist students
+in various other ways, such as gathering requirements, visual design,
+testing, and deployment; these are shown as an _assisting mentor_.
+
+The only requirement for an _assisting mentor_ is _knowledge of the project_.
+
+## Suggested Issues
 
 For some ideas, there is a list of 'Suggested issues to work on'.
 These will help you to get familiar with the project.  The more you
@@ -59,9 +75,12 @@ _(in chronological order)_
  - Port Sugar Desktop to Python 3, see [sugar/#805](https://github.com/sugarlabs/sugar/pull/805)
  - Port all fructose activities to Python 3
 
-**Expected Mentors**<br>
+**Coding Mentors**<br>
 [Rahul Bothra](https://www.github.com/pro-panda) and
 [James Cameron](https://www.github.com/quozl)
+
+**Assisting Mentors**<br>
+None.
 
 ------------
 
@@ -107,8 +126,11 @@ of this project may be selected**.
 Suggesting or adding features, fixing bugs, or releasing activities
 will help you to gain experience
 
-**Expected Mentors**<br>
+**Coding Mentors**<br>
 [Rahul Bothra](https://www.github.com/pro-panda), [James Cameron](https://www.github.com/quozl) and [Ibiam Chihurumnaya](https://www.github.com/chimosky).
+
+**Assisting Mentors**<br>
+None.
 
 ------------
 
@@ -151,8 +173,11 @@ as well.
  - Adding new features in activities
  - Creating new activities
 
-**Expected Mentors**<br>
+**Coding Mentors**<br>
 [Rahul Bothra](https://www.github.com/pro-panda), [James Cameron](https://www.github.com/quozl) and [Ibiam Chihurumnaya](https://www.github.com/chimosky).
+
+**Assisting Mentors**<br>
+None.
 
 ------------
 
@@ -188,8 +213,11 @@ enhance performance.
    [Performance](https://github.com/sugarlabs/musicblocks/labels/Performance)
    Label
 
-**Expected Mentors**<br>
+**Coding Mentors**<br>
 [Walter Bender](https://www.github.com/walterbender)
+
+**Assisting Mentors**<br>
+None.
 
 ------------
 
@@ -241,8 +269,11 @@ W10](https://github.com/sugarlabs/musicblocks/labels/Chrome%20on%20W10),
 or [Firefox](https://github.com/sugarlabs/musicblocks/labels/Firefox)
 Label
 
-**Expected Mentors**<br>
+**Coding Mentors**<br>
 [Walter Bender](https://www.github.com/walterbender)
+
+**Assisting Mentors**<br>
+[Jaskirat Singh](https://github.com/jaskirat2000)
 
 ------------
 
@@ -288,10 +319,12 @@ rhythms. Step One is to come up with a design proposal.
    [Widget](https://github.com/sugarlabs/musicblocks/labels/widget)
    Label
 
-**Expected Mentors**<br>
+**Coding Mentors**<br>
 [Walter Bender](https://www.github.com/walterbender) and 
 [Devin Ulibarri](https://github.com/pikurasa)
 
+**Assisting Mentors**<br>
+None.
 
 ------------
 
@@ -333,8 +366,11 @@ JavaScript as possible.
    some open bugs would be a good place to start in understanding the
    code base. [Bug](https://github.com/sugarlabs/musicblocks/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+label%3Abug+)
 
-**Expected Mentors**<br>
+**Coding Mentors**<br>
 [Walter Bender](https://www.github.com/walterbender)
+
+**Assisting Mentors**<br>
+[Jaskirat Singh](https://github.com/jaskirat2000)
 
 ------------
 
@@ -382,9 +418,12 @@ Technically speaking the Exerciser activity is wrote in Javascript using Sugar-W
 
 
 
-**Expected Mentors**<br>
+**Coding Mentors**<br>
 [Lionel Laské](https://www.github.com/llaske) and 
 [Michaël Ohayon](https://github.com/mikklfr)
+
+**Assisting Mentors**<br>
+None.
 
 ------------
 
@@ -440,11 +479,12 @@ As with other Sugarizer activities, the new Write activity should be written usi
 
 
 
-**Expected Mentors**<br>
+**Coding Mentors**<br>
 [Lionel Laské](https://www.github.com/llaske) and 
 [Michaël Ohayon](https://github.com/mikklfr)
 
-------------
+**Assisting Mentors**<br>
+None.
 
 ## Colored desktop and activity icons
 **Priority:** Moderate
@@ -496,10 +536,12 @@ to take on any colors deemed suitable by the activity designer.
    some open bugs would be a good place to start in understanding the
    code base.
 
-**Expected Mentors**<br>
-[Walter Bender](https://www.github.com/walterbender),
-[Peace Ojemeh](https://github.com/perriefidelis) and
+**Coding Mentors**<br>
+[Walter Bender](https://www.github.com/walterbender) and
 [Rahul Bothra](https://github.com/pro-panda)
+
+**Assisting Mentors**<br>
+[Peace Ojemeh](https://github.com/perriefidelis)
 
 ------------
 
@@ -555,12 +597,12 @@ Technically speaking the Sugarizer Server is wrote in JavaScript with node.js us
 - Create different Sugarizer users and see how the dashboard trace activities and usage
 - Study the [source code](https://github.com/llaske/sugarizer-server/tree/dev/dashboard) of dashboard, try to fix bug, propose improvement or start to implement improvement suggested here.
 
-
-
-**Expected Mentors**<br>
+**Coding Mentors**<br>
 [Tarun singhal](https://github.com/tarunsinghal92) and
 [Lionel Laské](https://www.github.com/llaske) 
 
+**Assisting Mentors**<br>
+None.
 
 ------------
 

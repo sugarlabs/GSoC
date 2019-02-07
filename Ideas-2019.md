@@ -562,6 +562,43 @@ Technically speaking the Sugarizer Server is wrote in JavaScript with node.js us
 [Lionel Laské](https://www.github.com/llaske) 
 
 
-------------
 
-## Want to fill this place ? Make a PR with your idea!
+------------
+## Sugarizer Science
+
+**Priority:** Moderate
+
+**Prerequisites**<br>
+ - Knowledge of UI, design and layout
+ - Experience of working on Sugarizer activities
+  -Experience with HTML, CSS and Javascript
+
+
+**Description**<br>
+
+Sugarizer is a collection of Learning Activities that have been adapted to run in a browser on hand-held devices (phones and tablets) as well as laptops and desktop computers. 
+Sugarizer Science will be a specialized collection of Learning Activities that can assist students doing science experiments and making scientific observations. Some of the Activities have already been “Sugarized,” others will need to be converted.
+
+Project Task
+The objective of this project is to collect a group of Sugar Activities in a single package for use by science students. Most of these, Calculate, Record, Stopwatch, Measure,Labyrinth, Moon and Star Chart have already be “Sugarized and will only need to be made as language nutral as possible. One other Activitiy, Get Things Done, will need to be “translated” into JavaScript for use in Sugarizer Science.
+This Sugar Science application should provide:
+A variety of Sugarized learning tools for Biological and Physical sciences that will help students “do science”.
+The ability for users to share data and collaborate on experiments and data collection.
+A minimum of language dependence so it can be used in many different locales without needing translation.
+
+First steps to start:
+
+1. Install and become familiar with Sugarizer running on a handheld device.
+2. Complete the [Sugarizer activity development tutorial](https://github.com/llaske/sugarizer/blob/dev/docs/tutorial.md)
+3. Work with the mentors to compile a list of at least 5 Sugarizer Activities that would be useful to include in Sugarizer Science. These will include programs such as Moon, Star Chart, Measure.
+4. Install and become familiar with [Sugarizer primero](https://github.com/sugarlabs/sugarizer/tree/iqraceme/primero)
+
+Coding Mentors
+[Iqra Muhammad](https://github.com/iqraceme)
+[Samson Goddy](https://github.com/samswag/) 
+
+Assisting Mentors
+[Caryl Bigenho](https://github.com/GrannieB)
+[Peace Ojemeh](https://github.com/perriefidelis)
+
+

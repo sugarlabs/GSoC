@@ -543,7 +543,8 @@ to take on any colors deemed suitable by the activity designer.
 [Rahul Bothra](https://github.com/pro-panda)
 
 **Assisting Mentors**<br>
-[Peace Ojemeh](https://github.com/perriefidelis)
+[Peace Ojemeh](https://github.com/perriefidelis)and 
+[Jaskirat Singh](https://github.com/jaskirat2000)
 
 ------------
 

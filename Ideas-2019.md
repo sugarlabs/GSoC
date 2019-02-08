@@ -217,7 +217,7 @@ enhance performance.
 [Walter Bender](https://www.github.com/walterbender)
 
 **Assisting Mentors**<br>
-None.
+[Devin Ulibarri](https://www.github.com/pikurasa)
 
 ------------
 
@@ -371,6 +371,7 @@ JavaScript as possible.
 
 **Assisting Mentors**<br>
 [Jaskirat Singh](https://github.com/jaskirat2000)
+[Devin Ulibarri](https://github.com/pikurasa)
 
 ------------
 

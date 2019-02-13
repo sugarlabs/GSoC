@@ -138,13 +138,16 @@ None.
 **Priority:** Moderate
 
 **Prerequisites**<br>
- - Experience with Python
- - Strong experience with Sugar activities
+ - Ability to write in Python programming language (for Sugar activities), or
+ - Ability to write in JavaScript programming language (for Sugarizer activities).
 
 **Description**<br>
 Sugar has a lot of activities (250+ on GitHub, and more
 elsewhere). To understand how to locate and work on activities, see
 our guide to [Modifying Activities](https://github.com/sugarlabs/sugar-docs/blob/master/src/contributing.md#modifying-activities).
+
+Sugarizer has a few activities.
+
 This project expects you to think of what new activities can be created.
 The activity or set of activities should add a new learning experience
 for the user, and must be large enough for the three months work for GSoC.
@@ -152,13 +155,13 @@ for the user, and must be large enough for the three months work for GSoC.
 Some ideas (but not limited to) are [Machine Learning Teaching](https://github.com/sugarlabs/GSoC/issues/16),
 [Pronounciation Checker](https://github.com/sugarlabs/GSoC/issues/12),
 [Jupyter Notebook](https://github.com/sugarlabs/GSoC/issues/13),
-[Scratch](https://github.com/sugarlabs/GSoC/issues/5).
+[Scratch](https://github.com/sugarlabs/GSoC/issues/5), or Science themed activities.
 
 See https://www.tandfonline.com/doi/pdf/10.1080/15391523.2017.1388200?needAccess=true
 to understand some user experiences and expectations.
 
 In the proposal, students must mention the features
-in their proposed activity(ies), and may include preliminary designs
+in their proposed activities, and may include preliminary designs
 as well.
 
 **Project Task Checklist:**<br>
@@ -174,10 +177,16 @@ as well.
  - Creating new activities
 
 **Coding Mentors**<br>
-[Rahul Bothra](https://www.github.com/pro-panda), [James Cameron](https://www.github.com/quozl) and [Ibiam Chihurumnaya](https://www.github.com/chimosky).
+
+ - for Python activities, [Rahul Bothra](https://www.github.com/pro-panda), [James Cameron](https://www.github.com/quozl) and [Ibiam Chihurumnaya](https://www.github.com/chimosky),
+ - for JavaScript activities, [Lionel Laské](https://www.github.com/llaske) (JavaScript),
 
 **Assisting Mentors**<br>
-[Iqra Muhammad](https://github.com/iqraceme), [Utkarsh Dhawan](https://github.com/crusher95)
+[Caryl Bigenho](https://github.com/GrannieB), 
+[Utkarsh Dhawan](https://github.com/crusher95), 
+[Samson Goddy](https://github.com/samswag/), 
+[Iqra Muhammad](https://github.com/iqraceme), and
+[Peace Ojemeh](https://github.com/perriefidelis).
 
 ------------
 

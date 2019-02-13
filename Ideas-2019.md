@@ -177,7 +177,7 @@ as well.
 [Rahul Bothra](https://www.github.com/pro-panda), [James Cameron](https://www.github.com/quozl) and [Ibiam Chihurumnaya](https://www.github.com/chimosky).
 
 **Assisting Mentors**<br>
-[Iqra Muhammad](https://github.com/iqraceme)
+[Iqra Muhammad](https://github.com/iqraceme), [Utkarsh Dhawan](https://github.com/crusher95)
 
 ------------
 

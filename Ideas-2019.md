@@ -217,6 +217,7 @@ enhance performance.
 [Walter Bender](https://www.github.com/walterbender)
 
 **Assisting Mentors**<br>
+[Sumit Srivastava](https://www.github.com/sum2it) and
 [Devin Ulibarri](https://www.github.com/pikurasa)
 
 ------------
@@ -273,7 +274,8 @@ Label
 [Walter Bender](https://www.github.com/walterbender)
 
 **Assisting Mentors**<br>
-[Jaskirat Singh](https://github.com/jaskirat2000)
+[Jaskirat Singh](https://github.com/jaskirat2000) and
+[Sumit Srivastava](https://www.github.com/sum2it)
 
 ------------
 
@@ -324,7 +326,7 @@ rhythms. Step One is to come up with a design proposal.
 [Devin Ulibarri](https://github.com/pikurasa)
 
 **Assisting Mentors**<br>
-None.
+[Sumit Srivastava](https://www.github.com/sum2it)
 
 ------------
 
@@ -367,11 +369,13 @@ JavaScript as possible.
    code base. [Bug](https://github.com/sugarlabs/musicblocks/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+label%3Abug+)
 
 **Coding Mentors**<br>
-[Walter Bender](https://www.github.com/walterbender), [Vaibhav Aren](https://github.com/vaibhavdaren)
+[Walter Bender](https://www.github.com/walterbender), and
+[Vaibhav Aren](https://github.com/vaibhavdaren)
 
 **Assisting Mentors**<br>
-[Jaskirat Singh](https://github.com/jaskirat2000)
-[Devin Ulibarri](https://github.com/pikurasa)
+[Jaskirat Singh](https://github.com/jaskirat2000),
+[Sumit Srivastava](https://www.github.com/sum2it), and
+[Devin Ulibarri](https://github.com/pikurasa).
 
 ------------
 

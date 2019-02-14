@@ -217,7 +217,7 @@ enhance performance.
 [Walter Bender](https://www.github.com/walterbender)
 
 **Assisting Mentors**<br>
-[Devin Ulibarri](https://www.github.com/pikurasa)
+[Devin Ulibarri](https://www.github.com/pikurasa) and [Sumit Srivastava](https://www.github.com/sum2it)
 
 ------------
 
@@ -273,6 +273,7 @@ Label
 [Walter Bender](https://www.github.com/walterbender)
 
 **Assisting Mentors**<br>
+[Sumit Srivastava](https://www.github.com/sum2it) and 
 [Jaskirat Singh](https://github.com/jaskirat2000)
 
 ------------
@@ -324,7 +325,7 @@ rhythms. Step One is to come up with a design proposal.
 [Devin Ulibarri](https://github.com/pikurasa)
 
 **Assisting Mentors**<br>
-None.
+[Sumit Srivastava](https://www.github.com/sum2it)
 
 ------------
 
@@ -370,8 +371,8 @@ JavaScript as possible.
 [Walter Bender](https://www.github.com/walterbender), [Vaibhav Aren](https://github.com/vaibhavdaren)
 
 **Assisting Mentors**<br>
-[Jaskirat Singh](https://github.com/jaskirat2000)
-[Devin Ulibarri](https://github.com/pikurasa)
+[Sumit Srivastava](https://www.github.com/sum2it), [Jaskirat Singh](https://github.com/jaskirat2000), and [Devin Ulibarri](https://github.com/pikurasa), 
+
 
 ------------
 
@@ -619,7 +620,8 @@ None.
 
 
 **Description**<br>
-The main aim of this project is to port [sugarizer activities](https://github.com/llaske/sugarizer/tree/dev/activities) back to Sugar Desktop.. Among these sugarizer activities, we also intend to Port Scratch and music blocks to Sugar Desktop. 
+The main aim of this project is to port [sugarizer activities](https://github.com/llaske/sugarizer/tree/dev/activities) back to Sugar Desktop.. Among these sugarizer activities, we also intend to Port Scratch and 
+ musicblocks to Sugar Desktop. 
 [Scratch](https://scratch.mit.edu/) is a block based visual programming language for kids. Scratch 3.0 was created with HTML 5 using [Google’s blocky](https://developers.google.com/blockly/). Scratch 3.0 is an activity in Sugarizer, and can work offline. Scratch 3.0 works in the Browse activity in Sugar, but is online. 
 
 -We expect the [Sugarizer Scratch activity](https://github.com/llaske/sugarizer/tree/dev/activities/Scratch.activity) to be used.  This was ported by [Emily Ong](https://github.com/EmilyOng/Scratch.activity) and has been improved since by [Lionel Llaske](https://github.com/llaske).  Also needed may be the latest version of [Scratch 3.0](https://github.com/LLK/scratch-gui).

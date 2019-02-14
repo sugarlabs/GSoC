@@ -217,7 +217,7 @@ enhance performance.
 [Walter Bender](https://www.github.com/walterbender)
 
 **Assisting Mentors**<br>
-[Devin Ulibarri](https://www.github.com/pikurasa)
+[Sumit Srivastava](https://www.github.com/sum2it) and [Devin Ulibarri](https://www.github.com/pikurasa)
 
 ------------
 
@@ -273,6 +273,7 @@ Label
 [Walter Bender](https://www.github.com/walterbender)
 
 **Assisting Mentors**<br>
+[Sumit Srivastava](https://www.github.com/sum2it) and 
 [Jaskirat Singh](https://github.com/jaskirat2000)
 
 ------------
@@ -324,7 +325,7 @@ rhythms. Step One is to come up with a design proposal.
 [Devin Ulibarri](https://github.com/pikurasa)
 
 **Assisting Mentors**<br>
-None.
+[Sumit Srivastava](https://www.github.com/sum2it)
 
 ------------
 
@@ -370,8 +371,7 @@ JavaScript as possible.
 [Walter Bender](https://www.github.com/walterbender), [Vaibhav Aren](https://github.com/vaibhavdaren)
 
 **Assisting Mentors**<br>
-[Jaskirat Singh](https://github.com/jaskirat2000)
-[Devin Ulibarri](https://github.com/pikurasa)
+[Sumit Srivastava](https://www.github.com/sum2it), [Jaskirat Singh](https://github.com/jaskirat2000), and [Devin Ulibarri](https://github.com/pikurasa)
 
 ------------
 
@@ -650,6 +650,9 @@ Steps to take:
 **Expected Coding Mentors**<br>
 [James Cameron](https://github.com/quozl)
 [Iqra Mohammad](https://github.com/iqraceme)
+
+**Assisting Mentors**<br>
+[Sumit Srivastava](https://www.github.com/sum2it) for code related to music blocks.
 
 **Expected Assitant Mentors**<br>
 [Samson Goddy](https://github.com/samswag)

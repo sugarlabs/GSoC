@@ -426,7 +426,6 @@ Technically speaking the Exerciser activity is wrote in Javascript using Sugar-W
 **Coding Mentors**<br>
 [Lionel Laské](https://www.github.com/llaske), 
 [Michaël Ohayon](https://github.com/mikklfr) and
-[Vaibhav Aren](https://github.com/vaibhavdaren)
 
 **Assisting Mentors**<br>
 None.
@@ -486,9 +485,8 @@ As with other Sugarizer activities, the new Write activity should be written usi
 
 
 **Coding Mentors**<br>
-[Lionel Laské](https://www.github.com/llaske), 
-[Michaël Ohayon](https://github.com/mikklfr) and
-[Vaibhav Aren](https://github.com/vaibhavdaren)
+[Lionel Laské](https://www.github.com/llaske) and
+[Michaël Ohayon](https://github.com/mikklfr) 
 
 **Assisting Mentors**<br>
 None.

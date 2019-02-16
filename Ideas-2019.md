@@ -13,7 +13,23 @@ student or a mentor to suggest ideas.
    app store, web site, or developer landing page,
 4. Do we have a developer _now_ who would be willing and able to do it
    if a student was not available, and who can _promise_ to do it if a
-   student is not selected.
+   student is not selected; these are shown as a _coding mentor_,
+
+## Coding Mentors
+We must have one or more _coding mentors_ willing and able to assist
+students with coding questions.
+
+Requirements for a _coding mentor_ are a demonstrated coding ability
+in the form of contributions of code to Sugar Labs.
+
+## Assisting Mentors
+We also have some mentors _who do not code_ willing to assist students
+in various other ways, such as gathering requirements, visual design,
+testing, and deployment; these are shown as an _assisting mentor_.
+
+The only requirement for an _assisting mentor_ is _knowledge of the project_.
+
+## Suggested Issues
 
 For some ideas, there is a list of 'Suggested issues to work on'.
 These will help you to get familiar with the project.  The more you
@@ -59,9 +75,12 @@ _(in chronological order)_
  - Port Sugar Desktop to Python 3, see [sugar/#805](https://github.com/sugarlabs/sugar/pull/805)
  - Port all fructose activities to Python 3
 
-**Expected Mentors**<br>
+**Coding Mentors**<br>
 [Rahul Bothra](https://www.github.com/pro-panda) and
 [James Cameron](https://www.github.com/quozl)
+
+**Assisting Mentors**<br>
+None.
 
 ------------
 
@@ -107,8 +126,11 @@ of this project may be selected**.
 Suggesting or adding features, fixing bugs, or releasing activities
 will help you to gain experience
 
-**Expected Mentors**<br>
+**Coding Mentors**<br>
 [Rahul Bothra](https://www.github.com/pro-panda), [James Cameron](https://www.github.com/quozl) and [Ibiam Chihurumnaya](https://www.github.com/chimosky).
+
+**Assisting Mentors**<br>
+None.
 
 ------------
 
@@ -116,13 +138,16 @@ will help you to gain experience
 **Priority:** Moderate
 
 **Prerequisites**<br>
- - Experience with Python
- - Strong experience with Sugar activities
+ - Ability to write in Python programming language (for Sugar activities), or
+ - Ability to write in JavaScript programming language (for Sugarizer activities).
 
 **Description**<br>
 Sugar has a lot of activities (250+ on GitHub, and more
 elsewhere). To understand how to locate and work on activities, see
 our guide to [Modifying Activities](https://github.com/sugarlabs/sugar-docs/blob/master/src/contributing.md#modifying-activities).
+
+Sugarizer has a few activities.
+
 This project expects you to think of what new activities can be created.
 The activity or set of activities should add a new learning experience
 for the user, and must be large enough for the three months work for GSoC.
@@ -130,13 +155,13 @@ for the user, and must be large enough for the three months work for GSoC.
 Some ideas (but not limited to) are [Machine Learning Teaching](https://github.com/sugarlabs/GSoC/issues/16),
 [Pronounciation Checker](https://github.com/sugarlabs/GSoC/issues/12),
 [Jupyter Notebook](https://github.com/sugarlabs/GSoC/issues/13),
-[Scratch](https://github.com/sugarlabs/GSoC/issues/5).
+[Scratch](https://github.com/sugarlabs/GSoC/issues/5), or Science themed activities.
 
 See https://www.tandfonline.com/doi/pdf/10.1080/15391523.2017.1388200?needAccess=true
 to understand some user experiences and expectations.
 
 In the proposal, students must mention the features
-in their proposed activity(ies), and may include preliminary designs
+in their proposed activities, and may include preliminary designs
 as well.
 
 **Project Task Checklist:**<br>
@@ -151,8 +176,17 @@ as well.
  - Adding new features in activities
  - Creating new activities
 
-**Expected Mentors**<br>
-[Rahul Bothra](https://www.github.com/pro-panda), [James Cameron](https://www.github.com/quozl) and [Ibiam Chihurumnaya](https://www.github.com/chimosky).
+**Coding Mentors**<br>
+
+ - for Python activities, [Rahul Bothra](https://www.github.com/pro-panda), [James Cameron](https://www.github.com/quozl) and [Ibiam Chihurumnaya](https://www.github.com/chimosky),
+ - for JavaScript activities, [Lionel Laské](https://www.github.com/llaske) (JavaScript),
+
+**Assisting Mentors**<br>
+[Caryl Bigenho](https://github.com/GrannieB),
+[Utkarsh Dhawan](https://github.com/crusher95),
+[Samson Goddy](https://github.com/samswag/),
+[Iqra Muhammad](https://github.com/iqraceme), and
+[Peace Ojemeh](https://github.com/perriefidelis).
 
 ------------
 
@@ -188,8 +222,12 @@ enhance performance.
    [Performance](https://github.com/sugarlabs/musicblocks/labels/Performance)
    Label
 
-**Expected Mentors**<br>
+**Coding Mentors**<br>
 [Walter Bender](https://www.github.com/walterbender)
+
+**Assisting Mentors**<br>
+[Sumit Srivastava](https://www.github.com/sum2it) and
+[Devin Ulibarri](https://www.github.com/pikurasa)
 
 ------------
 
@@ -241,8 +279,12 @@ W10](https://github.com/sugarlabs/musicblocks/labels/Chrome%20on%20W10),
 or [Firefox](https://github.com/sugarlabs/musicblocks/labels/Firefox)
 Label
 
-**Expected Mentors**<br>
+**Coding Mentors**<br>
 [Walter Bender](https://www.github.com/walterbender)
+
+**Assisting Mentors**<br>
+[Jaskirat Singh](https://github.com/jaskirat2000) and
+[Sumit Srivastava](https://www.github.com/sum2it)
 
 ------------
 
@@ -288,10 +330,12 @@ rhythms. Step One is to come up with a design proposal.
    [Widget](https://github.com/sugarlabs/musicblocks/labels/widget)
    Label
 
-**Expected Mentors**<br>
-[Walter Bender](https://www.github.com/walterbender) and 
+**Coding Mentors**<br>
+[Walter Bender](https://www.github.com/walterbender) and
 [Devin Ulibarri](https://github.com/pikurasa)
 
+**Assisting Mentors**<br>
+[Sumit Srivastava](https://www.github.com/sum2it)
 
 ------------
 
@@ -333,8 +377,14 @@ JavaScript as possible.
    some open bugs would be a good place to start in understanding the
    code base. [Bug](https://github.com/sugarlabs/musicblocks/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+label%3Abug+)
 
-**Expected Mentors**<br>
-[Walter Bender](https://www.github.com/walterbender)
+**Coding Mentors**<br>
+[Walter Bender](https://www.github.com/walterbender), and
+[Vaibhav Aren](https://github.com/vaibhavdaren)
+
+**Assisting Mentors**<br>
+[Jaskirat Singh](https://github.com/jaskirat2000),
+[Sumit Srivastava](https://www.github.com/sum2it), and
+[Devin Ulibarri](https://github.com/pikurasa).
 
 ------------
 
@@ -348,7 +398,7 @@ JavaScript as possible.
 - Experience with ReactJS framework development
 
 **Description**<br>
-Exerciser is a new Sugarizer activity in version 1.1 that allow users to create exercise and let other users play to this exercise. 
+Exerciser is a new Sugarizer activity in version 1.1 that allow users to create exercise and let other users play to this exercise.
 This activity propose different templates (multiple-choice question, reordering a list of items, cloze text) and an editor to customize questions.
 
 ![](assets/exerciser_1.png)
@@ -364,12 +414,12 @@ The Exerciser was requested by teachers from Sugarizer deployment in Saint-Ouen 
 **Project Task**<br>
 The objective of this project is to expand features of the Exerciser activity. More precisely, expected features are:
 
-- Allow user to integrate multimedia element (images, sounds, videos) for questions and answers. All multimedia elements will come from the Journal. 
+- Allow user to integrate multimedia element (images, sounds, videos) for questions and answers. All multimedia elements will come from the Journal.
 - Add new templates (matching pair, group assignment, free text input)
 - Improve result screen to view detail result on each answer for each user
 - Support access to a remote library of exercises.
 
-These improvements should keep the activity very simple so even a child should be able to create an exercise and share it. Like all Sugarizer activity, Exerciser activity should adopt the Sugar UI, be responsive (work on any screen size), work with the keyboard and with the mouse (to support touch screen), use journal and use localization. 
+These improvements should keep the activity very simple so even a child should be able to create an exercise and share it. Like all Sugarizer activity, Exerciser activity should adopt the Sugar UI, be responsive (work on any screen size), work with the keyboard and with the mouse (to support touch screen), use journal and use localization.
 
 Technically speaking the Exerciser activity is wrote in Javascript using Sugar-Web framework in ReactJS.
 
@@ -382,9 +432,12 @@ Technically speaking the Exerciser activity is wrote in Javascript using Sugar-W
 
 
 
-**Expected Mentors**<br>
-[Lionel Laské](https://www.github.com/llaske) and 
+**Coding Mentors**<br>
+[Lionel Laské](https://www.github.com/llaske) and
 [Michaël Ohayon](https://github.com/mikklfr)
+
+**Assisting Mentors**<br>
+None.
 
 ------------
 
@@ -410,8 +463,8 @@ The objective of this project is to rewrite an equivalent of Write activity in p
 
 This new Write activity should provide:
 
-- Text formatting on characters (font change, bold, italic, underline, foreground/background color, …) 
-- Text formatting on paragraphs (center, justify left or right, list, blockquote, …) 
+- Text formatting on characters (font change, bold, italic, underline, foreground/background color, …)
+- Text formatting on paragraphs (center, justify left or right, list, blockquote, …)
 - Embedded Images
 - Arrays
 - Export content to an easily editable/printable format (RTF/ODF, PDF)
@@ -440,11 +493,177 @@ As with other Sugarizer activities, the new Write activity should be written usi
 
 
 
-**Expected Mentors**<br>
-[Lionel Laské](https://www.github.com/llaske) and 
+**Coding Mentors**<br>
+[Lionel Laské](https://www.github.com/llaske) and
 [Michaël Ohayon](https://github.com/mikklfr)
 
+**Assisting Mentors**<br>
+None.
+
+## Colored desktop and activity icons
+**Priority:** Moderate
+
+**Prerequisites**<br>
+- Extensive experience with Python and GTK3
+- Experience with Sugar activities/toolkit
+- Experience with user interface and graphics design (and SVG)
+
+**Description**<br>
+Sugar’s use of color and icons (described in detail here [HIG
+color](https://wiki.sugarlabs.org/go/Human_Interface_Guidelines/The_Sugar_Interface/Colors)
+and [HIG
+icons](https://wiki.sugarlabs.org/go/Human_Interface_Guidelines/The_Sugar_Interface/Icons))
+is functional but a bit tired when compared to modern desktops and
+mobile systems.
+
+This project is about redesigning the use of color in Sugar in order
+to enable full-color icons for both the desktop itself and activities.
+
+The primary role of color in the current icon design is to;
+ - Indicate whether or not an activity has been used
+ - Indicate whether or not an activity is being shared with another
+   Sugar user (the colors of the person who launches the activity show
+   up on the desktops of the people who join the activity.)
+
+Fortunately, Sugar also support a mechanism for putting badges on
+icons. An example is in the neighborhood view, where badges are used
+to indicate which access points are active (See
+[networkviews.py](https://github.com/sugarlabs/sugar/blob/master/src/jarabe/desktop/networkviews.py)).
+
+We could use badges (See
+[icon.py](https://github.com/sugarlabs/sugar-toolkit-gtk3/blob/master/src/sugar3/graphics/icon.py#L49))
+to replace the functionality of color described above: for example, an
+XO badge to indicate an activity has been used. And the color of that
+badge could indicate collaboration. This would free up the icon itself
+to take on any colors deemed suitable by the activity designer.
+
+**Project Task:**<br>
+ - [ ] Add color functionality to the badges;
+ - [ ] Add badges in every instance where we currently use color: the
+       desktop, the journal, the neighborhood view and the activity
+       toolbar;
+ - [ ] Work with the design team to come up with new color icons for
+       all of the core Sugar toolbars, activities and activity toolbars
+
+**Suggested issues to work on:**<br>
+ - There are not any issues specific to this project, but working on
+   some open bugs would be a good place to start in understanding the
+   code base.
+
+**Coding Mentors**<br>
+[Walter Bender](https://www.github.com/walterbender) and
+[Rahul Bothra](https://github.com/pro-panda)
+
+**Assisting Mentors**<br>
+[Peace Ojemeh](https://github.com/perriefidelis)and
+[Jaskirat Singh](https://github.com/jaskirat2000)
 
 ------------
+
+## Improve Sugarizer Server Dashboard
+**Priority:** High
+
+**Prerequisites**<br>
+
+- Experience with JavaScript/HTML5 development
+- Experience with MongoDB
+- Experience with node.js and EJS framework
+
+**Description**<br>
+Sugarizer Server Dashboard is an admin tool for administrators and teachers of a Sugarizer deployment. The dashboard is used to control and manage the work of learners and manage and analyze all activities on a Sugarizer Server.
+
+
+![](assets/dashboard.png)
+
+Wrote two years ago during [GSoC 2017](https://wiki.sugarlabs.org/go/Summer_of_Code/2017), some improvement was requested this year by teachers for the incoming Sugarizer deployment in eight schools in Saint-Ouen.
+
+
+**Project Task**<br>
+The objective of this project is to expand features of the Sugarizer Dashboard. More precisely, expected features are:
+
+- Extend dashboard UI
+	- Provide sort by column on all views in Users/Journal/Activities/Classrooms screen
+	- Add size column on Journal views and allow to sort on it
+	- Add classroom counter in home page
+	- Add export/import to CSV feature for Users/Classrooms screen
+	- Improve Classrooms UI: integrate user icon, sort by name, …
+	- Allow running on mobile (full responsive UI)
+	- Integrate a simple tutorial (inspired by the one in Sugarizer)
+
+- Create a new teacher profile
+	- Update API to allow a new type of profile named "teacher" with view on its classrooms only
+	- Add screens to handle teacher profile
+	- Update global view to handle teacher profile
+- Build improvement
+	- Use build tools such as gulp, etc to minify and manage public resources
+	- Upgrade outdated EJS version
+- Add scripting
+	- Create an initialization script to generate settings file and automate first admin creation
+	- Provide import/export scripts for Users/Classrooms
+
+Some other features could be added to this list depending of feedbacks on the field (new schools deployed in March).
+
+Technically speaking the Sugarizer Server is wrote in JavaScript with node.js using [EJS](https://ejs.co/) framework.
+
+**Fist step to start:**<br>
+
+- Complete the [Sugarizer activity development tutorial](https://github.com/llaske/sugarizer/blob/dev/docs/tutorial.md) to understand how Sugarizer work
+- Install [Sugarizer Server](https://github.com/llaske/sugarizer-server/tree/dev) and dashboard
+- Create different Sugarizer users and see how the dashboard trace activities and usage
+- Study the [source code](https://github.com/llaske/sugarizer-server/tree/dev/dashboard) of dashboard, try to fix bug, propose improvement or start to implement improvement suggested here.
+
+**Coding Mentors**<br>
+[Tarun singhal](https://github.com/tarunsinghal92) and
+[Lionel Laské](https://www.github.com/llaske)
+
+**Assisting Mentors**<br>
+None.
+
+------------
+
+## Port Sugarizer activities to Sugar
+
+**Priority:** High
+
+**Prerequisites**<br>
+ - Ability to write in programming languages like Python, GTK, JavaScript
+
+
+**Description**<br>
+The main aim of this project is to port [sugarizer activities](https://github.com/llaske/sugarizer/tree/dev/activities) back to Sugar Desktop.. Among these sugarizer activities, we also intend to Port Scratch and music blocks to Sugar Desktop.
+[Scratch](https://scratch.mit.edu/) is a block based visual programming language for kids. Scratch 3.0 was created with HTML 5 using [Google’s blocky](https://developers.google.com/blockly/). Scratch 3.0 is an activity in Sugarizer, and can work offline. Scratch 3.0 works in the Browse activity in Sugar, but is online.
+
+-We expect the [Sugarizer Scratch activity](https://github.com/llaske/sugarizer/tree/dev/activities/Scratch.activity) to be used.  This was ported by [Emily Ong](https://github.com/EmilyOng/Scratch.activity) and has been improved since by [Lionel Laské](https://github.com/llaske).  Also needed may be the latest version of [Scratch 3.0](https://github.com/LLK/scratch-gui).
+
+ -We expect the [Sugar web activity library `sugar-web`](https://github.com/sugarlabs/sugar-web) will need fixes backported from Sugarizer.
+
+-We expect the [Sugar Toolkit for GTK+ 3 `sugar-toolkit-gtk3`](https://github.com/sugarlabs/sugar-toolkit-gtk3) may need new fixes.
+
+Suggested issues to work on:
+
+- backport the changes from Sugarizer to `sugar-web`, such as in [`env.js`](https://github.com/sugarlabs/sugar-web/blob/master/env.js#L49),
+ - Suggesting or adding features, fixing bugs, or releasing activities will help you to gain experience	Suggesting or adding features, fixing bugs, or releasing activities may help you to gain experience.
+
+Steps to take:
+1. [Setup a Development Environment](https://github.com/sugarlabs/sugar/blob/master/docs/development-environment.md)
+2. Fix all [issues](https://github.com/sugarlabs/sugar-web/issues) listed on the sugar-web repository
+3. Fix [sugar-web](https://github.com/sugarlabs/sugar-web) and make sure it works.
+4. Test some [Sugarizer activities](https://github.com/llaske/sugarizer/tree/dev/activities) on Sugar to make sure sugar-web is working.
+5. Investigate the current [Scratch 3.0 port](https://github.com/llaske/sugarizer/tree/dev/activities/Scratch.activity) on Sugarizer and play around it.
+6. Fix the user media permission request handing in [Browse](https://github.com/sugarlabs/browse-activity/issues/85) activity
+7. Get [Music Blocks](https://github.com/sugarlabs/musicblocks) working in Sugar Web
+8. Get [Scratch](https://github.com/LLK/scratch-gui) working in Sugar Web
+9. Make Scratch port as a native activity.
+10. Make Music Blocks port as a native activity
+
+
+
+**Expected Coding Mentors**<br>
+[James Cameron](https://github.com/quozl)
+[Iqra Mohammad](https://github.com/iqraceme)
+
+**Expected Assitant Mentors**<br>
+[Samson Goddy](https://github.com/samswag)
+
 
 ## Want to fill this place ? Make a PR with your idea!

@@ -127,7 +127,9 @@ Suggesting or adding features, fixing bugs, or releasing activities
 will help you to gain experience
 
 **Coding Mentors**<br>
-[Rahul Bothra](https://www.github.com/pro-panda), [James Cameron](https://www.github.com/quozl) and [Ibiam Chihurumnaya](https://www.github.com/chimosky).
+[Rahul Bothra](https://www.github.com/pro-panda),
+[James Cameron](https://www.github.com/quozl) and
+[Ibiam Chihurumnaya](https://www.github.com/chimosky).
 
 **Assisting Mentors**<br>
 None.
@@ -185,7 +187,7 @@ as well.
 [Caryl Bigenho](https://github.com/GrannieB),
 [Utkarsh Dhawan](https://github.com/crusher95),
 [Samson Goddy](https://github.com/samswag/),
-[Iqra Muhammad](https://github.com/iqraceme), and
+[Iqra Muhammad](https://github.com/iqraceme) and
 [Peace Ojemeh](https://github.com/perriefidelis).
 
 ------------
@@ -378,7 +380,7 @@ JavaScript as possible.
    code base. [Bug](https://github.com/sugarlabs/musicblocks/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+label%3Abug+)
 
 **Coding Mentors**<br>
-[Walter Bender](https://www.github.com/walterbender), and
+[Walter Bender](https://www.github.com/walterbender) and
 [Vaibhav Aren](https://github.com/vaibhavdaren)
 
 **Assisting Mentors**<br>
@@ -555,7 +557,7 @@ to take on any colors deemed suitable by the activity designer.
 [Rahul Bothra](https://github.com/pro-panda)
 
 **Assisting Mentors**<br>
-[Peace Ojemeh](https://github.com/perriefidelis)and
+[Peace Ojemeh](https://github.com/perriefidelis) and
 [Jaskirat Singh](https://github.com/jaskirat2000)
 
 ------------
@@ -659,7 +661,7 @@ Steps to take:
 
 
 **Expected Coding Mentors**<br>
-[James Cameron](https://github.com/quozl)
+[James Cameron](https://github.com/quozl) and
 [Iqra Mohammad](https://github.com/iqraceme)
 
 **Expected Assitant Mentors**<br>

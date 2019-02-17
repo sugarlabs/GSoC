@@ -185,7 +185,7 @@ as well.
 [Caryl Bigenho](https://github.com/GrannieB), 
 [Utkarsh Dhawan](https://github.com/crusher95), 
 [Samson Goddy](https://github.com/samswag/), 
-[Iqra Muhammad](https://github.com/iqraceme), and
+[Iqra Muhammad](https://github.com/iqraceme) and
 [Peace Ojemeh](https://github.com/perriefidelis).
 
 ------------
@@ -378,7 +378,7 @@ JavaScript as possible.
    code base. [Bug](https://github.com/sugarlabs/musicblocks/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+label%3Abug+)
 
 **Coding Mentors**<br>
-[Walter Bender](https://www.github.com/walterbender), and
+[Walter Bender](https://www.github.com/walterbender) and
 [Vaibhav Aren](https://github.com/vaibhavdaren)
 
 **Assisting Mentors**<br>
@@ -433,8 +433,8 @@ Technically speaking the Exerciser activity is wrote in Javascript using Sugar-W
 
 
 **Coding Mentors**<br>
-[Lionel Laské](https://www.github.com/llaske), 
-[Michaël Ohayon](https://github.com/mikklfr) and
+[Lionel Laské](https://www.github.com/llaske) and 
+[Michaël Ohayon](https://github.com/mikklfr) 
 
 **Assisting Mentors**<br>
 None.

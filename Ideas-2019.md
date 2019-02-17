@@ -182,9 +182,9 @@ as well.
  - for JavaScript activities, [Lionel Laské](https://www.github.com/llaske) (JavaScript),
 
 **Assisting Mentors**<br>
-[Caryl Bigenho](https://github.com/GrannieB), 
-[Utkarsh Dhawan](https://github.com/crusher95), 
-[Samson Goddy](https://github.com/samswag/), 
+[Caryl Bigenho](https://github.com/GrannieB),
+[Utkarsh Dhawan](https://github.com/crusher95),
+[Samson Goddy](https://github.com/samswag/),
 [Iqra Muhammad](https://github.com/iqraceme), and
 [Peace Ojemeh](https://github.com/perriefidelis).
 
@@ -331,7 +331,7 @@ rhythms. Step One is to come up with a design proposal.
    Label
 
 **Coding Mentors**<br>
-[Walter Bender](https://www.github.com/walterbender) and 
+[Walter Bender](https://www.github.com/walterbender) and
 [Devin Ulibarri](https://github.com/pikurasa)
 
 **Assisting Mentors**<br>
@@ -398,7 +398,7 @@ JavaScript as possible.
 - Experience with ReactJS framework development
 
 **Description**<br>
-Exerciser is a new Sugarizer activity in version 1.1 that allow users to create exercise and let other users play to this exercise. 
+Exerciser is a new Sugarizer activity in version 1.1 that allow users to create exercise and let other users play to this exercise.
 This activity propose different templates (multiple-choice question, reordering a list of items, cloze text) and an editor to customize questions.
 
 ![](assets/exerciser_1.png)
@@ -414,12 +414,12 @@ The Exerciser was requested by teachers from Sugarizer deployment in Saint-Ouen 
 **Project Task**<br>
 The objective of this project is to expand features of the Exerciser activity. More precisely, expected features are:
 
-- Allow user to integrate multimedia element (images, sounds, videos) for questions and answers. All multimedia elements will come from the Journal. 
+- Allow user to integrate multimedia element (images, sounds, videos) for questions and answers. All multimedia elements will come from the Journal.
 - Add new templates (matching pair, group assignment, free text input)
 - Improve result screen to view detail result on each answer for each user
 - Support access to a remote library of exercises.
 
-These improvements should keep the activity very simple so even a child should be able to create an exercise and share it. Like all Sugarizer activity, Exerciser activity should adopt the Sugar UI, be responsive (work on any screen size), work with the keyboard and with the mouse (to support touch screen), use journal and use localization. 
+These improvements should keep the activity very simple so even a child should be able to create an exercise and share it. Like all Sugarizer activity, Exerciser activity should adopt the Sugar UI, be responsive (work on any screen size), work with the keyboard and with the mouse (to support touch screen), use journal and use localization.
 
 Technically speaking the Exerciser activity is wrote in Javascript using Sugar-Web framework in ReactJS.
 
@@ -433,8 +433,8 @@ Technically speaking the Exerciser activity is wrote in Javascript using Sugar-W
 
 
 **Coding Mentors**<br>
-[Lionel Laské](https://www.github.com/llaske), 
-[Michaël Ohayon](https://github.com/mikklfr) and
+[Lionel Laské](https://www.github.com/llaske) and
+[Michaël Ohayon](https://github.com/mikklfr)
 
 **Assisting Mentors**<br>
 None.
@@ -463,8 +463,8 @@ The objective of this project is to rewrite an equivalent of Write activity in p
 
 This new Write activity should provide:
 
-- Text formatting on characters (font change, bold, italic, underline, foreground/background color, …) 
-- Text formatting on paragraphs (center, justify left or right, list, blockquote, …) 
+- Text formatting on characters (font change, bold, italic, underline, foreground/background color, …)
+- Text formatting on paragraphs (center, justify left or right, list, blockquote, …)
 - Embedded Images
 - Arrays
 - Export content to an easily editable/printable format (RTF/ODF, PDF)
@@ -495,7 +495,7 @@ As with other Sugarizer activities, the new Write activity should be written usi
 
 **Coding Mentors**<br>
 [Lionel Laské](https://www.github.com/llaske) and
-[Michaël Ohayon](https://github.com/mikklfr) 
+[Michaël Ohayon](https://github.com/mikklfr)
 
 **Assisting Mentors**<br>
 None.
@@ -555,7 +555,7 @@ to take on any colors deemed suitable by the activity designer.
 [Rahul Bothra](https://github.com/pro-panda)
 
 **Assisting Mentors**<br>
-[Peace Ojemeh](https://github.com/perriefidelis)and 
+[Peace Ojemeh](https://github.com/perriefidelis)and
 [Jaskirat Singh](https://github.com/jaskirat2000)
 
 ------------
@@ -589,7 +589,7 @@ The objective of this project is to expand features of the Sugarizer Dashboard. 
 	- Improve Classrooms UI: integrate user icon, sort by name, …
 	- Allow running on mobile (full responsive UI)
 	- Integrate a simple tutorial (inspired by the one in Sugarizer)
-	
+
 - Create a new teacher profile
 	- Update API to allow a new type of profile named "teacher" with view on its classrooms only
 	- Add screens to handle teacher profile
@@ -614,7 +614,7 @@ Technically speaking the Sugarizer Server is wrote in JavaScript with node.js us
 
 **Coding Mentors**<br>
 [Tarun singhal](https://github.com/tarunsinghal92) and
-[Lionel Laské](https://www.github.com/llaske) 
+[Lionel Laské](https://www.github.com/llaske)
 
 **Assisting Mentors**<br>
 None.
@@ -626,14 +626,14 @@ None.
 **Priority:** High
 
 **Prerequisites**<br>
- - Ability to write in programming languages like Python, GTK, JavaScript 
+ - Ability to write in programming languages like Python, GTK, JavaScript
 
 
 **Description**<br>
-The main aim of this project is to port [sugarizer activities](https://github.com/llaske/sugarizer/tree/dev/activities) back to Sugar Desktop.. Among these sugarizer activities, we also intend to Port Scratch and music blocks to Sugar Desktop. 
-[Scratch](https://scratch.mit.edu/) is a block based visual programming language for kids. Scratch 3.0 was created with HTML 5 using [Google’s blocky](https://developers.google.com/blockly/). Scratch 3.0 is an activity in Sugarizer, and can work offline. Scratch 3.0 works in the Browse activity in Sugar, but is online. 
+The main aim of this project is to port [sugarizer activities](https://github.com/llaske/sugarizer/tree/dev/activities) back to Sugar Desktop.. Among these sugarizer activities, we also intend to Port Scratch and music blocks to Sugar Desktop.
+[Scratch](https://scratch.mit.edu/) is a block based visual programming language for kids. Scratch 3.0 was created with HTML 5 using [Google’s blocky](https://developers.google.com/blockly/). Scratch 3.0 is an activity in Sugarizer, and can work offline. Scratch 3.0 works in the Browse activity in Sugar, but is online.
 
--We expect the [Sugarizer Scratch activity](https://github.com/llaske/sugarizer/tree/dev/activities/Scratch.activity) to be used.  This was ported by [Emily Ong](https://github.com/EmilyOng/Scratch.activity) and has been improved since by [Lionel Llaske](https://github.com/llaske).  Also needed may be the latest version of [Scratch 3.0](https://github.com/LLK/scratch-gui).
+-We expect the [Sugarizer Scratch activity](https://github.com/llaske/sugarizer/tree/dev/activities/Scratch.activity) to be used.  This was ported by [Emily Ong](https://github.com/EmilyOng/Scratch.activity) and has been improved since by [Lionel Laské](https://github.com/llaske).  Also needed may be the latest version of [Scratch 3.0](https://github.com/LLK/scratch-gui).
 
  -We expect the [Sugar web activity library `sugar-web`](https://github.com/sugarlabs/sugar-web) will need fixes backported from Sugarizer.
 
@@ -646,7 +646,7 @@ Suggested issues to work on:
 
 Steps to take:
 1. [Setup a Development Environment](https://github.com/sugarlabs/sugar/blob/master/docs/development-environment.md)
-2. Fix all [issues](https://github.com/sugarlabs/sugar-web/issues) listed on the sugar-web repository 
+2. Fix all [issues](https://github.com/sugarlabs/sugar-web/issues) listed on the sugar-web repository
 3. Fix [sugar-web](https://github.com/sugarlabs/sugar-web) and make sure it works.
 4. Test some [Sugarizer activities](https://github.com/llaske/sugarizer/tree/dev/activities) on Sugar to make sure sugar-web is working.
 5. Investigate the current [Scratch 3.0 port](https://github.com/llaske/sugarizer/tree/dev/activities/Scratch.activity) on Sugarizer and play around it.

@@ -664,7 +664,7 @@ Steps to take:
 [James Cameron](https://github.com/quozl) and
 [Iqra Mohammad](https://github.com/iqraceme)
 
-**Expected Assitant Mentors**<br>
+**Expected Assistant Mentors**<br>
 [Samson Goddy](https://github.com/samswag)
 
 ------------
@@ -674,10 +674,10 @@ Steps to take:
 **Priority:** Medium
 
 **Prerequisites**<br>
-- Extensive experience with Python3 and GTK3
-- Experience with Sugar activities
-- Experience with user-interface design 
-- Experience with user-experience design
+- Extensive experience with Python and GTK
+- Demonstrable skill in coding/bug fixing Sugar activities
+- Demonstrable skill with user-interface design 
+- Demonstrable skill with data visualizarion
 
 **Description**
 
@@ -701,21 +701,21 @@ integration of the Portfolio activity functionality and integration of
 the dashboards described above.
 
 The work involved in this project would be:
-- Work with the design team to come up with new user flow design for the apps
+- Work with Perrie and Walter to come up with flow design for the dashboard
 - Identify potential places for improvement on Journal 
 - Identify useful features to highlight in a dashboard (also in consultation with the pedagogy team)
 - Identify useful system-status information for the “Tamagotchi” display
 - Write the code (Python) to implement these designs
 
 Suggested Issues to work on:
-- Fixing issues in activities
-- Adding new features in activities
-- Creating new activities
+- Fixing issues in Python activities
+- Adding new features in Python activities
+- Creating new Python activities
 
-**Expected Mentors:**
+**Expected Coding Mentors:**
 [Walter Bender](https://www.github.com/walterbender)
 
-**Expected Design Mentors**<br>
-[Ojemeh Peace](https://www.githib.com/perriefidelis)
+**Expected Assistant Mentors**<br>
+[Ojemeh (Perrie) Peace](https://www.githib.com/perriefidelis)
 
 ## Want to fill this place ? Make a PR with your idea!

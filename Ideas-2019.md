@@ -667,5 +667,55 @@ Steps to take:
 **Expected Assitant Mentors**<br>
 [Samson Goddy](https://github.com/samswag)
 
+------------
+
+## Create a Sugar Dashboard 
+
+**Priority:** Medium
+
+**Prerequisites**<br>
+- Extensive experience with Python3 and GTK3
+- Experience with Sugar activities
+- Experience with user-interface design 
+- Experience with user-experience design
+
+**Description**
+
+Dashboards - This involves developing an app that provides at-a-glance
+views of key performance indicators relevant to Sugar users, more like
+a heatmap of the user’s progress (e.g last activity worked on, last
+project opened etc.)
+
+“Tamagotchi” - This involve designing a widget that can substitute for
+the XO in the center of the screen that gives the user an overall
+health condition of your computer e.g battery status, available disk
+space, etc. It would provide an at-a-glance indication of machine
+status without having to go to the control panels or the
+Frame. Ideally it would still look like the XO, but have some
+personality.
+
+Journal - An app that does what the Journal does but is also able to
+be extended by the end user (It is relatively easy for an end user to
+modify an app compared to the Sugar desktop.) Features might include
+integration of the Portfolio activity functionality and integration of
+the dashboards described above.
+
+The work involved in this project would be:
+- Work with the design team to come up with new user flow design for the apps
+- Identify potential places for improvement on Journal 
+- Identify useful features to highlight in a dashboard (also in consultation with the pedagogy team)
+- Identify useful system-status information for the “Tamagotchi” display
+- Write the code (Python) to implement these designs
+
+Suggested Issues to work on:
+- Fixing issues in activities
+- Adding new features in activities
+- Creating new activities
+
+**Expected Mentors:**
+[Walter Bender](https://www.github.com/walterbender)
+
+**Expected Design Mentors**<br>
+[Ojemeh Peace](https://www.githib.com/perriefidelis)
 
 ## Want to fill this place ? Make a PR with your idea!

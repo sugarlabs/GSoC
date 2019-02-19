@@ -681,12 +681,12 @@ Steps to take:
 
 **Description**
 
-Dashboards - This involves developing an app that provides at-a-glance
+Dashboard - This involves developing an app that provides at-a-glance
 views of key performance indicators relevant to Sugar users, more like
 a heatmap of the user’s progress (e.g last activity worked on, last
 project opened etc.)
 
-“Tamagotchi” - This involve designing a widget that can substitute for
+“Tamagotchi” - This involves designing a widget that can substitute for
 the XO in the center of the screen that gives the user an overall
 health condition of your computer e.g battery status, available disk
 space, etc. It would provide an at-a-glance indication of machine
@@ -701,7 +701,7 @@ integration of the Portfolio activity functionality and integration of
 the dashboards described above.
 
 The work involved in this project would be:
-- Work with Perrie and Walter to come up with flow design for the dashboard
+- Work with mentors to come up with flow design for the dashboard
 - Identify potential places for improvement on Journal 
 - Identify useful features to highlight in a dashboard
 - Identify useful system-status information for the “Tamagotchi” display
@@ -713,7 +713,8 @@ Suggested Issues to work on:
 - Creating new Python activities
 
 **Coding Mentors:**
-[Walter Bender](https://www.github.com/walterbender)
+[Walter Bender](https://www.github.com/walterbender) and
+[Rahul Bothra](https://www.github.com/pro-panda)
 
 **Assistant Mentors**<br>
 [Ojemeh (Perrie) Peace](https://www.githib.com/perriefidelis)

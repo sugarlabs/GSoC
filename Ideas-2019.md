@@ -703,7 +703,7 @@ the dashboards described above.
 The work involved in this project would be:
 - Work with Perrie and Walter to come up with flow design for the dashboard
 - Identify potential places for improvement on Journal 
-- Identify useful features to highlight in a dashboard (also in consultation with the pedagogy team)
+- Identify useful features to highlight in a dashboard
 - Identify useful system-status information for the “Tamagotchi” display
 - Write the code (Python) to implement these designs
 
@@ -712,10 +712,10 @@ Suggested Issues to work on:
 - Adding new features in Python activities
 - Creating new Python activities
 
-**Expected Coding Mentors:**
+**Coding Mentors:**
 [Walter Bender](https://www.github.com/walterbender)
 
-**Expected Assistant Mentors**<br>
+**Assistant Mentors**<br>
 [Ojemeh (Perrie) Peace](https://www.githib.com/perriefidelis)
 
 ## Want to fill this place ? Make a PR with your idea!

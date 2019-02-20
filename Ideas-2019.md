@@ -615,7 +615,7 @@ Technically speaking the Sugarizer Server is wrote in JavaScript with node.js us
 - Study the [source code](https://github.com/llaske/sugarizer-server/tree/dev/dashboard) of dashboard, try to fix bug, propose improvement or start to implement improvement suggested here.
 
 **Coding Mentors**<br>
-[Tarun singhal](https://github.com/tarunsinghal92) and
+[Tarun K. Singhal](https://github.com/tarunsinghal92) and
 [Lionel Laské](https://www.github.com/llaske)
 
 **Assisting Mentors**<br>
@@ -717,6 +717,6 @@ Suggested Issues to work on:
 [Rahul Bothra](https://www.github.com/pro-panda)
 
 **Assistant Mentors**<br>
-[Ojemeh (Perrie) Peace](https://www.githib.com/perriefidelis)
+[Peace Ojemeh](https://www.github.com/perriefidelis)
 
 ## Want to fill this place ? Make a PR with your idea!

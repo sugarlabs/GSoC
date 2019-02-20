@@ -380,8 +380,8 @@ JavaScript as possible.
    code base. [Bug](https://github.com/sugarlabs/musicblocks/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+label%3Abug+)
 
 **Coding Mentors**<br>
-[Walter Bender](https://www.github.com/walterbender) and
-[Vaibhav Aren](https://github.com/vaibhavdaren)
+[Vaibhav Aren](https://github.com/vaibhavdaren) and
+[Walter Bender](https://www.github.com/walterbender)
 
 **Assisting Mentors**<br>
 [Jaskirat Singh](https://github.com/jaskirat2000),

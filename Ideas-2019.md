@@ -46,7 +46,7 @@ explore other issues as well.
  - Experience with Python
  - Experience with porting telepathy bindings
  - Strong experience with
-   [Sugar Desktop](https://www.github.com/sugarlabs/sugar) and activities
+   [Sugar Desktop](https://github.com/sugarlabs/sugar) and activities
 
 **Description**<br>
 Sugar runs on Python 2. Support for Python 2 is being withdrawn fast
@@ -76,8 +76,8 @@ _(in chronological order)_
  - Port all fructose activities to Python 3
 
 **Coding Mentors**<br>
-[Rahul Bothra](https://www.github.com/pro-panda) and
-[James Cameron](https://www.github.com/quozl)
+[Rahul Bothra](https://github.com/pro-panda) and
+[James Cameron](https://github.com/quozl)
 
 **Assisting Mentors**<br>
 None.
@@ -127,9 +127,9 @@ Suggesting or adding features, fixing bugs, or releasing activities
 will help you to gain experience
 
 **Coding Mentors**<br>
-[Rahul Bothra](https://www.github.com/pro-panda),
-[James Cameron](https://www.github.com/quozl) and
-[Ibiam Chihurumnaya](https://www.github.com/chimosky).
+[Rahul Bothra](https://github.com/pro-panda),
+[James Cameron](https://github.com/quozl) and
+[Ibiam Chihurumnaya](https://github.com/chimosky).
 
 **Assisting Mentors**<br>
 None.
@@ -180,8 +180,8 @@ as well.
 
 **Coding Mentors**<br>
 
- - for Python activities, [Rahul Bothra](https://www.github.com/pro-panda), [James Cameron](https://www.github.com/quozl) and [Ibiam Chihurumnaya](https://www.github.com/chimosky),
- - for JavaScript activities, [Lionel Laské](https://www.github.com/llaske) (JavaScript),
+ - for Python activities, [Rahul Bothra](https://github.com/pro-panda), [James Cameron](https://github.com/quozl) and [Ibiam Chihurumnaya](https://github.com/chimosky),
+ - for JavaScript activities, [Lionel Laské](https://github.com/llaske) (JavaScript),
 
 **Assisting Mentors**<br>
 [Caryl Bigenho](https://github.com/GrannieB),
@@ -199,8 +199,8 @@ as well.
  - Extensive experience with JavaScript
  - Experience with Travis CI (and/or other test environments for JavaScript)
  - Some experience of working on [Music
-   Blocks](https://www.github.com/sugarlabs/musicblocks) or [Turtle
-   Blocks](https://www.github.com/sugarlabs/turtleblocksjs)
+   Blocks](https://github.com/sugarlabs/musicblocks) or [Turtle
+   Blocks](https://github.com/sugarlabs/turtleblocksjs)
 
 **Description**<br>
 
@@ -225,11 +225,11 @@ enhance performance.
    Label
 
 **Coding Mentors**<br>
-[Walter Bender](https://www.github.com/walterbender)
+[Walter Bender](https://github.com/walterbender)
 
 **Assisting Mentors**<br>
-[Sumit Srivastava](https://www.github.com/sum2it) and
-[Devin Ulibarri](https://www.github.com/pikurasa)
+[Sumit Srivastava](https://github.com/sum2it) and
+[Devin Ulibarri](https://github.com/pikurasa)
 
 ------------
 
@@ -240,8 +240,8 @@ enhance performance.
  - Extensive experience with JavaScript
  - Experience with Travis CI (and/or other test environments for JavaScript)
  - Some experience of working on [Music
-   Blocks](https://www.github.com/sugarlabs/musicblocks) or [Turtle
-   Blocks](https://www.github.com/sugarlabs/turtleblocksjs)
+   Blocks](https://github.com/sugarlabs/musicblocks) or [Turtle
+   Blocks](https://github.com/sugarlabs/turtleblocksjs)
 
 **Description**<br>
 
@@ -282,11 +282,11 @@ or [Firefox](https://github.com/sugarlabs/musicblocks/labels/Firefox)
 Label
 
 **Coding Mentors**<br>
-[Walter Bender](https://www.github.com/walterbender)
+[Walter Bender](https://github.com/walterbender)
 
 **Assisting Mentors**<br>
 [Jaskirat Singh](https://github.com/jaskirat2000) and
-[Sumit Srivastava](https://www.github.com/sum2it)
+[Sumit Srivastava](https://github.com/sum2it)
 
 ------------
 
@@ -297,8 +297,8 @@ Label
  - Experience with JavaScript
  - Some UX experience
  - Some experience of working on [Music
-   Blocks](https://www.github.com/sugarlabs/musicblocks) or [Turtle
-   Blocks](https://www.github.com/sugarlabs/turtleblocksjs)
+   Blocks](https://github.com/sugarlabs/musicblocks) or [Turtle
+   Blocks](https://github.com/sugarlabs/turtleblocksjs)
 
 **Description**<br>
 
@@ -333,11 +333,11 @@ rhythms. Step One is to come up with a design proposal.
    Label
 
 **Coding Mentors**<br>
-[Walter Bender](https://www.github.com/walterbender) and
+[Walter Bender](https://github.com/walterbender) and
 [Devin Ulibarri](https://github.com/pikurasa)
 
 **Assisting Mentors**<br>
-[Sumit Srivastava](https://www.github.com/sum2it)
+[Sumit Srivastava](https://github.com/sum2it)
 
 ------------
 
@@ -347,8 +347,8 @@ rhythms. Step One is to come up with a design proposal.
 **Prerequisites**<br>
  - Experience with JavaScript
  - Some experience of working on [Music
-   Blocks](https://www.github.com/sugarlabs/musicblocks) or [Turtle
-   Blocks](https://www.github.com/sugarlabs/turtleblocksjs)
+   Blocks](https://github.com/sugarlabs/musicblocks) or [Turtle
+   Blocks](https://github.com/sugarlabs/turtleblocksjs)
 
 **Description**<br>
 
@@ -356,7 +356,7 @@ Music Blocks is written in JavaScript and runs in a web browser. User
 create programs in a snap-together block language which is inspired by
 Logo. Music Blocks is a fork of Turtle Blocks JS, which is turn is a
 derivative of [Turtle
-Blocks](https://www.github.com/sugarlabs/turtleblocks), which is
+Blocks](https://github.com/sugarlabs/turtleblocks), which is
 written in Python.
 
 One feature of the Python code is the ability to export to Python. In
@@ -381,11 +381,11 @@ JavaScript as possible.
 
 **Coding Mentors**<br>
 [Vaibhav Aren](https://github.com/vaibhavdaren) and
-[Walter Bender](https://www.github.com/walterbender)
+[Walter Bender](https://github.com/walterbender)
 
 **Assisting Mentors**<br>
 [Jaskirat Singh](https://github.com/jaskirat2000),
-[Sumit Srivastava](https://www.github.com/sum2it), and
+[Sumit Srivastava](https://github.com/sum2it), and
 [Devin Ulibarri](https://github.com/pikurasa).
 
 ------------
@@ -435,7 +435,7 @@ Technically speaking the Exerciser activity is wrote in Javascript using Sugar-W
 
 
 **Coding Mentors**<br>
-[Lionel Laské](https://www.github.com/llaske) and
+[Lionel Laské](https://github.com/llaske) and
 [Michaël Ohayon](https://github.com/mikklfr)
 
 **Assisting Mentors**<br>
@@ -496,7 +496,7 @@ As with other Sugarizer activities, the new Write activity should be written usi
 
 
 **Coding Mentors**<br>
-[Lionel Laské](https://www.github.com/llaske) and
+[Lionel Laské](https://github.com/llaske) and
 [Michaël Ohayon](https://github.com/mikklfr)
 
 **Assisting Mentors**<br>
@@ -553,7 +553,7 @@ to take on any colors deemed suitable by the activity designer.
    code base.
 
 **Coding Mentors**<br>
-[Walter Bender](https://www.github.com/walterbender) and
+[Walter Bender](https://github.com/walterbender) and
 [Rahul Bothra](https://github.com/pro-panda)
 
 **Assisting Mentors**<br>
@@ -616,7 +616,7 @@ Technically speaking the Sugarizer Server is wrote in JavaScript with node.js us
 
 **Coding Mentors**<br>
 [Tarun K. Singhal](https://github.com/tarunsinghal92) and
-[Lionel Laské](https://www.github.com/llaske)
+[Lionel Laské](https://github.com/llaske)
 
 **Assisting Mentors**<br>
 None.
@@ -713,10 +713,10 @@ Suggested Issues to work on:
 - Creating new Python activities
 
 **Coding Mentors:**
-[Walter Bender](https://www.github.com/walterbender) and
-[Rahul Bothra](https://www.github.com/pro-panda)
+[Walter Bender](https://github.com/walterbender) and
+[Rahul Bothra](https://github.com/pro-panda)
 
 **Assistant Mentors**<br>
-[Peace Ojemeh](https://www.github.com/perriefidelis)
+[Peace Ojemeh](https://github.com/perriefidelis)
 
 ## Want to fill this place ? Make a PR with your idea!

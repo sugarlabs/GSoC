@@ -660,23 +660,23 @@ Steps to take:
 
 
 
-**Expected Coding Mentors**<br>
+**Coding Mentors**<br>
 [James Cameron](https://github.com/quozl) and
 [Iqra Mohammad](https://github.com/iqraceme)
 
-**Expected Assistant Mentors**<br>
+**Assistant Mentors**<br>
 [Samson Goddy](https://github.com/samswag)
 
 ------------
 
-## Create a Sugar Dashboard 
+## Create a Sugar Dashboard
 
 **Priority:** Medium
 
 **Prerequisites**<br>
 - Extensive experience with Python and GTK
 - Demonstrable skill in coding/bug fixing Sugar activities
-- Demonstrable skill with user-interface design 
+- Demonstrable skill with user-interface design
 - Demonstrable skill with data visualizarion
 
 **Description**
@@ -702,7 +702,7 @@ the dashboards described above.
 
 The work involved in this project would be:
 - Work with mentors to come up with flow design for the dashboard
-- Identify potential places for improvement on Journal 
+- Identify potential places for improvement on Journal
 - Identify useful features to highlight in a dashboard
 - Identify useful system-status information for the “Tamagotchi” display
 - Write the code (Python) to implement these designs

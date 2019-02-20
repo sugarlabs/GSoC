@@ -187,8 +187,9 @@ as well.
 [Caryl Bigenho](https://github.com/GrannieB),
 [Utkarsh Dhawan](https://github.com/crusher95),
 [Samson Goddy](https://github.com/samswag/),
-[Iqra Muhammad](https://github.com/iqraceme) and
-[Peace Ojemeh](https://github.com/perriefidelis).
+[Iqra Muhammad](https://github.com/iqraceme),
+[Peace Ojemeh](https://github.com/perriefidelis) and 
+[Pratul Kumar](https://github.com/Pratul1997).
 
 ------------
 
@@ -619,7 +620,7 @@ Technically speaking the Sugarizer Server is wrote in JavaScript with node.js us
 [Lionel Laské](https://www.github.com/llaske)
 
 **Assisting Mentors**<br>
-None.
+[Pratul1997](https://www.github.com/Pratul1997)
 
 ------------
 
@@ -664,7 +665,7 @@ Steps to take:
 [James Cameron](https://github.com/quozl) and
 [Iqra Mohammad](https://github.com/iqraceme)
 
-**Expected Assitant Mentors**<br>
+**Expected Assistant Mentors**<br>
 [Samson Goddy](https://github.com/samswag)
 
 

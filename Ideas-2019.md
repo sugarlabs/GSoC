@@ -4,7 +4,6 @@ If you have any ideas which can be useful to us, but are not in the
 list, we'd love to hear from you.  You need not be a potential
 student or a mentor to suggest ideas.
 
-
 ## Criteria for Ideas
 1. Does it fill an empty pedagogy niche in the activity set for Sugar
    or Sugarizer,

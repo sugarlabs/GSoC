@@ -4,6 +4,7 @@ If you have any ideas which can be useful to us, but are not in the
 list, we'd love to hear from you.  You need not be a potential
 student or a mentor to suggest ideas.
 
+
 ## Criteria for Ideas
 1. Does it fill an empty pedagogy niche in the activity set for Sugar
    or Sugarizer,
@@ -36,6 +37,23 @@ These will help you to get familiar with the project.  The more you
 work on these issues, the more experienced you will be for the
 project.  However, this is not a strict list.  You _should_ try and
 explore other issues as well.
+
+## Ideas Quick Reference 
+| Idea                                                                                                            | Priority |
+| --------------------------------------------------------------------------------------------------------------- | -------- |
+| [Port Sugar and core activities to Python 3](#port-sugar-and-core-activities-to-python-3)                       | High     |
+| [Improve and maintain 25 Sugar activities](#improve-and-maintain-25-sugar-activities)                           | Moderate |
+| [Create a new set of activities](#create-a-new-set-of-activities)                                               | Moderate |
+| [Performance in Music Blocks](#performance-in-music-blocks)                                                     | High     |
+| [Platforms for Music Blocks](#platforms-for-music-blocks)                                                       | High     |
+| [Reconciling rhythm with pitch in Music Blocks widgets](#reconciling-rhythm-with-pitch-in-music-blocks-widgets) | Moderate |
+| [Export Music Blocks code to JavaScript](#export-music-blocks-code-to-javascript)                               | Moderate |
+| [Expand Sugarizer Exerciser activity](#expand-sugarizer-exerciser-activity)                                     | High     |
+| [Write activity for Sugarizer](#write-activity-for-sugarizer)                                                   | Moderate |
+| [Colored desktop and activity icons](#colored-desktop-and-activity-icons)                                       | Moderate |
+| [Improve Sugarizer Server Dashboard](#improve-sugarizer-server-dashboard)                                       | High     |
+| [Port Sugarizer activities to Sugar](#port-sugarizer-activities-to-sugar)                                       | High     |
+| [Create a Sugar Dashboard](#create-a-sugar-dashboard)                                                           | Medium   |
 
 ------------
 

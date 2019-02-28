@@ -501,7 +501,7 @@ As with other Sugarizer activities, the new Write activity should be written usi
 [Michaël Ohayon](https://github.com/mikklfr)
 
 **Assisting Mentors**<br>
-None.
+[Ritwik Agarwal](https://github.com/ritwikagarwal)
 
 ## Colored desktop and activity icons
 **Priority:** Moderate
@@ -617,7 +617,8 @@ Technically speaking the Sugarizer Server is wrote in JavaScript with node.js us
 
 **Coding Mentors**<br>
 [Tarun K. Singhal](https://github.com/tarunsinghal92) and
-[Lionel Laské](https://github.com/llaske)
+[Lionel Laské](https://github.com/llaske) and
+[Ritwik Agarwal](https://github.com/ritwikagarwal)
 
 **Assisting Mentors**<br>
 [Pratul Kumar](https://github.com/Pratul1997)

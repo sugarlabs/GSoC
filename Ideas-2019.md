@@ -617,7 +617,7 @@ Technically speaking the Sugarizer Server is wrote in JavaScript with node.js us
 
 **Coding Mentors**<br>
 [Tarun K. Singhal](https://github.com/tarunsinghal92) and
-[Lionel Laské](https://github.com/llaske) 
+[Lionel Laské](https://github.com/llaske)
 
 **Assisting Mentors**<br>
 [Pratul Kumar](https://github.com/Pratul1997)

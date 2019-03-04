@@ -501,7 +501,7 @@ As with other Sugarizer activities, the new Write activity should be written usi
 [Michaël Ohayon](https://github.com/mikklfr)
 
 **Assisting Mentors**<br>
-None.
+[Ritwik Agarwal](https://github.com/ritwikagarwal)
 
 ## Colored desktop and activity icons
 **Priority:** Moderate

@@ -43,7 +43,7 @@ _mentor_ is obliged to respond when a student has a question, even if
 the answer is "I don't know."
 
 When a _mentor_ receives a question for which the best forum is
-_everyone else_, then they are to repectively redirect the student to
+_everyone else_, then they are to respectively redirect the student to
 ask _everyone else_.  See
 [Be flexible](https://github.com/sugarlabs/sugar-docs/blob/master/src/CODE_OF_CONDUCT.md#be-flexible)
 and

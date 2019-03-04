@@ -718,6 +718,7 @@ Suggested Issues to work on:
 [Rahul Bothra](https://github.com/pro-panda)
 
 **Assistant Mentors**<br>
-[Peace Ojemeh](https://github.com/perriefidelis)
+[Peace Ojemeh](https://github.com/perriefidelis) and
+[Jaskirat Singh](https://github.com/jaskirat2000)
 
 ## Want to fill this place ? Make a PR with your idea!

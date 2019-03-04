@@ -35,6 +35,21 @@ project_.
 
 Mentors for a project will be assigned after proposals are received.
 
+## Everyone Else
+Everyone else in Sugar Labs may also be involved with these projects, through mailing lists, Wiki, and GitHub.
+
+The difference between a _mentor_ and _everyone else_, is that a
+_mentor_ is obliged to respond when a student has a question, even if
+the answer is "I don't know."
+
+When a _mentor_ receives a question for which the best forum is
+_everyone else_, then they are to repectively redirect the student to
+ask _everyone else_.  See
+[Be flexible](https://github.com/sugarlabs/sugar-docs/blob/master/src/CODE_OF_CONDUCT.md#be-flexible)
+and
+[When you are unsure, ask for help](https://github.com/sugarlabs/sugar-docs/blob/master/src/CODE_OF_CONDUCT.md#when-you-are-unsure-ask-for-help)
+in our Code of Conduct.
+
 ## Suggested Issues
 
 For some ideas, there is a list of 'Suggested issues to work on'.

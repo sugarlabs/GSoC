@@ -16,18 +16,24 @@ student or a mentor to suggest ideas.
    student is not selected; these are shown as a _coding mentor_,
 
 ## Coding Mentors
-We must have one or more _coding mentors_ willing and able to assist
-students with coding questions.
+For each idea, we must have offers from one or more _coding mentors_
+willing and able to assist students with coding questions.
 
 Requirements for a _coding mentor_ are a demonstrated coding ability
 in the form of contributions of code to Sugar Labs.
 
-## Assisting Mentors
-We also have some mentors _who do not code_ willing to assist students
-in various other ways, such as gathering requirements, visual design,
-testing, and deployment; these are shown as an _assisting mentor_.
+Mentors for a project will be assigned after proposals are received.
 
-The only requirement for an _assisting mentor_ is _knowledge of the project_.
+## Assisting Mentors
+For each idea, we may have offers from mentors _who do not code_
+willing to assist students in various other ways, such as gathering
+requirements, visual design, testing, and deployment; these are shown
+as an _assisting mentor_.
+
+The only requirement for an _assisting mentor_ is _knowledge of the
+project_.
+
+Mentors for a project will be assigned after proposals are received.
 
 ## Suggested Issues
 

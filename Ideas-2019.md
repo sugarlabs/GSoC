@@ -777,7 +777,7 @@ _(in chronological order)_
   - Coordinate testing, receive reports, and fix bugs.
 
 **Coding Mentors**<br>
-[James Cameron](https://github.com/quozl)
+[James Cameron](https://github.com/quozl) (disclosure; James works for One Laptop per Child, a non-profit supplying laptops with Bluetooth)
 
 **Assisting Mentors**<br>
 None.

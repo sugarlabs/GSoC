@@ -742,4 +742,44 @@ Suggested Issues to work on:
 [Peace Ojemeh](https://github.com/perriefidelis) and
 [Jaskirat Singh](https://github.com/jaskirat2000)
 
+------------
+
+## Add Bluetooth support to Sugar
+
+**Prerequisites**<br>
+ - One or more spare systems with a Bluetooth host controller interface,
+ - Bluetooth devices including keyboard, mouse, speakers, and headset,
+ - Experience with Python, DBus, GNOME, and device access bindings provided by [PyGObject](https://lazka.github.io/pgi-docs/),
+
+**Description**<br>
+[Sugar](https://github.com/sugarlabs/sugar) requires a wired keyboard and mouse.  Sugar is a desktop shell.  Bluetooth is available in other desktop shells, the most notable are [GNOME](https://gnome.org/) and [KDE](https://kde.org/).  Let's add Bluetooth support to Sugar.
+
+There are two user experiences to consider;
+
+  - searching for, pairing, and unpairing, with the [_My Settings_](https://help.sugarlabs.org/en/my_settings.html) or control panel in Sugar,
+
+  - indicating status with the device icons in the [_Frame_](https://help.sugarlabs.org/en/frame.html).
+
+You must have one or more notebook, laptop or desktop computers on which you will run Sugar _natively_, without using virtual machines.  They will be needed for the duration of the project.  This is critical, because that's how Sugar is intended to be run on systems with Bluetooth.
+
+You should have a collection of Bluetooth devices you can use to test with.  Sharing your devices with other people, or your main computer, will slow you down.  You might buy second-hand devices and sell them after the project.
+
+**Project Task Checklist**<br>
+_(in chronological order)_
+  - Define requirements (secure pairing with keyboards and mice, pairing with speakers and headsets, unpairing),
+  - Define acceptance criteria (successful use of devices on Fedora 30 and Ubuntu 18.04),
+  - Reverse engineer GNOME or KDE Bluetooth user service applications or applets,
+  - Evaluate license compatibility,
+  - Add _My Settings_ control panel for Bluetooth, showing scanned devices, offering to pair, and unpair,
+  - Add _Frame_ icons for paired devices,
+  - Change _Help_ activity user documentation,
+  - Release changes for testing by other developers,
+  - Coordinate testing, receive reports, and fix bugs.
+
+**Coding Mentors**<br>
+[James Cameron](https://github.com/quozl)
+
+**Assisting Mentors**<br>
+None.
+
 ## Want to fill this place ? Make a PR with your idea!

@@ -49,7 +49,9 @@ We use `#sugar` and `#sugar-meeting` channels on
 [sugar-devel@](http://lists.sugarlabs.org/listinfo/sugar-devel)
 mailing list for communication. You can join our IRC channels
 and mailing list to participate in the discussions and asking
-for help.
+for help. **Do not contact individual mentors / developers
+privately, asking for help.** See
+[Community etiquette](https://github.com/sugarlabs/GSoC#community-etiquette)
 
 ## How to Contribute
 

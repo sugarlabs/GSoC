@@ -209,7 +209,7 @@ as well.
 [Utkarsh Dhawan](https://github.com/crusher95),
 [Samson Goddy](https://github.com/samswag/),
 [Iqra Muhammad](https://github.com/iqraceme),
-[Peace Ojemeh](https://github.com/perriefidelis) and 
+[Peace Ojemeh](https://github.com/perriefidelis) and
 [Pratul Kumar](https://github.com/Pratul1997).
 
 ------------
@@ -452,7 +452,7 @@ Technically speaking the Exerciser activity is wrote in Javascript using Sugar-W
 - Play with the Exerciser activity
 - Complete the [Sugarizer activity development tutorial](https://github.com/llaske/sugarizer/blob/dev/docs/tutorial.md)
 - Study the [source code](https://github.com/llaske/ExerciserReact) of the Exerciser activity, try to fix bug or propose improvement
-- Study integration of Journal in an activity by looking source code of ([Paint](https://github.com/llaske/sugarizer/tree/dev/activities/Paint.activity), [Memorize](https://github.com/llaske/sugarizer/tree/dev/activities/Memorize.activity) or [Fototoon](https://github.com/llaske/sugarizer/tree/dev/activities/Fototoon.activity) activity)
+- Study integration of Journal in an activity by looking source code of ([Paint](https://github.com/llaske/sugarizer/tree/dev/activities/Paint.activity), [Memorize](https://github.com/llaske/sugarizer/tree/dev/activities/Memorize.activity) or [Fototoon](https://github.com/llaske/sugarizer/tree/dev/activities/Fototoon.activity) activity) and doing [Tutorial step 7](https://github.com/llaske/sugarizer/blob/dev/docs/tutorial_step7.md)
 
 
 
@@ -518,11 +518,11 @@ As with other Sugarizer activities, the new Write activity should be written usi
 
 
 **Coding Mentors**<br>
-[Lionel Laské](https://github.com/llaske) and
-[Michaël Ohayon](https://github.com/mikklfr)
+[Michaël Ohayon](https://github.com/mikklfr) and [Lionel Laské](https://github.com/llaske)
+
 
 **Assisting Mentors**<br>
-[Ritwik Agarwal](https://github.com/ritwikagarwal)
+None
 
 ## Colored desktop and activity icons
 **Priority:** Moderate

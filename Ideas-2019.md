@@ -61,8 +61,6 @@ explore other issues as well.
 ------------
 
 ## Port Sugar and core activities to Python 3
-**Priority:** High
-
 **Prerequisites**<br>
  - Experience with Python
  - Experience with porting telepathy bindings
@@ -106,8 +104,6 @@ None.
 ------------
 
 ## Improve and maintain 25 Sugar activities
-**Priority:** Moderate
-
 **Prerequisites**<br>
  - Experience with Python
  - Strong experience with Sugar activities
@@ -158,8 +154,6 @@ None.
 ------------
 
 ## Create a new set of activities
-**Priority:** Moderate
-
 **Prerequisites**<br>
  - Ability to write in Python programming language (for Sugar activities), or
  - Ability to write in JavaScript programming language (for Sugarizer activities).
@@ -215,8 +209,6 @@ as well.
 ------------
 
 ## Performance in Music Blocks
-**Priority:** High
-
 **Prerequisites**<br>
  - Extensive experience with JavaScript
  - Experience with Travis CI (and/or other test environments for JavaScript)
@@ -256,8 +248,6 @@ enhance performance.
 ------------
 
 ## Platforms for Music Blocks
-**Priority:** High
-
 **Prerequisites**<br>
  - Extensive experience with JavaScript
  - Experience with Travis CI (and/or other test environments for JavaScript)
@@ -313,8 +303,6 @@ Label
 ------------
 
 ## Reconciling rhythm with pitch in Music Blocks widgets
-**Priority:** Moderate
-
 **Prerequisites**<br>
  - Experience with JavaScript
  - Some UX experience
@@ -364,8 +352,6 @@ rhythms. Step One is to come up with a design proposal.
 ------------
 
 ## Export Music Blocks code to JavaScript
-**Priority:** Moderate
-
 **Prerequisites**<br>
  - Experience with JavaScript
  - Some experience of working on [Music
@@ -414,8 +400,6 @@ JavaScript as possible.
 
 
 ## Expand Sugarizer Exerciser activity
-**Priority:** High
-
 **Prerequisites**<br>
 
 - Experience with JavaScript/HTML5 development
@@ -467,8 +451,6 @@ None.
 
 
 ## Write activity for Sugarizer
-**Priority:** Moderate
-
 **Prerequisites**<br>
 
 - Experience with JavaScript/HTML5 development
@@ -525,8 +507,6 @@ As with other Sugarizer activities, the new Write activity should be written usi
 [Ritwik Agarwal](https://github.com/ritwikagarwal)
 
 ## Colored desktop and activity icons
-**Priority:** Moderate
-
 **Prerequisites**<br>
 - Extensive experience with Python and GTK3
 - Experience with Sugar activities/toolkit
@@ -585,8 +565,6 @@ to take on any colors deemed suitable by the activity designer.
 ------------
 
 ## Improve Sugarizer Server Dashboard
-**Priority:** High
-
 **Prerequisites**<br>
 
 - Experience with JavaScript/HTML5 development
@@ -646,9 +624,6 @@ Technically speaking the Sugarizer Server is wrote in JavaScript with node.js us
 ------------
 
 ## Port Sugarizer activities to Sugar
-
-**Priority:** High
-
 **Prerequisites**<br>
  - Ability to write in programming languages like Python, GTK, JavaScript
 
@@ -692,9 +667,6 @@ Steps to take:
 ------------
 
 ## Create a Sugar Dashboard
-
-**Priority:** Medium
-
 **Prerequisites**<br>
 - Extensive experience with Python and GTK
 - Demonstrable skill in coding/bug fixing Sugar activities

@@ -47,7 +47,9 @@ Template](Template.md).
 We use `#sugar` and `#sugar-meeting` channels on
 [IRC](https://webchat.freenode.net) and 
 [sugar-devel@](http://lists.sugarlabs.org/listinfo/sugar-devel)
-mailing list for communication. You can join our IRC channels
+mailing list for communication. You can join our IRC channels,
+gitter channels -- [#community](https://gitter.im/Sugar-Labs/community),
+[#meeting](https://gitter.im/Sugar-Labs/meeting),
 and mailing list to participate in the discussions and asking
 for help. **Do not contact individual mentors / developers
 privately, asking for help.** See

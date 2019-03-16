@@ -707,8 +707,9 @@ Suggested Issues to work on:
 - Creating new Python activities
 
 **Coding Mentors:**
-[Walter Bender](https://github.com/walterbender) and
-[Rahul Bothra](https://github.com/pro-panda)
+[Walter Bender](https://github.com/walterbender),
+[Rahul Bothra](https://github.com/pro-panda) and 
+[Ibiam Chihurumnaya](https://github.com/chimosky)
 
 **Assistant Mentors**<br>
 [Peace Ojemeh](https://github.com/perriefidelis) and

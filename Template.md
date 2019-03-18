@@ -14,7 +14,6 @@ Finish writing your proposal early so that you can get it reviewed by your mento
 ## Basic Details
  - Full Name
  - Email and GitHub Username
- - IRC nickname on #sugar
  - Your first language
  - Location and Timezone
  - Share links, if any, of your previous work on open source projects ?<br>

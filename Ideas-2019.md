@@ -131,14 +131,14 @@ of this project may be selected**.
  - write-activity: [#28 Port to sugar3.speech](https://github.com/sugarlabs/write-activity/issues/28)
  - jukebox-activity: [#22 Add collaboration for sharing playlist items](https://github.com/sugarlabs/jukebox-activity/issues/22)
  - jukebox-activity: [#23 Enable visualisations in the playbin element for audio content](https://github.com/sugarlabs/jukebox-activity/issues/23)
- - log-activity: [#12 Delete Log File button leaves entry in list](https://github.com/sugarlabs/log-activity/issues/12)
- - read-activity: [#28 add back EPUB support](https://github.com/sugarlabs/read-activity/issues/28)
  - infoslicer: [#23 Traceback, motion_notify](https://github.com/sugarlabs/infoslicer/issues/23)
  - iq-activity: [#10 Port to Latest Sugargame](https://github.com/sugarlabs/iq-activity/issues/10)
  - GTranslator: [#8 Unconnected forks to be merged](https://github.com/sugarlabs/GTranslator/issues/8)
  - maze-activity: [#16 Add holes](https://github.com/sugarlabs/maze-activity/issues/16)
  - flappy-birds-activity: [#16 Suggested changes](https://github.com/sugarlabs/flappy-birds-activity/issues/16)
  - bichos-activity: [#9 Delete repository](https://github.com/sugarlabs/bichos-activity/issues/9)
+
+Other issues will have been raised since.
 
 Suggesting or adding features, fixing bugs, or releasing activities
 will help you to gain experience

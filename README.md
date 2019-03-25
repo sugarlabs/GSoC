@@ -46,11 +46,10 @@ Template](Template.md).
 ## How to talk to us ?
 We use the
 [sugar-devel@](http://lists.sugarlabs.org/listinfo/sugar-devel)
-mailing list for communication. You can join
-the mailing list to participate in the discussions and ask
-for help.  Please do not contact individual mentors / developers
-privately, asking for help.  See
-[Community etiquette](https://github.com/sugarlabs/GSoC#community-etiquette)
+mailing list for communication. Join to participate in the discussion
+and ask for help.  Allow some days for reply.  Do not write secretly
+to mentors or developers unless they have asked you to.  See
+[Community etiquette](https://github.com/sugarlabs/GSoC#community-etiquette).
 
 ## How to Contribute
 

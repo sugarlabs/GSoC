@@ -55,7 +55,7 @@ _(in chronological order)_
 
 **Coding Mentors**<br>
 [Rahul Bothra](https://github.com/pro-panda) and
-[James Cameron](https://github.com/quozl)
+[James Cameron](https://github.com/quozl) (via mailing list)
 
 **Assisting Mentors**<br>
 None.
@@ -105,7 +105,7 @@ will help you to gain experience
 **Coding Mentors**<br>
 [Rahul Bothra](https://github.com/pro-panda),
 [James Cameron](https://github.com/quozl) and
-[Ibiam Chihurumnaya](https://github.com/chimosky).
+[Ibiam Chihurumnaya](https://github.com/chimosky) (via mailing list).
 
 **Assisting Mentors**<br>
 None.
@@ -154,8 +154,8 @@ as well.
 
 **Coding Mentors**<br>
 
- - for Python activities, [Rahul Bothra](https://github.com/pro-panda), [James Cameron](https://github.com/quozl) and [Ibiam Chihurumnaya](https://github.com/chimosky),
- - for JavaScript activities, [Lionel Laské](https://github.com/llaske) (JavaScript),
+ - for Python activities, [Rahul Bothra](https://github.com/pro-panda), [James Cameron](https://github.com/quozl) and [Ibiam Chihurumnaya](https://github.com/chimosky) (via mailing list),
+ - for JavaScript activities, [Lionel Laské](https://github.com/llaske) (JavaScript) (via direct mail),
 
 **Assisting Mentors**<br>
 [Caryl Bigenho](https://github.com/GrannieB),
@@ -401,7 +401,7 @@ Technically speaking the Exerciser activity is wrote in Javascript using Sugar-W
 
 **Coding Mentors**<br>
 [Lionel Laské](https://github.com/llaske) and
-[Michaël Ohayon](https://github.com/mikklfr)
+[Michaël Ohayon](https://github.com/mikklfr) (via direct mail)
 
 **Assisting Mentors**<br>
 None.
@@ -459,7 +459,7 @@ As with other Sugarizer activities, the new Write activity should be written usi
 
 
 **Coding Mentors**<br>
-[Michaël Ohayon](https://github.com/mikklfr) and [Lionel Laské](https://github.com/llaske)
+[Michaël Ohayon](https://github.com/mikklfr) and [Lionel Laské](https://github.com/llaske) (via direct mail)
 
 
 **Assisting Mentors**<br>
@@ -575,7 +575,7 @@ Technically speaking the Sugarizer Server is wrote in JavaScript with node.js us
 
 **Coding Mentors**<br>
 [Tarun K. Singhal](https://github.com/tarunsinghal92) and
-[Lionel Laské](https://github.com/llaske)
+[Lionel Laské](https://github.com/llaske) (via direct mail)
 
 **Assisting Mentors**<br>
 [Pratul Kumar](https://github.com/Pratul1997)
@@ -618,7 +618,7 @@ Steps to take:
 
 **Coding Mentors**<br>
 [James Cameron](https://github.com/quozl) and
-[Iqra Mohammad](https://github.com/iqraceme)
+[Iqra Mohammad](https://github.com/iqraceme) (via mailing list)
 
 **Assistant Mentors**<br>
 [Samson Goddy](https://github.com/samswag)
@@ -709,7 +709,7 @@ _(in chronological order)_
   - Coordinate testing, receive reports, and fix bugs.
 
 **Coding Mentors**<br>
-[James Cameron](https://github.com/quozl) (disclosure; James works for One Laptop per Child, a non-profit supplying laptops with Bluetooth)
+[James Cameron](https://github.com/quozl) (via mailing list) (disclosure; James works for One Laptop per Child, a non-profit supplying laptops with Bluetooth)
 
 **Assisting Mentors**<br>
 None.

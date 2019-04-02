@@ -10,6 +10,8 @@ Hofstadter's Law: It takes longer than you expect, even when you take into accou
 
 Finish writing your proposal early so that you can get it reviewed by your mentors and the community, before the deadline. They can give you valuable suggestions on your timeline and project details.
 
+This is a sample template. You can add other sections which you think add value to your proposal
+
 ---------------
 ## Basic Details
  - Full Name

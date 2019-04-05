@@ -158,6 +158,7 @@ as well.
 
 **Assisting Mentors**<br>
 [Caryl Bigenho](https://github.com/GrannieB),
+[Sumit Srivastava](https://github.com/sum2it),
 [Utkarsh Dhawan](https://github.com/crusher95),
 [Samson Goddy](https://github.com/samswag/),
 [Iqra Muhammad](https://github.com/iqraceme),
@@ -252,11 +253,13 @@ or [Firefox](https://github.com/sugarlabs/musicblocks/labels/Firefox)
 Label
 
 **Coding Mentors**<br>
-[Walter Bender](https://github.com/walterbender)
+
+
+[Walter Bender](https://github.com/walterbender) and 
+[Sumit Srivastava](https://github.com/sum2it)
 
 **Assisting Mentors**<br>
-[Jaskirat Singh](https://github.com/jaskirat2000) and
-[Sumit Srivastava](https://github.com/sum2it)
+[Jaskirat Singh](https://github.com/jaskirat2000)
 
 ------------
 
@@ -306,6 +309,7 @@ rhythms. Step One is to come up with a design proposal.
 
 **Assisting Mentors**<br>
 [Sumit Srivastava](https://github.com/sum2it)
+
 
 ------------
 

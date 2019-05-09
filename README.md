@@ -10,12 +10,14 @@
 ## Introduction
 Google Summer of Code is a *global program focused on bringing
 more student developers into open source software development*.
-Sugar Labs will be applying in Google Summer of Code 2019 as a
-mentor organisation. See [GSoC 2019
-timeline](https://developers.google.com/open-source/gsoc/timeline?hl=vi)
-for more details
+See [GSoC 2019
+timeline](https://developers.google.com/open-source/gsoc/timeline?hl=vi).
 
-Checkout our archives of GSoC Projects:
+Sugar Labs was accepted for Google Summer of Code 2019 as a
+mentor organisation.
+See [Sugar Labs at GSoC 2019](https://summerofcode.withgoogle.com/organizations/5447754969513984/)
+
+Our archives of GSoC Projects:
 [2009](https://wiki.sugarlabs.org/go/Summer_of_Code/2009) |
 [2010](https://wiki.sugarlabs.org/go/Summer_of_Code/2010) |
 [2011](https://wiki.sugarlabs.org/go/Summer_of_Code/2011) |
@@ -28,20 +30,11 @@ Checkout our archives of GSoC Projects:
 [2018](https://wiki.sugarlabs.org/go/Summer_of_Code/2018)
 
 ## Want to work with us ?
-We have a lot of interesting project ideas for you. There is
-Sugar OS, Sugar Activities, Music Blocks and Sugarizer. You
-can start by going through them and see what would you like
-to work on.<br>
-After that, you can go through our [Ideas](Ideas-2019.md) page
-to see our proposed ideas. We would love to hear your own ideas
-as well.
+It is too late to apply, sorry.
 
-You should familiarise yourself with our code, by reporting and
-fixing bugs. This will assure us that you will be able to work
-on the project ;-)
-
-Before you start writing your proposal, go through our [Proposal
-Template](Template.md).
+See our [proposed ideas](Ideas-2019.md) page.  We would love to hear
+your own ideas as well.  You may familiarise yourself with our code,
+by reporting and fixing bugs.
 
 ## How to talk to us ?
 We use the

@@ -21,7 +21,7 @@
 ## Port Sugar and core activities to Python 3
 
 **Selected**<br>
-Aniket Mathur.
+Aniket Mathur. [Blog](https://medium.com/@aniketmathur).
 
 **Prerequisites**<br>
  - Experience with Python
@@ -67,7 +67,7 @@ None.
 
 ## Improve and maintain 25 Sugar activities
 **Selected**<br>
-Swarup N.
+Swarup N. [Blog](https://nswarup14.github.io).
 
 **Prerequisites**<br>
  - Experience with Python
@@ -179,7 +179,7 @@ as well.
 
 ## Performance in Music Blocks
 **Selected**<br>
-Ankur Bambharoliya and Favour Kelvin.
+Ankur Bambharoliya and Favour Kelvin, [Blog](https://medium.com/@favourkelvin17).
 
 **Prerequisites**<br>
  - Extensive experience with JavaScript
@@ -269,8 +269,6 @@ or [Firefox](https://github.com/sugarlabs/musicblocks/labels/Firefox)
 Label
 
 **Coding Mentors**<br>
-
-
 [Walter Bender](https://github.com/walterbender) and 
 [Sumit Srivastava](https://github.com/sum2it)
 
@@ -281,7 +279,7 @@ Label
 
 ## Reconciling rhythm with pitch in Music Blocks widgets
 **Selected**<br>
-Sparsh Agarwal.
+Sparsh Agarwal. [Blog](https://medium.com/@sparshagarwal205).
 
 **Prerequisites**<br>
  - Experience with JavaScript
@@ -385,7 +383,7 @@ JavaScript as possible.
 
 ## Expand Sugarizer Exerciser activity
 **Selected**<br>
-Avinash Agarwal.
+Avinash Agarwal. [Blog](https://medium.com/@aniketmathur).
 
 **Prerequisites**<br>
 
@@ -439,7 +437,7 @@ None.
 
 ## Write activity for Sugarizer
 **Selected**<br>
-Ashish Aggarwal.
+Ashish Aggarwal. [Blog](https://medium.com/@ashish09101998).
 
 **Prerequisites**<br>
 
@@ -559,7 +557,7 @@ to take on any colors deemed suitable by the activity designer.
 
 ## Improve Sugarizer Server Dashboard
 **Selected**<br>
-Nikhil Mehra.
+Nikhil Mehra. [Blog](https://medium.com/@nikhilmehra998).
 
 **Prerequisites**<br>
 
@@ -667,7 +665,7 @@ Steps to take:
 
 ## Create a Sugar Dashboard
 **Selected**<br>
-Hrishi Patel.
+Hrishi Patel. [Blog](https://medium.com/@hrishipatel99).
 
 **Prerequisites**<br>
 - Extensive experience with Python and GTK

@@ -1,26 +1,26 @@
 **Work Review**<br>
 
-**Port to TelapthyGLib**<br>
- Contributed in porting sugar, sugar-toolkit, collabwrapper.<br>
+**Port to TelapathyGLib**<br>
+ Contributed in porting Sugar, Sugar Toolkit, and CollabWrapper.<br>
 
 Work experience:
 
- The biggest challenge that I faced was inexperience in working with telepathy. I started by the reviewing previous work done
- in GSoC'18. I also went through various telepathy documentations and through the sources of telepathy-python and TelepathyGLib to
- better understand the functionality of both the APIs. I also went through the sources of gnome and polari shells using TelepathyGLib.
+ The biggest challenge that I faced was inexperience in working with Telepathy. I started by the reviewing previous work done
+ in GSoC'18. I also went through various telepathy documentations and through the sources of Python 2 Telepathy and TelepathyGLib to
+ better understand the functionality of both the APIs. I also went through the sources of GNOME and Polari shells using TelepathyGLib.
  Another major challenge was to figure out how to replace the `Channel`, `Connection` and `InterfaceFactory` classes used directly from
- the `telepathy-python` sources. After a long discussion this issue was solved with a conclusion to directly use `dbus` calls
- considering the fact that `telepathy` depends on `dbus`.
+ the Python 2 sources. After a long discussion this issue was solved with a conclusion to directly use D-Bus calls
+ considering that Telepathy is fully specified via D-Bus.
 
- Other small debugging challenges were there like fixing use of wrong constants of TelepathyGLib. It took me around a week to figure out
- what is broken which involved use of `dbus-monitor` as well, finally resulting in a single line change and that too of wrong constant value.
+ Other small debugging challenges were fixing use of wrong constants of TelepathyGLib. It took me around a week to figure out
+ what was broken which involved use of `dbus-monitor` as well, finally resulting in a single line change to a wrong constant value.
 
- I also used `gdb` to analyze crash files generated, but finally finding out that it is caused due to a bug in `telepathy` itself.
+ I also used `gdb` to analyze crash files generated, but finally finding out that it is caused due to a bug in Telepathy itself.
 
 Link to commits:<br>
  - Sugar : https://github.com/sugarlabs/sugar/commit/f8f506b0f76362b1048316d9b2a9fe6ca3936fbe<br>
- - Sugar-toolkit-gtk3 : https://github.com/sugarlabs/sugar-toolkit-gtk3/commit/88ea8e1f4febee5f8371337f07116e22c9d54cb6<br>
- - Collabwrapper : https://github.com/sugarlabs/collabwrapper/commit/a6f9cc2dc4435841cdf3dc6d96635553d12ac2c4<br>
+ - Sugar Toolkit : https://github.com/sugarlabs/sugar-toolkit-gtk3/commit/88ea8e1f4febee5f8371337f07116e22c9d54cb6<br>
+ - CollabWrapper : https://github.com/sugarlabs/collabwrapper/commit/a6f9cc2dc4435841cdf3dc6d96635553d12ac2c4<br>
 
  Other related commits:<br>
  - https://github.com/sugarlabs/chat/commit/f65de2b8b3f4c1ddd020d63ec7742cc9c02aa0be<br>
@@ -32,26 +32,26 @@ Link to commits:<br>
  - https://github.com/sugarlabs/sugar-docs/commit/a110abb7a8ad838084e5367f838bcc51d300afd3<br>
 
 **Testing Gwebsockets**<br>
- Worked on testing Python 3 port of gwebsockets.<br>
+ Testing Python 3 port of gwebsockets.<br>
 
 Work experience:
 
-I already had a ported version of websockets from GSoC'18 work. I begin my testing noticing that the tests fails for the Python 3 version.
+I already had a ported version of gwebsockets from GSoC'18 work. I begin my testing noticing that the tests fails for the Python 3 version.
 I started debugging by going through the source code and using logging to compare between Python 2 and Python 3 versions. I also used `wireshark`
-and `tcpdump` to analyse and compare the packets from both the versions.  
+and `tcpdump` to analyse and compare the packets from both the versions.  The work is unfinished.
 
 Link to issue:<br>
  - https://github.com/sugarlabs/gwebsockets/issues/5<br>
 
-**Port sugar-toolkit-gtk3 to six**<br>
-   Made some fixes in toolkit version based on six and tested the toolkit.
+**Port Sugar Toolkit to Six**<br>
+   Made some fixes in Toolkit based on Six and tested.
 
 Work experience:
 
-I started by completing remaining tasks in the `Port to six` task check-list of the toolkit like regenerating documentation, looking for code
-calling C code, reviewed port of graphic examples again, etc. While working on port of sugar-desktop I found out that the `six` port of
-the toolkit requires some more changes and hence made those changes in the toolkit. I figured out the changes with simple work-around and
-analysing the functional calls.    
+I started by completing remaining tasks in the `Port to Six` task check-list of the toolkit like regenerating documentation, looking for code
+calling C code, reviewed port of graphic examples again, etc. While working on port of Sugar I found out that the Six port of
+the Toolkit requires some more changes and hence made those changes. I figured out the changes with simple work-around and
+analysing the functional calls.
 
 Link to issues/commits:<br>
  - https://github.com/sugarlabs/sugar-toolkit-gtk3/commit/ed46c219a9222664b6ef371d1dd6e8956d61e620<br>
@@ -60,14 +60,14 @@ Link to issues/commits:<br>
  - https://github.com/sugarlabs/sugar-toolkit-gtk3/commit/5043d53e7bd28d44b0f5966a7692a7a19b6362ac<br>
  - https://github.com/sugarlabs/sugar-toolkit-gtk3/issues/382<br>
 
-**Port Sugar desktop to Python 3**<br>
-   Completed Python 3 port of Sugar Desktop, with the new port still demanding some fixes.<br>
+**Port Sugar to Python 3**<br>
+   Completed Python 3 port of Sugar, with the new port still needing some fixes.<br>
 
 Work experience:
 
-Worked on the pull request opened in GSoC'18, initially it had a lot of issues like `journal` was not working, `neigbourhood` and
-`group` view were not accessible. Solved these issues with simple work around and some fixes in the toolkit. Though there still remains some
-issues in sugar that are needed to be fixed.
+Worked on the pull request opened in GSoC'18, initially it had a lot of issues like Journal was not working, Neighbourhood and
+Group views were not accessible. Solved these issues with simple work around and some fixes in the toolkit. Though there still remains some
+issues in Sugar that are needed to be fixed.
 
 Link to commit:<br>
  - https://github.com/sugarlabs/sugar/commit/aa18879e9717dfe2d30f249549e9a43d6dd6da4f<br>
@@ -86,13 +86,13 @@ Link to issues:<br>
 Work experience:
 
 Started testing the Python 3 port by comparing the output of the `dbus-monitor`. Made a small fix and completely tested the functionality of
-the ported version. I also worked on developing Python 3 packages for datastore.
+the ported version. I also worked on making distribution packages so that others could test.
 
 Link to commit:<br>
  - https://github.com/sugarlabs/sugar-datastore/commit/43aabbc5e1febb40ce053cee74fca06b23d0b601<br>
 
 **Port Sugar activities to Python 3**<br>
-   Ported sugar activities to Python 3.<br>
+   Ported Sugar activities to Python 3.<br>
 
 Link to commits:<br>
  - https://github.com/sugarlabs/sin-dientes-activity/commit/0b8e17d5ec77f74723c2491654804662594fc2c9<br>
@@ -132,5 +132,5 @@ Link to commits:<br>
 **Work remaining to be done**<br>
 
  - Make activity chooser window modal.
- - Build multi-version packages for sugar-toolkit-gtk3.
- - Some fixes in sugar after Python 3 port.
+ - Build multi-version distribution packages for Sugar Toolkit.
+ - Some fixes in Sugar after Python 3 port.

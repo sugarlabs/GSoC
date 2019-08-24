@@ -72,8 +72,16 @@ issues in sugar that are needed to be fixed.
 Link to commit:<br>
  - https://github.com/sugarlabs/sugar/commit/aa18879e9717dfe2d30f249549e9a43d6dd6da4f<br>
 
-**Port Sugar datastore to Python 3**<br>
-   Completed Python 3 port of Sugar datastore.<br>
+Link to issues:<br>
+ - https://github.com/sugarlabs/sugar/issues/860
+ - https://github.com/sugarlabs/sugar/issues/861
+ - https://github.com/sugarlabs/sugar/issues/862
+ - https://github.com/sugarlabs/sugar/issues/863
+ - https://github.com/sugarlabs/sugar/issues/864
+ - https://github.com/sugarlabs/sugar/issues/865
+
+**Port Sugar Datastore to Python 3**<br>
+   Completed Python 3 port of Sugar Datastore.<br>
 
 Work experience:
 

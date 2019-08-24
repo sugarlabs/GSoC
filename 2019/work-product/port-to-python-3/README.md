@@ -101,6 +101,9 @@ Link to commits:<br>
  - https://github.com/sugarlabs/browse-activity/commit/51af1f5e3e95b40458776003241daf521474550f<br>
  - https://github.com/sugarlabs/cedit-activity/commit/20731fcdc36e2ec66c4f12a0607e9a5e1530bd24<br>
  - https://github.com/sugarlabs/clock-activity/commit/66a0f267a2082d60ed12997080761800ceacdc45<br>
+ - https://github.com/sugarlabs/collabedit/commit/035ae724f171904266cf6a1d26c9281d9ec32e97<br>
+ - https://github.com/sugarlabs/across-and-down-activity/commit/b2a3d1e773bff938bad1aa812baed9c0d80534b2<br>
+ - https://github.com/sugarlabs/Lemonade/commit/1f84863d35ca32b2ed418fe6dc4b1deccad642ef<br>
 
 **Other miscellaneous fixes**<br>
  - https://github.com/sugarlabs/followme/commit/24cc352868dcd9c142e38dafc7cc98e02ef73960<br>
@@ -123,11 +126,8 @@ Link to commits:<br>
 
 **Open pull requests**<br>
  - https://github.com/sugarlabs/maze-activity/pull/29<br>
- - https://github.com/sugarlabs/Lemonade/pull/10<br>
- - https://github.com/sugarlabs/collabedit/pull/11<br>
  - https://github.com/sugarlabs/infoslicer/pull/28<br>
  - https://github.com/sugarlabs/Pippy/pull/63<br>
- - https://github.com/sugarlabs/across-and-down-activity/pull/17<br>
 
 **Work remaining to be done**<br>
 

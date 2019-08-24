@@ -131,6 +131,9 @@ Link to commits:<br>
 
 **Work remaining to be done**<br>
 
+Still remains some work to be done due to unavailability of time and experience. Though significant progress was made,
+resulting in working software. Work remaining includes-
+
  - Make activity chooser window modal.
  - Build multi-version distribution packages for Sugar Toolkit.
  - Some fixes in Sugar after Python 3 port.

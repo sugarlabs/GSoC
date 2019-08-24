@@ -67,7 +67,8 @@ Work experience:
 
 Worked on the pull request opened in GSoC'18, initially it had a lot of issues like Journal was not working, Neighbourhood and
 Group views were not accessible. Solved these issues with simple work around and some fixes in the toolkit. Though there still remains some
-issues in Sugar that are needed to be fixed.
+issues in Sugar that are needed to be fixed. Testing of Sugar required ported versions of sugar-toolkit-gtk3, sugar-datastore, sugar-artwork,
+gwebsockets and other internal dependencies.
 
 Link to commit:<br>
  - https://github.com/sugarlabs/sugar/commit/aa18879e9717dfe2d30f249549e9a43d6dd6da4f<br>
@@ -86,7 +87,8 @@ Link to issues:<br>
 Work experience:
 
 Started testing the Python 3 port by comparing the output of the `dbus-monitor`. Made a small fix and completely tested the functionality of
-the ported version. I also worked on making distribution packages so that others could test.
+the ported version. I also worked on making distribution packages so that others could test. Testing of sugar-datastore required ported version
+of sugar-toolkit-gtk3.
 
 Link to commit:<br>
  - https://github.com/sugarlabs/sugar-datastore/commit/43aabbc5e1febb40ce053cee74fca06b23d0b601<br>

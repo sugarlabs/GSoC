@@ -21,7 +21,7 @@
 ## Port Sugar and core activities to Python 3
 
 **Selected**<br>
-Aniket Mathur. [Blog](https://medium.com/@aniketmathur).
+Aniket Mathur. [Blog](https://medium.com/@aniketmathur).  [Work review](2019/work-product/port-to-python-3/README.md)
 
 **Prerequisites**<br>
  - Experience with Python

@@ -2,7 +2,7 @@
 
 ## Shortcuts
 
-|[GSoC'19 Ideas](Ideas-2020.md)| [Proposal Template](Template.md) | [Sugar Labs @GitHub](https://github.com/sugarlabs) |
+|[GSoC'20 Ideas](Ideas-2020.md)| [Proposal Template](Template.md) | [Sugar Labs @GitHub](https://github.com/sugarlabs) |
 |:-------------------------:|----------------------|----------------------|
 |<a href="Ideas-2019.md">![](assets/gsoc-square.png)</a> | <a href="Template.md">![](assets/template.png)</a> | <a href="https://github.com/sugarlabs">![](assets/github.png)</a> |
 

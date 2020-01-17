@@ -2,7 +2,7 @@
 
 ## Shortcuts
 
-|[GSoC'19 Ideas](Ideas-2019.md)| [Proposal Template](Template.md) | [Sugar Labs @GitHub](https://github.com/sugarlabs) |
+|[GSoC'19 Ideas](Ideas-2020.md)| [Proposal Template](Template.md) | [Sugar Labs @GitHub](https://github.com/sugarlabs) |
 |:-------------------------:|----------------------|----------------------|
 |<a href="Ideas-2019.md">![](assets/gsoc-square.png)</a> | <a href="Template.md">![](assets/template.png)</a> | <a href="https://github.com/sugarlabs">![](assets/github.png)</a> |
 
@@ -10,12 +10,11 @@
 ## Introduction
 Google Summer of Code is a *global program focused on bringing
 more student developers into open source software development*.
-See [GSoC 2019
+See [GSoC 2020
 timeline](https://developers.google.com/open-source/gsoc/timeline?hl=vi).
 
-Sugar Labs was accepted for Google Summer of Code 2019 as a
+Sugar Labs is applying to Google Summer of Code 2020 as a
 mentor organisation.
-See [Sugar Labs at GSoC 2019](https://summerofcode.withgoogle.com/organizations/5447754969513984/)
 
 Our archives of GSoC Projects:
 [2009](https://wiki.sugarlabs.org/go/Summer_of_Code/2009) |
@@ -27,7 +26,8 @@ Our archives of GSoC Projects:
 [2015](https://wiki.sugarlabs.org/go/Summer_of_Code/2015) |
 [2016](https://wiki.sugarlabs.org/go/Summer_of_Code/2016) |
 [2017](https://wiki.sugarlabs.org/go/Summer_of_Code/2017) |
-[2018](https://wiki.sugarlabs.org/go/Summer_of_Code/2018)
+[2018](https://wiki.sugarlabs.org/go/Summer_of_Code/2018) |
+[2019](Ideas-2020.md)
 
 ## Want to work with us ?
 It is too late to apply, sorry.

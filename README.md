@@ -14,7 +14,8 @@ See [GSoC 2020
 timeline](https://developers.google.com/open-source/gsoc/timeline?hl=vi).
 
 Sugar Labs is applying to Google Summer of Code 2020 as a
-mentor organisation.
+mentor organisation. We will be informed on February 20, 2020 if our
+organization has been accepted to participate as a mentor organization.
 
 Our archives of GSoC Projects:
 [2009](https://wiki.sugarlabs.org/go/Summer_of_Code/2009) |

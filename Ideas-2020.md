@@ -21,31 +21,20 @@ Nobody.
    [Sugar Desktop](https://github.com/sugarlabs/sugar) and activities
 
 **Description**<br>
-Sugar runs on Python 2. Support for Python 2 is being withdrawn fast
-and we need to move to Python 3. The work was started in GSoC 2018,
-see [link](https://wiki.sugarlabs.org/go/Python_2to3), and needs to be
-finished and released. See GitHub Project [Port to Python 3 via
-six](https://github.com/orgs/sugarlabs/projects/1) for open issues and
-pull requests.
+Sugar runs on Python 2 or Python 3.  Core activities run on Python 3.  Many other activities run on Python 2.  Support for Python 2 was withdrawn by the Python Foundation, so we need to finish the move to Python 3.  The move was started in GSoC 2018, and continued in GSoC 2020, but there is still work to be done.  See GitHub Project [Port to Python 3 via
+six](https://github.com/orgs/sugarlabs/projects/1) for some open issues and
+pull requests.  Most activities do not have issues.
 
-The telepathy library does not have its bindings for Python 3, and
-porting Telepathy to its PyGObject binding is a prerequisite for the
+The telepathy library does not have bindings for Python 3, so
+porting Telepathy to the PyGObject binding is a prerequisite for the
 Port to Python 3 Project, see GitHub Project [Port to
 TelepathyGLib](https://github.com/orgs/sugarlabs/projects/4).
 
 **Project Task Checklist**<br>
-_(in chronological order)_
  - Port all Telepathy bindings to TelepathyGLib, see [Port to
    TelepathyGLib](https://github.com/orgs/sugarlabs/projects/4).
- - Make activitychooser window modal and remove its dependency from
-   toolkit to jarabe, see [sugar/#815](https://github.com/sugarlabs/sugar/issues/815)
- - Release gwebsockets for Python 3, see [gwebsockets/#2](https://github.com/sugarlabs/gwebsockets/issues)
- - Continue porting sugar-toolkit-gtk3 to six, see [
-   sugar-toolkit-gtk3/#383](https://github.com/sugarlabs/sugar-toolkit-gtk3/pull/383)
- - Release sugar-toolkit-gtk3 which is compatible with both Python 2
-   and 3
- - Port Sugar Desktop to Python 3, see [sugar/#805](https://github.com/sugarlabs/sugar/pull/805)
- - Port all fructose activities to Python 3
+ - Port Sugargame or CollabWrapper
+ - Port activities to Python 3
 
 **Coding Mentors**<br>
 [Rahul Bothra](https://github.com/pro-panda) and
@@ -77,7 +66,7 @@ understand how to locate and work on activities, see our guide to
 [Modifying
 Activities](https://github.com/sugarlabs/sugar-docs/blob/master/src/contributing.md#modifying-activities)
 
-In their proposal, students should mention some of the issues they will
+In their proposal, students may mention _some_ of the issues they will
 work on.  Any new feature suggestion should be discussed on GitHub
 Issues before being added to a proposal.
 

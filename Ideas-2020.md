@@ -270,7 +270,7 @@ Steps to take:
 
 # Administrative notes
 
-Above are a list of ideas we've planned for GSoC 2019 projects.
+Above are a list of ideas we've planned for GSoC 2020 projects.
 If you have any ideas which can be useful to us, but are not in the
 list, we'd love to hear from you.  You need not be a potential
 student or a mentor to suggest ideas.

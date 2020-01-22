@@ -12,7 +12,7 @@
 ## Port Sugar and core activities to Python 3
 
 **Selected**<br>
-Aniket Mathur. [Blog](https://medium.com/@aniketmathur).  [Work review](2019/work-product/port-to-python-3/README.md)
+Nobody.
 
 **Prerequisites**<br>
  - Experience with Python
@@ -57,8 +57,9 @@ None.
 ------------
 
 ## Improve and maintain 25 Sugar activities
+
 **Selected**<br>
-Swarup N. [Blog](https://nswarup14.github.io).
+Nobody.
 
 **Prerequisites**<br>
  - Experience with Python
@@ -110,6 +111,7 @@ None.
 ------------
 
 ## Export Music Blocks code to JavaScript
+
 **Selected**<br>
 Nobody.
 
@@ -160,6 +162,7 @@ JavaScript as possible.
 --------------
 
 ## Colored desktop and activity icons
+
 **Selected**<br>
 Nobody.
 
@@ -221,6 +224,7 @@ to take on any colors deemed suitable by the activity designer.
 ------------
 
 ## Port Sugarizer activities to Sugar
+
 **Selected**<br>
 Nobody.
 

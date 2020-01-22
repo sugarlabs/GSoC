@@ -4,7 +4,7 @@
 
 |[GSoC'20 Ideas](Ideas-2020.md)| [Proposal Template](Template.md) | [Sugar Labs @GitHub](https://github.com/sugarlabs) |
 |:-------------------------:|----------------------|----------------------|
-|<a href="Ideas-2019.md">![](assets/gsoc-square.png)</a> | <a href="Template.md">![](assets/template.png)</a> | <a href="https://github.com/sugarlabs">![](assets/github.png)</a> |
+|<a href="Ideas-2020.md">![](assets/gsoc-square.png)</a> | <a href="Template.md">![](assets/template.png)</a> | <a href="https://github.com/sugarlabs">![](assets/github.png)</a> |
 
 
 ## Introduction
@@ -28,7 +28,7 @@ Our archives of GSoC Projects:
 [2016](https://wiki.sugarlabs.org/go/Summer_of_Code/2016) |
 [2017](https://wiki.sugarlabs.org/go/Summer_of_Code/2017) |
 [2018](https://wiki.sugarlabs.org/go/Summer_of_Code/2018) |
-[2019](Ideas-2020.md)
+[2019](Ideas-2019.md)
 
 ## Want to work with us ?
 It is too early to apply, since Google has yet to assign slots.

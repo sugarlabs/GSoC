@@ -280,6 +280,39 @@ None.
 
 ------------
 
+## Debian advocacy for Sugar
+
+**Selected**<br>
+Nobody.
+
+**Prerequisites**<br>
+ - Ability to install Linux,
+ - Ability to test all features of a software package,
+ - Ability to write in International English for communication with Open Source communities,
+
+**Description**<br>
+
+Debian is a Linux distribution composed of free and open-source software, developed by the community-supported Debian Project.  Ubuntu is a free and open-source Linux distribution based on Debian.
+
+Debian volunteers make software packages of Sugar and selected activities and make them available for installation.  Ubuntu brings these packages into their distribution.
+
+Sugar Labs makes a Sugar Live Build based on Debian, using Sugar and activity source code, and not the Debian software packages.
+
+Debian Project needs help, and this help would benefit Sugar Labs;
+ - Test Sugar on Debian latest release (Debian 10 aka Buster), testing release (Debian 11 aka Bullseye), and experimental release (sid),
+ - Test Sugar Live Build,
+ - Report bugs to Sugar Labs, where those bugs are due to our source code,
+ - Report bugs to Debian, where those bugs are due to Debian packaging decisions.
+ - Fix bugs and participate in peer review with the respective community.
+
+**Coding Mentors**<br>
+[James Cameron](https://github.com/quozl) (via mailing list)
+
+**Assistant Mentors**<br>
+None.
+
+------------
+
 # Administrative notes
 
 Above are a list of ideas we've planned for GSoC 2020 projects.

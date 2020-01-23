@@ -313,6 +313,63 @@ None.
 
 ------------
 
+## Sugar app store for Python 3 activities (aslov4)
+
+**Selected**<br>
+Nobody.
+
+**Prerequisites**<br>
+ - Ability to write programs in Python,
+ - Ability to design and write web pages that use HTML5 and JavaScript,
+
+**Description**<br>
+
+Create the simplest possible app store for Sugar activities, where
+each activity included has been (a) ported to Python 3 and released,
+and (b) tested on Sugar Live Build.
+
+We used to have an app store for Sugar activities, but because we
+can't seem to attract any PHP developers the app store has failed to
+keep up with development.
+
+We have tried to make a replacement for activities.sugarlabs.org three
+times, and each time the features we need were not finished.
+
+We now use activities.sugarlabs.org for Python 2 activities only.
+
+Minimum Requirements;
+
+ - support activity bundles uploaded via ssh,
+ - detect User-Agent of Fedora 18 systems running Sugar 0.112 or earlier, and redirect to activities.sugarlabs.org,
+ - provide a list of all activity bundles,
+ - provide activity bundle download, using the correct Content-Type,
+ - provide search of activity bundles (using title, description, or other keywords),
+ - support Sugar's microformat software upgrade feature in My Settings,
+
+Optional requirements;
+
+ - for a specific list of activities, access the source repository and detect any change to a release tag (publish), create a bundle and extract release notes,
+ - display in Browse if an activity bundle is already installed, (requires integration between Sugar on the local system and the web app),
+ - download counts,
+ - graphic design, style and appearance,
+
+Non-requirements; things we don't want to have to do;
+
+  - any changes to activity metadata files `activity/activity.info`,
+
+Project Scheduling;
+
+ - a working prototype with minimum requirements must be ready within the first two weeks,
+ - once approved, the Browse activity is to be changed to point to the service, and Sugar's software upgrade feature changed,
+
+**Coding Mentors**<br>
+[James Cameron](https://github.com/quozl) (via mailing list)
+
+**Assistant Mentors**<br>
+None.
+
+------------
+
 # Administrative notes
 
 Above are a list of ideas we've planned for GSoC 2020 projects.

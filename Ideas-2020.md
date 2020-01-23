@@ -249,6 +249,37 @@ Steps to take:
 
 ------------
 
+## Fedora advocacy for Sugar
+
+**Selected**<br>
+Nobody.
+
+**Prerequisites**<br>
+ - Ability to install Linux,
+ - Ability to test all features of a software package,
+ - Ability to write in International English for communication with Open Source communities,
+
+**Description**<br>
+
+Fedora Project make Sugar on a Stick, a bootable live environment containing Sugar and selected activities.
+
+Sugar on a Stick depends on Fedora packaging of Sugar and activities.
+
+Fedora project needs help, and this help would benefit Sugar Labs;
+ - Test Sugar on Fedora latest release and testing release (rawhide),
+ - Test Sugar on a Stick,
+ - Report bugs to Sugar Labs, where those bugs are due to our source code,
+ - Report bugs to Fedora, where those bugs are due to Fedora packaging decisions.
+ - Fix bugs and participate in peer review with the respective community.
+
+**Coding Mentors**<br>
+[James Cameron](https://github.com/quozl) (via mailing list)
+
+**Assistant Mentors**<br>
+None.
+
+------------
+
 # Administrative notes
 
 Above are a list of ideas we've planned for GSoC 2020 projects.

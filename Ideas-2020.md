@@ -85,7 +85,7 @@ will help you to gain experience
 
 **Coding Mentors**<br>
 [James Cameron](https://github.com/quozl) and
-_unverified_: [Ibiam Chihurumnaya](https://github.com/chimosky) (via mailing list).
+[Ibiam Chihurumnaya](https://github.com/chimosky) (via mailing list).
 
 **Assisting Mentors**<br>
 None.

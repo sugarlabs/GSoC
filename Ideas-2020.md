@@ -5,6 +5,9 @@
    * [Export Music Blocks code to JavaScript](#export-music-blocks-code-to-javascript)
    * [Colored desktop and activity icons](#colored-desktop-and-activity-icons)
    * [Port Sugarizer activities to Sugar](#port-sugarizer-activities-to-sugar)
+   * [Fedora advocacy for Sugar](#fedora-advocacy-for-sugar)
+   * [Debian advocacy for Sugar](#debian-advocacy-for-sugar)
+   * [Sugar app store for Python 3 activities (aslov4)](#sugar-app-store-for-python-3-activities-aslov4)
    * [Administrative notes](#administrative-notes)
 
 ------------

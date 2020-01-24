@@ -332,10 +332,12 @@ We used to have an app store for Sugar activities, but because we
 can't seem to attract any PHP developers the app store has failed to
 keep up with development.
 
-We have tried to make a replacement for activities.sugarlabs.org three
-times, and each time the features we need were not finished.
-
 We now use activities.sugarlabs.org for Python 2 activities only.
+
+We have tried to make a replacement for activities.sugarlabs.org three
+times, and each time the features we need were not finished.  These
+projects have been too ambitious and have not been supported
+collectively by the Sugar Labs community.
 
 Minimum Requirements;
 
@@ -355,7 +357,7 @@ Optional requirements;
 
 Non-requirements; things we don't want to have to do;
 
-  - any changes to activity metadata files `activity/activity.info`,
+ - any changes to activity metadata files `activity/activity.info`,
 
 Project Scheduling;
 

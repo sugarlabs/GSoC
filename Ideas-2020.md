@@ -404,6 +404,32 @@ plan to work on.
 [Devin Ulibarri](https://github.com/pikurasa).
 
 ------------
+## Model–View–Controller refactoring for Music Blocks
+
+Model–View–Controller is a software design approach used for
+developing user interfaces that divides the program logic into three
+interconnected elements to separate internal representations of
+information from the ways information is presented to and accepted
+from the user. (See
+https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller)
+
+Music Blocks intermixes it program logic to the point where it is
+getting difficult to maintain. This project is to take a deep dive
+into the code in order to develop a plan (your proposal) and implement
+a refactoring along the lines of MVC.
+
+We made [some
+progress](https://github.com/sugarlabs/musicblocks/commit/3085a99a7259d9d30522daaf1da2c831d0b4bda2)
+on MVC during GCI, but there is much more to be done.
+
+**Coding Mentors**<br>
+[Walter Bender](https://github.com/walterbender)
+[Favour Kelvin](favourkelvin17@gmail.com)
+
+**Assisting Mentors**<br>
+[Devin Ulibarri](https://github.com/pikurasa).
+
+------------
 
 # Administrative notes
 

@@ -285,6 +285,9 @@ effort](https://github.com/sugarlabs/musicblocks/issues/2020) to
 resolve. But a dedicated effort could probably tackle half of them --
 on average one a day -- over the course of GSoC.
 
+As part of your application, prepare a schedule of which issues you
+plan to work on.
+
 **Coding Mentors**<br>
 [Walter Bender](https://github.com/walterbender)
 [Favour Kelvin](favourkelvin17@gmail.com)

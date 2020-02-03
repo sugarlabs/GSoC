@@ -5,6 +5,9 @@
    * [Export Music Blocks code to JavaScript](#export-music-blocks-code-to-javascript)
    * [Colored desktop and activity icons](#colored-desktop-and-activity-icons)
    * [Port Sugarizer activities to Sugar](#port-sugarizer-activities-to-sugar)
+   * [Fedora advocacy for Sugar](#fedora-advocacy-for-sugar)
+   * [Debian advocacy for Sugar](#debian-advocacy-for-sugar)
+   * [Sugar app store for Python 3 activities (aslov4)](#sugar-app-store-for-python-3-activities-aslov4)
    * [Administrative notes](#administrative-notes)
 
 ------------
@@ -12,7 +15,7 @@
 ## Port Sugar and core activities to Python 3
 
 **Selected**<br>
-Aniket Mathur. [Blog](https://medium.com/@aniketmathur).  [Work review](2019/work-product/port-to-python-3/README.md)
+Nobody.
 
 **Prerequisites**<br>
  - Experience with Python
@@ -21,34 +24,22 @@ Aniket Mathur. [Blog](https://medium.com/@aniketmathur).  [Work review](2019/wor
    [Sugar Desktop](https://github.com/sugarlabs/sugar) and activities
 
 **Description**<br>
-Sugar runs on Python 2. Support for Python 2 is being withdrawn fast
-and we need to move to Python 3. The work was started in GSoC 2018,
-see [link](https://wiki.sugarlabs.org/go/Python_2to3), and needs to be
-finished and released. See GitHub Project [Port to Python 3 via
-six](https://github.com/orgs/sugarlabs/projects/1) for open issues and
-pull requests.
+Sugar runs on Python 2 or Python 3.  Core activities run on Python 3.  Many other activities run on Python 2.  Support for Python 2 was withdrawn by the Python Foundation, so we need to finish the move to Python 3.  The move was started in GSoC 2018, and continued in GSoC 2020, but there is still work to be done.  See GitHub Project [Port to Python 3 via
+six](https://github.com/orgs/sugarlabs/projects/1) for some open issues and
+pull requests.  Most activities do not have issues.
 
-The telepathy library does not have its bindings for Python 3, and
-porting Telepathy to its PyGObject binding is a prerequisite for the
+The telepathy library does not have bindings for Python 3, so
+porting Telepathy to the PyGObject binding is a prerequisite for the
 Port to Python 3 Project, see GitHub Project [Port to
 TelepathyGLib](https://github.com/orgs/sugarlabs/projects/4).
 
 **Project Task Checklist**<br>
-_(in chronological order)_
  - Port all Telepathy bindings to TelepathyGLib, see [Port to
    TelepathyGLib](https://github.com/orgs/sugarlabs/projects/4).
- - Make activitychooser window modal and remove its dependency from
-   toolkit to jarabe, see [sugar/#815](https://github.com/sugarlabs/sugar/issues/815)
- - Release gwebsockets for Python 3, see [gwebsockets/#2](https://github.com/sugarlabs/gwebsockets/issues)
- - Continue porting sugar-toolkit-gtk3 to six, see [
-   sugar-toolkit-gtk3/#383](https://github.com/sugarlabs/sugar-toolkit-gtk3/pull/383)
- - Release sugar-toolkit-gtk3 which is compatible with both Python 2
-   and 3
- - Port Sugar Desktop to Python 3, see [sugar/#805](https://github.com/sugarlabs/sugar/pull/805)
- - Port all fructose activities to Python 3
+ - Port Sugargame or CollabWrapper
+ - Port activities to Python 3
 
 **Coding Mentors**<br>
-[Rahul Bothra](https://github.com/pro-panda) and
 [James Cameron](https://github.com/quozl) (via mailing list)
 
 **Assisting Mentors**<br>
@@ -57,8 +48,9 @@ None.
 ------------
 
 ## Improve and maintain 25 Sugar activities
+
 **Selected**<br>
-Swarup N. [Blog](https://nswarup14.github.io).
+Nobody.
 
 **Prerequisites**<br>
  - Experience with Python
@@ -76,7 +68,7 @@ understand how to locate and work on activities, see our guide to
 [Modifying
 Activities](https://github.com/sugarlabs/sugar-docs/blob/master/src/contributing.md#modifying-activities)
 
-In their proposal, students should mention some of the issues they will
+In their proposal, students may mention _some_ of the issues they will
 work on.  Any new feature suggestion should be discussed on GitHub
 Issues before being added to a proposal.
 
@@ -84,15 +76,7 @@ Since there are a lot of activities to work on, **more than one instance
 of this project may be selected**.
 
 **Suggested Issues to work on:**<br>
- - write-activity: [#28 Port to sugar3.speech](https://github.com/sugarlabs/write-activity/issues/28)
  - jukebox-activity: [#22 Add collaboration for sharing playlist items](https://github.com/sugarlabs/jukebox-activity/issues/22)
- - jukebox-activity: [#23 Enable visualisations in the playbin element for audio content](https://github.com/sugarlabs/jukebox-activity/issues/23)
- - infoslicer: [#23 Traceback, motion_notify](https://github.com/sugarlabs/infoslicer/issues/23)
- - iq-activity: [#10 Port to Latest Sugargame](https://github.com/sugarlabs/iq-activity/issues/10)
- - GTranslator: [#8 Unconnected forks to be merged](https://github.com/sugarlabs/GTranslator/issues/8)
- - maze-activity: [#16 Add holes](https://github.com/sugarlabs/maze-activity/issues/16)
- - flappy-birds-activity: [#16 Suggested changes](https://github.com/sugarlabs/flappy-birds-activity/issues/16)
- - bichos-activity: [#9 Delete repository](https://github.com/sugarlabs/bichos-activity/issues/9)
 
 Other issues will have been raised since.
 
@@ -100,7 +84,6 @@ Suggesting or adding features, fixing bugs, or releasing activities
 will help you to gain experience
 
 **Coding Mentors**<br>
-[Rahul Bothra](https://github.com/pro-panda),
 [James Cameron](https://github.com/quozl) and
 [Ibiam Chihurumnaya](https://github.com/chimosky) (via mailing list).
 
@@ -110,6 +93,7 @@ None.
 ------------
 
 ## Export Music Blocks code to JavaScript
+
 **Selected**<br>
 Nobody.
 
@@ -149,17 +133,18 @@ JavaScript as possible.
    code base. [Bug](https://github.com/sugarlabs/musicblocks/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+label%3Abug+)
 
 **Coding Mentors**<br>
-[Vaibhav Aren](https://github.com/vaibhavdaren) and
+_unverified_: [Vaibhav Aren](https://github.com/vaibhavdaren) and
 [Walter Bender](https://github.com/walterbender)
 
 **Assisting Mentors**<br>
-[Jaskirat Singh](https://github.com/jaskirat2000),
-[Sumit Srivastava](https://github.com/sum2it), and
-[Devin Ulibarri](https://github.com/pikurasa).
+_unverified_: [Jaskirat Singh](https://github.com/jaskirat2000),
+_unverified_: [Sumit Srivastava](https://github.com/sum2it), and
+_unverified_: [Devin Ulibarri](https://github.com/pikurasa).
 
 --------------
 
 ## Colored desktop and activity icons
+
 **Selected**<br>
 Nobody.
 
@@ -212,15 +197,15 @@ to take on any colors deemed suitable by the activity designer.
 
 **Coding Mentors**<br>
 [Walter Bender](https://github.com/walterbender) and
-[Rahul Bothra](https://github.com/pro-panda)
 
 **Assisting Mentors**<br>
-[Peace Ojemeh](https://github.com/perriefidelis) and
-[Jaskirat Singh](https://github.com/jaskirat2000)
+_unverified_: [Peace Ojemeh](https://github.com/perriefidelis) and
+_unverified_: [Jaskirat Singh](https://github.com/jaskirat2000)
 
 ------------
 
 ## Port Sugarizer activities to Sugar
+
 **Selected**<br>
 Nobody.
 
@@ -260,13 +245,136 @@ Steps to take:
 [Iqra Mohammad](https://github.com/iqraceme) (via mailing list)
 
 **Assistant Mentors**<br>
-[Samson Goddy](https://github.com/samswag)
+_unverified_: [Samson Goddy](https://github.com/samswag)
+
+------------
+
+## Fedora advocacy for Sugar
+
+**Selected**<br>
+Nobody.
+
+**Prerequisites**<br>
+ - Ability to install Linux,
+ - Ability to test all features of a software package,
+ - Ability to write in International English for communication with Open Source communities,
+
+**Description**<br>
+
+Fedora Project make Sugar on a Stick, a bootable live environment containing Sugar and selected activities.
+
+Sugar on a Stick depends on Fedora packaging of Sugar and activities.
+
+Fedora project needs help, and this help would benefit Sugar Labs;
+ - Test Sugar on Fedora latest release and testing release (rawhide),
+ - Test Sugar on a Stick,
+ - Report bugs to Sugar Labs, where those bugs are due to our source code,
+ - Report bugs to Fedora, where those bugs are due to Fedora packaging decisions.
+ - Fix bugs and participate in peer review with the respective community.
+
+**Coding Mentors**<br>
+[James Cameron](https://github.com/quozl) (via mailing list)
+
+**Assistant Mentors**<br>
+None.
+
+------------
+
+## Debian advocacy for Sugar
+
+**Selected**<br>
+Nobody.
+
+**Prerequisites**<br>
+ - Ability to install Linux,
+ - Ability to test all features of a software package,
+ - Ability to write in International English for communication with Open Source communities,
+
+**Description**<br>
+
+Debian is a Linux distribution composed of free and open-source software, developed by the community-supported Debian Project.  Ubuntu is a free and open-source Linux distribution based on Debian.
+
+Debian volunteers make software packages of Sugar and selected activities and make them available for installation.  Ubuntu brings these packages into their distribution.
+
+Sugar Labs makes a Sugar Live Build based on Debian, using Sugar and activity source code, and not the Debian software packages.
+
+Debian Project needs help, and this help would benefit Sugar Labs;
+ - Test Sugar on Debian latest release (Debian 10 aka Buster), testing release (Debian 11 aka Bullseye), and experimental release (sid),
+ - Test Sugar Live Build,
+ - Report bugs to Sugar Labs, where those bugs are due to our source code,
+ - Report bugs to Debian, where those bugs are due to Debian packaging decisions.
+ - Fix bugs and participate in peer review with the respective community.
+
+**Coding Mentors**<br>
+[James Cameron](https://github.com/quozl) (via mailing list)
+
+**Assistant Mentors**<br>
+None.
+
+------------
+
+## Sugar app store for Python 3 activities (aslov4)
+
+**Selected**<br>
+Nobody.
+
+**Prerequisites**<br>
+ - Ability to write programs in Python,
+ - Ability to design and write web pages that use HTML5 and JavaScript,
+
+**Description**<br>
+
+Create the simplest possible app store for Sugar activities, where
+each activity included has been (a) ported to Python 3 and released,
+and (b) tested on Sugar Live Build.
+
+We used to have an app store for Sugar activities, but because we
+can't seem to attract any PHP developers the app store has failed to
+keep up with development.
+
+We now use activities.sugarlabs.org for Python 2 activities only.
+
+We have tried to make a replacement for activities.sugarlabs.org three
+times, and each time the features we need were not finished.  These
+projects have been too ambitious and have not been supported
+collectively by the Sugar Labs community.
+
+Minimum Requirements;
+
+ - support activity bundles uploaded via ssh,
+ - detect User-Agent of Fedora 18 systems running Sugar 0.112 or earlier, and redirect to activities.sugarlabs.org,
+ - provide a list of all activity bundles,
+ - provide activity bundle download, using the correct Content-Type,
+ - provide search of activity bundles (using title, description, or other keywords),
+ - support Sugar's microformat software upgrade feature in My Settings,
+
+Optional requirements;
+
+ - for a specific list of activities, access the source repository and detect any change to a release tag (publish), create a bundle and extract release notes,
+ - display in Browse if an activity bundle is already installed, (requires integration between Sugar on the local system and the web app),
+ - download counts,
+ - graphic design, style and appearance,
+
+Non-requirements; things we don't want to have to do;
+
+ - any changes to activity metadata files `activity/activity.info`,
+
+Project Scheduling;
+
+ - a working prototype with minimum requirements must be ready within the first two weeks,
+ - once approved, the Browse activity is to be changed to point to the service, and Sugar's software upgrade feature changed,
+
+**Coding Mentors**<br>
+[James Cameron](https://github.com/quozl) (via mailing list)
+
+**Assistant Mentors**<br>
+None.
 
 ------------
 
 # Administrative notes
 
-Above are a list of ideas we've planned for GSoC 2019 projects.
+Above are a list of ideas we've planned for GSoC 2020 projects.
 If you have any ideas which can be useful to us, but are not in the
 list, we'd love to hear from you.  You need not be a potential
 student or a mentor to suggest ideas.

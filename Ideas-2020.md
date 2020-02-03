@@ -3,6 +3,7 @@
    * [Port Sugar and core activities to Python 3](#port-sugar-and-core-activities-to-python-3)
    * [Improve and maintain 25 Sugar activities](#improve-and-maintain-25-sugar-activities)
    * [Export Music Blocks code to JavaScript](#export-music-blocks-code-to-javascript)
+   * [Resolve 100 issues in Music Blocks](#resolve-100-issues-in-music-blocks)
    * [Colored desktop and activity icons](#colored-desktop-and-activity-icons)
    * [Port Sugarizer activities to Sugar](#port-sugarizer-activities-to-sugar)
    * [Fedora advocacy for Sugar](#fedora-advocacy-for-sugar)
@@ -369,6 +370,35 @@ Project Scheduling;
 
 **Assistant Mentors**<br>
 None.
+
+------------
+
+## Resolve 100 issues in Music Blocks
+**Selected**<br>
+Nobody.
+
+**Prerequisites**<br>
+ - Experience with JavaScript
+ - Some experience of working on [Music
+   Blocks](https://github.com/sugarlabs/musicblocks) or [Turtle
+   Blocks](https://github.com/sugarlabs/turtleblocksjs)
+
+**Description**<br>
+
+There are 200+ open [issues on Music
+Blocks](https://github.com/sugarlabs/musicblocks/issues). Some are
+[trivial](https://github.com/sugarlabs/musicblocks/issues/1967) and
+some will require some [major
+effort](https://github.com/sugarlabs/musicblocks/issues/2020) to
+resolve. But a dedicated effort could probably tackle half of them --
+on average one a day -- over the course of GSoC.
+
+**Coding Mentors**<br>
+[Walter Bender](https://github.com/walterbender)
+[Favour Kelvin](favourkelvin17@gmail.com)
+
+**Assisting Mentors**<br>
+[Devin Ulibarri](https://github.com/pikurasa).
 
 ------------
 

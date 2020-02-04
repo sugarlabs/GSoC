@@ -18,7 +18,7 @@ This is a sample template. You can add other sections which you think add value 
  - Email and GitHub Username
  - Your first language
  - Location and Timezone
- - Share links, if any, of your previous work on open source projects ?
+ - Share links, if any, of your previous work on open source projects
  - Convince us that you will be a good fit for this project, by sharing links to your contribution to Sugar Labs
 
 

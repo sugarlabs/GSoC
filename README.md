@@ -39,6 +39,8 @@ yourself with our code, by reporting and fixing bugs.
 See our [proposed ideas](Ideas-2020.md) page.  We would love to hear
 your own ideas as well.
 
+You may use our [Proposal-Template](Template.md) or your own.
+
 
 ## How to talk to us ?
 We use the

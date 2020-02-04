@@ -2,20 +2,22 @@
 
 ## Shortcuts
 
-|[GSoC'19 Ideas](Ideas-2019.md)| [Proposal Template](Template.md) | [Sugar Labs @GitHub](https://github.com/sugarlabs) | [Sugar Labs @IRC](https://webchat.freenode.net) |
-|:-------------------------:|----------------------|----------------------|--------------------------|
-|<a href="Ideas-2019.md">![](assets/gsoc-square.png)</a> | <a href="Template.md">![](assets/template.png)</a> | <a href="https://github.com/sugarlabs">![](assets/github.png)</a> |<a href="https://webchat.freenode.net">![](assets/sugar-labs.png)</a> |
+|[GSoC'20 Ideas](Ideas-2020.md)| [Proposal Template](Template.md) | [Sugar Labs @GitHub](https://github.com/sugarlabs) |
+|:-------------------------:|----------------------|----------------------|
+|<a href="Ideas-2020.md">![](assets/gsoc-square.png)</a> | <a href="Template.md">![](assets/template.png)</a> | <a href="https://github.com/sugarlabs">![](assets/github.png)</a> |
 
 
 ## Introduction
 Google Summer of Code is a *global program focused on bringing
 more student developers into open source software development*.
-Sugar Labs will be applying in Google Summer of Code 2019 as a
-mentor organisation. See [GSoC 2019
-timeline](https://developers.google.com/open-source/gsoc/timeline?hl=vi)
-for more details
+See [GSoC 2020
+timeline](https://developers.google.com/open-source/gsoc/timeline?hl=vi).
 
-Checkout our archives of GSoC Projects:
+Sugar Labs is applying to Google Summer of Code 2020 as a
+mentor organisation. We will be informed on February 20, 2020 if our
+organization has been accepted to participate as a mentor organization.
+
+Our archives of GSoC Projects:
 [2009](https://wiki.sugarlabs.org/go/Summer_of_Code/2009) |
 [2010](https://wiki.sugarlabs.org/go/Summer_of_Code/2010) |
 [2011](https://wiki.sugarlabs.org/go/Summer_of_Code/2011) |
@@ -25,31 +27,38 @@ Checkout our archives of GSoC Projects:
 [2015](https://wiki.sugarlabs.org/go/Summer_of_Code/2015) |
 [2016](https://wiki.sugarlabs.org/go/Summer_of_Code/2016) |
 [2017](https://wiki.sugarlabs.org/go/Summer_of_Code/2017) |
-[2018](https://wiki.sugarlabs.org/go/Summer_of_Code/2018)
+[2018](https://wiki.sugarlabs.org/go/Summer_of_Code/2018) |
+[2019](Ideas-2019.md)
 
 ## Want to work with us ?
-We have a lot of interesting project ideas for you. There is
-Sugar OS, Sugar Activities, Music Blocks and Sugarizer. You
-can start by going through them and see what would you like
-to work on.<br>
-After that, you can go through our [Ideas](Ideas-2019.md) page
-to see our proposed ideas. We would love to hear your own ideas
-as well.
+It is too early to apply, since Google has yet to assign slots.
 
-You should familiarise yourself with our code, by reporting and
-fixing bugs. This will assure us that you will be able to work
-on the project ;-)
+That said, it is not to early to get involved.  You may familiarise
+yourself with our code, by reporting and fixing bugs.
 
-Before you start writing your proposal, go through our [Proposal
-Template](Template.md).
+See our [proposed ideas](Ideas-2020.md) page.  We would love to hear
+your own ideas as well.
+
+You may use our [Proposal-Template](Template.md) or your own.
+
+In addition to the [Google Summer of Code requirements for a proposal](https://google.github.io/gsocguides/student/writing-a-proposal), proposals for Sugar Labs must;
+
+* be your own work, and not the work of others, except where the work of others is minimal, duly credited and quoted,
+* show you are fluent in the programming language needed,
+* show your assessment of the competency of your mentors,
+* be posted on our [sugar-devel@](http://lists.sugarlabs.org/listinfo/sugar-devel) mailing list as GitHub Markdown or PDF, and supported with answers to any questions posted in reply,
+* not be posted as a Google Docs (a document can change after you send the link, a document can disappear, the export feature may be turned off, and we don't want to require our members to use Google Docs).
 
 ## How to talk to us ?
-We use `#sugar` and `#sugar-meeting` channels on
-[IRC](https://webchat.freenode.net) and 
+We use the
 [sugar-devel@](http://lists.sugarlabs.org/listinfo/sugar-devel)
-mailing list for communication. You can join our IRC channels
-and mailing list to participate in the discussions and asking
-for help.
+mailing list for communication. Join to participate in the discussion
+and ask for help.  Allow some days for reply.  See
+[Community etiquette](https://github.com/sugarlabs/GSoC#community-etiquette).
+
+Do not write secretly to mentors or developers unless they have asked
+you to.  This varies by idea.  Check the list of coding mentors for
+each idea.
 
 ## How to Contribute
 

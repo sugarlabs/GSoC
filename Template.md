@@ -33,4 +33,6 @@ This is a sample template. You can add other sections which you think add value 
  - If you will be off-the-grid for a few days, then mention those in the timeline.
  - GSoC has three evaluations, once after every 30 days. Highlight the work you plan to complete before each evaluation.
  - How many hours will you spend each week on your project ?
+ - How will you report progress between evaluations ?
  - Discuss your post GSoC plans. Will you continue contributing to Sugar Labs after GSOC ends ?
+ 

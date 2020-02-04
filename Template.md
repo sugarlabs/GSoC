@@ -1,6 +1,6 @@
 # Proposal Template:
 A good proposal is structured, complete and backed by your code contributions ;-). We want you to be honest and realistic while writing your proposal.<br>
-You should also see [Google's guide to Writing a Proposal](https://google.github.io/gsocguides/student/writing-a-proposal)
+You must also use [Google's guide to Writing a Proposal](https://google.github.io/gsocguides/student/writing-a-proposal)
 
 It's good to have a well spaced timeline with doable goals for each week and buffers for each task. If you end up not being able to complete what you proposed, then we might consider failing your project.
 
@@ -18,7 +18,7 @@ This is a sample template. You can add other sections which you think add value 
  - Email and GitHub Username
  - Your first language
  - Location and Timezone
- - Share links, if any, of your previous work on open source projects ?
+ - Share links, if any, of your previous work on open source projects
  - Convince us that you will be a good fit for this project, by sharing links to your contribution to Sugar Labs
 
 
@@ -33,4 +33,6 @@ This is a sample template. You can add other sections which you think add value 
  - If you will be off-the-grid for a few days, then mention those in the timeline.
  - GSoC has three evaluations, once after every 30 days. Highlight the work you plan to complete before each evaluation.
  - How many hours will you spend each week on your project ?
+ - How will you report progress between evaluations ?
  - Discuss your post GSoC plans. Will you continue contributing to Sugar Labs after GSOC ends ?
+ 

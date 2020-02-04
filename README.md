@@ -32,11 +32,13 @@ Our archives of GSoC Projects:
 
 ## Want to work with us ?
 It is too early to apply, since Google has yet to assign slots.
-That said, it is not to early to get invovled.
+
+That said, it is not to early to get involved.  You may familiarise
+yourself with our code, by reporting and fixing bugs.
 
 See our [proposed ideas](Ideas-2020.md) page.  We would love to hear
-your own ideas as well.  You may familiarise yourself with our code,
-by reporting and fixing bugs.
+your own ideas as well.
+
 
 ## How to talk to us ?
 We use the

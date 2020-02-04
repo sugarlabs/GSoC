@@ -1,6 +1,6 @@
 # Proposal Template:
 A good proposal is structured, complete and backed by your code contributions ;-). We want you to be honest and realistic while writing your proposal.<br>
-You should also see [Google's guide to Writing a Proposal](https://google.github.io/gsocguides/student/writing-a-proposal)
+You must also use [Google's guide to Writing a Proposal](https://google.github.io/gsocguides/student/writing-a-proposal)
 
 It's good to have a well spaced timeline with doable goals for each week and buffers for each task. If you end up not being able to complete what you proposed, then we might consider failing your project.
 

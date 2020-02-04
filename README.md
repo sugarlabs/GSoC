@@ -41,6 +41,13 @@ your own ideas as well.
 
 You may use our [Proposal-Template](Template.md) or your own.
 
+In addition to the [Google Summer of Code requirements for a proposal](https://google.github.io/gsocguides/student/writing-a-proposal), proposals for Sugar Labs must;
+
+* be your own work, and not the work of others, except where the work of others is minimal, duly credited and quoted,
+* show you are fluent in the programming language needed,
+* show your assessment of the competency of your mentors,
+* be posted on our [sugar-devel@](http://lists.sugarlabs.org/listinfo/sugar-devel) mailing list as GitHub Markdown or PDF, and supported with answers to any questions posted in reply,
+* not be posted as a Google Docs (a document can change after you send the link, a document can disappear, the export feature may be turned off, and we don't want to require our members to use Google Docs).
 
 ## How to talk to us ?
 We use the

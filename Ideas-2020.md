@@ -751,7 +751,7 @@ in our Code of Conduct.
 ## Suggested Issues
 
 For some ideas, there is a list of 'Suggested issues to work on'.
-These will help you to get familiar with the project.  The more you
+These may help you to get familiar with the project.  The more you
 work on these issues, the more experienced you will be for the
 project.  However, this is not a strict list.  You _should_ try and
 explore other issues as well.

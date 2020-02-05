@@ -525,7 +525,7 @@ As with other Sugarizer activities, the new activities should be written using J
 
 - Complete the [Sugarizer activity development tutorial](https://github.com/llaske/sugarizer/blob/dev/docs/tutorial.md)
 - Explore the list of inspiration provided above
-- Study the [source code](https://github.com/llaske/ExerciserReact) of the Calligra activity, a Sugarizer activity developed with the Vue.js framework
+- Study the [source code](https://github.com/llaske/sugarizer/tree/dev/activities/Calligra.activity) of the Calligra activity, a Sugarizer activity developed with the Vue.js framework
 - Learn about [Vue.js](https://vuejs.org) framework and complete the Vue.js tutorial
 - Propose a game play for these activities
 
@@ -612,7 +612,7 @@ As with other Sugarizer activities, the new activities should be written using J
 
 - Complete the [Sugarizer activity development tutorial](https://github.com/llaske/sugarizer/blob/dev/docs/tutorial.md)
 - Explore the list of inspiration provided above
-- Study the [source code](https://github.com/llaske/ExerciserReact) of the Calligra activity, a Sugarizer activity developped with the Vue.js framework
+- Study the [source code](https://github.com/llaske/sugarizer/tree/dev/activities/Calligra.activity) of the Calligra activity, a Sugarizer activity developped with the Vue.js framework
 - Learn about [Vue.js](https://vuejs.org) framework and complete the Vue.js tutorial
 - Propose a game play for these activities
 

@@ -519,13 +519,13 @@ These new activities should provide unique Sugarizer features:
 - Multi-device support: should work on any browser (Chrome, Firefox, Safari) and any platform (Android, iOS, Windows, Linux, MacOS) supported by Sugarizer
 - Tutorial: an integrated documentation should be integrated to explain each feature of the activity
 
-As with other Sugarizer activities, the new activities should be written using JavaScript and Sugar-Web library. We recommand also to use the Vue.js framework.
+As with other Sugarizer activities, the new activities should be written using JavaScript and Sugar-Web library. We recommend also to use the Vue.js framework.
 
 **First steps to start:**
 
 - Complete the [Sugarizer activity development tutorial](https://github.com/llaske/sugarizer/blob/dev/docs/tutorial.md)
 - Explore the list of inspiration provided above
-- Study the [source code](https://github.com/llaske/ExerciserReact) of the Calligra activity, a Sugarizer activity developped with the Vue.js framework
+- Study the [source code](https://github.com/llaske/ExerciserReact) of the Calligra activity, a Sugarizer activity developed with the Vue.js framework
 - Learn about [Vue.js](https://vuejs.org) framework and complete the Vue.js tutorial
 - Propose a game play for these activities
 

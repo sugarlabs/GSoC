@@ -569,7 +569,7 @@ The Curriculum activity will be a way for a student to self check its skill in a
 
 The Curriculum activity will display a hierarchical set of skills grouped by categories then let the user explore the tree. On each skill the user should be able to validate (i.e. skill acquired) and provide multimedia elements (pictures or sounds coming from Journal) to demonstrate the skill.
 
-![](images/curriculum.jpg)
+![](assets/curriculum.jpg)
 
 The Curriculum activity will provide a settings mode to edit the set of skills: Create/Update/Delete/Sort skills or categories. A category should have a title and a color, a skill should have a title and an image.
 It should be possible to generate a Word/ODT document with all skills and dated multimedia elements.

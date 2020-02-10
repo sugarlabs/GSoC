@@ -13,7 +13,8 @@
    * [Sugarizer game activity pack](#sugarizer-game-activity-pack)
    * [Sugarizer knowledge activity pack](#sugarizer-knowledge-activity-pack)
    * [Sugarizer School Portal](#sugarizer-school-portal)
-   * [Administrative notes](#administrative-notes)
+   
+[Administrative notes](#administrative-notes)
 
 ------------
 

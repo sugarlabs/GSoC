@@ -524,6 +524,7 @@ As with other Sugarizer activities, the new activities should be written using J
 **First steps to start:**
 
 - Complete the [Sugarizer activity development tutorial](https://github.com/llaske/sugarizer/blob/dev/docs/tutorial.md)
+- Complete the [Chessboard task](https://github.com/llaske/sugarizer/issues/592)
 - Explore the list of inspiration provided above
 - Study the [source code](https://github.com/llaske/ExerciserReact) of the Calligra activity, a Sugarizer activity developped with the Vue.js framework
 - Learn about [Vue.js](https://vuejs.org) framework and complete the Vue.js tutorial
@@ -611,6 +612,7 @@ As with other Sugarizer activities, the new activities should be written using J
 **Fist step to start:**
 
 - Complete the [Sugarizer activity development tutorial](https://github.com/llaske/sugarizer/blob/dev/docs/tutorial.md)
+- Complete the [Chessboard task](https://github.com/llaske/sugarizer/issues/592)
 - Explore the list of inspiration provided above
 - Study the [source code](https://github.com/llaske/ExerciserReact) of the Calligra activity, a Sugarizer activity developped with the Vue.js framework
 - Learn about [Vue.js](https://vuejs.org) framework and complete the Vue.js tutorial
@@ -671,6 +673,7 @@ Some other features could be added to this list depending of feedbacks on the fi
 **Fist step to start:**
 
 - Complete the [Sugarizer activity development tutorial](https://github.com/llaske/sugarizer/blob/dev/docs/tutorial.md) to understand how Sugarizer work
+- Complete the [Chessboard task](https://github.com/llaske/sugarizer/issues/592)
 - Install [Sugarizer Server](https://github.com/llaske/sugarizer-server/tree/dev) and dashboard using Docker and explore the Docker compose file provided with Sugarizer Server
 - Create different Sugarizer users and see how the dashboard trace activities and usage works
 - Study the [source code](https://github.com/llaske/sugarizer-server/tree/dev/dashboard) of dashboard

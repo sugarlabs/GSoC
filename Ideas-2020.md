@@ -129,7 +129,7 @@ Music Blocks is written in JavaScript and runs in a web browser. User
 create programs in a snap-together block language which is inspired by
 Logo. Music Blocks is a fork of Turtle Blocks JS, which is turn is a
 derivative of [Turtle
-Blocks](https://github.com/sugarlabs/turtleblocks), which is
+Blocks](https://github.com/sugarlabs/turtleart-activity), which is
 written in Python.
 
 One feature of the Python code is the ability to export to Python. In

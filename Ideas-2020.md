@@ -176,7 +176,9 @@ Nobody.
 
 **Description**<br>
 
-The main focus of this issue is to work on [Issue 2058](https://github.com/sugarlabs/musicblocks/issues/2058) in order to marry the functionality of math and computation with expectations of musicians.
+Marry the functionality of math and computation with expectations of
+musicians, by working on [Issue 2058 - Scale Degree Design Path
+Proposal](https://github.com/sugarlabs/musicblocks/issues/2058).
 
 **Suggested issues to work on:**<br>
  - [https://github.com/sugarlabs/musicblocks/issues/2020](https://github.com/sugarlabs/musicblocks/issues/2020)

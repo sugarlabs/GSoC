@@ -3,6 +3,7 @@
    * [Port Sugar and core activities to Python 3](#port-sugar-and-core-activities-to-python-3)
    * [Improve and maintain 25 Sugar activities](#improve-and-maintain-25-sugar-activities)
    * [Export Music Blocks code to JavaScript](#export-music-blocks-code-to-javascript)
+   * [Music Blocks Scale Degree vs n^th Modal Pitch](#music-blocks-scale-degree-vs-n^th-modal-pitch)
    * [Colored desktop and activity icons](#colored-desktop-and-activity-icons)
    * [Port Sugarizer activities to Sugar](#port-sugarizer-activities-to-sugar)
    * [Fedora advocacy for Sugar](#fedora-advocacy-for-sugar)
@@ -163,7 +164,7 @@ _unverified_: [Devin Ulibarri](https://github.com/pikurasa).
 
 --------------
 
-## Scale/Mode Design Improvements
+## Music Blocks Scale Degree vs n^th Modal Pitch
 
 **Selected**<br>
 Nobody.

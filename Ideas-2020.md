@@ -159,7 +159,7 @@ _unverified_: [Vaibhav Aren](https://github.com/vaibhavdaren) and
 **Assisting Mentors**<br>
 _unverified_: [Jaskirat Singh](https://github.com/jaskirat2000),
 _unverified_: [Sumit Srivastava](https://github.com/sum2it), and
-_unverified_: [Devin Ulibarri](https://github.com/pikurasa).
+[Devin Ulibarri](https://github.com/pikurasa).
 
 --------------
 

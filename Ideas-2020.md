@@ -163,6 +163,35 @@ _unverified_: [Sumit Srivastava](https://github.com/sum2it), and
 
 --------------
 
+## Scale/Mode Design Improvements
+
+**Selected**<br>
+Nobody.
+
+**Prerequisites**<br>
+ - Experience with JavaScript
+ - Some experience of working on [Music
+   Blocks](https://github.com/sugarlabs/musicblocks) or [Turtle
+   Blocks](https://github.com/sugarlabs/turtleblocksjs)
+
+**Description**<br>
+
+The main focus of this issue is to work on [Issue 2058](https://github.com/sugarlabs/musicblocks/issues/2058) in order to marry the functionality of math and computation with expectations of musicians.
+
+**Suggested issues to work on:**<br>
+ - [https://github.com/sugarlabs/musicblocks/issues/2020](https://github.com/sugarlabs/musicblocks/issues/2020)
+
+**Coding Mentors**<br>
+_unverified_: [Vaibhav Aren](https://github.com/vaibhavdaren) and
+[Walter Bender](https://github.com/walterbender)
+
+**Assisting Mentors**<br>
+_unverified_: [Jaskirat Singh](https://github.com/jaskirat2000),
+_unverified_: [Sumit Srivastava](https://github.com/sum2it), and
+[Devin Ulibarri](https://github.com/pikurasa).
+
+--------------
+
 ## Colored desktop and activity icons
 
 **Selected**<br>

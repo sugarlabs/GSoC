@@ -36,10 +36,10 @@ Now is the time to discuss your application ideas with us.
 Please get involved.  Familiarise
 yourself with our code, by reporting and fixing bugs.
 
-See our [proposed ideas](Ideas-2020.md) page.  We would love to hear
+See our [ideas](Ideas-2020.md) page.  We would love to hear
 your own ideas as well.
 
-You may use our [Proposal-Template](Template.md) or your own.
+You may use our [proposal template](Template.md) or your own.
 
 In addition to the [Google Summer of Code requirements for a proposal](https://google.github.io/gsocguides/student/writing-a-proposal), proposals for Sugar Labs must;
 
@@ -58,7 +58,7 @@ and ask for help.  Allow some days for reply.  See
 
 Do not write secretly to mentors or developers unless they have asked
 you to.  This varies by idea.  Check the list of coding mentors for
-each idea.
+each idea.  We have added contact methods.
 
 ## How to Contribute
 

@@ -61,7 +61,8 @@ is a prerequisite, see GitHub Project [Port to
 TelepathyGLib](https://github.com/orgs/sugarlabs/projects/4).
 
 **Coding Mentors**<br>
-[James Cameron](https://github.com/quozl) (via mailing list)
+[James Cameron](https://github.com/quozl) and 
+[Ibiam Chihurumnaya](https://github.com/chimosky) (via mailing list)
 
 **Assisting Mentors**<br>
 None.
@@ -325,7 +326,8 @@ Fedora project needs help, and this help would benefit Sugar Labs;
  - Fix bugs and participate in peer review with the respective community.
 
 **Coding Mentors**<br>
-[James Cameron](https://github.com/quozl) (via mailing list)
+[James Cameron](https://github.com/quozl) and
+[Ibiam Chihurumnaya](https://github.com/chimosky) (via mailing list)
 
 **Assistant Mentors**<br>
 None.

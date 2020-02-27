@@ -690,23 +690,32 @@ Nobody.
 **Prerequisites**
 
 - Experience with JavaScript/HTML5 development
-- Experience with node.js and EJS framework
-- Experience with Docker and Kubernetes
-- Experience with Ansible
+- Experience with Node.js and EJS framework
+- Experience with Docker, Ansible
+
+**Strongly appreciated skills**
+
+- Google Kubernetes Engine knowledge
+- Google Cloud DNS knowledge
+- Nginx knowledge
+- Let's encrypt knowledge
+- Helm knowledge
+- Pub/Sub or equivalents solutions knowledge
 
 **Description**
 
-Sugarizer School Portal is a new tool in the Sugarizer family to provide a way, for schools interested by Sugarizer, to host and manage themselves their Sugarizer deployment. More precisely, the idea is to provide an on-demand (SaaS) Sugarizer Server deployment tool. So, every school will be able in few clicks to create a Sugarizer Server to host its own deployment without any technical skill.
+Sugarizer School Portal is a new tool in the Sugarizer family to provide a way, for schools interested by 
+Sugarizer, to host and manage themselves their Sugarizer deployment. More precisely, the idea is to provide an on-demand (SaaS) Sugarizer Server deployment tool. So, every school will be able in few clicks to create a Sugarizer Server to host its own deployment without any technical skill.
 
-![](assets/docker.png)
+Illustration of a potential stack is currently in work in progress.
 
-Under the hood, Sugarizer School Portal will be a Kubernetes server that should be able to create/manage on demand new Sugarizer Server docker instances. Some Kubernetes services should be realized to handle: traffic redirection, data persistance, rolling update, secure access,...
+Under the hood, Sugarizer School Portal will be a Kubernetes cluster that should be able to create/manage on demand new Sugarizer Server instances. Some Kubernetes features should be used to handle: traffic balancing, data persistance, rolling update, secure access…
 
 A web interface will be created to let users ask for a new deployment. This web interface will integrate a dashboard to let super administrator follow number of deployments and usage of each deployment to be able to resize the infrastructure if need.
 
-Finally, to easily deploy Sugarizer Server, an Ansible package will be realized.
+Finally, to easily create a Kubernetes Sugarizer Server provider, an Ansible package will be realized.
 
-It's important to note than some Sugarizer Server improvements could be required, for example the replacement of MongoDB by another database.
+It's important to note than some Sugarizer Server improvements could be required, for example the replacement of MongoDB by another database or some modifications regarding storage, and high availability.
 
 **Project Tasks**
 
@@ -716,10 +725,9 @@ It's important to note than some Sugarizer Server improvements could be required
 - Create a set of scripts to extract stats usage of Sugarizer Server
 - Create a web interface to let users ask for a new deployment
 - Create a web dashboard to let super administrator manage instances deployment and usage
-
 Some other features could be added to this list depending of feedbacks on the field.
 
-**Fist step to start:**
+**First step to start:**
 
 - Complete the [Sugarizer activity development tutorial](https://github.com/llaske/sugarizer/blob/dev/docs/tutorial.md) to understand how Sugarizer work
 - Complete the [Chessboard task](https://github.com/llaske/sugarizer/issues/592)
@@ -727,13 +735,12 @@ Some other features could be added to this list depending of feedbacks on the fi
 - Create different Sugarizer users and see how the dashboard trace activities and usage works
 - Study the [source code](https://github.com/llaske/sugarizer-server/tree/dev/dashboard) of dashboard
 - Learn about [Kubernetes](https://kubernetes.io/) and complete the [Kubernetes tutorial](https://kubernetes.io/docs/tutorials/)
+- Learn about [Helm](https://helm.sh/) and complete the [Helm tutorial](https://helm.sh/docs/intro/)
 - Learn about [Ansible](https://www.ansible.com/) and complete the [Ansible tutorial](https://www.ansible.com/resources/get-started). Install [IIAB](https://github.com/iiab/iiab), test use of Sugarizer throught IIAB and study the way of working of [IIAB](https://github.com/iiab/iiab) Ansible packages
-
 
 **Coding Mentors**
 
 [Michaël Ohayon](https://github.com/mikklfr) and [Lionel Laské](https://github.com/llaske) (via direct mail)
-
 
 **Assisting Mentors**
 

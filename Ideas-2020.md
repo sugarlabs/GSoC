@@ -730,7 +730,6 @@ Some other features could be added to this list depending of feedbacks on the fi
 **First step to start:**
 
 - Complete the [Sugarizer activity development tutorial](https://github.com/llaske/sugarizer/blob/dev/docs/tutorial.md) to understand how Sugarizer work
-- Complete the [Chessboard task](https://github.com/llaske/sugarizer/issues/592)
 - Install [Sugarizer Server](https://github.com/llaske/sugarizer-server/tree/dev) and dashboard using Docker and explore the Docker compose file provided with Sugarizer Server
 - Create different Sugarizer users and see how the dashboard trace activities and usage works
 - Study the [source code](https://github.com/llaske/sugarizer-server/tree/dev/dashboard) of dashboard

@@ -61,8 +61,9 @@ is a prerequisite, see GitHub Project [Port to
 TelepathyGLib](https://github.com/orgs/sugarlabs/projects/4).
 
 **Coding Mentors**<br>
-[James Cameron](https://github.com/quozl) and 
-[Ibiam Chihurumnaya](https://github.com/chimosky) (via mailing list)
+[James Cameron](https://github.com/quozl),
+[Ibiam Chihurumnaya](https://github.com/chimosky) and
+[Hrishi Patel](https://github.com/hrishi1999) (via mailing list)
 
 **Assisting Mentors**<br>
 None.
@@ -415,7 +416,7 @@ Project Scheduling;
  - once approved, the Browse activity is to be changed to point to the service, and Sugar's software upgrade feature changed,
 
 **Coding Mentors**<br>
-[James Cameron](https://github.com/quozl) (via mailing list)
+[James Cameron](https://github.com/quozl) and [Hrishi Patel](https://github.com/hrishi1999)(via mailing list)
 
 **Assistant Mentors**<br>
 [Samson Goddy](https://github.com/samswag)

@@ -396,11 +396,12 @@ collectively by the Sugar Labs community.
 Minimum Requirements;
 
  - support activity bundles uploaded via ssh,
+ - operate from static HTML5 with JavaScript,
  - detect User-Agent of Fedora 18 systems running Sugar 0.112 or earlier, and redirect to activities.sugarlabs.org,
  - provide a list of all activity bundles,
  - provide activity bundle download, using the correct Content-Type,
  - provide search of activity bundles (using title, description, or other keywords),
- - support Sugar's microformat software upgrade feature in My Settings,
+ - support Sugar's microformat software upgrade feature in My Settings, (Sugar 0.116 is configured in `data/org.sugarlabs.gschema.xml` to use the AsloUpdater in `src/jarabe/model/update/aslo.py` which reaches out to a PHP script `update-aslo.php`, and will instead be configured to use `src/jarabe/model/update/microformat.py`),
 
 Optional requirements;
 

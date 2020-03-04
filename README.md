@@ -103,3 +103,47 @@ avoid repeating it again ;-)
 
 Also see our [Code of
 Conduct](https://github.com/sugarlabs/sugar-docs/blob/master/src/CODE_OF_CONDUCT.md)
+
+## Right fit
+
+When we start interacting with you during the application period, we have several ways to see if you are the right fit; see how you compare to our perfect student;
+
+* you have a GitHub profile with a history of commits, pull requests, and issues in our project, other projects, or personal projects,
+
+* you are patient to apply every suggestion during a pull request review,
+
+* you care about our project beyond the specific task you are working on; you care about changes to documentation, tests, releases, issues, etc,
+
+* your conversation with us is more than the topic you are working on, but flows naturally to any topic,
+
+* you are able to have a proper technical discussion; and understands the value of the discussion in itself,
+
+* you don't just say yes and do something because a mentor says so,
+
+* you are interested in our community and follow our code of conduct and guidelines,
+
+* you keep working with our community even if you are not accepted,
+
+* you have contributed to our project before the application period,
+
+* you can engage in tight feedback loops around design discussions in proposal drafts,
+
+* you don't ask for help to write a proposal,
+
+* you don't remain ignorant of our software or what our project does,
+
+* you always write in public, and never write to a mentor in private unless the mentor has asked for that,
+
+* you work on a project our community needs, regardless of your personal interests,
+
+* you don't just fix issues, but you also get involved in other people's work.
+
+<i>(abstracted by @quozl from a work-in-progress document shared among mentors of several organisations, titled "Tips for finding the right GSoC student for your org", and due to be formalised on 10th March 2020.)</i>
+
+## Cheating
+
+When we suspect cheating we are to report it to the GSoC coordinator.  We have a list of behaviours we look for.  We don't make that list available.
+
+Your proposal, source code and other submissions must be your own work, and not the work of others.  Except where the work of others is minimal, and duly credited and quoted.  See [Cheating](https://google.github.io/gsocguides/mentor/selecting-students-and-mentors#cheating-and-proposals-from-outer-space).
+
+Thanks for reading all the way to the end!

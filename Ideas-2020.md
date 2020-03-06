@@ -159,7 +159,7 @@ _unverified_: [Vaibhav Aren](https://github.com/vaibhavdaren) and
 [Walter Bender](https://github.com/walterbender)
 
 **Assisting Mentors**<br>
-_unverified_: [Jaskirat Singh](https://github.com/jaskirat2000),
+[Jaskirat Singh](https://github.com/jaskirat2000),
 _unverified_: [Sumit Srivastava](https://github.com/sum2it), and
 [Devin Ulibarri](https://github.com/pikurasa).
 
@@ -252,6 +252,7 @@ to take on any colors deemed suitable by the activity designer.
 [Walter Bender](https://github.com/walterbender) and
 
 **Assisting Mentors**<br>
+[Jaskirat Singh](https://github.com/jaskirat2000)
 _unverified_: [Peace Ojemeh](https://github.com/perriefidelis) and
 _unverified_: [Jaskirat Singh](https://github.com/jaskirat2000)
 
@@ -455,6 +456,7 @@ plan to work on.
 [Favour Kelvin](favourkelvin17@gmail.com)
 
 **Assisting Mentors**<br>
+[Jaskirat Singh](https://github.com/jaskirat2000)
 [Devin Ulibarri](https://github.com/pikurasa).
 
 ------------

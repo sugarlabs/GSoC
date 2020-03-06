@@ -155,12 +155,10 @@ JavaScript as possible.
    code base. [Bug](https://github.com/sugarlabs/musicblocks/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+label%3Abug+)
 
 **Coding Mentors**<br>
-_unverified_: [Vaibhav Aren](https://github.com/vaibhavdaren) and
-[Walter Bender](https://github.com/walterbender)
+[Walter Bender](https://github.com/walterbender).
 
 **Assisting Mentors**<br>
-[Jaskirat Singh](https://github.com/jaskirat2000),
-_unverified_: [Sumit Srivastava](https://github.com/sum2it), and
+[Jaskirat Singh](https://github.com/jaskirat2000), and
 [Devin Ulibarri](https://github.com/pikurasa).
 
 --------------
@@ -186,12 +184,9 @@ Proposal](https://github.com/sugarlabs/musicblocks/issues/2058).
  - [https://github.com/sugarlabs/musicblocks/issues/2020](https://github.com/sugarlabs/musicblocks/issues/2020)
 
 **Coding Mentors**<br>
-_unverified_: [Vaibhav Aren](https://github.com/vaibhavdaren) and
-[Walter Bender](https://github.com/walterbender)
+[Walter Bender](https://github.com/walterbender).
 
 **Assisting Mentors**<br>
-_unverified_: [Jaskirat Singh](https://github.com/jaskirat2000),
-_unverified_: [Sumit Srivastava](https://github.com/sum2it), and
 [Devin Ulibarri](https://github.com/pikurasa).
 
 --------------
@@ -252,9 +247,7 @@ to take on any colors deemed suitable by the activity designer.
 [Walter Bender](https://github.com/walterbender) and
 
 **Assisting Mentors**<br>
-[Jaskirat Singh](https://github.com/jaskirat2000)
-_unverified_: [Peace Ojemeh](https://github.com/perriefidelis) and
-_unverified_: [Jaskirat Singh](https://github.com/jaskirat2000)
+[Jaskirat Singh](https://github.com/jaskirat2000).
 
 ------------
 
@@ -299,7 +292,7 @@ Steps to take:
 [Iqra Mohammad](https://github.com/iqraceme) (via mailing list)
 
 **Assistant Mentors**<br>
-_unverified_: [Samson Goddy](https://github.com/samswag)
+None
 
 ------------
 
@@ -456,7 +449,7 @@ plan to work on.
 [Favour Kelvin](favourkelvin17@gmail.com)
 
 **Assisting Mentors**<br>
-[Jaskirat Singh](https://github.com/jaskirat2000)
+[Jaskirat Singh](https://github.com/jaskirat2000) and
 [Devin Ulibarri](https://github.com/pikurasa).
 
 ------------

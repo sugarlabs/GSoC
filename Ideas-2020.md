@@ -247,7 +247,8 @@ to take on any colors deemed suitable by the activity designer.
 [Walter Bender](https://github.com/walterbender) and
 
 **Assisting Mentors**<br>
-[Jaskirat Singh](https://github.com/jaskirat2000).
+[Jaskirat Singh](https://github.com/jaskirat2000) and
+[Samson Goddy](https://github.com/samswag)
 
 ------------
 
@@ -292,7 +293,7 @@ Steps to take:
 [Iqra Mohammad](https://github.com/iqraceme) (via mailing list)
 
 **Assistant Mentors**<br>
-None
+[Samson Goddy](https://github.com/samswag)
 
 ------------
 
@@ -324,7 +325,7 @@ Fedora project needs help, and this help would benefit Sugar Labs;
 [Ibiam Chihurumnaya](https://github.com/chimosky) (via mailing list)
 
 **Assistant Mentors**<br>
-None.
+[Samson Goddy](https://github.com/samswag)
 
 ------------
 
@@ -357,7 +358,7 @@ Debian Project needs help, and this help would benefit Sugar Labs;
 [James Cameron](https://github.com/quozl) (via mailing list)
 
 **Assistant Mentors**<br>
-None.
+[Samson Goddy](https://github.com/samswag)
 
 ------------
 
@@ -417,7 +418,7 @@ Project Scheduling;
 [James Cameron](https://github.com/quozl) (via mailing list)
 
 **Assistant Mentors**<br>
-None.
+[Samson Goddy](https://github.com/samswag)
 
 ------------
 

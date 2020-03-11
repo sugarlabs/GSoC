@@ -248,8 +248,8 @@ to take on any colors deemed suitable by the activity designer.
 [Walter Bender](https://github.com/walterbender) and
 
 **Assisting Mentors**<br>
-[Jaskirat Singh](https://github.com/jaskirat2000) and
-[Samson Goddy](https://github.com/samswag)
+[Jaskirat Singh](https://github.com/jaskirat2000),
+[Samson Goddy](https://github.com/samswag) and [Peace Ojemeh](https://github.com/perriefidelis)
 
 ------------
 

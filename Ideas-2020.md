@@ -159,8 +159,7 @@ JavaScript as possible.
 [Walter Bender](https://github.com/walterbender).
 
 **Assisting Mentors**<br>
-[Jaskirat Singh](https://github.com/jaskirat2000), and
-[Devin Ulibarri](https://github.com/pikurasa).
+[Jaskirat Singh](https://github.com/jaskirat2000), [Devin Ulibarri](https://github.com/pikurasa), and [Sumit Srivastava](https://github.com/sum2it).
 
 --------------
 
@@ -185,7 +184,7 @@ Proposal](https://github.com/sugarlabs/musicblocks/issues/2058).
  - [https://github.com/sugarlabs/musicblocks/issues/2020](https://github.com/sugarlabs/musicblocks/issues/2020)
 
 **Coding Mentors**<br>
-[Walter Bender](https://github.com/walterbender).
+[Walter Bender](https://github.com/walterbender) and [Sumit Srivastava](https://github.com/sum2it).
 
 **Assisting Mentors**<br>
 [Devin Ulibarri](https://github.com/pikurasa).
@@ -447,8 +446,8 @@ As part of your application, prepare a schedule of which issues you
 plan to work on.
 
 **Coding Mentors**<br>
-[Walter Bender](https://github.com/walterbender)
-[Favour Kelvin](favourkelvin17@gmail.com)
+[Walter Bender](https://github.com/walterbender),
+[Favour Kelvin](favourkelvin17@gmail.com), and [Sumit Srivastava](https://github.com/sum2it).
 
 **Assisting Mentors**<br>
 [Jaskirat Singh](https://github.com/jaskirat2000) and
@@ -478,7 +477,7 @@ on MVC during GCI, but there is much more to be done.
 [Favour Kelvin](favourkelvin17@gmail.com)
 
 **Assisting Mentors**<br>
-[Devin Ulibarri](https://github.com/pikurasa).
+[Devin Ulibarri](https://github.com/pikurasa) and [Sumit Srivastava](https://github.com/sum2it).
 
 ------------
 

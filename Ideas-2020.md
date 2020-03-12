@@ -803,7 +803,7 @@ The student will also be required to restructure the current display structure o
 
 **Coding Mentors**
 
-Nobody.
+[Favour Kelvin](https://github.com/fakela) and [Samson Goddy](https://github.com/samswag)
 
 **Assisting Mentors**
 

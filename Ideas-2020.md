@@ -14,6 +14,8 @@
    * [Sugarizer game activity pack](#sugarizer-game-activity-pack)
    * [Sugarizer knowledge activity pack](#sugarizer-knowledge-activity-pack)
    * [Sugarizer School Portal](#sugarizer-school-portal)
+   * [Sugar Labs Website Revamp, A/B Testing and Wiki Layout Restructure](#Sugar-Labs-Website-Revamp-A/B-Test-and-Wiki-Layout-Restructure)
+
    
 [Administrative notes](#administrative-notes)
 
@@ -742,6 +744,71 @@ Some other features could be added to this list depending of feedbacks on the fi
 **Assisting Mentors**
 
 Nobody.
+
+
+## Sugar Labs Website Revamp, A/B Testing and Wiki Layout Restructure
+
+**Selected**
+
+Nobody.
+
+**Prerequisites**
+
+- Experience with User Interface and User Experience Design
+- Experience with building Isolated UI Components 
+- Experience with HTML5, CSS, and JavaScript (Reactjs preferably)
+- Experience with CSS in JS lIbraries or TailwindCSS
+- Experience with Gatsbyjs
+- Experience with building accessible and optimized applications
+- Experience with A/B Testing 
+
+
+**Strongly appreciated skills**
+
+- Ability to implement design mockups
+- Ability to create and manage content
+- Ability to document UI components
+- Continuous integration (CI), unit testing, and E2E testing knowledge
+- Version control with Git and GitHub
+- Progressive-Web application knowledge
+- Ability setup A/B Testing for the Old and Newly Developed Website
+
+
+**Description**
+
+The goal of this task is to build a better version of the current website (https://sugarlabs.org/)  with a great focus on code reusability, brilliant user experience, web accessibility, optimization, and code testing. However, after the new website have been developed, the student will be required to conduct A/B testing and analyze the performance of both websites.
+
+The student will also be required to restructure the current display structure of the Sugar Labs Wiki Page (https://wiki.sugarlabs.org/go/Welcome_to_the_Sugar_Labs_wiki), making it more accessible and with a good looking interface.
+
+
+**Project Tasks**
+
+- Design a new Interface for the website 
+- Setup and configure Gatsbyjs
+- Setup continuous integration with the unit and E2E testing
+- Setup and configure a UI Isolation Library
+- Build and document UI components
+- Write unit tests for the built UI components
+- Implementation of the Design Mockup
+- Write e2e tests for the implemented design
+- Setup automated deployment
+- Rearrange and restructure wiki
+- Create a good interface layout for wiki
+
+
+**Suggested issues:**
+
+- There are not any issues specific to this project, but working on some open issues would be a good place to start
+
+
+**Coding Mentors**
+
+Nobody.
+
+**Assisting Mentors**
+
+[Peace Ojemeh](https://github.com/perriefidelis)
+
 
 ------------
 

@@ -156,7 +156,8 @@ JavaScript as possible.
    code base. [Bug](https://github.com/sugarlabs/musicblocks/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+label%3Abug+)
 
 **Coding Mentors**<br>
-[Walter Bender](https://github.com/walterbender).
+[Walter Bender](https://github.com/walterbender) and
+[Vaibhav Aren ](https://github.com/vaibhavdaren).
 
 **Assisting Mentors**<br>
 [Jaskirat Singh](https://github.com/jaskirat2000), [Devin Ulibarri](https://github.com/pikurasa), and [Sumit Srivastava](https://github.com/sum2it).
@@ -447,7 +448,9 @@ plan to work on.
 
 **Coding Mentors**<br>
 [Walter Bender](https://github.com/walterbender),
-[Favour Kelvin](favourkelvin17@gmail.com), and [Sumit Srivastava](https://github.com/sum2it).
+[Favour Kelvin](favourkelvin17@gmail.com), 
+[Sumit Srivastava](https://github.com/sum2it), and
+[Vaibhav Aren](https://github.com/vaibhavdaren).
 
 **Assisting Mentors**<br>
 [Jaskirat Singh](https://github.com/jaskirat2000) and
@@ -473,8 +476,9 @@ progress](https://github.com/sugarlabs/musicblocks/commit/3085a99a7259d9d30522da
 on MVC during GCI, but there is much more to be done.
 
 **Coding Mentors**<br>
-[Walter Bender](https://github.com/walterbender)
-[Favour Kelvin](favourkelvin17@gmail.com)
+[Walter Bender](https://github.com/walterbender),
+[Favour Kelvin](favourkelvin17@gmail.com), and
+[Vaibhav Aren](https://github.com/vaibhavdaren).
 
 **Assisting Mentors**<br>
 [Devin Ulibarri](https://github.com/pikurasa) and [Sumit Srivastava](https://github.com/sum2it).

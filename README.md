@@ -59,7 +59,7 @@ and ask for help.  Allow some days for reply.  See
 [Community etiquette](https://github.com/sugarlabs/GSoC#community-etiquette).
 
 Do not write secretly to mentors or developers unless they have asked
-you to.  This varies by idea.  Check the list of coding mentors for
+you to.  This varies by idea.  Check the list of mentors for
 each idea.  We have added contact methods.
 
 ## How to Contribute

@@ -60,13 +60,10 @@ bindings for Python 3, so porting Telepathy to the PyGObject binding
 is a prerequisite, see GitHub Project [Port to
 TelepathyGLib](https://github.com/orgs/sugarlabs/projects/4).
 
-**Coding Mentors**<br>
+**Mentors**<br>
 [James Cameron](https://github.com/quozl),
 [Ibiam Chihurumnaya](https://github.com/chimosky) and
 [Hrishi Patel](https://github.com/hrishi1999) (via mailing list)
-
-**Assisting Mentors**<br>
-None.
 
 ------------
 
@@ -106,12 +103,9 @@ Other issues will have been raised since.
 Suggesting or adding features, fixing bugs, or releasing activities
 will help you to gain experience
 
-**Coding Mentors**<br>
+**Mentors**<br>
 [James Cameron](https://github.com/quozl) and
 [Ibiam Chihurumnaya](https://github.com/chimosky) (via mailing list).
-
-**Assisting Mentors**<br>
-None.
 
 ------------
 
@@ -155,12 +149,9 @@ JavaScript as possible.
    some open bugs would be a good place to start in understanding the
    code base. [Bug](https://github.com/sugarlabs/musicblocks/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+label%3Abug+)
 
-**Coding Mentors**<br>
+**Mentors**<br>
 [Walter Bender](https://github.com/walterbender) and
 [Vaibhav Aren ](https://github.com/vaibhavdaren).
-
-**Assisting Mentors**<br>
-[Jaskirat Singh](https://github.com/jaskirat2000), [Devin Ulibarri](https://github.com/pikurasa), and [Sumit Srivastava](https://github.com/sum2it).
 
 --------------
 
@@ -184,11 +175,8 @@ Proposal](https://github.com/sugarlabs/musicblocks/issues/2058).
 **Suggested issues to work on:**<br>
  - [https://github.com/sugarlabs/musicblocks/issues/2020](https://github.com/sugarlabs/musicblocks/issues/2020)
 
-**Coding Mentors**<br>
+**Mentors**<br>
 [Walter Bender](https://github.com/walterbender) and [Sumit Srivastava](https://github.com/sum2it).
-
-**Assisting Mentors**<br>
-[Devin Ulibarri](https://github.com/pikurasa).
 
 --------------
 
@@ -244,12 +232,7 @@ to take on any colors deemed suitable by the activity designer.
    some open bugs would be a good place to start in understanding the
    code base.
 
-**Coding Mentors**<br>
-[Walter Bender](https://github.com/walterbender) and
-
-**Assisting Mentors**<br>
-[Jaskirat Singh](https://github.com/jaskirat2000),
-[Samson Goddy](https://github.com/samswag) and [Peace Ojemeh](https://github.com/perriefidelis)
+**Mentors**<br>
 
 ------------
 
@@ -289,12 +272,9 @@ Steps to take:
 9. Make Scratch port as a native activity.
 10. Make Music Blocks port as a native activity
 
-**Coding Mentors**<br>
+**Mentors**<br>
 [James Cameron](https://github.com/quozl) and
 [Iqra Mohammad](https://github.com/iqraceme) (via mailing list)
-
-**Assistant Mentors**<br>
-[Samson Goddy](https://github.com/samswag)
 
 ------------
 
@@ -321,12 +301,9 @@ Fedora project needs help, and this help would benefit Sugar Labs;
  - Report bugs to Fedora, where those bugs are due to Fedora packaging decisions.
  - Fix bugs and participate in peer review with the respective community.
 
-**Coding Mentors**<br>
+**Mentors**<br>
 [James Cameron](https://github.com/quozl) and
 [Ibiam Chihurumnaya](https://github.com/chimosky) (via mailing list)
-
-**Assistant Mentors**<br>
-[Samson Goddy](https://github.com/samswag)
 
 ------------
 
@@ -354,11 +331,8 @@ Debian Project needs help, and this help will benefit Sugar Labs;
 
 Sugar Labs also makes a Sugar Live Build based on Debian, using Sugar and activity source code, and not the Debian software packages.  This is out of scope except where it can be used as a tool for testing packages.
 
-**Coding Mentors**<br>
+**Mentors**<br>
 [James Cameron](https://github.com/quozl) (via mailing list)
-
-**Assistant Mentors**<br>
-[Samson Goddy](https://github.com/samswag)
 
 ------------
 
@@ -414,11 +388,8 @@ Project Scheduling;
  - a working prototype with minimum requirements must be ready within the first two weeks,
  - once approved, the Browse activity is to be changed to point to the service, and Sugar's software upgrade feature changed,
 
-**Coding Mentors**<br>
+**Mentors**<br>
 [James Cameron](https://github.com/quozl) and [Hrishi Patel](https://github.com/hrishi1999)(via mailing list)
-
-**Assistant Mentors**<br>
-[Samson Goddy](https://github.com/samswag)
 
 ------------
 
@@ -445,15 +416,11 @@ on average one a day -- over the course of GSoC.
 As part of your application, prepare a schedule of which issues you
 plan to work on.
 
-**Coding Mentors**<br>
+**Mentors**<br>
 [Walter Bender](https://github.com/walterbender),
 [Favour Kelvin](favourkelvin17@gmail.com), 
 [Sumit Srivastava](https://github.com/sum2it), and
 [Vaibhav Aren](https://github.com/vaibhavdaren).
-
-**Assisting Mentors**<br>
-[Jaskirat Singh](https://github.com/jaskirat2000) and
-[Devin Ulibarri](https://github.com/pikurasa).
 
 ------------
 ## Model–View–Controller refactoring for Music Blocks
@@ -474,13 +441,10 @@ We made [some
 progress](https://github.com/sugarlabs/musicblocks/commit/3085a99a7259d9d30522daaf1da2c831d0b4bda2)
 on MVC during GCI, but there is much more to be done.
 
-**Coding Mentors**<br>
+**Mentors**<br>
 [Walter Bender](https://github.com/walterbender),
 [Favour Kelvin](favourkelvin17@gmail.com), and
 [Vaibhav Aren](https://github.com/vaibhavdaren).
-
-**Assisting Mentors**<br>
-[Devin Ulibarri](https://github.com/pikurasa) and [Sumit Srivastava](https://github.com/sum2it).
 
 ------------
 
@@ -580,15 +544,9 @@ As with other Sugarizer activities, the new activities should be written using J
 - Propose a game play for these activities
 
 
-**Coding Mentors**
+**Mentors**
 
 [Ashish Aggarwal](https://github.com/ashish0910) and [Lionel Laské](https://github.com/llaske) (via direct mail)
-
-
-**Assisting Mentors**
-
-Nobody.
-
 
 ------------
 
@@ -668,15 +626,9 @@ As with other Sugarizer activities, the new activities should be written using J
 - Propose a game play for these activities
 
 
-**Coding Mentors**
+**Mentors**
 
 [Lionel Laské](https://github.com/llaske) and [Michaël Ohayon](https://github.com/mikklfr) (via direct mail)
-
-
-**Assisting Mentors**
-
-Nobody.
-
 
 ------------
 
@@ -737,13 +689,9 @@ Some other features could be added to this list depending of feedbacks on the fi
 - Learn about [Helm](https://helm.sh/) and complete the [Helm tutorial](https://helm.sh/docs/intro/)
 - Learn about [Ansible](https://www.ansible.com/) and complete the [Ansible tutorial](https://www.ansible.com/resources/get-started). Install [IIAB](https://github.com/iiab/iiab), test use of Sugarizer throught IIAB and study the way of working of [IIAB](https://github.com/iiab/iiab) Ansible packages
 
-**Coding Mentors**
+**Mentors**
 
 [Michaël Ohayon](https://github.com/mikklfr) and [Lionel Laské](https://github.com/llaske) (via direct mail)
-
-**Assisting Mentors**
-
-Nobody.
 
 ------------
 
@@ -755,8 +703,7 @@ list, we'd love to hear from you.  You need not be a potential
 student or a mentor to suggest ideas.
 
    * [Criteria for Ideas](#criteria-for-ideas)
-   * [Coding Mentors](#coding-mentors)
-   * [Assisting Mentors](#assisting-mentors)
+   * [Mentors](#mentors)
    * [Everyone Else](#everyone-else)
    * [Suggested Issues](#suggested-issues)
 
@@ -767,27 +714,16 @@ student or a mentor to suggest ideas.
    Music Blocks, or Sugarizer),
 3. Does it _not_ involve any project infrastructure, e.g. not another
    app store, web site, or developer landing page,
-4. Do we have a developer _now_ who would be willing and able to do it
+4. Do we have a developer _now_ who would be capable of doing it
    if a student was not available, and who can _promise_ to do it if a
-   student is not selected; these are shown as a _coding mentor_,
+   student is not selected; these are shown as a _mentor_,
 
-## Coding Mentors
-For each idea, we must have offers from one or more _coding mentors_
+## Mentors
+For each idea, we must have offers from one or more _mentors_
 willing and able to assist students with coding questions.
 
-Requirements for a _coding mentor_ are a demonstrated coding ability
-in the form of contributions of code to Sugar Labs.
-
-Mentors for a project will be assigned after proposals are received.
-
-## Assisting Mentors
-For each idea, we may have offers from mentors _who do not code_
-willing to assist students in various other ways, such as gathering
-requirements, visual design, testing, and deployment; these are shown
-as an _assisting mentor_.
-
-The only requirement for an _assisting mentor_ is _knowledge of the
-project_.
+Requirements for a _mentor_ are a demonstrated coding ability, ideally
+in the form of contributions of code to Sugar Labs or another project.
 
 Mentors for a project will be assigned after proposals are received.
 

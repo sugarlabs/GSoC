@@ -344,16 +344,15 @@ Nobody.
 
 Debian is a Linux distribution composed of free and open-source software, developed by the community-supported Debian Project.  Ubuntu is a free and open-source Linux distribution based on Debian.
 
-Debian volunteers make software packages of Sugar and selected activities and make them available for installation.  Ubuntu brings these packages into their distribution.
+Debian volunteers make software packages of Sugar and selected activities and make them available for installation.  Ubuntu brings these packages into their distribution.  By this Sugar Labs reaches users through Debian and Ubuntu.
 
-Sugar Labs makes a Sugar Live Build based on Debian, using Sugar and activity source code, and not the Debian software packages.
-
-Debian Project needs help, and this help would benefit Sugar Labs;
- - Test Sugar on Debian latest release (Debian 10 aka Buster), testing release (Debian 11 aka Bullseye), and experimental release (sid),
- - Test Sugar Live Build,
+Debian Project needs help, and this help will benefit Sugar Labs;
+ - Test the packaging of Sugar on Debian latest release (Debian 10 aka Buster), testing release Debian 11 aka Bullseye ([freeze policy](https://lists.debian.org/debian-devel-announce/2020/03/msg00002.html) and [freeze timeline](https://release.debian.org/testing/freeze_policy.html)), and experimental release (sid),
  - Report bugs to Sugar Labs, where those bugs are due to our source code,
  - Report bugs to Debian, where those bugs are due to Debian packaging decisions.
- - Fix bugs and participate in peer review with the respective community.
+ - Fix bugs and participate in peer review with the respective community, see [release-critical bugs](https://bugs.debian.org/release-critical/other/testing.html) and search for Sugar, also see [Bugs search](https://udd.debian.org/bugs.cgi), and [Bugs Squashing Parties](https://wiki.debian.org/BSP),
+
+Sugar Labs also makes a Sugar Live Build based on Debian, using Sugar and activity source code, and not the Debian software packages.  This is out of scope except where it can be used as a tool for testing packages.
 
 **Coding Mentors**<br>
 [James Cameron](https://github.com/quozl) (via mailing list)

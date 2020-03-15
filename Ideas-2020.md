@@ -107,8 +107,9 @@ Suggesting or adding features, fixing bugs, or releasing activities
 will help you to gain experience
 
 **Coding Mentors**<br>
-[James Cameron](https://github.com/quozl) and
-[Ibiam Chihurumnaya](https://github.com/chimosky) (via mailing list).
+[James Cameron](https://github.com/quozl),
+[Ibiam Chihurumnaya](https://github.com/chimosky) and
+[Rahul Bothra](https://github.com/pro-panda) (via mailing list).
 
 **Assisting Mentors**<br>
 None.
@@ -415,7 +416,9 @@ Project Scheduling;
  - once approved, the Browse activity is to be changed to point to the service, and Sugar's software upgrade feature changed,
 
 **Coding Mentors**<br>
-[James Cameron](https://github.com/quozl) and [Hrishi Patel](https://github.com/hrishi1999)(via mailing list)
+[James Cameron](https://github.com/quozl),
+[Hrishi Patel](https://github.com/hrishi1999) and,
+[Rahul Bothra](https://github.com/pro-panda) (via mailing list)
 
 **Assistant Mentors**<br>
 [Samson Goddy](https://github.com/samswag)

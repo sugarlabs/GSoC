@@ -29,8 +29,6 @@ Our archives of GSoC Projects:
 [2019](Ideas-2019.md)
 
 ## Want to work with us ?
-It is too early to apply, as Google is yet to assign slots.
-
 Now is the time to discuss your application ideas with us.
 
 Please get involved.  Familiarise

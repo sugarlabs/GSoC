@@ -291,8 +291,7 @@ Steps to take:
 10. Make Music Blocks port as a native activity
 
 **Coding Mentors**<br>
-[James Cameron](https://github.com/quozl) and
-[Iqra Mohammad](https://github.com/iqraceme) (via mailing list)
+[James Cameron](https://github.com/quozl) (via mailing list)
 
 **Assistant Mentors**<br>
 [Samson Goddy](https://github.com/samswag)

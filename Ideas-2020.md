@@ -154,7 +154,7 @@ JavaScript as possible.
 **Suggested issues to work on:**<br>
  - There are not any issues specific to this project, but working on
    some open bugs would be a good place to start in understanding the
-   code base. [Bug](https://github.com/sugarlabs/musicblocks/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+label%3Abug+)
+   code base. [Bug](https://github.com/sugarlabs/musicblocks/issues?q=is%3Aissue+is%3Aopen+label%3AIssue-Bug)
 
 **Coding Mentors**<br>
 [Walter Bender](https://github.com/walterbender) and

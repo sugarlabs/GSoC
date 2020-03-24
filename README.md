@@ -11,7 +11,7 @@
 Google Summer of Code is a *global program focused on bringing
 more student developers into open source software development*.
 See [GSoC 2020
-timeline](https://developers.google.com/open-source/gsoc/timeline?hl=vi).
+timeline](https://summerofcode.withgoogle.com/how-it-works/#timeline).
 
 Sugar Labs is a Google Summer of Code 2020 mentoring organisation.
 
@@ -138,7 +138,7 @@ When we start interacting with you during the application period, we have severa
 
 * you don't just fix issues, but you also get involved in other people's work.
 
-<i>(abstracted by @quozl from a work-in-progress document shared among mentors of several organisations, titled "Tips for finding the right GSoC student for your org", and due to be formalised on 10th March 2020.)</i>
+<i>(abstracted by @quozl from a work-in-progress document shared among mentors of several organisations, titled "Tips for finding the right GSoC student for your org".)</i>
 
 ## Cheating
 

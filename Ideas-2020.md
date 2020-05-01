@@ -1,19 +1,24 @@
 # GSoC 2020 Ideas
 
+## Accepted
+
    * [Port Sugar and core activities to Python 3](#port-sugar-and-core-activities-to-python-3)
    * [Improve and maintain 25 Sugar activities](#improve-and-maintain-25-sugar-activities)
    * [Export Music Blocks code to JavaScript](#export-music-blocks-code-to-javascript)
    * [Music Blocks Scale Degree vs n^th Modal Pitch](#music-blocks-scale-degree-vs-nth-modal-pitch)
-   * [Colored desktop and activity icons](#colored-desktop-and-activity-icons)
-   * [Port Sugarizer activities to Sugar](#port-sugarizer-activities-to-sugar)
-   * [Fedora advocacy for Sugar](#fedora-advocacy-for-sugar)
    * [Debian advocacy for Sugar](#debian-advocacy-for-sugar)
-   * [Sugar app store for Python 3 activities (aslov4)](#sugar-app-store-for-python-3-activities-aslov4)
    * [Resolve 100 issues in Music Blocks](#resolve-100-issues-in-music-blocks)
-   * [Model–View–Controller refactoring for Music Blocks](#modelviewcontroller-refactoring-for-music-blocks)
    * [Sugarizer game activity pack](#sugarizer-game-activity-pack)
    * [Sugarizer knowledge activity pack](#sugarizer-knowledge-activity-pack)
    * [Sugarizer School Portal](#sugarizer-school-portal)
+
+## Not Accepted
+
+   * [Colored desktop and activity icons](#colored-desktop-and-activity-icons)
+   * [Port Sugarizer activities to Sugar](#port-sugarizer-activities-to-sugar)
+   * [Fedora advocacy for Sugar](#fedora-advocacy-for-sugar)
+   * [Sugar app store for Python 3 activities (aslov4)](#sugar-app-store-for-python-3-activities-aslov4)
+   * [Model–View–Controller refactoring for Music Blocks](#modelviewcontroller-refactoring-for-music-blocks)
    
 [Administrative notes](#administrative-notes)
 
@@ -22,7 +27,9 @@
 ## Port Sugar and core activities to Python 3
 
 **Selected**<br>
-Nobody.
+Student: Saumya Mishra,
+Mentor: [Rahul Bothra](https://github.com/pro-panda),
+Backup mentor: [James Cameron](https://github.com/quozl).
 
 **Prerequisites**<br>
  - Experience with Python
@@ -73,7 +80,9 @@ None.
 ## Improve and maintain 25 Sugar activities
 
 **Selected**<br>
-Nobody.
+Student: Jui Pradhan,
+Mentor: [Ibiam Chihurumnaya](https://github.com/chimosky),
+Backup mentor: [James Cameron](https://github.com/quozl).
 
 **Prerequisites**<br>
  - Experience with Python
@@ -119,7 +128,10 @@ None.
 ## Export Music Blocks code to JavaScript
 
 **Selected**<br>
-Nobody.
+Student: Anindya Kundu,
+Mentor: [Walter Bender](https://github.com/walterbender),
+Backup mentors: [Sumit Srivastava](https://github.com/sum2it), and [Vaibhav
+Aren](https://github.com/vaibhavdaren).
 
 **Prerequisites**<br>
  - Experience with JavaScript
@@ -168,7 +180,9 @@ JavaScript as possible.
 ## Music Blocks Scale Degree vs n^th Modal Pitch
 
 **Selected**<br>
-Nobody.
+Student: Aviral Gangwar,
+Mentor: [Devin Ulibarri](https://github.com/pikurasa),
+Backup mentors: [Sumit Srivastava](https://github.com/sum2it), and [Walter Bender](https://github.com/walterbender).
 
 **Prerequisites**<br>
  - Experience with JavaScript
@@ -333,7 +347,9 @@ Fedora project needs help, and this help would benefit Sugar Labs;
 ## Debian advocacy for Sugar
 
 **Selected**<br>
-Nobody.
+Student: Shaan Subbaiah,
+Mentor: [James Cameron](https://github.com/quozl).
+Backup mentor: [Rahul Bothra](https://github.com/pro-panda),
 
 **Prerequisites**<br>
  - Ability to install Linux,
@@ -426,7 +442,10 @@ Project Scheduling;
 
 ## Resolve 100 issues in Music Blocks
 **Selected**<br>
-Nobody.
+Student: Saksham Mrig,
+Mentor: [Sumit Srivastava](https://github.com/sum2it),
+Backup mentors: [Walter Bender](https://github.com/walterbender), and [Vaibhav
+Aren](https://github.com/vaibhavdaren).
 
 **Prerequisites**<br>
  - Experience with JavaScript
@@ -490,8 +509,9 @@ on MVC during GCI, but there is much more to be done.
 ## Sugarizer game activity pack
 
 **Selected**
-
-Nobody.
+Student: Prakash Ujjwal,
+Mentor: [Ashish Aggarwal](https://github.com/ashish0910),
+Backup mentor: [Lionel Laské](https://github.com/llaske).
 
 **Prerequisites**
 
@@ -598,8 +618,9 @@ Nobody.
 
 
 **Selected**
-
-Nobody.
+Student: Dhruv Misra,
+Mentor: [Lionel Laské](https://github.com/llaske),
+Backup mentor: [Michaël Ohayon](https://github.com/mikklfr).
 
 **Prerequisites**
 
@@ -686,8 +707,9 @@ Nobody.
 
 
 **Selected**
-
-Nobody.
+Student: Nikhil Mehra,
+Mentor: [Michaël Ohayon](https://github.com/mikklfr),
+Backup mentor: [Lionel Laské](https://github.com/llaske).
 
 **Prerequisites**
 

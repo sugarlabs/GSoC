@@ -26,13 +26,14 @@ Our archives of GSoC Projects:
 [2016](https://wiki.sugarlabs.org/go/Summer_of_Code/2016) |
 [2017](https://wiki.sugarlabs.org/go/Summer_of_Code/2017) |
 [2018](https://wiki.sugarlabs.org/go/Summer_of_Code/2018) |
-[2019](Ideas-2019.md)
+[2019](Ideas-2019.md) |
+[2020](Ideas-2020.md)
 
 ## Want to work with us ?
-Now is the time to discuss your application ideas with us.
+Sorry, applications are closed for 2020.
 
-Please get involved.  Familiarise
-yourself with our code, by reporting and fixing bugs.
+But please get involved.  Familiarise yourself with our code, by
+reporting and fixing bugs.
 
 See our [ideas](Ideas-2020.md) page.  We would love to hear
 your own ideas as well.

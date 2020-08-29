@@ -3,7 +3,7 @@ Port Sugar and Core Activities to Python 3
 
 ***Google Summer of Code, 2020 @[sugarlabs](https://github.com/sugarlabs)***
 
-*Name: Saumya Mishra*
+*Name: [Saumya Mishra](https://github.com/Saumya-Mishra9129)*
 
 *Email: 2017230@iiitdmj.ac.in*
 
@@ -21,228 +21,62 @@ Apart from that, I have learned many technical skills that will help me in futur
 
 ### Work Done
 
-This section includes all the work I have done related to the project along with some miscellaneous fixes.
+This section includes all the work I have done related to the project along with some miscellaneous fixes. 
 
 #### Review the Sugar source code changes since 0.112 that were made for porting to Python 3, & Fix regressions in Sugar, the Toolkit
 
-   **Sugar**: Tested with Ubuntu 20.04 sucrose package version 0.117 and review every single commit.  
-
-   - Fix Traceback occurred in Group View when a friend is added or removed - [#921](https://github.com/sugarlabs/sugar/pull/921) 
-   - Fix Gtk-Warning in language control panel which is a fix for issue [#855](https://github.com/sugarlabs/sugar/issues/855)   - [ea2cd9c](https://github.com/sugarlabs/sugar/commit/ea2cd9c7b0656abff6d459b8ad74a0f52e6f078e)
-   - Use bytes for SSIDs which is a fix for several errors "string argument without an encoding" - [9900ccf](https://github.com/sugarlabs/sugar/commit/9900ccfbe1f6029ac16b0243a2f0789e36f81629)
-   - Fix Attribute Error in modem control panel - [e0496b0](https://github.com/sugarlabs/sugar/commit/e0496b06d6e8f54f556b50d32f81e18819eb16ae)
-   - Fix Attribute Error in Random Favorites View which is a fix for issue reported by shaan [#923](https://github.com/sugarlabs/sugar/issues/923) - [118fe73](https://github.com/sugarlabs/sugar/commit/118fe73eee4177833dc692e1172451656f580b7f)
-
-   **sugar-toolkit-gtk3** : Changes made can be seen in [#921](https://github.com/sugarlabs/sugar-toolkit-gtk3/pull/451)
+|   Repositories   |           Work Done           |      Link to work      |
+|-------------------|------------------------------|------------------------|
+| **Sugar**| <br> Tested with Ubuntu 20.04 sucrose package version 0.117 and review every single commit.<br> Following changes have merged to sugarlabs codebase: <ul><li>Fix Traceback occurred in Group View when a friend is added or removed - [#921](https://github.com/sugarlabs/sugar/pull/921) </li><li>Fix Gtk-Warning in language control panel which is a fix for issue - [#855](https://github.com/sugarlabs/sugar/issues/855)</li><li>Use bytes for SSIDs which is a fix for several errors "string argument without an encoding"</li><li>Fix Attribute Error in modem control panel</li><li>Fix Attribute Error in Random Favorites View which is a fix for issue reported by shaan - [#923](https://github.com/sugarlabs/sugar/issues/923) </li></ul>| <ul><li>[Coerce BaseBuddyModel.props.key to str](https://github.com/sugarlabs/sugar/commit/58101044fc10ef2dc9e45f0998053bd3ec67e717)</li><li>[Fix AttributeError in Random Favorites View](https://github.com/sugarlabs/sugar/commit/ea2cd9c7b0656abff6d459b8ad74a0f52e6f078e)</li><li>[Fix AttributeError in modem control panel](https://github.com/sugarlabs/sugar/commit/ea2cd9c7b0656abff6d459b8ad74a0f52e6f078e)</li><li>[Use bytes for SSIDs](https://github.com/sugarlabs/sugar/commit/e0496b06d6e8f54f556b50d32f81e18819eb16ae)</li><li>[Fix AttributeError in Random Favorites View ](https://github.com/sugarlabs/sugar/commit/118fe73eee4177833dc692e1172451656f580b7f)</li></ul> |
+|**sugar-toolkit-gtk3**|  <br> Changes made can be seen in [#451](https://github.com/sugarlabs/sugar-toolkit-gtk3/pull/451)`MERGED`. <ul><li> Port to Python3 - remove the use of WebKit1 ( WebKit1 API is not available for Python 3)</li><li>Port to Python3 - get_preview returns bytes ( Change made in the doc)</li><li>Change type of units for zoom ( As zoom accepts float as well as int units)</li></ul> | <ul><li>[Port to Python 3(Webkit1)](https://github.com/sugarlabs/sugar-toolkit-gtk3/commit/8d4a857f3d4b91a192d93a64bd136d7106cbe1ae)</li><li>[Port to Python 3 (get_preview)](https://github.com/sugarlabs/sugar-toolkit-gtk3/commit/b83883500e0f84f5f9d111ee83c2e7444855d977)</li><li>[Change made in doc](https://github.com/sugarlabs/sugar-toolkit-gtk3/commit/68e57eff8458a89704bfc5b22f171514948bacd0)</li></ul>|
    
-   - Port to Python3 - remove the use of WebKit1 ( WebKit1 API is not available for Python 3) [8d4a857](https://github.com/sugarlabs/sugar-toolkit-gtk3/commit/8d4a857f3d4b91a192d93a64bd136d7106cbe1ae) 
-   - Port to Python3 - get_preview returns bytes ( Change made in the doc)  [b838835](https://github.com/sugarlabs/sugar-toolkit-gtk3/commit/b83883500e0f84f5f9d111ee83c2e7444855d977)
-   - Change type of units for zoom ( As zoom accepts float as well as int units) [68e57ef](https://github.com/sugarlabs/sugar-toolkit-gtk3/commit/68e57eff8458a89704bfc5b22f171514948bacd0)
-
 #### Fix Regressions and Port to Python 3 in Core Activities of Sugar
 
-   **Browse** : Changes made can be seen in [#111](https://github.com/sugarlabs/browse-activity/pull/111)
-   
-   - Port to Python 3 - fix TypeError [1374056](https://github.com/sugarlabs/browse-activity/pull/111/commits/13740569a1d99e13760e2d1f2e3a829844879ec3)
-   - Expected type 'int', got 'float' instead [0d4efb5](https://github.com/sugarlabs/browse-activity/pull/111/commits/0d4efb51b6e1bb6cd8b11262e729c9a8e8334087)
-   - Use GLib.markup_escape_text() before parsing uri and title [eada142](https://github.com/sugarlabs/browse-activity/pull/111/commits/eada14236240cdac162dd0a3be63249e78721d41)
-   - Use File transfer constants [3f74433](https://github.com/sugarlabs/browse-activity/pull/111/commits/3f7443355e265440eabbbe105f8edbf7f423abf4)
-   - Encode uri from str to bytes [e75d674](https://github.com/sugarlabs/browse-activity/pull/111/commits/e75d674149e296905e3e9b5358fbd8e1f81e29fe)
-   - Replace error with debug [3f4df23](https://github.com/sugarlabs/browse-activity/pull/111/commits/3f4df23b63251bf5b96cd7b88721a1702a4dc988)
-   - Fix AttributeErrors in DummyBrowser [81fe647](https://github.com/sugarlabs/browse-activity/pull/111/commits/81fe647f57bb18a84756f512a5103e1508a6889c)
-
-   **Calculate** : Changes made can be seen in [#68](https://github.com/sugarlabs/calculate-activity/pull/68/)
-   
-   - Fix round function issue [43a17cc](https://github.com/sugarlabs/calculate-activity/pull/68/commits/43a17cc2646ee7f69d6826c3ae5576f089a69d22)
-   - Fix AttributeError raise while plotting [e4f1818](https://github.com/sugarlabs/calculate-activity/pull/68/commits/e4f18187a6aa81f3dbbaad565f59bb3dca5a740b)
-   - Fix built-in variable names [9ac89cb](https://github.com/sugarlabs/calculate-activity/pull/68/commits/9ac89cbf02e03e4d00159c52bd84117dabb6f4dd)
-   - Fix Error message format [7c9118f](https://github.com/sugarlabs/calculate-activity/pull/68/commits/7c9118fde44fcc5fe911245452a21ee24112b3b2)
-   - Fix - Submitting/pressing ‘=’ without entering any value throws [ca8b10e](https://github.com/sugarlabs/calculate-activity/pull/68/commits/ca8b10eb968d89895ee98fe886f6769c157ba30d)
-   - Fix traceback occurred while clicking on 'pi' and 'e' [14c1aeb](https://github.com/sugarlabs/calculate-activity/pull/68/commits/14c1aebf509798d2b362c9fb943e05afdf7251a7)
-   
-   **tutleart-activity**: Following changes have merged
-   
-   - Fix incomplete port to Gtk3 [e2729c7](https://github.com/sugarlabs/turtleart-activity/commit/e2729c79de6fb07cb04017534a90b8d23dbc85e2)
-   - Minor fixes in sprites.py [#81](https://github.com/sugarlabs/turtleart-activity/pull/81)
-   - flake8 opportunities [#79](https://github.com/sugarlabs/turtleart-activity/pull/79)
-   
-   **Write** : Fix Port to Python 3 regressions in [#44](https://github.com/sugarlabs/write-activity/pull/44)
-   
-   - Fix error occurred while pasting images using CTRL + V [5e7cbfe](https://github.com/sugarlabs/write-activity/pull/44/commits/5e7cbfee225f8c4c6a41e91b6b20cc7068ed3ed2)
-   - Remove unnecessary error printed in logs [183ef0b](https://github.com/sugarlabs/write-activity/pull/44/commits/183ef0b8003d45ef8dd04e1d3fd01fa99b1f5acc)
-   
-   **Chat** : Fix Gtk Clipboard issue [69e4701](https://github.com/sugarlabs/chat/commit/69e4701c79677dac900f90b6fd5f6da9d766729c)
-   
+|   Activity Name   |           Work Done          |
+|-------------------|------------------------------|
+| **Browse**| <br> Changes made can be seen in [#111](https://github.com/sugarlabs/browse-activity/pull/111) `MERGED` <ul><li>Port to Python 3 - fix TypeError [1374056](https://github.com/sugarlabs/browse-activity/pull/111/commits/13740569a1d99e13760e2d1f2e3a829844879ec3) </li><li>Expected type 'int', got 'float' instead [0d4efb5](https://github.com/sugarlabs/browse-activity/pull/111/commits/0d4efb51b6e1bb6cd8b11262e729c9a8e8334087)</li><li>Use GLib.markup_escape_text() before parsing uri and title [eada142](https://github.com/sugarlabs/browse-activity/pull/111/commits/eada14236240cdac162dd0a3be63249e78721d41)</li><li>Use File transfer constants [3f74433](https://github.com/sugarlabs/browse-activity/pull/111/commits/3f7443355e265440eabbbe105f8edbf7f423abf4)</li><li>Replace error with debug [3f4df23](https://github.com/sugarlabs/browse-activity/pull/111/commits/3f4df23b63251bf5b96cd7b88721a1702a4dc988) </li><li>Fix AttributeErrors in DummyBrowser [81fe647](https://github.com/sugarlabs/browse-activity/pull/111/commits/81fe647f57bb18a84756f512a5103e1508a6889c)</li><li>Encode uri from str to bytes [e75d674](https://github.com/sugarlabs/browse-activity/pull/111/commits/e75d674149e296905e3e9b5358fbd8e1f81e29fe)</li></ul>|
+|**Calculate**|  <br> Changes made can be seen in [#68](https://github.com/sugarlabs/calculate-activity/pull/68/) `MERGED` <ul><li>Fix round function issue [43a17cc](https://github.com/sugarlabs/calculate-activity/pull/68/commits/43a17cc2646ee7f69d6826c3ae5576f089a69d22)</li><li> Fix AttributeError raise while plotting [e4f1818](https://github.com/sugarlabs/calculate-activity/pull/68/commits/e4f18187a6aa81f3dbbaad565f59bb3dca5a740b)</li><li> Fix built-in variable names [9ac89cb](https://github.com/sugarlabs/calculate-activity/pull/68/commits/9ac89cbf02e03e4d00159c52bd84117dabb6f4dd)</li><li>Fix Error message format [7c9118f](https://github.com/sugarlabs/calculate-activity/pull/68/commits/7c9118fde44fcc5fe911245452a21ee24112b3b2)</li><li>Fix - Submitting/pressing ‘=’ without entering any value throws [ca8b10e](https://github.com/sugarlabs/calculate-activity/pull/68/commits/ca8b10eb968d89895ee98fe886f6769c157ba30d)</li><li> Fix traceback occurred while clicking on 'pi' and 'e' [14c1aeb](https://github.com/sugarlabs/calculate-activity/pull/68/commits/14c1aebf509798d2b362c9fb943e05afdf7251a7)</li></ul>|
+|**tutleart-activity**| <br> Following changes have merged in sugarlabs codebase: <ul><li>Fix incomplete port to Gtk3 [e2729c7](https://github.com/sugarlabs/turtleart-activity/commit/e2729c79de6fb07cb04017534a90b8d23dbc85e2) </li><li>Minor fixes in sprites.py [#81](https://github.com/sugarlabs/turtleart-activity/pull/81)</li><li>flake8 opportunities [#79](https://github.com/sugarlabs/turtleart-activity/pull/79)</li></ul>|
+|**Write**| <br> Fix Port to Python 3 regressions in [#44](https://github.com/sugarlabs/write-activity/pull/44) `MERGED` <ul><li>Fix error occurred while pasting images using CTRL + V [5e7cbfe](https://github.com/sugarlabs/write-activity/pull/44/commits/5e7cbfee225f8c4c6a41e91b6b20cc7068ed3ed2)</li><li>Remove unnecessary error printed in logs [183ef0b](https://github.com/sugarlabs/write-activity/pull/44/commits/183ef0b8003d45ef8dd04e1d3fd01fa99b1f5acc)</li></ul>|
+| **Chat** | <br> Following changes have merged to sugarlabs codebase <ul><li> Fix Gtk Clipboard issue [69e4701](https://github.com/sugarlabs/chat/commit/69e4701c79677dac900f90b6fd5f6da9d766729c)</li></ul>|
+ 
 #### Fix Activities
 
-The following changes in activities mainly include Port Telepathy bindings to TelepathyGLib,  Port activities to Python 3, and Port to the latest Sugargame or CollabWrapper library. 
+The following changes in activities mainly include Port Telepathy bindings to TelepathyGLib,  Port activities to Python 3, and Port to the latest Sugargame or CollabWrapper library. This section contains all **merged** commits.
 
-- **VncLauncher**: Several changes have merged in sugarlabs codebase. See [#9](https://github.com/sugarlabs/VncLauncher/pull/9). 
-    - Port to Gtk 3
-    - Port to Python 3
-    - Fix feed_child type-error
-    - Fix Gdk.RGBA color parsing
-    - Remove jarabe.model.network
-    - Remove embedded x11vnc binaries
-    - Add warning for missing dependency
-    - flake8 fixes
-    - Fix several Vte errors
-        - Fix Vte Focus
-        - Fix TypeErrors
-        - Fix configparser argument issue
-        - Fix Exit of Vte Terminal with CTRL + D or exit
-    - Add message dialog with instructions to install x11vnc
-    - Fix multiple IP addresses issue
-    - Update README.md 
-        - Add x11vnc dependency for fedora, Ubuntu and Debian
-        - Add info required to install VNC Viewer
-        - Modify how to use section
-    
-- **Frotz** : Several changes have merged in sugarlabs codebase. See [#7](https://github.com/sugarlabs/Frotz/pull/7).
-    - Port to Gtk 3
-    - Port to Python 3
-    - Remove libvte and vte binaries
-    - Fix Several Vte.Terminal Errors
-    - Fix Gdk.color_parse error
-    - Remove binary files and use system-specific binary for frotz
-    - Several updates in README.md
-    - Fix Quit method TypeError
-    - Change temp file permission to 0o644
-    - Fix several config parser errors
-    - Add message dialog (Alert) to install frotz
-    - Add alert to start the game after installation of frotz
-    - Add requirement of Sudo privilege while installing frotz
-    - Add font_size configured by sugar
-    - Fix: Opening Url button
-    
-- **Polari**: Following changes have merged in sugarlabs codebase. See [#7](https://github.com/sugarlabs/PolariActivity/pull/7)
-    - Port to Python 3
-    - Fix TypeErrors- Item 0: must be number, not str
-    - Remove upstream zope, constantly, twisted and incremental to support the use of distro-specific packages
-    - Add --from-code parameter to xgettext for a python3 activity
-    - Update README and add the use of python3-twisted
-    - Fix UnicodeDecodeError seen while making a connection
 
-- **yupana**: Following changes have merged in sugarlabs codebase. See [#4](https://github.com/sugarlabs/yupana/pull/4)
-    - Port to Python3
-    - Port from telepathy to TelepathyGLib
-    - Port to Gtk3 - missing shared_activity
-    - Fix TypeError while writing svg_string in pixbuf
-    - `Work in Progress` - Port to CollabWrapper [#6](https://github.com/sugarlabs/yupana/pull/6)
-    
-- **flipsticks** : Following changes have merged in sugarlabs codebase. See [#6](https://github.com/sugarlabs/flipsticks/pull/6/commits)
-    - Review and Fix Incomplete Port to Gtk3
-    - Port to TelepathyGLib 
-    - Port to Python 3
-    - Fix TypeError - Item 0: must be number not str
-    - Fix Snapshot button
-    - Use Gdk.flush to fix cursor changes
-    
-- **locosugar** : Following changes have merged to sugarlabs codebase. See [#14](https://github.com/sugarlabs/locosugar/pull/14/commits)
-    - Port from GObject to GLib
-    - Port to Python 3
-    - Fix full screen & Toolbar issue
-    - Fix Warning - erroneous pipeline: syntax error, use a modern player module that supports the PyGObject GST module to fix this. 
-    - Fix Greeting message window size
-    - Fix screen resolution and make screen compatible with all screen sizes instead of only 1200X900
-    - Change in-built variable names
- 
-- **ruler**: Following changes have merged to sugarlabs codebase. See [#9](https://github.com/sugarlabs/ruler/pull/9) & [#12](https://github.com/sugarlabs/ruler/pull/12/commits)
-    - Fix fails with ubuntu 18.04 error [#6](https://github.com/sugarlabs/ruler/issues/6)
-    - Fix issue - maintain consistency with draw signal callback [#10](https://github.com/sugarlabs/ruler/issues/10)
-    - Remove use of GdkX11 and change to Gdk
-    - Fix resolution of ruler by adding offsets from both sides
-    - Port to Python 3
-    - Fix PyGIWarnings
-    - Remove use of check_output method 
-    
-- **solar-system**: Following changes have merged to sugarlabs codebase. See [#3](https://github.com/sugarlabs/solar-system/pull/3)
-    - Port to WebKit 2
-    - Port to Python 3
-    - Add license metadata and file to match source code
-    - Add missing setup.py
-    - Disable sharing
-    - Fix CPU looping and high power draw
-    - Remove #! lines from files that are not executed by the shell
-    - Remove selected body log message
-    
-- **edit-fonts-activity** : Following changes have merged to sugarlabs codebase. See [#102](https://github.com/sugarlabs/edit-fonts-activity/pull/102/commits)
-    - Port from GConf to Gio.Settings
-    - Fix several flake8 warnings
-    
-- **cartoon-builder** : Following changes have been made so far. See [#13](https://github.com/sugarlabs/cartoon-builder/pull/13)
-    - Port to TelepathyGLib
-    - Port to Python 3
-    - Fix several TypeErrors and AttributeErrors
-    - Remove toolkit.json and use python's built-in json 
-    - Fix Activity Resolution
-    - `Work Remaining to be done` Port to Collabwrapper     
-    
-- **reflect** : Following changes have been made so far. See [#15](https://github.com/sugarlabs/reflect/pull/15/commits)
-    - Review : Port from statvfs to os module 
-    - Review : Port to TelepathyGLib
-    - Review : Port to Python 3
-    - Fix several log calls
-    - Fix TypeError related to configparser
-    - Update collabwrapper from upstream 
-    - `Work Remaining to be done` Port to CollabWrapper
-    
-- **CookieSearch** : Following Changes have been made so far. See [#21](https://github.com/sugarlabs/cookie-search-activity/pull/21/commits)
-    - Port to Python 3
-    - Port to TelepathyGLib
-    - Fix Gtk Clipboard TypeError
-    - Fix TypeError while writing svg_string in pixbuf
-    - `Work Remaining to be done` Port to CollabWrapper
+|   Activity Name   |           Work Done          |      Link to commit      |
+|-------------------------|---------------------------------|--------------------------------|
+| **VncLauncher**| <br> Several changes have merged in sugarlabs codebase: <ul><li> Port to Gtk 3, Python 3 </li><li>Fix Gdk.RGBA color parsing and Remove jarabe.model.network</li><li> Remove embedded x11vnc binaries </li><li> Fix several Vte errors : Fix Vte Focus, Fix TypeErrors, Fix configparser argument issue & Fix Exit of Vte Terminal with CTRL + D or exit</li><li> Fix multiple IP addresses issue </li><li>Update README.md : Add x11vnc dependency for fedora, Ubuntu and Debian, Add info required to install VNC Viewer &  Modify how to use section  </li></ul>|[Link](https://github.com/sugarlabs/VncLauncher/pull/9/commits) |
+|**Frotz**| <br> Several changes have merged in sugarlabs codebase: <ul><li> Port to Gtk 3, Python 3 </li><li> Remove libvte and vte binaries </li> <li> Remove binary files and use system-specific binary for frotz </li><li> Add message dialog (Alert) to install frotz, Add alert to start the game after installation of frotz </li><li> Fix Several Vte.Terminal Errors, Fix TypeError related to configparser </li><li> Add font_size configured by sugar </li><li>  Fix: Opening Url button </li></ul>|[Link](https://github.com/sugarlabs/Frotz/pull/7/commits)|
+|**Polari**|<br> Following changes have merged in sugarlabs codebase: <ul><li> Port to Python 3 </li><li>Remove upstream zope, constantly, twisted and incremental to support the use of distro-specific packages </li><li>Update README and add the use of python3-twisted </li><li>Fix UnicodeDecodeError seen while making a connection</li></ul>|[Link](https://github.com/sugarlabs/PolariActivity/pull/7/commits)|
+|**activity-turtle-flags**|<br> Following changes have merged in sugarlabs codebase: <ul><li> Rebase and merge with TurtleArt</li><li> Port from GStreamer Gst.Message.structure to get_structure()</li><li> Port to Python 3</li><li>Port to Gtk 3</li><li>Port from GConf to GioSettings</li></ul>|[Link](https://github.com/sugarlabs/activity-turtle-flags/pull/8)|
+|**yupana**|<br> Following changes have merged in sugarlabs codebase:<ul><li> Port to Python3</li><li>Port to Gtk 3</li><li>Port from telepathy to TelepathyGLib</li><li>`Work in Progress` - Port to CollabWrapper [#6](https://github.com/sugarlabs/yupana/pull/6)</li> </ul>|[Link](https://github.com/sugarlabs/yupana/commit/15ec0979b6774f4c89e172729a2f0d1064a81445)<br>[Link](https://github.com/sugarlabs/yupana/commit/dd0e9f4c4097f0ee91d4b8c365abf5e544f867ea)|
+|**flipsticks**|<br> Following changes have merged in sugarlabs codebase:<ul><li>Review and Fix Incomplete Port to Gtk3 </li><li> Port to Python 3, Port to TelepathyGLib </li><li>Fix Snapshot button </li><li>Use Gdk.flush to fix cursor changes </li></ul>|[Link](https://github.com/sugarlabs/flipsticks/pull/6/commits) |
+|**ruler**|<br> Following changes have merged in sugarlabs codebase: <ul><li>  Fix fails with ubuntu 18.04 error [#6](https://github.com/sugarlabs/ruler/issues/6) </li><li> Fix issue - maintain consistency with draw signal callback [#10](https://github.com/sugarlabs/ruler/issues/10) </li><li>Fix resolution of ruler by adding offsets from both sides </li><li>Port to Python 3 </li></ul>|[Link](https://github.com/sugarlabs/ruler/pull/9/commits) <br> [Link](https://github.com/sugarlabs/ruler/pull/12/commits)|
+|**solar-system**|<br> Following changes have merged in sugarlabs codebase: <ul><li>Port to WebKit 2, Python 3</li><li>Fix CPU looping and high power draw</li><li>Add missing setup.py</li><li>Add license metadata and file to match source code</li></ul>|[Link](https://github.com/sugarlabs/solar-system/commit/d22bef85f8dbecb161ea77a0c8f86bb462f5ba14)|
+|**edit-fonts-activity**|<br> Following changes have merged in sugarlabs codebase: <ul><li> Port from GConf to Gio.Settings </li><li>Fix several flake8 warnings</li></ul>|[Link](https://github.com/sugarlabs/edit-fonts-activity/commit/958d730a39d2dc0d753e77e70646965f8ee7fa86) <br> [Link](https://github.com/sugarlabs/edit-fonts-activity/commit/29c13d6fe69159acffc30c4bca052e8cb010adb1)|
+| **locosugar**|<br> Following changes have merged in sugarlabs codebase: <ul><li> Port from GObject to GLib </li><li> Port to Python 3 </li><li> Fix full screen & Toolbar issue</li><li>Fix Warning - erroneous pipeline: syntax error, use a modern player module that supports the PyGObject GST module to fix this</li><li>Fix Greeting message window size</li><li>Fix screen resolution and make screen compatible with all screen sizes instead of only 1200X900</li></ul>|[Link](https://github.com/sugarlabs/locosugar/pull/14/commits)|
+|**training-activity**|<br> Following changes have merged in sugarlabs codebase: <ul><li> Port from GConf to Gio.Settings </li><li>Port to Python 3</li></ul>|[Link](https://github.com/sugarlabs/training-activity/pull/2/commits/6438c3c85d474d848cf905e40a66c35e5836249c)|
 
-- **activity-turtle-flags** : Following Changes have been made so far. See [#8](https://github.com/sugarlabs/activity-turtle-flags/pull/8)
-    - Rebase and merge with TurtleArt
-    - Port from GStreamer Gst.Message.structure to get_structure()
-    - Port to Python 3
-    - Port to Gtk 3
-    - Port from GConf to GioSettings
     
-- **arithmetic** : Following Changes have been made so far. See [#6](https://github.com/sugarlabs/arithmetic/pull/6) & [#7](https://github.com/sugarlabs/arithmetic/pull/7)
-    - Fix error faced while opening activity icon
-    - Port to Gtk 3
-    - Port to Python 3
-    - Port from gobject to GObject and GLib
-    - merge dobject submodule with repository
-    - Port from telepathy to TelepathyGLib
-    - Fix several AttributeErrors and TypeErrors
-    - `Work Remaining to be done` Fix Activity Display
-    
-- **starchart**: Following Changes have been made so far. See [#8](https://github.com/sugarlabs/starchart/pull/8/commits)
-    - Review: Port to Gtk 3
-    - Port to Python 3
-    - Fix Redraw of context while clicking on the stop button
-    - Restructuring of code by removing some global variables and use with-in class variables
-    - `Work Remaining to be done` Several errors and unexpected behavior noticed while reviewing source code. The activity needs proper restructuring of code with certain Oops principles
-    
-- **stick-hero-activity**: Following Changes have been made so far. See [#29](https://github.com/sugarlabs/stick-hero-activity/pull/29)
-    - Port to latest Sugargame
-    - Port to Python 3
-    - Fix the play button
-    - Fix Issue [#20](https://github.com/sugarlabs/stick-hero-activity/issues/20) to maintain the legibility of the code.
-    - `Work Remaining to be done` Fix several Pygame related warning & errors
-    
-- **deducto**: Port to CollabWrapper. See [#13](https://github.com/sugarlabs/deducto/pull/13)
-- **colordeducto** : Port to CollabWrapper. See [#16](https://github.com/sugarlabs/colordeducto/pull/16)
-- **showntell-activity** : Following Changes have been made so far. See [#16](https://github.com/sugarlabs/showntell-activity/pull/16/commits)
-    - Port to Python 3 
-    - Fix Several AttributeErrors
-    - Replace path.py and use os.path instead
-    - `Work Remaining to be done` Several errors noticed while testing needs more fixes.
-  
-- **geotonky-activity**: Following Changes have been made so far. See [#4](https://github.com/sugarlabs/geotonky-activity/pull/4/commits)
-    - Port to Python 3
-    - Port to latest Sugargame
-    - `Work Remaining to be done` Huge amount of Delay has seen. Sugargame is used differently from other sugar activities.
-    
-- **infoslicer**: Following Changes have been made so far. See [#34](https://github.com/sugarlabs/infoslicer/pull/34)
-    - Port to Python 3
-    - Port from sgmllib to html.parser
-    - `Work Remaining to be done` Fix RuntimeError: generator raised StopIteration
-    - `Work Remaining to be done` Remove BeautifulSoup and use html.parser needs redesigning of code
+#### Work Remaining to be done
+
+This section includes all the activities I have worked on, but due to some blockers, I couldn't get them to merge. But the work done has been reviewed by mentors once.
+
+|   Activity Name   |           Work Done          |      Link to Pull Request      |
+|-------------------------|---------------------------------|--------------------------------|
+|**cartoon-builder**| <br> Following changes have been made so far: <ul><li> Port to TelepathyGLib </li><li> Port to Python 3 </li><li> Fix several TypeErrors and AttributeErrors </li><li> Remove toolkit.json and use python's built-in json </li><li> Fix Activity Resolution </li><li> `Blocker` Port to Collabwrapper </li></ul> | [#13](https://github.com/sugarlabs/cartoon-builder/pull/13) | 
+|**reflect**|<br>Following changes have been made so far: <ul><li> Review : Port from statvfs to os module </li><li> Review : Port to TelepathyGLib </li> <li> Review : Port to Python 3 </li><li> Fix several log calls </li><li> Fix TypeError related to configparser </li><li> Update collabwrapper from upstream </li><li> `Blocker` Port to CollabWrapper </li></ul>|[#15](https://github.com/sugarlabs/reflect/pull/15/commits)|
+|**CookieSearch**|<br>Following changes have been made so far: <ul><li> Port to Python 3 </li><li>Port to TelepathyGLib </li><li>Fix Gtk Clipboard TypeError </li><li>Fix TypeError while writing svg_string in pixbuf</li><li> `Blocker` Port to CollabWrapper </li></ul> |[#21](https://github.com/sugarlabs/cookie-search-activity/pull/21/commits)|
+|**arithmetic**|<br>Following changes have been made so far: <ul><li> Fix error faced while opening activity icon</li><li>Port to Gtk 3</li><li>Port to Python 3</li><li>Port from gobject to GObject and GLib</li><li>merge dobject submodule with repository</li><li> Port from telepathy to TelepathyGLib</li><li>Fix several AttributeErrors and TypeErrors </li><li> `Blocker` Fix Activity Display </li></ul>|[#7](https://github.com/sugarlabs/arithmetic/pull/7)|
+|**starchart**|<br>Following changes have been made so far: <ul><li> Review: Port to Gtk 3 </li><li> Port to Python 3 </li><li>Fix Redraw of context while clicking on the stop button  </li><li>Restructuring of code by removing some global variables and use with-in class variables </li><li> `Blocker` Several errors and unexpected behavior noticed while reviewing source code. The activity needs proper restructuring of code with certain Oops principles</li></ul>|[#8](https://github.com/sugarlabs/starchart/pull/8/commits)|
+|**stick-hero-activity**|<br>Following changes have been made so far: <ul><li>  Port to latest Sugargame </li><li> Port to Python 3 </li><li>Fix the play button </li><li>Fix Issue [#20](https://github.com/sugarlabs/stick-hero-activity/issues/20) in order to maintain the legibility of the code. </li><li>`Blocker` Fix several Pygame related warning & errors </li></ul>|[#29](https://github.com/sugarlabs/stick-hero-activity/pull/29)|
+|**deducto** & **colordeducto**|<br>Following changes have been made so far: <ul><li> Port to CollabWrapper</li><li>`Blocker` Delay is noticed in sharing of game state sometimes delay goes to 30-40 secs</li> </ul>|[#13](https://github.com/sugarlabs/deducto/pull/13) <br> [#16](https://github.com/sugarlabs/colordeducto/pull/16)|
+|**showntell-activity**|<br>Following changes have been made so far: <ul><li> Review: Port to Gtk 3 </li><li> Port to Python 3 </li><li>Fix Several AttributeErrors </li><li>Replace path.py and use os.path instead</li><li>`Blocker` Several errors noticed while testing needs more fixes.</li></ul>|[#16](https://github.com/sugarlabs/showntell-activity/pull/16/commits)|
+|**geotonky-activity**|<br>Following changes have been made so far: <ul><li> Port to Python 3</li><li> Port to latest Sugargame</li><li>`Blocker` Huge amount of Delay has seen. Sugargame is used differently from other sugar activities. </li></ul> |[#4](https://github.com/sugarlabs/geotonky-activity/pull/4/commits)|
+|**infoslicer**|<br>Following changes have been made so far: <ul><li>  Port to Python 3</li><li>Port from sgmllib to html.parser</li><li>`Blcoker` Fix RuntimeError: generator raised StopIteration</li><li>`Blocker` Remove BeautifulSoup and use html.parser needs redesigning of code</li></ul> |[#34](https://github.com/sugarlabs/infoslicer/pull/34)|
+
 
 ### Opened Issues and other fixes
 

@@ -312,7 +312,7 @@ more types or subtypes work on the `switch-case` block inside it.
 
 For the block stacks (and mouse art generated after running),
 
-![Example Project](./samples/mode-up-down.png)
+![Example Project](https://github.com/meganindya/gsoc-musicblocks-js-export/blob/master/original-authored-files/js-export/samples/mode-up-down.png)
 
 the following code is generated:
 

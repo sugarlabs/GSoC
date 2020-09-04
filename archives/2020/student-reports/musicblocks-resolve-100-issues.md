@@ -31,14 +31,14 @@ Issues solved this summer : 71 (complete List of issues at the bottom) over a co
     The MusicKeyboard widget now accepts Midi keyboard (USB) as an input source with the help of the [Web MIDI API](https://www.w3.org/TR/webmidi/). There are still some performance issues with the [.mid file input]()
     &nbsp;
 
-    ![keyboard](./images/midi.gif)
+    ![keyboard](https://github.com/sksum/GSOC-20-Final-Work-Product/blob/master/images/midi.gif)
     &nbsp;
 
 - Widgets: <br />
     [Oscilloscope](https://github.com/sugarlabs/musicblocks/pull/2447) widget was added this summer which allows users to visualize musical waveforms.
     &nbsp;
 
-    ![oscilloscope](./images/oscilloscope.gif)
+    ![oscilloscope](https://github.com/sksum/GSOC-20-Final-Work-Product/blob/master/images/oscilloscope.gif)
     &nbsp;
 
     Issues related to [pitch slider](https://github.com/sugarlabs/musicblocks/pull/2493)  were mostly resolved.
@@ -46,13 +46,13 @@ Issues solved this summer : 71 (complete List of issues at the bottom) over a co
     We have extended the functionality of the [temperament](https://github.com/sugarlabs/musicblocks/pull/2365) widget to create multiple custom pitches.
     &nbsp;
 
-    ![pie](./images/pie.png) 
+    ![pie](https://github.com/sksum/GSOC-20-Final-Work-Product/blob/master/images/pie.png) 
     &nbsp;
 
     [Statistics](https://github.com/sugarlabs/musicblocks/pull/2540) are now displayed as a widget and we have added new Stats which are better oriented for musical parameters and some of them are used to suggest tags when publishing.
     &nbsp;
 
-    ![stats](./images/stats.png)
+    ![stats](https://github.com/sksum/GSOC-20-Final-Work-Product/blob/master/images/stats.png)
     &nbsp;
 
 
@@ -60,7 +60,7 @@ Issues solved this summer : 71 (complete List of issues at the bottom) over a co
     Palette and Palette menu buttons now use simple HTML/CSS instead of CreateJS, this has made the user experience much smoother and also handles any issues pertaining to layout distortion on resize.
     &nbsp;
 
-    ![palette](./images/palette.gif)
+    ![palette](https://github.com/sksum/GSOC-20-Final-Work-Product/blob/master/images/palette.gif)
     &nbsp;
 
 - [on everybeatdo](https://github.com/sugarlabs/musicblocks/pull/2378): <br />
@@ -69,7 +69,7 @@ Issues solved this summer : 71 (complete List of issues at the bottom) over a co
     I helped revamp the jQuery UI Search widget to use images as identifiers. The widget now also uses id-item pairs to maintain uniqueness of block-search queries.
     &nbsp;
 
-    ![search](./images/search.gif)
+    ![search](https://github.com/sksum/GSOC-20-Final-Work-Product/blob/master/images/search.gif)
     &nbsp;
 
 - New Blocks: <br />
@@ -83,7 +83,7 @@ Issues solved this summer : 71 (complete List of issues at the bottom) over a co
 
     &nbsp;
 
-    ![pitch](./images/pitch.gif)
+    ![pitch](https://github.com/sksum/GSOC-20-Final-Work-Product/blob/master/images/pitch.gif)
     &nbsp;
 ---
 &nbsp;

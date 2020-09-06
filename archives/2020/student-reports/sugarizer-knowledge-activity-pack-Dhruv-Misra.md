@@ -45,7 +45,7 @@ The Vote activity provides an easy-to-build poll system. The user can create a p
 
 #### ✅ Work completed
 
-As of August 29 2020, the activity is in it's final stages of testing and will be merged soon to the `dev` branch. It will then be included in the subsequent release.
+The activity has been completed and merged into the `dev` branch. It will then be included in the subsequent release.
 
 Features:
 * Polls grid with common default polls to begin with, making launch of a poll as easy as clicking on a poll card.

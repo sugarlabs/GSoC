@@ -1,15 +1,10 @@
 # GSoC 2021 Ideas
 
-<<<<<<< HEAD
-[Administrative notes](#administrative-notes)
-
-------------
-=======
 ## Project Ideas
 
    * [Music Blocks 2.0 Block Graphics Refactoring](#music-blocks-2.0-block-graphics-refactoring)
    * [Music Blocks 2.0 Menus and Palettes](#music-blocks-2.0-menus-and-palettes)
-   
+
 [Administrative notes](#administrative-notes)
 
 ------------
@@ -68,7 +63,7 @@ Backup mentor: [Walter Bender](https://github.com/walterbender).
 None.
 
 ------------
->>>>>>> 637a921 (MB ideas for 2021)
+
 # Administrative notes
 
 Above are a list of ideas we've planned for GSoC 2021 projects.

@@ -20,7 +20,7 @@ Mentor: [Walter Bender](https://github.com/walterbender),
 Backup mentor: [Anindya Kundu](https://github.com/meganindya).
 
 **Prerequisites**<br>
- - Experience with TypeScript/JavaScript
+ - Experience with React (TypeScript)
  - Experience with graphic design
  - Strong experience with SVG
 
@@ -30,7 +30,7 @@ Backup mentor: [Anindya Kundu](https://github.com/meganindya).
  - Familiarize yourself with the current implementation [blockfactory](https://github.com/sugarlabs/musicblocks/blob/master/js/blockfactory.js)
  - Come up with a framework for how the block interconnections will work -- we'd like to make it more obvious how blocks interlock and also use the interlocking to help define the schemas associated with some block logic.
  - Design the class structure for the new block rendering approach.
- - Implement all of the above in TypeScript.
+ - Implement all of the above in React (TypeScript).
 
 **Coding Mentors**<br>
 [Walter Bender](https://github.com/walterbender),
@@ -46,7 +46,7 @@ Mentor: [Anindya Kundu](https://github.com/meganindya),
 Backup mentor: [Walter Bender](https://github.com/walterbender).
 
 **Prerequisites**<br>
- - Experience with TypeScript/JavaScript
+ - Experience with React (TypeScript).
  - Experience with user interface design
  - Strong experience with Materials
 
@@ -58,7 +58,7 @@ Backup mentor: [Walter Bender](https://github.com/walterbender).
  - Come up with a framework for the new toolbars and palettes
  - Design the class structure for the toolbars
  - Design the class structure for the palettes
- - Implement all of the above in TypeScript.
+ - Implement all of the above in React (TypeScript).
 
 **Coding Mentors**<br>
 [Anindya Kundu](https://github.com/meganindya),

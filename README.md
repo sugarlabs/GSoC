@@ -30,7 +30,7 @@ Our archives of GSoC Projects:
 [2020](Ideas-2020.md)
 
 ## Want to work with us ?
-Sorry, applications are closed for 2020.
+ applications are closed for 2020.
 
 But please get involved.  Familiarise yourself with our code, by
 reporting and fixing bugs.

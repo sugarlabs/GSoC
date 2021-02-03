@@ -4,8 +4,9 @@
 
    * [Port Sugar and core activities to Python 3](#port-sugar-and-core-activities-to-python-3)
    * [Improve and maintain 15 Sugar activities](#improve-and-maintain-15-sugar-activities)
-   * [Music Blocks 2.0 Block Graphics Refactoring](#music-blocks-2.0-block-graphics-refactoring)
-   * [Music Blocks 2.0 Menus and Palettes](#music-blocks-2.0-menus-and-palettes)
+   * [Music Blocks Block Graphics Refactoring](#music-blocks-block-graphics-refactoring)
+   * [Music Blocks Menus and Palettes](#music-blocks-menus-and-palettes)
+   * [Music Blocks Debugging Aids](#music-blocks-debugging-aids)
    * [Sugarizer Measure activity](#sugarizer-measure-activity)
    * [Sugarizer Story activity](#sugarizer-story-activity)
 
@@ -100,10 +101,7 @@ To be added.
 
 ------------
 
-## Music Blocks 2.0 Block Graphics Refactoring
-
-Mentor: [Walter Bender](https://github.com/walterbender),
-Backup mentor: [Anindya Kundu](https://github.com/meganindya).
+## Music Blocks Block Graphics Refactoring
 
 **Prerequisites**<br>
  - Experience with React (TypeScript)
@@ -127,15 +125,12 @@ None.
 
 ------------
 
-
-## Music Blocks 2.0 Menus and Palettes
-Mentor: [Anindya Kundu](https://github.com/meganindya),
-Backup mentor: [Walter Bender](https://github.com/walterbender).
+## Music Blocks Menus and Palettes
 
 **Prerequisites**<br>
  - Experience with React (TypeScript).
  - Experience with user interface design
- - Strong experience with Materials
+ - Experience with Materials
 
 **Description**<br> We are refactoring Music Blocks. This gives us an opportunity to revisit a number of UX issues, including the design and implementation of the menu bars and block palettes. We have some sketches as to what it might look like, but your ideas are most welcome.
 
@@ -156,6 +151,27 @@ None.
 
 ------------
 
+## Music Blocks Debugging Aids
+
+**Prerequisites**<br>
+ - Experience with React (TypeScript).
+ - Experience with user interface design
+
+**Description**<br> We are refactoring Music Blocks. This gives us an opportunity to revisit a number of UX issues, including the design and implementation of the various tools we provide for debugging. We have some ideas, such as changing the appearing of a block that is throwing an error, better handling of break points, visualizing program status, etc., but your ideas are most welcome.
+
+**Project Task Checklist**<br>
+ - Familiarize yourself with the current debugging features [Debugging](https://github.com/sugarlabs/musicblocks/blob/master/Debugging.md)
+ - Come up with a framework for how debugging might work in MB 2.0
+ - Implement your ideas -- some coordination will be needed both with the [Music Blocks Block Graphics Refactoring](#music-blocks-block-graphics-refactoring) project and the language interpreter.
+
+**Coding Mentors**<br>
+[Walter Bender](https://github.com/walterbender).
+[Anindya Kundu](https://github.com/meganindya),
+
+**Assisting Mentors**<br>
+None.
+
+------------
 
 ## Sugarizer Measure activity
 Mentor: [Lionel Laské](https://github.com/llaske),

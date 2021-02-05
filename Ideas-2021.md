@@ -50,7 +50,7 @@ is a prerequisite, see GitHub Project [Port to
 TelepathyGLib](https://github.com/orgs/sugarlabs/projects/4).
 
 **Coding Mentors**<br>
-[Jui Pradhan](https://github.com/JuiP)
+[Jui Pradhan](https://github.com/JuiP), [Srevin Saju](https://github.com/srevinsaju)
 
 **Assisting Mentors**<br>
 To be added.
@@ -91,7 +91,7 @@ Suggesting or adding features, fixing bugs, or releasing activities
 will help you to gain experience
 
 **Coding Mentors**<br>
-[Jui Pradhan](https://github.com/JuiP)
+[Jui Pradhan](https://github.com/JuiP), [Srevin Saju](https://github.com/srevinsaju)
 
 **Assisting Mentors**<br>
 To be added.

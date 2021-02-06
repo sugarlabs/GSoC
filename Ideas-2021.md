@@ -9,6 +9,7 @@
    * [Music Blocks Debugging Aids](#music-blocks-debugging-aids)
    * [Sugarizer Measure activity](#sugarizer-measure-activity)
    * [Sugarizer Story activity](#sugarizer-story-activity)
+   * [Port ASLOv1 to PHP8](#port-aslov1-to-php8)
 
 [Administrative notes](#administrative-notes)
 
@@ -148,6 +149,39 @@ None.
 
 **Assisting Mentors**<br>
 None.
+
+
+------------
+
+## Port ASLOv1 to PHP8
+
+**Prerequisites**<br>
+ - Experience with PHP
+ - Ability to test aslo-v1 against multiple versions of PHP
+ - Experience with CakePHP (not required, but preferred)
+
+**Description**<br> ASLO, which is expanded to Activities (dot) Sugar Labs (dot) org is 
+[Sugar's Activity Library](https://wiki.sugarlabs.org/go/Activities) created primarily for Python 2 Activities.
+ASLOv1, written in PHP 5, is accessible at [activities.sugarlabs.org](http://activities.sugarlabs.org). 
+PHP 5 has reached [its 'end-of-life'](https://www.php.net/supported-versions.php) on January 1st 2019. ASLO v1 uses 
+[Remora](https://wiki.mozilla.org/Update:Remora). This is however, no longer maintained. 
+It is important to migrate to a newer version, such as PHP 8 (preferred)
+or PHP7. 
+
+The source code for ASLO-v1 is available here: [sugarlabs/aslo](https://github.com/sugarlabs/aslo).
+Along with the source code, the [Sugar Labs Wiki page for ASLO](https://wiki.sugarlabs.org/go/Service/activities)
+is also an inexhaustible resource to help developers get started to ASLO-v1
+
+
+**Project Task Checklist**<br>
+ - [ ] Port ASLO v1 and its dependencies to PHP 8
+ - [ ] Make sure that ASLO v1 works as intended even after the port to PHP 8
+ 
+**Coding Mentors**<br>
+To be added.
+
+**Assisting Mentors**<br>
+To be added.
 
 ------------
 

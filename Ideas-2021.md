@@ -6,6 +6,8 @@
    * [Improve and maintain 15 Sugar activities](#improve-and-maintain-15-sugar-activities)
    * [Music Blocks 2.0 Block Graphics Refactoring](#music-blocks-2.0-block-graphics-refactoring)
    * [Music Blocks 2.0 Menus and Palettes](#music-blocks-2.0-menus-and-palettes)
+   * [Sugarizer Measure activity](#sugarizer-measure-activity)
+   * [Sugarizer Story activity](#sugarizer-story-activity)
 
 [Administrative notes](#administrative-notes)
 
@@ -148,6 +150,118 @@ Backup mentor: [Walter Bender](https://github.com/walterbender).
 **Coding Mentors**<br>
 [Anindya Kundu](https://github.com/meganindya),
 [Walter Bender](https://github.com/walterbender).
+
+**Assisting Mentors**<br>
+None.
+
+------------
+
+
+## Sugarizer Measure activity
+Mentor: [Lionel Laské](https://github.com/llaske),
+Backup mentor: -.
+
+**Prerequisites**<br>
+
+ * Experience with JavaScript/HTML5 development
+ * Experience with Vue.js framework development
+ * Experience with Android and/or iOS development using  Cordova
+* Basic knowledge of audio concepts
+
+**Description**<br>Measure activity is an activity written for Sugar and available [here](https://activities.sugarlabs.org/en/sugar/addon/4197).The Measure activity draws a picture of the sound heard by the internal microphone or of the signal present on the microphone socket. More specifically it draws a graph of this input versus time, the input is on the vertical axis and time is on the horizontal axis. That is, the activity functions like a machine called an oscilloscope.
+<br>The objective of this project is to develop a new Sugarizer Measure activity equivalent to the Sugar Measure activity.
+
+![](assets/measure_sugar.png)
+
+<br>A major complexity to implement this activity is to support Android/iOS platform. On these platforms, direct HTML5 audio capture is not possible so audio input should be captured using a Cordova Plugin that have to be identify.
+
+<br>The detailed activity feature and implementation will be discussed with the project mentor but here is a non-exhaustive list of inspiration:
+
+- [Sugar Measure activity](https://help.sugarlabs.org/measure.html)
+- [Oscilloscope.js](https://sambego.github.io/oscilloscope.js/)
+- [Audio oscilloscope](https://github.com/mathiasvr/audio-oscilloscope)
+- [Virtual oscilloscope](https://academo.org/demos/virtual-oscilloscope/)
+- [Cordova Plugin AudioInput](https://github.com/edimuj/cordova-plugin-audioinput)
+- [An incomplete PR with a Measure activity for Sugarizer](https://github.com/llaske/sugarizer/pull/708 )
+
+
+**Project Tasks**
+
+These new activity should provide unique Sugarizer features:
+
+- Sugarizer look & feel: use of Sugar toolbar and palette
+- Sugarizer storage: load/save context into the Journal
+- Network integration: integrate Sugarizer presence to share the activity on the network so that multiple users could play together
+- Responsive: content should adapt to any screen size, a fullscreen button should allow to mask the toolbar for smaller screens
+- Multi-device support: should work on any browser (Chrome, Firefox, Safari) and any platform (Android, iOS, Windows, Linux, MacOS) supported by Sugarizer
+- Tutorial: an integrated documentation should be integrated to explain each feature of the activity
+
+As with other Sugarizer activities, the new activity should be written using JavaScript and Sugar-Web library. The activity should be written using the Vue.js framework.
+
+**First steps to start:**
+
+- Complete the [Sugarizer Vue.js activity development tutorial](https://github.com/llaske/sugarizer/blob/dev/docs/tutorial/VueJS/tutorial.md)
+- Create a Sugarizer environment to be able to generate Sugarizer for Android/iOS, for example by using [Sugarizer APK Builder](https://github.com/llaske/sugarizer-apkbuilder)
+- Test and suggest Cordova Plugin that could be use for the development
+- Explore the list of inspiration provided above
+- Propose UI and features for this activity
+
+**Coding Mentors**<br>
+[Lionel Laské](https://github.com/llaske).
+
+**Assisting Mentors**<br>
+None.
+
+------------
+
+
+## Sugarizer Story activity
+Mentor: [Lionel Laské](https://github.com/llaske),
+Backup mentor: -.
+
+**Prerequisites**<br>
+
+ * Experience with JavaScript/HTML5 development
+ * Experience with Vue.js framework development
+ * Experience with Android and/or iOS development using  Cordova
+
+**Description**<br>Story is an activity written for Sugar and available [here](https://activities.sugarlabs.org/en/sugar/addon/4565). The Story Activity uses images to prompt a learner to tell a story. The learner should try to tell a story that ties the images together into a comprehensive narrative.
+<br>The objective of this project is to develop a new Sugarizer Story activity equivalent to the Sugar Story activity.
+
+![](assets/story_sugar.png)
+
+<br>One complexity to implement this activity is to handle sound recording. Sound capture is possible using HTML5 feature but is not compatible with Android/iOS where a Cordova Plugin should be use. Once captured the sound should also be able to be played by the activity.
+
+<br>The detailed activity feature and implementation will be discussed with the project mentor but here is a non-exhaustive list of inspiration:
+
+- [Sugar Story activity](https://help.sugarlabs.org/story.html)
+- [Record activity](https://github.com/llaske/sugarizer/tree/dev/activities/Record.activity) to learn how to handle sound recording for each platform
+- [Abecedarium journal integration](https://github.com/llaske/sugarizer/blob/master/lib/sugar-web/graphics/journalchooser.js#L342) to learn how to get images coming from Abecedarium database
+
+
+**Project Tasks**
+
+These new activity should provide unique Sugarizer features:
+
+- Sugarizer look & feel: use of Sugar toolbar and palette
+- Sugarizer storage: load/save context into the Journal
+- Network integration: integrate Sugarizer presence to share the activity on the network so that multiple users could play together
+- Responsive: content should adapt to any screen size, a fullscreen button should allow to mask the toolbar for smaller screens
+- Multi-device support: should work on any browser (Chrome, Firefox, Safari) and any platform (Android, iOS, Windows, Linux, MacOS) supported by Sugarizer
+- Tutorial: an integrated documentation should be integrated to explain each feature of the activity
+
+As with other Sugarizer activities, the new activity should be written using JavaScript and Sugar-Web library. The activity should be written using the Vue.js framework.
+
+**First steps to start:**
+
+- Complete the [Sugarizer Vue.js activity development tutorial](https://github.com/llaske/sugarizer/blob/dev/docs/tutorial/VueJS/tutorial.md)
+- Create a Sugarizer environment to be able to generate Sugarizer for Android/iOS, for example by using [Sugarizer APK Builder](https://github.com/llaske/sugarizer-apkbuilder)
+- Explore the code of Record activity to understand how sound recording could be done
+- Explore the list of inspiration provided above
+- Propose UI and features for this activity
+
+**Coding Mentors**<br>
+[Lionel Laské](https://github.com/llaske).
 
 **Assisting Mentors**<br>
 None.

@@ -1,26 +1,35 @@
 # GSoC 2020 Ideas
 
+## Accepted
+
    * [Port Sugar and core activities to Python 3](#port-sugar-and-core-activities-to-python-3)
    * [Improve and maintain 25 Sugar activities](#improve-and-maintain-25-sugar-activities)
    * [Export Music Blocks code to JavaScript](#export-music-blocks-code-to-javascript)
-   * [Colored desktop and activity icons](#colored-desktop-and-activity-icons)
-   * [Port Sugarizer activities to Sugar](#port-sugarizer-activities-to-sugar)
-   * [Fedora advocacy for Sugar](#fedora-advocacy-for-sugar)
+   * [Music Blocks Scale Degree vs n^th Modal Pitch](#music-blocks-scale-degree-vs-nth-modal-pitch)
    * [Debian advocacy for Sugar](#debian-advocacy-for-sugar)
-   * [Sugar app store for Python 3 activities (aslov4)](#sugar-app-store-for-python-3-activities-aslov4)
    * [Resolve 100 issues in Music Blocks](#resolve-100-issues-in-music-blocks)
-   * [Model–View–Controller refactoring for Music Blocks](#modelviewcontroller-refactoring-for-music-blocks)
    * [Sugarizer game activity pack](#sugarizer-game-activity-pack)
    * [Sugarizer knowledge activity pack](#sugarizer-knowledge-activity-pack)
    * [Sugarizer School Portal](#sugarizer-school-portal)
-   * [Administrative notes](#administrative-notes)
+
+## Not Accepted
+
+   * [Colored desktop and activity icons](#colored-desktop-and-activity-icons)
+   * [Port Sugarizer activities to Sugar](#port-sugarizer-activities-to-sugar)
+   * [Fedora advocacy for Sugar](#fedora-advocacy-for-sugar)
+   * [Sugar app store for Python 3 activities (aslov4)](#sugar-app-store-for-python-3-activities-aslov4)
+   * [Model–View–Controller refactoring for Music Blocks](#modelviewcontroller-refactoring-for-music-blocks)
+   
+[Administrative notes](#administrative-notes)
 
 ------------
 
 ## Port Sugar and core activities to Python 3
 
 **Selected**<br>
-Nobody.
+Student: Saumya Mishra,
+Mentor: [Rahul Bothra](https://github.com/pro-panda),
+Backup mentor: [James Cameron](https://github.com/quozl).
 
 **Prerequisites**<br>
  - Experience with Python
@@ -28,24 +37,40 @@ Nobody.
  - Strong experience with
    [Sugar Desktop](https://github.com/sugarlabs/sugar) and activities
 
-**Description**<br>
-Sugar runs on Python 2 or Python 3.  Core activities run on Python 3.  Many other activities run on Python 2.  Support for Python 2 was withdrawn by the Python Foundation, so we need to finish the move to Python 3.  The move was started in GSoC 2018, and continued in GSoC 2020, but there is still work to be done.  See GitHub Project [Port to Python 3 via
-six](https://github.com/orgs/sugarlabs/projects/1) for some open issues and
-pull requests.  Most activities do not have issues.
+**Description**<br> Support for Python 2 was withdrawn by the Python
+Foundation, so we need to finish the move to Python 3.  The move was
+started in GSoC 2018, and continued in GSoC 2020, but there is still
+work to be done.  Sugar 0.116 runs on Python 2 or Python 3.  Core
+activities run on Python 3.  Many other activities run on Python 2.
+Many regressions have been seen as a result of code not being tested.
 
-The telepathy library does not have bindings for Python 3, so
-porting Telepathy to the PyGObject binding is a prerequisite for the
-Port to Python 3 Project, see GitHub Project [Port to
-TelepathyGLib](https://github.com/orgs/sugarlabs/projects/4).
+We have a [Python 3 Porting
+Guide](https://github.com/sugarlabs/sugar-docs/blob/master/src/python-porting-guide.md)
+which describes the process for activities.
 
 **Project Task Checklist**<br>
- - Port all Telepathy bindings to TelepathyGLib, see [Port to
-   TelepathyGLib](https://github.com/orgs/sugarlabs/projects/4).
- - Port Sugargame or CollabWrapper
- - Port activities to Python 3
+ - Review the Sugar source code changes since 0.112 that were made for porting to Python 3,
+ - Design tests and iterate until the tests have sufficient [coverage](https://github.com/sugarlabs/sugar-docs/blob/master/src/python-coverage-guide.md) for the code changes identified about,
+ - Fix regressions in Sugar, the Toolkit, and the Datastore,
+ - For affected activities, port Telepathy bindings to TelepathyGLib, see [Port to TelepathyGLib](https://github.com/orgs/sugarlabs/projects/4).
+ - For affected activities, port to the latest Sugargame or CollabWrapper library,
+ - Port activities to Python 3, fixing any problems that prevent them from being ported or used,
+
+See GitHub Project [Port to Python 3 via
+six](https://github.com/orgs/sugarlabs/projects/1) for some open
+issues and pull requests.  Most activities do not have issues.  Some
+activities have problems that prevent them from being ported.
+
+The Telepathy library is used by some activities for network
+collaboration between Sugar users.  The library does not have static
+bindings for Python 3, so porting Telepathy to the PyGObject binding
+is a prerequisite, see GitHub Project [Port to
+TelepathyGLib](https://github.com/orgs/sugarlabs/projects/4).
 
 **Coding Mentors**<br>
-[James Cameron](https://github.com/quozl) (via mailing list)
+[James Cameron](https://github.com/quozl),
+[Ibiam Chihurumnaya](https://github.com/chimosky) and
+[Hrishi Patel](https://github.com/hrishi1999) (via mailing list)
 
 **Assisting Mentors**<br>
 None.
@@ -55,7 +80,9 @@ None.
 ## Improve and maintain 25 Sugar activities
 
 **Selected**<br>
-Nobody.
+Student: Jui Pradhan,
+Mentor: [Ibiam Chihurumnaya](https://github.com/chimosky),
+Backup mentor: [James Cameron](https://github.com/quozl).
 
 **Prerequisites**<br>
  - Experience with Python
@@ -89,8 +116,9 @@ Suggesting or adding features, fixing bugs, or releasing activities
 will help you to gain experience
 
 **Coding Mentors**<br>
-[James Cameron](https://github.com/quozl) and
-[Ibiam Chihurumnaya](https://github.com/chimosky) (via mailing list).
+[James Cameron](https://github.com/quozl),
+[Ibiam Chihurumnaya](https://github.com/chimosky) and
+[Rahul Bothra](https://github.com/pro-panda) (via mailing list).
 
 **Assisting Mentors**<br>
 None.
@@ -100,7 +128,10 @@ None.
 ## Export Music Blocks code to JavaScript
 
 **Selected**<br>
-Nobody.
+Student: Anindya Kundu,
+Mentor: [Walter Bender](https://github.com/walterbender),
+Backup mentors: [Sumit Srivastava](https://github.com/sum2it), and [Vaibhav
+Aren](https://github.com/vaibhavdaren).
 
 **Prerequisites**<br>
  - Experience with JavaScript
@@ -114,7 +145,7 @@ Music Blocks is written in JavaScript and runs in a web browser. User
 create programs in a snap-together block language which is inspired by
 Logo. Music Blocks is a fork of Turtle Blocks JS, which is turn is a
 derivative of [Turtle
-Blocks](https://github.com/sugarlabs/turtleblocks), which is
+Blocks](https://github.com/sugarlabs/turtleart-activity), which is
 written in Python.
 
 One feature of the Python code is the ability to export to Python. In
@@ -135,16 +166,44 @@ JavaScript as possible.
 **Suggested issues to work on:**<br>
  - There are not any issues specific to this project, but working on
    some open bugs would be a good place to start in understanding the
-   code base. [Bug](https://github.com/sugarlabs/musicblocks/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+label%3Abug+)
+   code base. [Bug](https://github.com/sugarlabs/musicblocks/issues?q=is%3Aissue+is%3Aopen+label%3AIssue-Bug)
 
 **Coding Mentors**<br>
-_unverified_: [Vaibhav Aren](https://github.com/vaibhavdaren) and
-[Walter Bender](https://github.com/walterbender)
+[Walter Bender](https://github.com/walterbender) and
+[Vaibhav Aren ](https://github.com/vaibhavdaren).
 
 **Assisting Mentors**<br>
-_unverified_: [Jaskirat Singh](https://github.com/jaskirat2000),
-_unverified_: [Sumit Srivastava](https://github.com/sum2it), and
-_unverified_: [Devin Ulibarri](https://github.com/pikurasa).
+[Jaskirat Singh](https://github.com/jaskirat2000), [Devin Ulibarri](https://github.com/pikurasa), and [Sumit Srivastava](https://github.com/sum2it).
+
+--------------
+
+## Music Blocks Scale Degree vs n^th Modal Pitch
+
+**Selected**<br>
+Student: Aviral Gangwar,
+Mentor: [Devin Ulibarri](https://github.com/pikurasa),
+Backup mentors: [Sumit Srivastava](https://github.com/sum2it), and [Walter Bender](https://github.com/walterbender).
+
+**Prerequisites**<br>
+ - Experience with JavaScript
+ - Some experience of working on [Music
+   Blocks](https://github.com/sugarlabs/musicblocks) or [Turtle
+   Blocks](https://github.com/sugarlabs/turtleblocksjs)
+
+**Description**<br>
+
+Marry the functionality of math and computation with expectations of
+musicians, by working on [Issue 2058 - Scale Degree Design Path
+Proposal](https://github.com/sugarlabs/musicblocks/issues/2058).
+
+**Suggested issues to work on:**<br>
+ - [https://github.com/sugarlabs/musicblocks/issues/2020](https://github.com/sugarlabs/musicblocks/issues/2020)
+
+**Coding Mentors**<br>
+[Walter Bender](https://github.com/walterbender) and [Sumit Srivastava](https://github.com/sum2it).
+
+**Assisting Mentors**<br>
+[Devin Ulibarri](https://github.com/pikurasa).
 
 --------------
 
@@ -204,8 +263,8 @@ to take on any colors deemed suitable by the activity designer.
 [Walter Bender](https://github.com/walterbender) and
 
 **Assisting Mentors**<br>
-_unverified_: [Peace Ojemeh](https://github.com/perriefidelis) and
-_unverified_: [Jaskirat Singh](https://github.com/jaskirat2000)
+[Jaskirat Singh](https://github.com/jaskirat2000),
+[Samson Goddy](https://github.com/samswag) and [Peace Ojemeh](https://github.com/perriefidelis)
 
 ------------
 
@@ -246,11 +305,10 @@ Steps to take:
 10. Make Music Blocks port as a native activity
 
 **Coding Mentors**<br>
-[James Cameron](https://github.com/quozl) and
-[Iqra Mohammad](https://github.com/iqraceme) (via mailing list)
+[James Cameron](https://github.com/quozl) (via mailing list)
 
 **Assistant Mentors**<br>
-_unverified_: [Samson Goddy](https://github.com/samswag)
+[Samson Goddy](https://github.com/samswag)
 
 ------------
 
@@ -278,17 +336,20 @@ Fedora project needs help, and this help would benefit Sugar Labs;
  - Fix bugs and participate in peer review with the respective community.
 
 **Coding Mentors**<br>
-[James Cameron](https://github.com/quozl) (via mailing list)
+[James Cameron](https://github.com/quozl) and
+[Ibiam Chihurumnaya](https://github.com/chimosky) (via mailing list)
 
 **Assistant Mentors**<br>
-None.
+[Samson Goddy](https://github.com/samswag)
 
 ------------
 
 ## Debian advocacy for Sugar
 
 **Selected**<br>
-Nobody.
+Student: Shaan Subbaiah,
+Mentor: [James Cameron](https://github.com/quozl).
+Backup mentor: [Rahul Bothra](https://github.com/pro-panda),
 
 **Prerequisites**<br>
  - Ability to install Linux,
@@ -299,22 +360,21 @@ Nobody.
 
 Debian is a Linux distribution composed of free and open-source software, developed by the community-supported Debian Project.  Ubuntu is a free and open-source Linux distribution based on Debian.
 
-Debian volunteers make software packages of Sugar and selected activities and make them available for installation.  Ubuntu brings these packages into their distribution.
+Debian volunteers make software packages of Sugar and selected activities and make them available for installation.  Ubuntu brings these packages into their distribution.  By this Sugar Labs reaches users through Debian and Ubuntu.
 
-Sugar Labs makes a Sugar Live Build based on Debian, using Sugar and activity source code, and not the Debian software packages.
-
-Debian Project needs help, and this help would benefit Sugar Labs;
- - Test Sugar on Debian latest release (Debian 10 aka Buster), testing release (Debian 11 aka Bullseye), and experimental release (sid),
- - Test Sugar Live Build,
+Debian Project needs help, and this help will benefit Sugar Labs;
+ - Test the packaging of Sugar on Debian latest release (Debian 10 aka Buster), testing release Debian 11 aka Bullseye ([freeze policy](https://lists.debian.org/debian-devel-announce/2020/03/msg00002.html) and [freeze timeline](https://release.debian.org/testing/freeze_policy.html)), and experimental release (sid),
  - Report bugs to Sugar Labs, where those bugs are due to our source code,
  - Report bugs to Debian, where those bugs are due to Debian packaging decisions.
- - Fix bugs and participate in peer review with the respective community.
+ - Fix bugs and participate in peer review with the respective community, see [release-critical bugs](https://bugs.debian.org/release-critical/other/testing.html) and search for Sugar, also see [Bugs search](https://udd.debian.org/bugs.cgi), and [Bugs Squashing Parties](https://wiki.debian.org/BSP),
+
+Sugar Labs also makes a Sugar Live Build based on Debian, using Sugar and activity source code, and not the Debian software packages.  This is out of scope except where it can be used as a tool for testing packages.
 
 **Coding Mentors**<br>
 [James Cameron](https://github.com/quozl) (via mailing list)
 
 **Assistant Mentors**<br>
-None.
+[Samson Goddy](https://github.com/samswag)
 
 ------------
 
@@ -347,11 +407,12 @@ collectively by the Sugar Labs community.
 Minimum Requirements;
 
  - support activity bundles uploaded via ssh,
+ - operate from static HTML5 with JavaScript,
  - detect User-Agent of Fedora 18 systems running Sugar 0.112 or earlier, and redirect to activities.sugarlabs.org,
  - provide a list of all activity bundles,
  - provide activity bundle download, using the correct Content-Type,
  - provide search of activity bundles (using title, description, or other keywords),
- - support Sugar's microformat software upgrade feature in My Settings,
+ - support Sugar's microformat software upgrade feature in My Settings, (Sugar 0.116 is configured in `data/org.sugarlabs.gschema.xml` to use the AsloUpdater in `src/jarabe/model/update/aslo.py` which reaches out to a PHP script `update-aslo.php`, and will instead be configured to use `src/jarabe/model/update/microformat.py`),
 
 Optional requirements;
 
@@ -370,16 +431,21 @@ Project Scheduling;
  - once approved, the Browse activity is to be changed to point to the service, and Sugar's software upgrade feature changed,
 
 **Coding Mentors**<br>
-[James Cameron](https://github.com/quozl) (via mailing list)
+[James Cameron](https://github.com/quozl),
+[Hrishi Patel](https://github.com/hrishi1999) and,
+[Rahul Bothra](https://github.com/pro-panda) (via mailing list)
 
 **Assistant Mentors**<br>
-None.
+[Samson Goddy](https://github.com/samswag)
 
 ------------
 
 ## Resolve 100 issues in Music Blocks
 **Selected**<br>
-Nobody.
+Student: Saksham Mrig,
+Mentor: [Sumit Srivastava](https://github.com/sum2it),
+Backup mentors: [Walter Bender](https://github.com/walterbender), and [Vaibhav
+Aren](https://github.com/vaibhavdaren).
 
 **Prerequisites**<br>
  - Experience with JavaScript
@@ -401,10 +467,13 @@ As part of your application, prepare a schedule of which issues you
 plan to work on.
 
 **Coding Mentors**<br>
-[Walter Bender](https://github.com/walterbender)
-[Favour Kelvin](favourkelvin17@gmail.com)
+[Walter Bender](https://github.com/walterbender),
+[Favour Kelvin](favourkelvin17@gmail.com), 
+[Sumit Srivastava](https://github.com/sum2it), and
+[Vaibhav Aren](https://github.com/vaibhavdaren).
 
 **Assisting Mentors**<br>
+[Jaskirat Singh](https://github.com/jaskirat2000) and
 [Devin Ulibarri](https://github.com/pikurasa).
 
 ------------
@@ -427,11 +496,12 @@ progress](https://github.com/sugarlabs/musicblocks/commit/3085a99a7259d9d30522da
 on MVC during GCI, but there is much more to be done.
 
 **Coding Mentors**<br>
-[Walter Bender](https://github.com/walterbender)
-[Favour Kelvin](favourkelvin17@gmail.com)
+[Walter Bender](https://github.com/walterbender),
+[Favour Kelvin](favourkelvin17@gmail.com), and
+[Vaibhav Aren](https://github.com/vaibhavdaren).
 
 **Assisting Mentors**<br>
-[Devin Ulibarri](https://github.com/pikurasa).
+[Devin Ulibarri](https://github.com/pikurasa) and [Sumit Srivastava](https://github.com/sum2it).
 
 ------------
 
@@ -439,8 +509,9 @@ on MVC during GCI, but there is much more to be done.
 ## Sugarizer game activity pack
 
 **Selected**
-
-Nobody.
+Student: Prakash Ujjwal,
+Mentor: [Ashish Aggarwal](https://github.com/ashish0910),
+Backup mentor: [Lionel Laské](https://github.com/llaske).
 
 **Prerequisites**
 
@@ -519,13 +590,14 @@ These new activities should provide unique Sugarizer features:
 - Multi-device support: should work on any browser (Chrome, Firefox, Safari) and any platform (Android, iOS, Windows, Linux, MacOS) supported by Sugarizer
 - Tutorial: an integrated documentation should be integrated to explain each feature of the activity
 
-As with other Sugarizer activities, the new activities should be written using JavaScript and Sugar-Web library. We recommand also to use the Vue.js framework.
+As with other Sugarizer activities, the new activities should be written using JavaScript and Sugar-Web library. We recommend also to use the Vue.js framework.
 
 **First steps to start:**
 
 - Complete the [Sugarizer activity development tutorial](https://github.com/llaske/sugarizer/blob/dev/docs/tutorial.md)
+- Complete the [Chessboard task](https://github.com/llaske/sugarizer/issues/592)
 - Explore the list of inspiration provided above
-- Study the [source code](https://github.com/llaske/ExerciserReact) of the Calligra activity, a Sugarizer activity developped with the Vue.js framework
+- Study the [source code](https://github.com/llaske/sugarizer/tree/dev/activities/Calligra.activity) of the Calligra activity, a Sugarizer activity developed with the Vue.js framework
 - Learn about [Vue.js](https://vuejs.org) framework and complete the Vue.js tutorial
 - Propose a game play for these activities
 
@@ -546,8 +618,9 @@ Nobody.
 
 
 **Selected**
-
-Nobody.
+Student: Dhruv Misra,
+Mentor: [Lionel Laské](https://github.com/llaske),
+Backup mentor: [Michaël Ohayon](https://github.com/mikklfr).
 
 **Prerequisites**
 
@@ -611,8 +684,9 @@ As with other Sugarizer activities, the new activities should be written using J
 **Fist step to start:**
 
 - Complete the [Sugarizer activity development tutorial](https://github.com/llaske/sugarizer/blob/dev/docs/tutorial.md)
+- Complete the [Chessboard task](https://github.com/llaske/sugarizer/issues/592)
 - Explore the list of inspiration provided above
-- Study the [source code](https://github.com/llaske/ExerciserReact) of the Calligra activity, a Sugarizer activity developped with the Vue.js framework
+- Study the [source code](https://github.com/llaske/sugarizer/tree/dev/activities/Calligra.activity) of the Calligra activity, a Sugarizer activity developped with the Vue.js framework
 - Learn about [Vue.js](https://vuejs.org) framework and complete the Vue.js tutorial
 - Propose a game play for these activities
 
@@ -633,29 +707,39 @@ Nobody.
 
 
 **Selected**
-
-Nobody.
+Student: Nikhil Mehra,
+Mentor: [Michaël Ohayon](https://github.com/mikklfr),
+Backup mentor: [Lionel Laské](https://github.com/llaske).
 
 **Prerequisites**
 
 - Experience with JavaScript/HTML5 development
-- Experience with node.js and EJS framework
-- Experience with Docker and Kubernetes
-- Experience with Ansible
+- Experience with Node.js and EJS framework
+- Experience with Docker, Ansible
+
+**Strongly appreciated skills**
+
+- Google Kubernetes Engine knowledge
+- Google Cloud DNS knowledge
+- Nginx knowledge
+- Let's encrypt knowledge
+- Helm knowledge
+- Pub/Sub or equivalents solutions knowledge
 
 **Description**
 
-Sugarizer School Portal is a new tool in the Sugarizer family to provide a way, for schools interested by Sugarizer, to host and manage themselves their Sugarizer deployment. More precisely, the idea is to provide an on-demand (SaaS) Sugarizer Server deployment tool. So, every school will be able in few clicks to create a Sugarizer Server to host its own deployment without any technical skill.
+Sugarizer School Portal is a new tool in the Sugarizer family to provide a way, for schools interested by 
+Sugarizer, to host and manage themselves their Sugarizer deployment. More precisely, the idea is to provide an on-demand (SaaS) Sugarizer Server deployment tool. So, every school will be able in few clicks to create a Sugarizer Server to host its own deployment without any technical skill.
 
-![](assets/docker.png)
+Illustration of a potential stack is currently in work in progress.
 
-Under the hood, Sugarizer School Portal will be a Kubernetes server that should be able to create/manage on demand new Sugarizer Server docker instances. Some Kubernetes services should be realized to handle: traffic redirection, data persistance, rolling update, secure access,...
+Under the hood, Sugarizer School Portal will be a Kubernetes cluster that should be able to create/manage on demand new Sugarizer Server instances. Some Kubernetes features should be used to handle: traffic balancing, data persistance, rolling update, secure access…
 
 A web interface will be created to let users ask for a new deployment. This web interface will integrate a dashboard to let super administrator follow number of deployments and usage of each deployment to be able to resize the infrastructure if need.
 
-Finally, to easily deploy Sugarizer Server, an Ansible package will be realized.
+Finally, to easily create a Kubernetes Sugarizer Server provider, an Ansible package will be realized.
 
-It's important to note than some Sugarizer Server improvements could be required, for example the replacement of MongoDB by another database.
+It's important to note than some Sugarizer Server improvements could be required, for example the replacement of MongoDB by another database or some modifications regarding storage, and high availability.
 
 **Project Tasks**
 
@@ -665,23 +749,21 @@ It's important to note than some Sugarizer Server improvements could be required
 - Create a set of scripts to extract stats usage of Sugarizer Server
 - Create a web interface to let users ask for a new deployment
 - Create a web dashboard to let super administrator manage instances deployment and usage
-
 Some other features could be added to this list depending of feedbacks on the field.
 
-**Fist step to start:**
+**First step to start:**
 
 - Complete the [Sugarizer activity development tutorial](https://github.com/llaske/sugarizer/blob/dev/docs/tutorial.md) to understand how Sugarizer work
 - Install [Sugarizer Server](https://github.com/llaske/sugarizer-server/tree/dev) and dashboard using Docker and explore the Docker compose file provided with Sugarizer Server
 - Create different Sugarizer users and see how the dashboard trace activities and usage works
 - Study the [source code](https://github.com/llaske/sugarizer-server/tree/dev/dashboard) of dashboard
 - Learn about [Kubernetes](https://kubernetes.io/) and complete the [Kubernetes tutorial](https://kubernetes.io/docs/tutorials/)
+- Learn about [Helm](https://helm.sh/) and complete the [Helm tutorial](https://helm.sh/docs/intro/)
 - Learn about [Ansible](https://www.ansible.com/) and complete the [Ansible tutorial](https://www.ansible.com/resources/get-started). Install [IIAB](https://github.com/iiab/iiab), test use of Sugarizer throught IIAB and study the way of working of [IIAB](https://github.com/iiab/iiab) Ansible packages
-
 
 **Coding Mentors**
 
 [Michaël Ohayon](https://github.com/mikklfr) and [Lionel Laské](https://github.com/llaske) (via direct mail)
-
 
 **Assisting Mentors**
 
@@ -751,7 +833,7 @@ in our Code of Conduct.
 ## Suggested Issues
 
 For some ideas, there is a list of 'Suggested issues to work on'.
-These will help you to get familiar with the project.  The more you
+These may help you to get familiar with the project.  The more you
 work on these issues, the more experienced you will be for the
 project.  However, this is not a strict list.  You _should_ try and
 explore other issues as well.

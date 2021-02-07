@@ -53,14 +53,14 @@ For students who wish to be able to delete their proposal after failing to win a
 We use the
 [sugar-devel@](http://lists.sugarlabs.org/listinfo/sugar-devel)
 mailing list for communication. Join to participate in the discussion
-and ask for help.  Allow some days for reply.  See
+and ask for help.  Allow some days for reply. See below
 [Community etiquette](https://github.com/sugarlabs/GSoC#community-etiquette).
 
 Do not write secretly to mentors or developers unless they have asked
 you to.  This varies by idea.  Check the list of coding mentors for
 each idea.  We have added contact methods.
 
-## How to Contribute
+## How to Contributes
 
 At Sugar Labs we have
 [opportunities for contributing](https://github.com/sugarlabs/sugar-docs/blob/master/src/contributing.md)

@@ -177,6 +177,13 @@ is also an inexhaustible resource to help developers get started to ASLO-v1
  - [ ] Port ASLO v1 and its dependencies to PHP 8
  - [ ] Make sure that ASLO v1 works as intended even after the port to PHP 8
  
+**Suggested Issues**<br>
+- [ ] Automatically redirect to [v4.activities.sugarlabs.org](https://v4.activities.sugarlabs.org)
+      based on the User Agent [#21](https://github.com/sugarlabs/aslo/issues/21).
+- [ ] Fix insecure login [#5](https://github.com/sugarlabs/aslo/issues/5)
+- [ ] Fix incorrect mimetype on downloads [#13](https://github.com/sugarlabs/aslo/issues/13)
+- [ ] Show supported versions [#4](https://github.com/sugarlabs/aslo/issues/4)
+ 
 **Coding Mentors**<br>
 To be added.
 

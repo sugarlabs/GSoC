@@ -145,6 +145,8 @@ badge could indicate collaboration. This would free up the icon itself
 to take on any colors deemed suitable by the activity designer.
 
 **Project Task:**<br>
+ - [ ] Improve icons, assets for [sugar-artwork](https://github.com/sugarlabs/sugar-artwork)
+       as well as the [Fructose Set Activities](https://wiki.sugarlabs.org/go/Taxonomy). 
  - [ ] Rewrite the Human Interface Guidelines. Design a new idea for
        the Sugar UX and UI.
  - [ ] Add color functionality to the badges;

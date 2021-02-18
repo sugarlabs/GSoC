@@ -117,10 +117,16 @@ Nobody.
 **Description**<br>
 Sugar’s use of color and icons (described in detail here [HIG
 color](https://wiki.sugarlabs.org/go/Human_Interface_Guidelines/The_Sugar_Interface/Colors)
-and [HIG
-icons](https://wiki.sugarlabs.org/go/Human_Interface_Guidelines/The_Sugar_Interface/Icons))
+and [HIG icons](https://wiki.sugarlabs.org/go/Human_Interface_Guidelines/The_Sugar_Interface/Icons))
 is functional but a bit tired when compared to modern desktops and
-mobile systems.
+mobile systems. Sugar uses monochrome icons. The reason for monochrome icons
+and high contrasting colour choices was to support reflective displays that
+cannot show colour. In turn that was because backlights could not be made
+bright enough for use in high ambient light, without risking large amounts
+of incidental heat. Since then backlights are more efficient (less heat) and
+much brighter (in nits). Now that the reflective display technology has all
+but been abandoned, the requirement is removed, and so Sugar can go for a
+UI design that is more colourful.
 
 This project is about redesigning the use of color in Sugar in order
 to enable full-color icons for both the desktop itself and activities.

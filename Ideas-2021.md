@@ -298,7 +298,7 @@ None.
 
 ## Sugarizer Measure activity
 Mentor: [Lionel Laské](https://github.com/llaske),
-Backup mentor: -.
+Backup mentor: [Ashish Aggarwal](https://github.com/ashish0910)
 
 **Prerequisites**<br>
 
@@ -355,8 +355,8 @@ None.
 
 
 ## Sugarizer Story activity
-Mentor: [Lionel Laské](https://github.com/llaske),
-Backup mentor: -.
+Mentor: [Ashish Aggarwal](https://github.com/ashish0910),
+Backup mentor: [Lionel Laské](https://github.com/llaske)
 
 **Prerequisites**<br>
 

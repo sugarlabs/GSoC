@@ -346,7 +346,7 @@ As with other Sugarizer activities, the new activity should be written using Jav
 - Propose UI and features for this activity
 
 **Coding Mentors**<br>
-[Lionel Laské](https://github.com/llaske).
+[Lionel Laské](https://github.com/llaske), [Ashish Aggarwal](https://github.com/ashish0910)
 
 **Assisting Mentors**<br>
 None.
@@ -400,7 +400,7 @@ As with other Sugarizer activities, the new activity should be written using Jav
 - Propose UI and features for this activity
 
 **Coding Mentors**<br>
-[Lionel Laské](https://github.com/llaske).
+[Lionel Laské](https://github.com/llaske), [Ashish Aggarwal](https://github.com/ashish0910)
 
 **Assisting Mentors**<br>
 None.

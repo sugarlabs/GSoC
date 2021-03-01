@@ -55,7 +55,7 @@ is a prerequisite, see GitHub Project [Port to
 TelepathyGLib](https://github.com/orgs/sugarlabs/projects/4).
 
 **Coding Mentors**<br>
-[Jui Pradhan](https://github.com/JuiP), [Srevin Saju](https://github.com/srevinsaju), [Saumya Mishra](https://github.com/Saumya-Mishra9129)
+[Jui Pradhan](https://github.com/JuiP), [Srevin Saju](https://github.com/srevinsaju), [Saumya Mishra](https://github.com/Saumya-Mishra9129), [Ibiam Chihurumnaya](https://github.com/chimosky/)
 
 **Assisting Mentors**<br>
 To be added.
@@ -96,18 +96,13 @@ Suggesting or adding features, fixing bugs, or releasing activities
 will help you to gain experience
 
 **Coding Mentors**<br>
-[Jui Pradhan](https://github.com/JuiP), [Srevin Saju](https://github.com/srevinsaju), [Saumya Mishra](https://github.com/Saumya-Mishra9129)
-
+[Jui Pradhan](https://github.com/JuiP), [Srevin Saju](https://github.com/srevinsaju), [Saumya Mishra](https://github.com/Saumya-Mishra9129), [Ibiam Chihurumnaya](https://github.com/chimosky/)
 **Assisting Mentors**<br>
 To be added.
 
 --------------
 
 ## Human Interface Guidelines Redesign for Sugar
-
-**Selected**<br>
-Nobody.
-
 **Prerequisites**<br>
 - Experience with UX design
 - Extensive experience with Python and GTK3

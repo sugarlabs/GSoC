@@ -175,7 +175,7 @@ to take on any colors deemed suitable by the activity designer.
 None
 
 **Assisting Mentors**<br>
-None
+[Peace Ojemeh](https://github.com/perriefidelis)
 
 
 ------------
@@ -200,7 +200,7 @@ None
 [Anindya Kundu](https://github.com/meganindya).
 
 **Assisting Mentors**<br>
-None.
+[Peace Ojemeh](https://github.com/perriefidelis)
 
 ------------
 
@@ -226,7 +226,7 @@ None.
 [Walter Bender](https://github.com/walterbender).
 
 **Assisting Mentors**<br>
-None.
+[Peace Ojemeh](https://github.com/perriefidelis)
 
 
 ------------

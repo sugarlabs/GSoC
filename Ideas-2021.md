@@ -172,7 +172,7 @@ to take on any colors deemed suitable by the activity designer.
    code base.
 
 **Coding Mentors**<br>
-None
+[Ibiam Chihurumnaya](https://github.com/chimosky)
 
 **Assisting Mentors**<br>
 [Peace Ojemeh](https://github.com/perriefidelis)

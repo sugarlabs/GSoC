@@ -228,6 +228,27 @@ to take on any colors deemed suitable by the activity designer.
 **Assisting Mentors**<br>
 [Peace Ojemeh](https://github.com/perriefidelis)
 
+------------
+
+## Music Blocks Debugging Aids
+
+**Prerequisites**<br>
+ - Experience with React (TypeScript).
+ - Experience with user interface design
+
+**Description**<br> We are refactoring Music Blocks. This gives us an opportunity to revisit a number of UX issues, including the design and implementation of the various tools we provide for debugging. We have some ideas, such as changing the appearing of a block that is throwing an error, better handling of break points, visualizing program status, etc., but your ideas are most welcome.
+
+**Project Task Checklist**<br>
+ - Familiarize yourself with the current debugging features [Debugging](https://github.com/sugarlabs/musicblocks/blob/master/Debugging.md)
+ - Come up with a framework for how debugging might work in MB 2.0
+ - Implement your ideas -- some coordination will be needed both with the [Music Blocks Block Graphics Refactoring](#music-blocks-block-graphics-refactoring) project and the language interpreter.
+
+**Coding Mentors**<br>
+[Walter Bender](https://github.com/walterbender).
+[Anindya Kundu](https://github.com/meganindya),
+
+**Assisting Mentors**<br>
+None.
 
 ------------
 
@@ -267,28 +288,6 @@ is also an inexhaustible resource to help developers get started to ASLO-v1
 
 **Assisting Mentors**<br>
 To be added.
-
-------------
-
-## Music Blocks Debugging Aids
-
-**Prerequisites**<br>
- - Experience with React (TypeScript).
- - Experience with user interface design
-
-**Description**<br> We are refactoring Music Blocks. This gives us an opportunity to revisit a number of UX issues, including the design and implementation of the various tools we provide for debugging. We have some ideas, such as changing the appearing of a block that is throwing an error, better handling of break points, visualizing program status, etc., but your ideas are most welcome.
-
-**Project Task Checklist**<br>
- - Familiarize yourself with the current debugging features [Debugging](https://github.com/sugarlabs/musicblocks/blob/master/Debugging.md)
- - Come up with a framework for how debugging might work in MB 2.0
- - Implement your ideas -- some coordination will be needed both with the [Music Blocks Block Graphics Refactoring](#music-blocks-block-graphics-refactoring) project and the language interpreter.
-
-**Coding Mentors**<br>
-[Walter Bender](https://github.com/walterbender).
-[Anindya Kundu](https://github.com/meganindya),
-
-**Assisting Mentors**<br>
-None.
 
 ------------
 

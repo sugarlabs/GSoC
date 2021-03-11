@@ -264,6 +264,7 @@ is also an inexhaustible resource to help developers get started to ASLO-v1
  
 **Coding Mentors**<br>
 [Srevin Saju](https://github.com/srevinsaju)
+[Ibiam Chihurumnaya](https://github.com/chimosky)
 
 **Assisting Mentors**<br>
 To be added.

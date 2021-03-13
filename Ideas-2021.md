@@ -6,6 +6,7 @@
    * [Improve and maintain 15 Sugar activities](#improve-and-maintain-15-sugar-activities)
    * [Music Blocks Block Graphics Refactoring](#music-blocks-block-graphics-refactoring)
    * [Music Blocks Menus and Palettes](#music-blocks-menus-and-palettes)
+   * [Music Blocks Project Blocks Reorganization](#music-blocks-project-blocks-reorganization)
    * [Music Blocks Debugging Aids](#music-blocks-debugging-aids)
    * [Sugarizer Measure activity](#sugarizer-measure-activity)
    * [Sugarizer Story activity](#sugarizer-story-activity)
@@ -215,7 +216,7 @@ to take on any colors deemed suitable by the activity designer.
 
 **Project Task Checklist**<br>
  - Familiarize yourself with the current implementations [toolbars](https://github.com/sugarlabs/musicblocks/blob/master/js/toolbar.js) [palettes](https://github.com/sugarlabs/musicblocks/blob/master/js/palette.js)
- - Familiarize yourself with the M 2.0 sketches [wireframe](https://github.com/sugarlabs/musicblocks-2/discussions/5)
+ - Familiarize yourself with the MB 2.0 sketches [wireframe](https://github.com/sugarlabs/musicblocks-2/discussions/5)
  - Come up with a framework for the new toolbars and palettes
  - Design the class structure for the toolbars
  - Design the class structure for the palettes
@@ -228,6 +229,55 @@ to take on any colors deemed suitable by the activity designer.
 **Assisting Mentors**<br>
 [Peace Ojemeh](https://github.com/perriefidelis)
 
+------------
+
+## Music Blocks Project Blocks Reorganization
+
+**Prerequisites**
+ - Experience with React (TypeScript).
+ - Experience with user interface design
+ - Experience with HTML Canvas element, SVG
+
+**Description**<br> We are refactoring Music Blocks. This gives us an opportunity to revisit a number of UX issues, including the design and implementation of the how we present the blocks of a Music Blocks project on the canvas. In the current implementation, users can place blocks (and block stacks) at any arbitrary position on the canvas. Very quickly, it can get overwhelming when there are quite a few blocks lying around. Also, those can overlap each other, resulting in a poor experience.
+
+The goal of this project is to come up with design ideas to handle this issue, and implement them. 'Clamp' blocks have a collapse button which metaphorically folds the nested content, sort of like a feature modern code editors provide. Perhaps, only a fixed number of top-level 'clamp' blocks should be allowed to remain expanded. In addition, columns (like swim lanes) could be created side by side; blocks would go like a list in each lane whose order can be rearranged.
+
+We would want the design to encourage the user towards making clean projects. However, enforcing contraints might not be a good idea; perhaps, these could be guides. This could exist as a 'high-shelf' feature for experienced users. The aforementioned are just hints &mdash; your ideas are most welcome.
+
+**Project Task Checklist**<br>
+ - Familiarize yourself with the current implementation
+ - Come up with a framework for better project structuring
+ - Design a flexible guidance layer on top of the canvas
+ - Implement the above in React (TypeScript).
+
+**Coding Mentors**<br>
+[Anindya Kundu](https://github.com/meganindya),
+[Walter Bender](https://github.com/walterbender).
+
+**Assisting Mentors**<br>
+None.
+
+------------
+
+## Music Blocks Debugging Aids
+
+**Prerequisites**<br>
+ - Experience with React (TypeScript).
+ - Experience with user interface design
+
+**Description**<br> We are refactoring Music Blocks. This gives us an opportunity to revisit a number of UX issues, including the design and implementation of the various tools we provide for debugging. We have some ideas, such as changing the appearing of a block that is throwing an error, better handling of break points, visualizing program status, etc., but your ideas are most welcome.
+
+**Project Task Checklist**<br>
+ - Familiarize yourself with the current debugging features [Debugging](https://github.com/sugarlabs/musicblocks/blob/master/Debugging.md)
+ - Come up with a framework for how debugging might work in MB 2.0
+ - Implement your ideas -- some coordination will be needed both with the [Music Blocks Block Graphics Refactoring](#music-blocks-block-graphics-refactoring) project and the language interpreter.
+
+**Coding Mentors**<br>
+[Walter Bender](https://github.com/walterbender).
+[Anindya Kundu](https://github.com/meganindya),
+
+**Assisting Mentors**<br>
+None.
 
 ------------
 
@@ -268,28 +318,6 @@ is also an inexhaustible resource to help developers get started to ASLO-v1
 
 **Assisting Mentors**<br>
 To be added.
-
-------------
-
-## Music Blocks Debugging Aids
-
-**Prerequisites**<br>
- - Experience with React (TypeScript).
- - Experience with user interface design
-
-**Description**<br> We are refactoring Music Blocks. This gives us an opportunity to revisit a number of UX issues, including the design and implementation of the various tools we provide for debugging. We have some ideas, such as changing the appearing of a block that is throwing an error, better handling of break points, visualizing program status, etc., but your ideas are most welcome.
-
-**Project Task Checklist**<br>
- - Familiarize yourself with the current debugging features [Debugging](https://github.com/sugarlabs/musicblocks/blob/master/Debugging.md)
- - Come up with a framework for how debugging might work in MB 2.0
- - Implement your ideas -- some coordination will be needed both with the [Music Blocks Block Graphics Refactoring](#music-blocks-block-graphics-refactoring) project and the language interpreter.
-
-**Coding Mentors**<br>
-[Walter Bender](https://github.com/walterbender).
-[Anindya Kundu](https://github.com/meganindya),
-
-**Assisting Mentors**<br>
-None.
 
 ------------
 

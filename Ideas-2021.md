@@ -216,7 +216,7 @@ to take on any colors deemed suitable by the activity designer.
 
 **Project Task Checklist**<br>
  - Familiarize yourself with the current implementations [toolbars](https://github.com/sugarlabs/musicblocks/blob/master/js/toolbar.js) [palettes](https://github.com/sugarlabs/musicblocks/blob/master/js/palette.js)
- - Familiarize yourself with the MB 2.0 sketches [wireframe](https://github.com/sugarlabs/musicblocks-2/discussions/5)
+ - Familiarize yourself with the Music Blocks v4 sketches [wireframe](https://github.com/sugarlabs/musicblocks-v4/discussions/5)
  - Come up with a framework for the new toolbars and palettes
  - Design the class structure for the toolbars
  - Design the class structure for the palettes
@@ -269,7 +269,7 @@ None.
 
 **Project Task Checklist**<br>
  - Familiarize yourself with the current debugging features [Debugging](https://github.com/sugarlabs/musicblocks/blob/master/Debugging.md)
- - Come up with a framework for how debugging might work in MB 2.0
+ - Come up with a framework for how debugging might work in Music Blocks v4
  - Implement your ideas -- some coordination will be needed both with the [Music Blocks Block Graphics Refactoring](#music-blocks-block-graphics-refactoring) project and the language interpreter.
 
 **Coding Mentors**<br>

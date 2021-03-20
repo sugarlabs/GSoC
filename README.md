@@ -49,7 +49,7 @@ In addition to the [Google Summer of Code requirements for a proposal](https://g
 
 For students who wish to be able to delete their proposal after failing to win a project, please do not post it on our mailing list.  Our decisions will be based on the contents of the final PDF proposal and our interactions with the student.
 
-## How to talk to us ?
+## How to talk to us ??
 We use the
 [sugar-devel@](http://lists.sugarlabs.org/listinfo/sugar-devel)
 mailing list for communication. Join to participate in the discussion

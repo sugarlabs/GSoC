@@ -255,7 +255,7 @@ We would want the design to encourage the user towards making clean projects. Ho
 [Walter Bender](https://github.com/walterbender).
 
 **Assisting Mentors**<br>
-None.
+[Peace Ojemeh](https://github.com/perriefidelis)
 
 ------------
 

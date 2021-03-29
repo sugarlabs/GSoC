@@ -464,7 +464,7 @@ None.
 - Implement the actual 2FA!
 
 **Coding Mentors**<br>
-[Michaël Ohayon](https://github.com/mikklfr), [Nikhil Mehra](https://github.com/ashish0910)
+[Michaël Ohayon](https://github.com/mikklfr), [Nikhil Mehra](https://github.com/NikhilM98)
 
 **Assisting Mentors**<br>
 None.

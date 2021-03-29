@@ -10,6 +10,7 @@
    * [Music Blocks Debugging Aids](#music-blocks-debugging-aids)
    * [Sugarizer Measure activity](#sugarizer-measure-activity)
    * [Sugarizer Story activity](#sugarizer-story-activity)
+   * [Sugarizer Security and Availability](#sugarizer-security-and-availability)
    * [Port ASLOv1 to PHP8](#port-aslov1-to-php8)
    * [Human Interface Guidelines Redesign for Sugar](#human-interface-guidelines-redesign-for-sugar)
 
@@ -426,6 +427,44 @@ As with other Sugarizer activities, the new activity should be written using Jav
 
 **Coding Mentors**<br>
 [Lionel Laské](https://github.com/llaske), [Ashish Aggarwal](https://github.com/ashish0910)
+
+**Assisting Mentors**<br>
+None.
+
+------------
+
+## Sugarizer Security and Availability
+
+**Prerequisites**<br>
+ * Experience with JavaScript/HTML5 development
+ * Experience with Node.js development
+ * Knowlegde of good security practices
+ * Knowlegde of high availability concepts
+
+**Description**<br>Thanks to former GSoC Projects, Sugarizer can easily be deployed on Kubernetes clusters to meet some users deployment expectations.
+<br>The objective of this project is to keep Sugarizer growing by enhancing two core concepts for our deployments: **Security** and **Availability**.
+
+**Project Tasks**
+
+- Learn about 2FA and TOTP code generation
+- Familiarize yourself with Sugarizer, the Sugarizer School Portal, the Sugarizer Dashboard.
+- Fix current issues/features request https://github.com/NikhilM98/sugarizer-school-portal-server/issues (and other to come)
+- Update package/chart versions for Sugarizer School Portal.
+- Add an TOTP registration feature to Sugarizer School Portal to enhance user's security.
+- Add an TOTP registration feature to the Sugarizer Dashboard to enhance user's security.
+- Familiarize yourself with Sugarizer collaborative features.
+- Move "Presence" our Websocket based communication channel to High Availability by switching ram storage to Redis cache. 
+- Bonus: Allow Hardware keys to be used to replace TOTP (example: Yubikey 5)
+
+**First steps to start:**
+
+- Follow the tutorial to deploy [Sugarizer Server](https://github.com/llaske/sugarizer-server)
+- Learn about [2FA](https://authy.com/what-is-2fa/), try to generate some codes using [Sample library](https://www.npmjs.com/package/totp-generator) and try to validate them using Authy, Google Authenticator or any Auth app you like.
+- Explore how users are managed in **Sugarizer Server** and try to add fields to manage 2FA.
+- Implement the actual 2FA!
+
+**Coding Mentors**<br>
+[Michaël Ohayon](https://github.com/mikklfr), [Nikhil Mehra](https://github.com/ashish0910)
 
 **Assisting Mentors**<br>
 None.

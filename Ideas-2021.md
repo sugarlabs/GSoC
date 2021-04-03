@@ -197,6 +197,8 @@ to take on any colors deemed suitable by the activity designer.
  - Design the class structure for the new block rendering approach.
  - Implement all of the above in React (TypeScript).
 
+There is a discussion [Block Graphics Framework: Requirements Analysis](https://github.com/sugarlabs/musicblocks-v4/discussions/41) describing the requirements in detail.
+
 **Coding Mentors**<br>
 [Walter Bender](https://github.com/walterbender),
 [Anindya Kundu](https://github.com/meganindya).
@@ -239,7 +241,7 @@ to take on any colors deemed suitable by the activity designer.
  - Experience with user interface design
  - Experience with HTML Canvas element, SVG
 
-**Description**<br> We are refactoring Music Blocks. This gives us an opportunity to revisit a number of UX issues, including the design and implementation of the how we present the blocks of a Music Blocks project on the canvas. In the current implementation, users can place blocks (and block stacks) at any arbitrary position on the canvas. Very quickly, it can get overwhelming when there are quite a few blocks lying around. Also, those can overlap each other, resulting in a poor experience.
+**Description**<br> We are refactoring Music Blocks. This gives us an opportunity to revisit a number of UX issues, including the design and implementation of how we present the blocks of a Music Blocks project on the canvas. In the current implementation, users can place blocks (and block stacks) at any arbitrary position on the canvas. Very quickly, it can get overwhelming when there are quite a few blocks lying around. Also, those can overlap each other, resulting in a poor experience.
 
 The goal of this project is to come up with design ideas to handle this issue, and implement them. 'Clamp' blocks have a collapse button which metaphorically folds the nested content, sort of like a feature modern code editors provide. Perhaps, only a fixed number of top-level 'clamp' blocks should be allowed to remain expanded. In addition, columns (like swim lanes) could be created side by side; blocks would go like a list in each lane whose order can be rearranged.
 
@@ -274,8 +276,8 @@ We would want the design to encourage the user towards making clean projects. Ho
  - Implement your ideas -- some coordination will be needed both with the [Music Blocks Block Graphics Refactoring](#music-blocks-block-graphics-refactoring) project and the language interpreter.
 
 **Coding Mentors**<br>
-[Walter Bender](https://github.com/walterbender).
-[Anindya Kundu](https://github.com/meganindya),
+[Walter Bender](https://github.com/walterbender),
+[Anindya Kundu](https://github.com/meganindya).
 
 **Assisting Mentors**<br>
 None.

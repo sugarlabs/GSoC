@@ -225,6 +225,8 @@ There is a discussion [Block Graphics Framework: Requirements Analysis](https://
  - Design the class structure for the palettes
  - Implement all of the above in React (TypeScript).
 
+There is a discussion [Menus and Palette: Requirements Analysis](https://github.com/sugarlabs/musicblocks-v4/discussions/43) describing the requirements in detail.
+
 **Coding Mentors**<br>
 [Anindya Kundu](https://github.com/meganindya),
 [Walter Bender](https://github.com/walterbender).

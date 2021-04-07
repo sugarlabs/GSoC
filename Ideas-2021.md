@@ -205,6 +205,7 @@ There is a discussion [Block Graphics Framework: Requirements Analysis](https://
 
 **Assisting Mentors**<br>
 [Peace Ojemeh](https://github.com/perriefidelis)
+[Devin Ulibarri](https://github.com/pikurasa)
 
 ------------
 
@@ -233,6 +234,7 @@ There is a discussion [Menus and Palette: Requirements Analysis](https://github.
 
 **Assisting Mentors**<br>
 [Peace Ojemeh](https://github.com/perriefidelis)
+[Devin Ulibarri](https://github.com/pikurasa)
 
 ------------
 
@@ -261,6 +263,7 @@ We would want the design to encourage the user towards making clean projects. Ho
 
 **Assisting Mentors**<br>
 [Peace Ojemeh](https://github.com/perriefidelis)
+[Devin Ulibarri](https://github.com/pikurasa)
 
 ------------
 
@@ -282,7 +285,7 @@ We would want the design to encourage the user towards making clean projects. Ho
 [Anindya Kundu](https://github.com/meganindya).
 
 **Assisting Mentors**<br>
-None.
+[Devin Ulibarri](https://github.com/pikurasa)
 
 ------------
 

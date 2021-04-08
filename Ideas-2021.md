@@ -457,6 +457,7 @@ None.
 - Familiarize yourself with Sugarizer, the Sugarizer School Portal, the Sugarizer Dashboard.
 - Fix current issues/features request https://github.com/NikhilM98/sugarizer-school-portal-server/issues (and other to come)
 - Update package/chart versions for Sugarizer School Portal.
+- Migrate from deprecated [helm/mongodb-replicaset](https://github.com/helm/charts/tree/master/stable/mongodb-replicaset) chart to [bitnami/mongodb](https://github.com/bitnami/charts/tree/master/bitnami/mongodb) chart while maintaining support on different Kubernetes providers.
 - Add an TOTP registration feature to Sugarizer School Portal to enhance user's security.
 - Add an TOTP registration feature to the Sugarizer Dashboard to enhance user's security.
 - Familiarize yourself with Sugarizer collaborative features.
@@ -469,6 +470,7 @@ None.
 - Learn about [2FA](https://authy.com/what-is-2fa/), try to generate some codes using [Sample library](https://www.npmjs.com/package/totp-generator) and try to validate them using Authy, Google Authenticator or any Auth app you like.
 - Explore how users are managed in **Sugarizer Server** and try to add fields to manage 2FA.
 - Implement the actual 2FA!
+- Try to deploy [Sugarizer School Portal Server](https://github.com/NikhilM98/sugarizer-school-portal-server) on your local environment.
 
 **Coding Mentors**<br>
 [Michaël Ohayon](https://github.com/mikklfr), [Nikhil Mehra](https://github.com/NikhilM98)

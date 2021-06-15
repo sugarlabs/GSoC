@@ -1,16 +1,18 @@
 # GSoC 2021 Ideas
 
-## Project Ideas
+## Accepted
 
-   * [Port Sugar and core activities to Python 3](#port-sugar-and-core-activities-to-python-3)
    * [Improve and maintain 15 Sugar activities](#improve-and-maintain-15-sugar-activities)
-   * [Music Blocks Block Graphics Refactoring](#music-blocks-block-graphics-refactoring)
    * [Music Blocks Menus and Palettes](#music-blocks-menus-and-palettes)
    * [Music Blocks Project Blocks Reorganization](#music-blocks-project-blocks-reorganization)
    * [Music Blocks Debugging Aids](#music-blocks-debugging-aids)
    * [Sugarizer Measure activity](#sugarizer-measure-activity)
    * [Sugarizer Story activity](#sugarizer-story-activity)
    * [Sugarizer Security and Availability](#sugarizer-security-and-availability)
+
+## Not Accepted
+   * [Port Sugar and core activities to Python 3](#port-sugar-and-core-activities-to-python-3)
+   * [Music Blocks Block Graphics Refactoring](#music-blocks-block-graphics-refactoring)
    * [Port ASLOv1 to PHP8](#port-aslov1-to-php8)
    * [Human Interface Guidelines Redesign for Sugar](#human-interface-guidelines-redesign-for-sugar)
 

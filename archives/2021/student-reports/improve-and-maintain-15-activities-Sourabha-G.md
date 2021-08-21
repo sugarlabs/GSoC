@@ -32,4 +32,9 @@ My work mostly revolove around adding basic game design features, porting activi
 | Stick-hero activity| Work on this activity is completed, release PR yet to be reviewed |[fix pygame errors](https://github.com/sugarlabs/stick-hero-activity/commit/980c43fa23d92e6b914d659e122e4606f1f8b25b)
 |Letter-match| yet to fix `Source ID Warning`|--|
 |Word-cloud| yet to fix 'image labeling error in Journal' [#13](https://github.com/sugarlabs/wordcloud/issues/11)|--|
-|Numberrush| yet to save game data to `Journal` and logical error in the game|--| 
+|Numberrush| yet to save game data to `Journal` and logical error in the game|--|
+
+## Miscellaneous work
+
+- Translations: [Contributions to localization](https://translate.sugarlabs.org/accounts/Sou_G/) on pootle
+- Issues raised: <ul><li>https://github.com/sugarlabs/wordcloud</li><li>https://github.com/sugarlabs/yupana</li><li>https://github.com/sugarlabs/followme</li><li>https://github.com/sugarlabs/wordcloud</li><li>https://github.com/sugarlabs/fifty-two-activity</li><li>https://github.com/sugarlabs/yupana</li><li>https://github.com/sugarlabs/browse-activity</li><li>https://github.com/sugarlabs/block-party-activity (closed)</li><li>https://github.com/sugarlabs/stick-hero-activity (closed)</li><li>https://github.com/sugarlabs/jamath-activity (closed)</li></ul>

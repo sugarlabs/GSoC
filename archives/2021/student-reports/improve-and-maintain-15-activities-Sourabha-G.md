@@ -42,6 +42,6 @@ My work mostly revolves around adding basic game design features, porting activi
 
 ## Personal note
 
-This summer was super fun and filled with learning! I enjoyed testing over 60+ activities with kids to get first-hand feedback which had a positive impact in the way they approach problems. The fact that these activities are used by kids as a tool of learning motivates me to contribute more and more. I'm going to continue to contribute and be a part of SugarLabs. Special thanks to my mentors and [James Cameron](https://github.com/quozl) for helping a lot in the initial stages to understand the codebase. A big thanks to this community which has helped to shape a lot of young lives. Lastly, thanks to Google for this wonderful initiative :)
+This summer was super fun and filled with learning! I enjoyed testing over 60+ activities with kids to get first-hand feedback which had a positive impact in the way they approach problems. The fact that these activities are used by kids as a tool of learning motivates me to contribute more and more. I'm going to continue to contribute and be a part of Sugar Labs. Special thanks to my mentors and [James Cameron](https://github.com/quozl) for helping a lot in the initial stages to understand the codebase. A big thanks to this community which has helped to shape a lot of young lives. Lastly, thanks to Google for this wonderful initiative :)
 
 Cheers!

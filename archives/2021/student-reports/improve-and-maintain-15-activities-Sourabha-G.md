@@ -6,8 +6,9 @@ Improve and maintain atleast 15 Sugar Activities
 
 *Email - sourabha.project@gmail.com*
 
-*GitHub username - sourabhaa*
+*GitHub username - [sourabhaa](https://github.com/sourabhaa/)*
 
+*Mentors -  [Ibiam Chihurumnaya](https://github.com/chimosky/), [Srevin Saju](https://github.com/srevinsaju), [Jui Pradhan](https://github.com/JuiP), [Saumya Mishra](https://github.com/Saumya-Mishra9129)*
 ## My work in project
 
 My work mostly revolove around adding basic game design features, porting activities to python3, test the activities in development environment and user environment(kids). Project also includes adding and fetiching new translations, fixing flake8 errors and other issues that block new release and making new release<ul><li>Game design features include altering the game flow by adding,<ol><li>A scoring system</li><li>Timer or stopwatch as a parameter to gauge win/lose(if there is no scope for score and highscore)</li><li>Levels</li><li> Displaying a UI that shows win/lose, score and highscore, replay prompt(or automatic restart of game)</li><li>Storing the game data that is used in each instance of the activity</li></ol><li>Porting activities to python3, Sugargame-v1.3</li><li>Enable to resume game from `Journal`</li><li>Test and fix logical errors in game</li></ul>
@@ -31,10 +32,17 @@ My work mostly revolove around adding basic game design features, porting activi
 |Flip|(Open PR) The release of this activity is temporarily blocked by the feature 'save and restore game data from `Journal`'<br>Changed flow of activity by addding game-design features: <ul><li>A UI that shows the `your-time`, `best-time`(least time taken to solve the puzzle) of the player which decides the `win`/`lose` after completion of each game.</li><li>Stopwatch to keep track of time taken by the player to solve each puzzle</li><li>Altered game flow to 3 puzzles per level </li><li>Save and restore `best-time` from `Journal` in every instance of activity</li></ul> flake8 fixes; refactor and remove unnecessary code| <ul><li>[Gameover UI and timer](https://github.com/sugarlabs/flip/pull/13/commits/9b3d5e43ac2983c1b89ed7261a3941d0436e1941)</li><li> [save and restore best-time](https://github.com/sugarlabs/flip/pull/13/commits/216bde40bde91b008a1d29df599fffb0c08515f7)</li></ul> 
 | Stick-hero activity| Work on this activity is completed, release PR yet to be reviewed |[fix pygame errors](https://github.com/sugarlabs/stick-hero-activity/commit/980c43fa23d92e6b914d659e122e4606f1f8b25b)
 |Letter-match| yet to fix `Source ID Warning`|--|
-|Word-cloud| yet to fix 'image labeling error in Journal' [#13](https://github.com/sugarlabs/wordcloud/issues/11)|--|
+|Word-cloud| yet to fix 'image labeling error in Journal' [#11](https://github.com/sugarlabs/wordcloud/issues/11)|--|
 |Numberrush| yet to save game data to `Journal` and logical error in the game|--|
 
 ## Miscellaneous work
 
 - Translations: [Contributions to localization](https://translate.sugarlabs.org/accounts/Sou_G/) on pootle
-- Issues raised: <ul><li>https://github.com/sugarlabs/wordcloud</li><li>https://github.com/sugarlabs/yupana</li><li>https://github.com/sugarlabs/followme</li><li>https://github.com/sugarlabs/wordcloud</li><li>https://github.com/sugarlabs/fifty-two-activity</li><li>https://github.com/sugarlabs/yupana</li><li>https://github.com/sugarlabs/browse-activity</li><li>https://github.com/sugarlabs/block-party-activity (closed)</li><li>https://github.com/sugarlabs/stick-hero-activity (closed)</li><li>https://github.com/sugarlabs/jamath-activity (closed)</li></ul>
+- Issues raised: <ul><li>image labeling error in Journal: [#11](https://github.com/sugarlabs/wordcloud/issues/11)</li><li>Activiy does not run: [#14](https://github.com/sugarlabs/followme/issues/14)</li><li> Does not support usage of emoji: [#10](https://github.com/sugarlabs/wordcloud/issues/10)</li><li>Create Readme: [#7](https://github.com/sugarlabs/yupana/issues/7) </li><li>Create Readme: [#6](https://github.com/sugarlabs/fifty-two-activity/issues/6)</li><li> Create readme: [#8](https://github.com/sugarlabs/arithmetic/issues/8)</li><li> The tab crashes when the embedded video is played in the browser: [#116](https://github.com/sugarlabs/browse-activity/issues/116)</li><li> ext on homepage merges with backgound: [#16](https://github.com/sugarlabs/block-party-activity/issues/16)</li><li>PyGame Errors: [#31](https://github.com/sugarlabs/stick-hero-activity/issues/31) </li><li>Cannot end an instance of activity: [#19](https://github.com/sugarlabs/jamath-activity/issues/19) </li></ul>
+
+## Personal note
+
+This summer was super fun and filled with learning! I enjoyed testing over 60+ activities with kids to get first-hand feedback which had a postive impact in the way they apprach problems. The fact that these activities are used by kids as a tool of learning motivates me to contribute more and more. I'm going continue to contribute and be a part of SugarLabs. Special thanks to my mentors and [James Cameron](https://github.com/quozl) for helping a lot in the initial stages to understand the codebase. A big thanks to this community which has helped to shape a lot of young lives. Lastly, thanks to Google for this wonderful initiative :)
+
+Cheers!
+

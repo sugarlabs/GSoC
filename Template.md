@@ -31,7 +31,7 @@ This is a sample template. You can add other sections which you think add value 
  - Break down the entire projects into chunks and tell us what will you work on each week.<br>
    As the summer goes on, you and your mentor will adjust your schedule, but it's good to have a plan at the beginning so you have an idea of where you're headed.
  - If you will be off-the-grid for a few days, then mention those in the timeline.
- - GSoC has three evaluations, once after every 30 days. Highlight the work you plan to complete before each evaluation.
+ - GSoC 2021 has two evaluations, once after every 5 weeks.  Highlight the work you plan to complete before each evaluation.
  - How many hours will you spend each week on your project ?
  - How will you report progress between evaluations ?
  - Discuss your post GSoC plans. Will you continue contributing to Sugar Labs after GSOC ends ?

@@ -2,16 +2,15 @@
 
 ## Shortcuts
 
-|[GSoC'21 Ideas](Ideas-2021.md)| [Proposal Template](Template.md) | [Sugar Labs @GitHub](https://github.com/sugarlabs) |
+|[GSoC'22 Ideas](Ideas-2022.md)| [Proposal Template](Template.md) | [Sugar Labs @GitHub](https://github.com/sugarlabs) |
 |:-------------------------:|----------------------|----------------------|
-|<a href="Ideas-2021.md">![](assets/gsoc-square.png)</a> | <a href="Template.md">![](assets/template.png)</a> | <a href="https://github.com/sugarlabs">![](assets/github.png)</a> |
+|<a href="Ideas-2022.md">![](assets/gsoc-square.png)</a> | <a href="Template.md">![](assets/template.png)</a> | <a href="https://github.com/sugarlabs">![](assets/github.png)</a> |
 
 
 ## Introduction
 Google Summer of Code is a *global program focused on bringing
 more student developers into open source software development*.
-See [GSoC 2021
-timeline](https://summerofcode.withgoogle.com/how-it-works/#timeline).
+See [GSoC 2022 how it works](https://summerofcode.withgoogle.com/how-it-works)
 
 Sugar Labs is a Google Summer of Code 2021 mentoring organisation.
 
@@ -27,14 +26,15 @@ Our archives of GSoC Projects:
 [2017](https://wiki.sugarlabs.org/go/Summer_of_Code/2017) |
 [2018](https://wiki.sugarlabs.org/go/Summer_of_Code/2018) |
 [2019](Ideas-2019.md) |
-[2020](Ideas-2020.md)
+[2020](Ideas-2020.md) |
+[2021](Ideas-2021.md)
 
 ## Want to work with us ?
 
 Please get involved.  Familiarise yourself with our code, by
 reporting and fixing bugs.
 
-See our [ideas](Ideas-2021.md) page.  We would love to hear
+See our [ideas](Ideas-2022.md) page.  We would love to hear
 your own ideas as well.
 
 You may use our [proposal template](Template.md) or your own.

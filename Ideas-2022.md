@@ -3,6 +3,94 @@
 [Administrative notes](#administrative-notes)
 
 ------------
+
+## Improve and maintain 15 Sugar activities
+
+**Prerequisites**<br>
+ - Experience with Python
+ - Strong experience with Sugar activities
+ - Experience with maintaining activities on ASLO and ASLO-v4
+
+**Description**<br>
+Sugar has a lot of activities, with 250+ on GitHub, and more
+elsewhere. These have scope for improvement; bugs,
+features, updated human translations, and release.  This project will involve
+working on **at least 15** activities to improve them. Students can choose
+activities on their own, and are encouraged to select activities which
+are either a part of Fructose or have a strong pedagogical value. To
+understand how to locate and work on activities, see our guide to
+[Modifying
+Activities](https://github.com/sugarlabs/sugar-docs/blob/master/src/contributing.md#modifying-activities)
+
+In their proposal, students may mention _some_ of the issues they will
+work on.  Any new feature suggestion should be discussed on GitHub
+Issues or on the mailing list before being added to a proposal.
+
+Since there are a lot of activities to work on, **more than one instance
+of this project may be selected**.
+
+**Suggested Issues to work on:**<br>
+ - jukebox-activity: [#22 Add collaboration for sharing playlist items](https://github.com/sugarlabs/jukebox-activity/issues/22)
+
+Other issues will have been raised since.
+
+Suggesting or adding features, fixing bugs, or releasing activities
+will help you to gain experience
+
+**Coding Mentors**<br>
+[Ibiam Chihurumnaya](https://github.com/chimosky/)
+
+**Assisting Mentors**<br>
+To be added.
+
+------------
+
+## Port Sugar and core activities to Python 3
+
+**Prerequisites**<br>
+ - Experience with Python
+ - Experience with porting telepathy bindings
+ - Strong experience with
+   [Sugar Desktop](https://github.com/sugarlabs/sugar) and activities
+
+**Description**<br> Support for Python 2 was withdrawn by the Python
+Foundation, so we need to finish the move to Python 3.  The move was
+started in GSoC 2018, and continued in GSoC 2020, but there is still
+work to be done.  Sugar 0.116 runs on Python 2 or Python 3.  Core
+activities run on Python 3.  Many other activities run on Python 2.
+Many regressions have been seen as a result of code not being tested.
+
+We have a [Python 3 Porting
+Guide](https://github.com/sugarlabs/sugar-docs/blob/master/src/python-porting-guide.md)
+which describes the process for activities.
+
+**Project Task Checklist**<br>
+ - Review the Sugar source code changes since 0.112 that were made for porting to Python 3,
+ - Design tests and iterate until the tests have sufficient [coverage](https://github.com/sugarlabs/sugar-docs/blob/master/src/python-coverage-guide.md) for the code changes identified about,
+ - Fix regressions in Sugar, the Toolkit, and the Datastore,
+ - For affected activities, port Telepathy bindings to TelepathyGLib, see [Port to TelepathyGLib](https://github.com/orgs/sugarlabs/projects/4).
+ - For affected activities, port to the latest Sugargame or CollabWrapper library,
+ - Port activities to Python 3, fixing any problems that prevent them from being ported or used,
+
+See GitHub Project [Port to Python 3 via
+six](https://github.com/orgs/sugarlabs/projects/1) for some open
+issues and pull requests.  Most activities do not have issues.  Some
+activities have problems that prevent them from being ported.
+
+The Telepathy library is used by some activities for network
+collaboration between Sugar users.  The library does not have static
+bindings for Python 3, so porting Telepathy to the PyGObject binding
+is a prerequisite, see GitHub Project [Port to
+TelepathyGLib](https://github.com/orgs/sugarlabs/projects/4).
+
+**Coding Mentors**<br>
+[Ibiam Chihurumnaya](https://github.com/chimosky/)
+
+**Assisting Mentors**<br>
+To be added.
+
+------------
+
 # Administrative notes
 
 Above are a list of ideas we've planned for GSoC 2022 projects.

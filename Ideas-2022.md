@@ -91,6 +91,93 @@ To be added.
 
 ------------
 
+## Sugarizer Assignments
+
+![](assets/assignment.png)
+
+**Prerequisites**<br>
+- Experience with JavaScript/HTML5 development
+- Experience with MongoDB
+- Experience with node.js and EJS framework
+
+
+**Description**<br>
+Objective: Add features to Sugarizer/Sugarizer Server to allow teachers to give assignments to students.
+
+Questions:
+
+* What is an assignment? Something to do by a student in a period of time.
+* What could be represented as an assignment in Sugarizer?
+ Every activity that could have a context. However it's better if activities have a clear context or result. A document (image, PDF, …) can't be an assignment because it's stateless.
+* What are characteristics of an assignment?
+   * An activity instance with its context
+   * A set of instruction
+   * A delivery date/time
+   * A state: assigned, started, submitted
+* What's the difference between an assignment and a standard journal instance?
+   * An assignment should be identified as such
+   * An assignment should be submitted once done
+   * An assignment can't be change once submitted
+
+
+**Tasks**<br>
+
+* Update to implement on [Sugarizer Server](https://github.com/llaske/sugarizer-server):
+   * Create new database collection for assignments
+   * Create new API for handling assignments
+   * Dashboard screens
+      * Add assignment counts and an array with latest assignments in the Home screen
+      * Create List assignment screen
+
+![](assets/dashboard_ass1.png)
+
+      * Create Create/Edit assignment screen
+
+![](assets/dashboard_ass2.png)
+
+![](assets/dashboard_ass3.png)
+
+      * Create List deliveries screen
+
+![](assets/dashboard_ass4.png)
+
+
+* Update to implement on [Sugarizer](https://github.com/llaske/sugarizer):
+   * Store assignments in the remote Journal of the user (will be synchronized when the user will be connected)
+   * Add a assignments icon and a popup to notify an user that some assignment are expected for him
+   * Update the Journal view:
+      * Add a specific icon on assignment
+      * Change date to indicate the delay to submit (instead of the modification date?)
+      * Add an help button to see instructions
+      * Add a submit button
+      * Add a new filter to search for assignments only
+      * Forbid actions? Delete, Copy, Duplicate
+   * Update datastore library to forbid storage if assignment and submitted
+
+* Inspiration:
+   * Microsoft Teams Assignments: https://www.classpoint.io/assignments-in-microsoft-teams/
+   * Google Assignments: https://www.youtube.com/watch?v=cjKwRnG9I3o  
+
+
+**First steps to starts**<br>
+
+* Complete the [Sugarizer Vanilla Javascript activity development tutorial](https://github.com/llaske/sugarizer/blob/dev/docs/tutorial/VanillaJS/tutorial.md) to understand how Sugarizer work  
+* Install Sugarizer Server and dashboard
+* Create different Sugarizer users/teachers/classrooms and see how the dashboard work
+* Study the source code of dashboard, try to fix bug or, propose improvement
+
+
+**Mentor**<br>
+Nikhil Mehra
+
+
+**Backup mentor**<br>
+Lionel Laské
+
+
+
+------------
+
 # Administrative notes
 
 Above are a list of ideas we've planned for GSoC 2022 projects.

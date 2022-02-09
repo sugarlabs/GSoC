@@ -175,6 +175,72 @@ Nikhil Mehra
 Lionel Laské
 
 
+------------
+
+## Exerciser Evaluation mode
+
+![](assets/mail-open-svgrepo-com.png)
+
+**Prerequisites**<br>
+- Experience with JavaScript/HTML5 development
+- Experience with ReactJS framework development
+- Good understanding of Exerciser activity and its implementation
+
+
+**Description**<br>
+The Exerciser activity let you build interactive exercises, using multiple templates, and share these exercises with other users.
+
+The idea of this project is to improve the activity and implement new features, specifically a way to use Exerciser as an evaluation platform.  
+
+
+**Tasks**<br>
+
+More precisely feature to implement are:
+
+- <u>**Upgrading ReactJS version**</u>: the activity use an old ReactJS version, the idea is to upgrade the activity to support a more recent one.
+- <u>**Improve the UI**</u>: the objective is to simplify the UI of the activity by taking inspiration from the Vote activity. Today to share an exercise, the user need to click three times: 1) click on shared palette, 2) click on shared button in the palette – it display shared buttons on exercises 3) click on shared button on the exercise to share.  
+
+
+	The idea is to always display shared buttons on exercises. When the user click on one shared button on exercises: if the activity is not already shared, the button share the activity then share the exercise. If the activity is already shared, the exercise is share.
+
+
+	It should be possible to share exercise by clicking three times as today.
+
+- <u>**Run multiple exercises at the same time**</u>: the idea is to add a feature to run multiple exercises in one click. Things to do:
+
+   - In settings mode, allow the user to reorder exercises so the user can choose exercises order.
+
+   - Add a Run all button in the toolbar to launch all exercises. At the end of each exercise, the result screen is displayed as today but the "Redo" button is replaced by a "Next exercise" button (will be a "Finish" button on the last exercise).
+   - Add a Share all button in the toolbar to share all exercises. Once all exercises are shared, users who joined the activity will have to complete all exercises.
+   - Add a new label on the screen to see total score for all exercises.
+
+- <u>**Evaluation mode**</u>: the evaluation mode is a new way of working for Exerciser activity to allow teacher to evaluate students. The main difference with the current way of working is that in Evaluation mode, it's possible only to see the total score, not the detailed result (right/wrong answers).
+
+	The evaluation mode will be available in real time - when the activity is shared – and in asynchronous mode: an evaluation opened from the Journal.
+
+	In real time, all users who join the activity will be able to do the evaluation then see theirs scores. The user who shared the activity will be able to see both the score and the results of each students (like today).
+
+	In asynchronous mode, users who open the activity will be able to complete exercises and view their scores. They could review their answers to exercises but they can't change answers once one exercise is completed. If the activity contains multiple exercises, it's possible to complete exercises in several times but once an exercise is completed it can't be changed.
+
+	The evaluation mode will be available from a new toolbar palette. One button in this palette will be able to run evaluation in real time (by sharing all current exercises). Another button in this palette will export the activity in the Journal as an evaluation.
+
+	In evaluation mode, it's impossible to access to exercise settings.
+
+
+
+**First steps to starts**<br>
+
+- Complete the [Sugarizer Vanilla Javascript activity development tutorial](https://github.com/llaske/sugarizer/blob/dev/docs/tutorial/VanillaJS/tutorial.md)  
+- Explore the implementation of Exerciser activity: https://github.com/llaske/ExerciserReact/  
+
+
+**Mentor**<br>
+Ashish Aggarwal
+
+
+**Backup mentor**<br>
+Lionel Laské
+
 
 ------------
 

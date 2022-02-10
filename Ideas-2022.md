@@ -91,6 +91,213 @@ To be added.
 
 ------------
 
+## Sugarizer Assignments
+
+![](assets/assignment.png)
+
+**Prerequisites**<br>
+- Experience with JavaScript/HTML5 development
+- Experience with MongoDB
+- Experience with node.js and EJS framework
+
+
+**Description**<br>
+Objective: Add features to Sugarizer/Sugarizer Server to allow teachers to give assignments to students.
+
+Questions:
+
+* What is an assignment? Something to do by a student in a period of time.
+* What could be represented as an assignment in Sugarizer?
+ Every activity that could have a context. However it's better if activities have a clear context or result. A document (image, PDF, …) can't be an assignment because it's stateless.
+* What are characteristics of an assignment?
+   * An activity instance with its context
+   * A set of instruction
+   * A delivery date/time
+   * A state: assigned, started, submitted
+* What's the difference between an assignment and a standard journal instance?
+   * An assignment should be identified as such
+   * An assignment should be submitted once done
+   * An assignment can't be change once submitted
+
+
+**Tasks**<br>
+
+* Update to implement on [Sugarizer Server](https://github.com/llaske/sugarizer-server):
+   * Create new database collection for assignments
+   * Create new API for handling assignments
+   * Dashboard screens
+      * Add assignment counts and an array with latest assignments in the Home screen
+      * Create List assignment screen
+
+![](assets/dashboard_ass1.png)
+
+      * Create Create/Edit assignment screen
+
+![](assets/dashboard_ass2.png)
+
+![](assets/dashboard_ass3.png)
+
+      * Create List deliveries screen
+
+![](assets/dashboard_ass4.png)
+
+
+* Update to implement on [Sugarizer](https://github.com/llaske/sugarizer):
+   * Store assignments in the remote Journal of the user (will be synchronized when the user will be connected)
+   * Add a assignments icon and a popup to notify an user that some assignment are expected for him
+   * Update the Journal view:
+      * Add a specific icon on assignment
+      * Change date to indicate the delay to submit (instead of the modification date?)
+      * Add an help button to see instructions
+      * Add a submit button
+      * Add a new filter to search for assignments only
+      * Forbid actions? Delete, Copy, Duplicate
+   * Update datastore library to forbid storage if assignment and submitted
+
+* Inspiration:
+   * Microsoft Teams Assignments: https://www.classpoint.io/assignments-in-microsoft-teams/
+   * Google Assignments: https://www.youtube.com/watch?v=cjKwRnG9I3o  
+
+
+**First steps to starts**<br>
+
+* Complete the [Sugarizer Vanilla Javascript activity development tutorial](https://github.com/llaske/sugarizer/blob/dev/docs/tutorial/VanillaJS/tutorial.md) to understand how Sugarizer work  
+* Install Sugarizer Server and dashboard
+* Create different Sugarizer users/teachers/classrooms and see how the dashboard work
+* Study the source code of dashboard, try to fix bug or, propose improvement
+
+
+**Mentor**<br>
+Nikhil Mehra
+
+
+**Backup mentor**<br>
+Lionel Laské
+
+
+------------
+
+## Exerciser Evaluation mode
+
+![](assets/mail-open-svgrepo-com.png)
+
+**Prerequisites**<br>
+- Experience with JavaScript/HTML5 development
+- Experience with ReactJS framework development
+- Good understanding of Exerciser activity and its implementation
+
+
+**Description**<br>
+The Exerciser activity let you build interactive exercises, using multiple templates, and share these exercises with other users.
+
+The idea of this project is to improve the activity and implement new features, specifically a way to use Exerciser as an evaluation platform.  
+
+
+**Tasks**<br>
+
+More precisely feature to implement are:
+
+- <u>**Upgrading ReactJS version**</u>: the activity use an old ReactJS version, the idea is to upgrade the activity to support a more recent one.
+- <u>**Improve the UI**</u>: the objective is to simplify the UI of the activity by taking inspiration from the Vote activity. Today to share an exercise, the user need to click three times: 1) click on shared palette, 2) click on shared button in the palette – it display shared buttons on exercises 3) click on shared button on the exercise to share.  
+
+
+	The idea is to always display shared buttons on exercises. When the user click on one shared button on exercises: if the activity is not already shared, the button share the activity then share the exercise. If the activity is already shared, the exercise is share.
+
+
+	It should be possible to share exercise by clicking three times as today.
+
+- <u>**Run multiple exercises at the same time**</u>: the idea is to add a feature to run multiple exercises in one click. Things to do:
+
+   - In settings mode, allow the user to reorder exercises so the user can choose exercises order.
+
+   - Add a Run all button in the toolbar to launch all exercises. At the end of each exercise, the result screen is displayed as today but the "Redo" button is replaced by a "Next exercise" button (will be a "Finish" button on the last exercise).
+   - Add a Share all button in the toolbar to share all exercises. Once all exercises are shared, users who joined the activity will have to complete all exercises.
+   - Add a new label on the screen to see total score for all exercises.
+
+- <u>**Evaluation mode**</u>: the evaluation mode is a new way of working for Exerciser activity to allow teacher to evaluate students. The main difference with the current way of working is that in Evaluation mode, it's possible only to see the total score, not the detailed result (right/wrong answers).
+
+	The evaluation mode will be available in real time - when the activity is shared – and in asynchronous mode: an evaluation opened from the Journal.
+
+	In real time, all users who join the activity will be able to do the evaluation then see theirs scores. The user who shared the activity will be able to see both the score and the results of each students (like today).
+
+	In asynchronous mode, users who open the activity will be able to complete exercises and view their scores. They could review their answers to exercises but they can't change answers once one exercise is completed. If the activity contains multiple exercises, it's possible to complete exercises in several times but once an exercise is completed it can't be changed.
+
+	The evaluation mode will be available from a new toolbar palette. One button in this palette will be able to run evaluation in real time (by sharing all current exercises). Another button in this palette will export the activity in the Journal as an evaluation.
+
+	In evaluation mode, it's impossible to access to exercise settings.
+
+
+
+**First steps to starts**<br>
+
+- Complete the [Sugarizer Vanilla Javascript activity development tutorial](https://github.com/llaske/sugarizer/blob/dev/docs/tutorial/VanillaJS/tutorial.md)  
+- Explore the implementation of Exerciser activity: https://github.com/llaske/ExerciserReact/  
+
+
+**Mentor**<br>
+Ashish Aggarwal
+
+
+**Backup mentor**<br>
+Lionel Laské
+
+
+------------
+
+## Sugarizer Vue.js UI
+
+![](assets/sugarizer_vue.png)
+
+**Prerequisites**<br>
+- Experience with JavaScript/HTML5 development
+- Experience with Vue.js framework development
+- Good understanding of Sugarizer Core architecture
+
+
+**Description**<br>
+Sugarizer Core UI rely on EnyoJS, a deprecated frameworks initially developed for WebOS.
+
+The idea of this project is to create a framework of Vue.js UI components matching the Sugar UI.
+
+This framework will allow to replace EnyoJS in a future Sugarizer version.
+
+
+**Tasks**<br>
+Here is the current set of UI components use by Sugarizer core UI and that need to be rewrite:
+
+- Icon (js/icon.js): Fully encapsulate SVG icon for button, activities, menu, neighborhood, etc... include color handling, popup and disable mode. Use everywhere. Very generic.
+- IconButton (js/iconbutton.js): An icon with a text under. Rely on Icon component. Use in dialog screen, first screen and for empty journal. Generic but could probably be a specialization of Icon.
+- Searchfield (js/searchfield.js): The famous Sugar search field with a magnifier icon and a cancel button. Very generic. Use in each screen.
+- Popup (js/popup.js): The famous Sugar Popup menu. With header, some items and an optional header. Rely on Icon component. Very generic. Use in each screen.  
+- Selectbox (js/selectbox.js): A simple selectbox (select a value in a list) component. Use only for language selection. Rely on Icon and Popup components.
+- Password (js/password.js): The Sugarizer specific password box combining letters and emoji. Generic. Use in first screen and in dialog screen.
+- Palette (js/palette.js): Mimic Sugar toolbar palette. Generic. Use only for filter option in Journal screen.
+- Audio (js/audio.js): Encapsulation of HTML5+Cordova audio component. Use only for Easter Egg XO boot.
+- Dialog (js/dialog.js): Dialog settings and subsettings. Use only here.
+
+
+It will be probably useful to propose also in the framework an encapsulation for basic UI components: Button, Entryfield, Checkbox, Popup, …
+
+Finally, a replacement for the deprecated Bootstrap tour library used for Tutorial (lib/tutorial.js) must be implemented.
+
+
+
+**First steps to starts**<br>
+
+- Complete both the [Sugarizer Vanilla Javascript activity development tutorial](https://github.com/llaske/sugarizer/blob/dev/docs/tutorial/VanillaJS/tutorial.md) and the [Sugarizer Vue.js activity development tutorial](https://github.com/llaske/sugarizer/blob/dev/docs/tutorial/VueJS/tutorial.md)
+- Read and test the SVG study [here](https://github.com/llaske/svgstudy) because the new Icon component should rely on direct SVG rendering. Explore the implementation of SVG based icon in the Xmas Lights activity [here](https://github.com/llaske/sugarizer/blob/dev/activities/XmasLights.activity/js/activity-icon.js).
+
+
+**Mentor**<br>
+Lionel Laské
+
+
+**Backup mentor**<br>
+Ashish Aggarwal
+
+
+------------
+
 # Administrative notes
 
 Above are a list of ideas we've planned for GSoC 2022 projects.

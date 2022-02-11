@@ -1,5 +1,13 @@
 # GSoC 2022 Ideas
 
+## Project Ideas
+* [Improve and maintain 15 Sugar activities](#improve-and-maintain-15-sugar-activities)
+* [Port Sugar and core activities to Python 3](#port-sugar-and-core-activities-to-python-3)
+* [Sugarizer Assignments](#sugarizer-assignments)
+* [Sugarizer Exerciser Evaluation mode](#exerciser-evaluation-mode)
+* [Sugarizer Vue.js UI](#sugarizer-vuejs-ui)
+
+
 [Administrative notes](#administrative-notes)
 
 ------------

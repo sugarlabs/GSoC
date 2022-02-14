@@ -8,6 +8,12 @@
 * [Sugarizer Vue.js UI](#sugarizer-vuejs-ui)
 * [Music Blocks v3 maintenance](#music-blocks-v3-maintenance)
 * [Sugar on Raspberry Pi](#sugar-on-raspberry-pi)
+* [Music Blocks 4.0 Builder Framework](#music-blocks-4.0-builder-framework)
+* [Music Blocks 4.0 Code Editor](#music-blocks-4.0-code-editor)
+* [Music Blocks 4.0 More Syntax Elements and Tests](#music-blocks-4.0-more-syntax-elements-and-tests)
+* [Music Blocks 4.0 Export/Import](#music-blocks-4.0-export-import)
+* [Music Blocks 4.0 Internationalisation](#music-blocks-4.0-internationalisation)
+* [Music Blocks 4.0 Webapack Setup](#music-blocks-4.0-webapack-setup)
 
 [Administrative notes](#administrative-notes)
 
@@ -311,8 +317,8 @@ Ashish Aggarwal
 **Prerequisites**<br>
 - Experience with JavaScript/HTML5 development
 
-**Scope**<br>
-Short project
+**Project length**<br>
+6 weeks
 
 **Description**<br>
 While we continue to focus on Music Blocks 4.0, we still need to
@@ -321,8 +327,6 @@ v3 due to changes in browser security (and changes to JavaScript
 dependencies). For example, on recent versions of Chromium, the Planet
 is no longer accessible. Requires experience with JavaScript and web
 development.
-
-**Tasks**<br>
 
 **Mentor**<br>
 Walter Bender
@@ -336,8 +340,8 @@ Devin Ulibarri
 
 **Prerequisites**<br>
 
-**Scope**<br>
-Short project
+**Project length**<br>
+6 weeks
 
 **Description**<br>
 Sugar runs on RPi and we should take advantage of that to reach the
@@ -349,8 +353,6 @@ knowing some of the details of the RPi, such as Turtle Blocks,
 Measure, and Pippy, all of which could be tailored to take advantage
 of the sensors available on RPi.
 
-**Tasks**<br>
-
 **Mentor**<br>
 Walter Bender
 
@@ -358,6 +360,261 @@ Walter Bender
 Alex Perez
 
 ------------
+
+## Music Blocks 4.0 Builder Framework
+
+**Difficulty:** &#9733; &#9733; &#9733; &#9733; &#9734;
+
+**Description**<br>
+
+The objective is to build the new _Project Builder Framework_ for _Music Blocks_ (_v4_). The
+_Project Builder_ is the graphical blocks component which can be used to create _Music Blocks_
+programs. There is a prototype in [`musicblocks-v4-builder-framework`](https://github.com/sugarlabs/musicblocks-v4-builder-framework).
+
+General objectives are:
+
+- Refactor the prototype code
+- Integrate it as an `npm` package in `musicblocks-v4`
+- Create a wrapper component _Project Builder_ (_builder_) in `musicblocks-v4`
+- Add utilities to the wrapper component so that the _Project Builder_ component can communicate with
+the _Specification_ and _Syntax Tree_ APIs of the
+[**Programming Framework**](https://github.com/sugarlabs/musicblocks-v4-lib)
+- Create a _Palette_ (_palette_) component
+
+**Prerequisites**<br>
+
+- Strong experience with **JavaScript ES6+**
+- Strong experience with **Web API's Document Object Model (DOM) interface**
+- Strong experience with **React 17**
+- Experience with **HTML 5**, **CSS 3**, **SCSS**
+- Experience with **TypeScript 4**
+- Understanding of the prototype
+[**Builder Framework**](https://github.com/sugarlabs/musicblocks-v4-builder-framework)
+- Understanding of the _Music Blocks_ (_v4_)
+[**component architecture**](https://github.com/sugarlabs/musicblocks-v4)
+
+**Project Length**<br>
+
+**12** weeks
+
+**Mentor**<br>
+Anindya Kundu
+
+**Backup mentor**<br>
+Walter Bender
+
+---------------
+
+## Music Blocks 4.0 Code Editor
+
+**Difficulty:** &#9733; &#9733; &#9733; &#9733; &#9734;
+
+**Description**<br>
+
+The objective is to create a powerful _Code Editor_ for authoring _Music Blocks_ (_v4_) programs.
+
+Expected features are:
+
+- _Syntax Highlighting_
+- _Abstract Syntax Tree_ (_AST_) generation from the code
+- _Syntax Tree_ snapshot generation
+- _Syntax_ and _Semantic_ _Validation_ (squiggly underlines)
+- _Prettification_ of code
+- _Intelligent Code Suggestion_ (e.g. dropdown lists when you're about to type an instruction)
+- _Status Box_ of the current code details (errors, warnings, etc.)
+
+**Note:** The code syntax grammar will be specified later.
+
+**Prerequisites**<br>
+
+- Strong experience with **JavaScript ES6+**
+- Strong experience with **Web API's Document Object Model (DOM) interface**
+- Strong experience with **React 17**
+- Experience with **HTML 5**, **CSS 3**, **SCSS**
+- Experience with **TypeScript 4**
+- Understanding of the _Music Blocks_ (_v4_)
+[**component architecture**](https://github.com/sugarlabs/musicblocks-v4)
+
+**Project Length**<br>
+
+**12** weeks
+
+**Mentor**<br>
+Anindya Kundu
+
+**Backup mentor**<br>
+Walter Bender
+
+-----------------
+
+## Music Blocks 4.0 More Syntax Elements and Tests
+
+**Difficulty:** &#9733; &#9733; &#9733; &#9734; &#9734;
+
+**Description**<br>
+
+The objective is to create new _Syntax Elements_ for the _Painter_ and _Singer_ components in
+_Music Blocks_ (_v4_) as well as for other miscellaneous tasks. _Syntax Elements_ are concrete
+classes for individial _instructions_ (_statement_, _block_) and _arguments_ (_value_, _expression_).
+
+The list of _Syntax Elements_ will include ones currently in _Music Blocks_ (_v3_) but not in
+_Music Blocks_ (_v4_) at the time of starting the project.
+
+General objectives are:
+
+- Add _Syntax Elements_ in the _Painter_ for sprite-related actions
+- Add _Syntax Elements_ in the _Singer_ for music-related actions
+- Add _Syntax Elements_ in the _Programming Framework Library_ for general actions (data structures,
+program flow, etc) with _Jest_ tests
+- Add test scripts in _Painter_ and _Singer_ to run and test individual _Syntax Element_ entries
+- Configure loading of only _Painter_ and _Singer_ components in the app for their tests
+- Add a module to interactively run _runtime_ tests (for _Painter_ and _Singer_)
+
+**Prerequisites**<br>
+
+- Experience with **JavaScript ES6+** and **TypeScript 4**
+- Experience with [**p5.js**](https://p5js.org/) and [**Tone.js**](https://tonejs.github.io/)
+- Experience with **Jest**
+- Understanding of the [**Programming Framework**](https://github.com/sugarlabs/musicblocks-v4-lib)
+of _Music Blocks (v4)_
+- Understanding of the _Music Blocks_ (_v4_)
+[**component architecture**](https://github.com/sugarlabs/musicblocks-v4)
+
+## Project Length
+
+**12** weeks
+
+**Mentor**<br>
+Anindya Kundu
+
+**Backup mentor**<br>
+Walter Bender
+
+-------------------------
+
+## Music Blocks 4.0 Export Import
+
+**Difficulty:** &#9733; &#9733; &#9733; &#9734; &#9734;
+
+**Description**<br>
+
+The objective is to add an `Export/Import` framework in _Music Blocks_ (_v4_) for exporting/importing
+projects and multimedia.
+
+General objectives are:
+
+- Generate the project syntax encapsulated in a `.html` file
+- Add markup and styling to the `.html` file which describes how to load the project from the file if
+the user opens it
+- Import project syntax from a project `.html` file
+- Communicate with the _Syntax Tree_ API of the
+[**Programming Framework**](https://github.com/sugarlabs/musicblocks-v4-lib) to fetch and set the syntax
+- Export canvas drawing (_Painter_)
+- Export music (_Singer_)
+- Export animation of the canvas art and music (on running the project)
+- Load resources (images, audio samples, etc.) to the browser storage which can be shared on demand
+when requested by a component
+- Encapsulate the above in a component
+
+**Prerequisites**<br>
+
+- Experience with **JavaScript ES6+** and **TypeScript 4**
+- Experience with **JavaScript ES6 modules**
+- Experience with **Web API's File interface**
+- Understanding of the _Music Blocks_ (_v4_)
+[**component architecture**](https://github.com/sugarlabs/musicblocks-v4)
+
+**Project Length**<br>
+
+**12** weeks
+
+--------------
+
+## Music Blocks 4.0 Internationalisation
+
+**Difficulty:** &#9733; &#9733; &#9734; &#9734; &#9734;
+
+**Description**<br>
+
+The objective is to add an _Internationaisation_ (_i18n_) framework in _Music Blocks_ (_v4_) for
+multiple language strings' support in the UI components.
+
+General objectives are:
+
+- Create scripts to generate `.json` files of language strings from `.po` files, which will be run at
+_build-time_ (see [sugarlabs/musicblocks/po](https://github.com/sugarlabs/musicblocks/tree/master/po))
+- Distribute the `.po` files per component so that every component contains only the strings it needs
+- Generate separate `.json` files per `.po` file per language
+- Dynamically load (at _runtime_) only strings of the selected language
+- Create functionality to supply strings to a component when it loads or updates (at _runtime_)
+- Encapsulate the above in a component
+
+**Prerequisites**<br>
+
+- Experience with **JavaScript ES6+** and **TypeScript 4**
+- Experience with **JavaScript ES6 modules**
+- Understanding of the `.po` format in
+[`sugarlabs/musicblocks/po`](https://github.com/sugarlabs/musicblocks/tree/master/po)
+- Understanding of the _Music Blocks_ (_v4_)
+[**component architecture**](https://github.com/sugarlabs/musicblocks-v4)
+
+**Project Length**<br>
+
+**6** weeks
+
+**Mentor**<br>
+Anindya Kundu
+
+**Backup mentor**<br>
+Walter Bender
+
+-----------------------
+
+## Music Blocks 4.0 Webapack Setup
+
+**Difficulty:** &#9733; &#9733; &#9733; &#9734; &#9734;
+
+**Description**<br>
+
+The objective is to explicitly configure the _Music Blocks_ (_v4_) project with **Webpack** and
+**WebpackDevServer** (for development-time hot reloading) and remove dependency on `react-scripts`.
+However, it is important to note that _Music Blocks_ (_v4_) will not be a _React_ application in strict
+terms. We might want to leverage some of its features later on, but it isn't a necessity.
+
+_Music Blocks_ by itself doesn't have too many complex DOM components with inter-dependencies. Most
+of the complexity of the application is in the background components which are in plain _JavaScript_
+(_TypeScript_). Therefore, it is imperative not to rely on the `create-react-app` template, or more
+specifically `react-scripts`. It is a good starter, however, it packs too many things than what we
+require, and abstracts the configurations entirely.
+
+Expected features are:
+
+- Configure `webpack v5`, `webpack-dev-server`, and `webpack-cli`
+- Create a basic configurations file (`webpack.config.common.js`) for both development and production
+- Use `webpack-merge` to inherit the basic configurations and add on top of that in separate files
+for development (`webpack.config.dev.js`) and production (`webpack.config.prod.js`)
+- Replicate basic `react-scripts` hot-reloading behaviour (including `eslint` checks)
+- Add fast build configurations for development
+- Add optimised build configurations for production
+- Add scripts to overwrite `webpack` logs with more select (and readable) logs
+
+**Prerequisites**<br>
+
+- Strong Experience with **Webpack 5** — _Configuration_ and _Node API_
+- Experience with **JavaScript ES6+** and **TypeScript 4**
+- Experience with **JavaScript ES6 modules**
+
+**Project Length**<br>
+
+**6** weeks
+
+**Mentor**<br>
+Anindya Kundu
+
+**Backup mentor**<br>
+Walter Bender
+
+-------------
 
 # Administrative notes
 

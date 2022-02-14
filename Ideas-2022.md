@@ -1,7 +1,8 @@
 # GSoC 2022 Ideas
 
 ## Project Ideas
-* [Improve and maintain 15 Sugar activities](#improve-and-maintain-15-sugar-activities)
+* [Improve and maintain 12 Sugar activities](#improve-and-maintain-12-sugar-activities)
+* [Improve and maintain 6 Sugar activities](#improve-and-maintain-6-sugar-activities)
 * [Port Sugar and core activities to Python 3](#port-sugar-and-core-activities-to-python-3)
 * [Sugarizer Assignments](#sugarizer-assignments)
 * [Sugarizer Exerciser Evaluation mode](#exerciser-evaluation-mode)
@@ -19,7 +20,7 @@
 
 ------------
 
-## Improve and maintain 15 Sugar activities
+## Improve and maintain 12 Sugar activities
 
 **Prerequisites**<br>
  - Experience with Python
@@ -30,7 +31,7 @@
 Sugar has a lot of activities, with 250+ on GitHub, and more
 elsewhere. These have scope for improvement; bugs,
 features, updated human translations, and release.  This project will involve
-working on **at least 15** activities to improve them. Students can choose
+working on **at least 12** activities to improve them. Students can choose
 activities on their own, and are encouraged to select activities which
 are either a part of Fructose or have a strong pedagogical value. To
 understand how to locate and work on activities, see our guide to
@@ -51,6 +52,55 @@ Other issues will have been raised since.
 
 Suggesting or adding features, fixing bugs, or releasing activities
 will help you to gain experience
+
+**Project Length**<br>
+
+**12** weeks
+
+**Coding Mentors**<br>
+[Ibiam Chihurumnaya](https://github.com/chimosky/)
+
+**Assisting Mentors**<br>
+To be added.
+
+------------
+
+## Improve and maintain 6 Sugar activities
+
+**Prerequisites**<br>
+ - Experience with Python
+ - Strong experience with Sugar activities
+ - Experience with maintaining activities on ASLO and ASLO-v4
+
+**Description**<br>
+Sugar has a lot of activities, with 250+ on GitHub, and more
+elsewhere. These have scope for improvement; bugs,
+features, updated human translations, and release.  This project will involve
+working on **at least 6** activities to improve them. Students can choose
+activities on their own, and are encouraged to select activities which
+are either a part of Fructose or have a strong pedagogical value. To
+understand how to locate and work on activities, see our guide to
+[Modifying
+Activities](https://github.com/sugarlabs/sugar-docs/blob/master/src/contributing.md#modifying-activities)
+
+In their proposal, students may mention _some_ of the issues they will
+work on.  Any new feature suggestion should be discussed on GitHub
+Issues or on the mailing list before being added to a proposal.
+
+Since there are a lot of activities to work on, **more than one instance
+of this project may be selected**.
+
+**Suggested Issues to work on:**<br>
+ - jukebox-activity: [#22 Add collaboration for sharing playlist items](https://github.com/sugarlabs/jukebox-activity/issues/22)
+
+Other issues will have been raised since.
+
+Suggesting or adding features, fixing bugs, or releasing activities
+will help you to gain experience
+
+**Project Length**<br>
+
+**6** weeks
 
 **Coding Mentors**<br>
 [Ibiam Chihurumnaya](https://github.com/chimosky/)

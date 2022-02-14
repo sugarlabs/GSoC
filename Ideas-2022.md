@@ -13,7 +13,7 @@
 * [Music Blocks 4 More Syntax Elements and Tests](#music-blocks-4-more-syntax-elements-and-tests)
 * [Music Blocks 4 Export/Import](#music-blocks-4-export-import)
 * [Music Blocks 4 Internationalisation](#music-blocks-4-internationalisation)
-* [Music Blocks 4 Webapack Setup](#music-blocks-4-webapack-setup)
+* [Music Blocks 4 Webpack Setup](#music-blocks-4-webpack-setup)
 
 [Administrative notes](#administrative-notes)
 
@@ -570,7 +570,7 @@ Walter Bender
 
 -----------------------
 
-## Music Blocks 4 Webapack Setup
+## Music Blocks 4 Webpack Setup
 
 **Difficulty:** &#9733; &#9733; &#9733; &#9734; &#9734;
 

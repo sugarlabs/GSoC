@@ -6,7 +6,8 @@
 * [Sugarizer Assignments](#sugarizer-assignments)
 * [Sugarizer Exerciser Evaluation mode](#exerciser-evaluation-mode)
 * [Sugarizer Vue.js UI](#sugarizer-vuejs-ui)
-
+* [Music Blocks v3 maintenance](#music-blocks-v3-maintenance)
+* [Sugar on Raspberry Pi](#sugar-on-raspberry-pi)
 
 [Administrative notes](#administrative-notes)
 
@@ -303,6 +304,58 @@ Lionel Laské
 **Backup mentor**<br>
 Ashish Aggarwal
 
+------------
+
+## Music Blocks v3 Maintenance
+
+**Prerequisites**<br>
+- Experience with JavaScript/HTML5 development
+
+**Scope**<br>
+Short project
+
+**Description**<br>
+While we continue to focus on Music Blocks 4.0, we still need to
+maintain Music Blocks v3. There are numerous issues with Music Blocks
+v3 due to changes in browser security (and changes to JavaScript
+dependencies). For example, on recent versions of Chromium, the Planet
+is no longer accessible. Requires experience with JavaScript and web
+development.
+
+**Tasks**<br>
+
+**Mentor**<br>
+Walter Bender
+
+**Backup mentor**<br>
+Devin Ulibarri
+
+------------
+
+## Sugar on Raspberry Pi
+
+**Prerequisites**<br>
+
+**Scope**<br>
+Short project
+
+**Description**<br>
+Sugar runs on RPi and we should take advantage of that to reach the
+Maker community. This project involves ensuring that Sugar runs w/o
+and issues; that it is packaged in a way that is suiable for inclusion
+on https://www.raspberrypi.com/software/operating-systems/. Also,
+there are any number of Sugar activities that could be enhanced by
+knowing some of the details of the RPi, such as Turtle Blocks,
+Measure, and Pippy, all of which could be tailored to take advantage
+of the sensors available on RPi.
+
+**Tasks**<br>
+
+**Mentor**<br>
+Walter Bender
+
+**Backup mentor**<br>
+Alex Perez
 
 ------------
 

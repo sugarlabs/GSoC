@@ -8,12 +8,12 @@
 * [Sugarizer Vue.js UI](#sugarizer-vuejs-ui)
 * [Music Blocks v3 maintenance](#music-blocks-v3-maintenance)
 * [Sugar on Raspberry Pi](#sugar-on-raspberry-pi)
-* [Music Blocks 4.0 Builder Framework](#music-blocks-4.0-builder-framework)
-* [Music Blocks 4.0 Code Editor](#music-blocks-4.0-code-editor)
-* [Music Blocks 4.0 More Syntax Elements and Tests](#music-blocks-4.0-more-syntax-elements-and-tests)
-* [Music Blocks 4.0 Export/Import](#music-blocks-4.0-export-import)
-* [Music Blocks 4.0 Internationalisation](#music-blocks-4.0-internationalisation)
-* [Music Blocks 4.0 Webapack Setup](#music-blocks-4.0-webapack-setup)
+* [Music Blocks 4 Builder Framework](#music-blocks-4-builder-framework)
+* [Music Blocks 4 Code Editor](#music-blocks-4-code-editor)
+* [Music Blocks 4 More Syntax Elements and Tests](#music-blocks-4-more-syntax-elements-and-tests)
+* [Music Blocks 4 Export/Import](#music-blocks-4-export-import)
+* [Music Blocks 4 Internationalisation](#music-blocks-4-internationalisation)
+* [Music Blocks 4 Webapack Setup](#music-blocks-4-webapack-setup)
 
 [Administrative notes](#administrative-notes)
 
@@ -361,7 +361,7 @@ Alex Perez
 
 ------------
 
-## Music Blocks 4.0 Builder Framework
+## Music Blocks 4 Builder Framework
 
 **Difficulty:** &#9733; &#9733; &#9733; &#9733; &#9734;
 
@@ -405,7 +405,7 @@ Walter Bender
 
 ---------------
 
-## Music Blocks 4.0 Code Editor
+## Music Blocks 4 Code Editor
 
 **Difficulty:** &#9733; &#9733; &#9733; &#9733; &#9734;
 
@@ -447,7 +447,7 @@ Walter Bender
 
 -----------------
 
-## Music Blocks 4.0 More Syntax Elements and Tests
+## Music Blocks 4 More Syntax Elements and Tests
 
 **Difficulty:** &#9733; &#9733; &#9733; &#9734; &#9734;
 
@@ -492,7 +492,7 @@ Walter Bender
 
 -------------------------
 
-## Music Blocks 4.0 Export Import
+## Music Blocks 4 Export Import
 
 **Difficulty:** &#9733; &#9733; &#9733; &#9734; &#9734;
 
@@ -530,7 +530,7 @@ when requested by a component
 
 --------------
 
-## Music Blocks 4.0 Internationalisation
+## Music Blocks 4 Internationalisation
 
 **Difficulty:** &#9733; &#9733; &#9734; &#9734; &#9734;
 
@@ -570,7 +570,7 @@ Walter Bender
 
 -----------------------
 
-## Music Blocks 4.0 Webapack Setup
+## Music Blocks 4 Webapack Setup
 
 **Difficulty:** &#9733; &#9733; &#9733; &#9734; &#9734;
 

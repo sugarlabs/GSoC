@@ -171,15 +171,16 @@ Objective: Add features to Sugarizer/Sugarizer Server to allow teachers to give 
 
 Questions:
 
-* What is an assignment? Something to do by a student in a period of time.
+* What is an assignment?
+   * Something to do by a student in a period of time
 * What could be represented as an assignment in Sugarizer?
- Every activity that could have a context. However it's better if activities have a clear context or result. A document (image, PDF, …) can't be an assignment because it's stateless.
-* What are characteristics of an assignment?
+   * Every activity that could have a context. However, it's better if activities have a clear context or result. A document (image, PDF, …) can't be an assignment because it's stateless
+* What are the characteristics of an assignment?
    * An activity instance with its context
    * A set of instruction
    * A delivery date/time
    * A state: assigned, started, submitted
-* What's the difference between an assignment and a standard journal instance?
+* What is the difference between an assignment and a standard journal instance?
    * An assignment should be identified as such
    * An assignment should be submitted once done
    * An assignment can't be change once submitted
@@ -191,29 +192,24 @@ Questions:
    * Create new database collection for assignments
    * Create new API for handling assignments
    * Dashboard screens
+      (*the attached images indicate essential requirements and the actual implementation may look different*)
       * Add assignment counts and an array with latest assignments in the Home screen
       * Create List assignment screen
-
-![](assets/dashboard_ass1.png)
-
+        ![](assets/dashboard_ass1.png)
       * Create Create/Edit assignment screen
-
-![](assets/dashboard_ass2.png)
-
-![](assets/dashboard_ass3.png)
-
+        ![](assets/dashboard_ass2.png)
+        ![](assets/dashboard_ass3.png)
       * Create List deliveries screen
-
-![](assets/dashboard_ass4.png)
+        ![](assets/dashboard_ass4.png)
 
 
 * Update to implement on [Sugarizer](https://github.com/llaske/sugarizer):
    * Store assignments in the remote Journal of the user (will be synchronized when the user will be connected)
-   * Add a assignments icon and a popup to notify an user that some assignment are expected for him
+   * Add an assignments icon and a popup to notify a user that some assignments are expected for him
    * Update the Journal view:
       * Add a specific icon on assignment
       * Change date to indicate the delay to submit (instead of the modification date?)
-      * Add an help button to see instructions
+      * Add a help button to see instructions
       * Add a submit button
       * Add a new filter to search for assignments only
       * Forbid actions? Delete, Copy, Duplicate
@@ -233,7 +229,7 @@ Questions:
 
 
 **Mentor**<br>
-Nikhil Mehra
+[Nikhil Mehra](https://github.com/NikhilM98/)
 
 
 **Backup mentor**<br>

@@ -167,6 +167,8 @@ TelepathyGLib](https://github.com/orgs/sugarlabs/projects/4).
 - Experience with MongoDB
 - Experience with node.js and EJS framework
 
+**Project length**<br>
+12 weeks
 
 **Description**<br>
 Objective: Add features to Sugarizer/Sugarizer Server to allow teachers to give assignments to students.
@@ -249,6 +251,8 @@ Lionel Laské
 - Experience with ReactJS framework development
 - Good understanding of Exerciser activity and its implementation
 
+**Project length**<br>
+12 weeks
 
 **Description**<br>
 The Exerciser activity let you build interactive exercises, using multiple templates, and share these exercises with other users.
@@ -316,6 +320,8 @@ Lionel Laské
 - Experience with Vue.js framework development
 - Good understanding of Sugarizer Core architecture
 
+**Project length**<br>
+12 weeks
 
 **Description**<br>
 Sugarizer Core UI rely on EnyoJS, a deprecated frameworks initially developed for WebOS.

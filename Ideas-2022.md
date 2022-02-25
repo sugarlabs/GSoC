@@ -2,7 +2,7 @@
 
 ## Project Ideas
 * [Improve and maintain 12 Sugar activities](#improve-and-maintain-12-sugar-activities)
-* [Improve and maintain 8 Sugar activities](#improve-and-maintain-6-sugar-activities)
+* [Improve and maintain 8 Sugar activities](#improve-and-maintain-8-sugar-activities)
 * [Port Sugar and core activities to Python 3](#port-sugar-and-core-activities-to-python-3)
 * [Sugarizer Assignments](#sugarizer-assignments)
 * [Sugarizer Exerciser Evaluation mode](#exerciser-evaluation-mode)
@@ -157,7 +157,7 @@ bindings for Python 3, so porting Telepathy to the PyGObject binding
 is a prerequisite, see GitHub Project [Port to
 TelepathyGLib](https://github.com/orgs/sugarlabs/projects/4).
 
-**Expected size**<br>
+**Project Length**<br>
 
 **350** hours
 

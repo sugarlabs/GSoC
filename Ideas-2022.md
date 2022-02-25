@@ -54,8 +54,7 @@ Suggesting or adding features, fixing bugs, or releasing activities
 will help you to gain experience
 
 **Project Length**<br>
-
-**12** weeks
+**350** hours
 
 **Coding Mentors**<br>
 [Ibiam Chihurumnaya](https://github.com/chimosky/), 
@@ -100,8 +99,7 @@ Suggesting or adding features, fixing bugs, or releasing activities
 will help you to gain experience
 
 **Project Length**<br>
-
-**6** weeks
+**175** hours
 
 **Coding Mentors**<br>
 [Ibiam Chihurumnaya](https://github.com/chimosky/),
@@ -168,7 +166,7 @@ TelepathyGLib](https://github.com/orgs/sugarlabs/projects/4).
 - Experience with node.js and EJS framework
 
 **Project length**<br>
-12 weeks
+**350** hours
 
 **Description**<br>
 Objective: Add features to Sugarizer/Sugarizer Server to allow teachers to give assignments to students.
@@ -235,10 +233,8 @@ Questions:
 **Mentor**<br>
 [Nikhil Mehra](https://github.com/NikhilM98/)
 
-
 **Backup mentor**<br>
 Lionel Laské
-
 
 ------------
 
@@ -252,13 +248,12 @@ Lionel Laské
 - Good understanding of Exerciser activity and its implementation
 
 **Project length**<br>
-12 weeks
+**350** hours
 
 **Description**<br>
 The Exerciser activity let you build interactive exercises, using multiple templates, and share these exercises with other users.
 
 The idea of this project is to improve the activity and implement new features, specifically a way to use Exerciser as an evaluation platform.  
-
 
 **Tasks**<br>
 
@@ -266,7 +261,6 @@ More precisely feature to implement are:
 
 - <u>**Upgrading ReactJS version**</u>: the activity use an old ReactJS version, the idea is to upgrade the activity to support a more recent one.
 - <u>**Improve the UI**</u>: the objective is to simplify the UI of the activity by taking inspiration from the Vote activity. Today to share an exercise, the user need to click three times: 1) click on shared palette, 2) click on shared button in the palette – it display shared buttons on exercises 3) click on shared button on the exercise to share.  
-
 
 	The idea is to always display shared buttons on exercises. When the user click on one shared button on exercises: if the activity is not already shared, the button share the activity then share the exercise. If the activity is already shared, the exercise is share.
 
@@ -294,20 +288,16 @@ More precisely feature to implement are:
 	In evaluation mode, it's impossible to access to exercise settings.
 
 
-
 **First steps to starts**<br>
 
 - Complete the [Sugarizer Vanilla Javascript activity development tutorial](https://github.com/llaske/sugarizer/blob/dev/docs/tutorial/VanillaJS/tutorial.md)  
 - Explore the implementation of Exerciser activity: https://github.com/llaske/ExerciserReact/  
 
-
 **Mentor**<br>
 Ashish Aggarwal
 
-
 **Backup mentor**<br>
 Lionel Laské
-
 
 ------------
 
@@ -321,7 +311,7 @@ Lionel Laské
 - Good understanding of Sugarizer Core architecture
 
 **Project length**<br>
-12 weeks
+**350** hours
 
 **Description**<br>
 Sugarizer Core UI rely on EnyoJS, a deprecated frameworks initially developed for WebOS.
@@ -329,7 +319,6 @@ Sugarizer Core UI rely on EnyoJS, a deprecated frameworks initially developed fo
 The idea of this project is to create a framework of Vue.js UI components matching the Sugar UI.
 
 This framework will allow to replace EnyoJS in a future Sugarizer version.
-
 
 **Tasks**<br>
 Here is the current set of UI components use by Sugarizer core UI and that need to be rewrite:
@@ -349,17 +338,13 @@ It will be probably useful to propose also in the framework an encapsulation for
 
 Finally, a replacement for the deprecated Bootstrap tour library used for Tutorial (lib/tutorial.js) must be implemented.
 
-
-
 **First steps to starts**<br>
 
 - Complete both the [Sugarizer Vanilla Javascript activity development tutorial](https://github.com/llaske/sugarizer/blob/dev/docs/tutorial/VanillaJS/tutorial.md) and the [Sugarizer Vue.js activity development tutorial](https://github.com/llaske/sugarizer/blob/dev/docs/tutorial/VueJS/tutorial.md)
 - Read and test the SVG study [here](https://github.com/llaske/svgstudy) because the new Icon component should rely on direct SVG rendering. Explore the implementation of SVG based icon in the Xmas Lights activity [here](https://github.com/llaske/sugarizer/blob/dev/activities/XmasLights.activity/js/activity-icon.js).
 
-
 **Mentor**<br>
 Lionel Laské
-
 
 **Backup mentor**<br>
 Ashish Aggarwal
@@ -372,7 +357,7 @@ Ashish Aggarwal
 - Experience with JavaScript/HTML5 development
 
 **Project length**<br>
-6 weeks
+**175** hours
 
 **Description**<br>
 While we continue to focus on Music Blocks 4.0, we still need to
@@ -395,7 +380,7 @@ Devin Ulibarri
 **Prerequisites**<br>
 
 **Project length**<br>
-6 weeks
+**175** hours
 
 **Description**<br>
 Sugar runs on RPi and we should take advantage of that to reach the
@@ -448,8 +433,7 @@ the _Specification_ and _Syntax Tree_ APIs of the
 [**component architecture**](https://github.com/sugarlabs/musicblocks-v4)
 
 **Project Length**<br>
-
-**12** weeks
+**350** hours
 
 **Mentor**<br>
 Anindya Kundu
@@ -490,8 +474,7 @@ Expected features are:
 [**component architecture**](https://github.com/sugarlabs/musicblocks-v4)
 
 **Project Length**<br>
-
-**12** weeks
+**350** hours
 
 **Mentor**<br>
 Anindya Kundu
@@ -535,8 +518,7 @@ of _Music Blocks (v4)_
 [**component architecture**](https://github.com/sugarlabs/musicblocks-v4)
 
 ## Project Length
-
-**12** weeks
+**350** hours
 
 **Mentor**<br>
 Anindya Kundu
@@ -579,8 +561,7 @@ when requested by a component
 [**component architecture**](https://github.com/sugarlabs/musicblocks-v4)
 
 **Project Length**<br>
-
-**12** weeks
+**350** hours
 
 --------------
 
@@ -613,8 +594,7 @@ _build-time_ (see [sugarlabs/musicblocks/po](https://github.com/sugarlabs/musicb
 [**component architecture**](https://github.com/sugarlabs/musicblocks-v4)
 
 **Project Length**<br>
-
-**6** weeks
+**175** hours
 
 **Mentor**<br>
 Anindya Kundu
@@ -659,8 +639,7 @@ for development (`webpack.config.dev.js`) and production (`webpack.config.prod.j
 - Experience with **JavaScript ES6 modules**
 
 **Project Length**<br>
-
-**6** weeks
+**175** hours
 
 **Mentor**<br>
 Anindya Kundu

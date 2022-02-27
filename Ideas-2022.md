@@ -57,7 +57,7 @@ will help you to gain experience
 **350** hours
 
 **Coding Mentors**<br>
-[Ibiam Chihurumnaya](https://github.com/chimosky/), 
+[Ibiam Chihurumnaya](https://github.com/chimosky/),
 [Srevin Saju](https://github.com/srevinsaju/)
 
 **Assisting Mentors**<br>
@@ -168,6 +168,8 @@ TelepathyGLib](https://github.com/orgs/sugarlabs/projects/4).
 **Project length**<br>
 **350** hours
 
+**Difficulty:** &#9733; &#9733; &#9733; (hard)
+
 **Description**<br>
 Objective: Add features to Sugarizer/Sugarizer Server to allow teachers to give assignments to students.
 
@@ -250,6 +252,8 @@ Lionel Laské
 **Project length**<br>
 **350** hours
 
+**Difficulty:** &#9733; &#9733; &#9734; (medium)
+
 **Description**<br>
 The Exerciser activity let you build interactive exercises, using multiple templates, and share these exercises with other users.
 
@@ -312,6 +316,8 @@ Lionel Laské
 
 **Project length**<br>
 **350** hours
+
+**Difficulty:** &#9733; &#9733; &#9734; (medium)
 
 **Description**<br>
 Sugarizer Core UI rely on EnyoJS, a deprecated frameworks initially developed for WebOS.

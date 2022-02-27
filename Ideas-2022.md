@@ -2,7 +2,7 @@
 
 ## Project Ideas
 * [Improve and maintain 12 Sugar activities](#improve-and-maintain-12-sugar-activities)
-* [Improve and maintain 6 Sugar activities](#improve-and-maintain-6-sugar-activities)
+* [Improve and maintain 8 Sugar activities](#improve-and-maintain-6-sugar-activities)
 * [Port Sugar and core activities to Python 3](#port-sugar-and-core-activities-to-python-3)
 * [Sugarizer Assignments](#sugarizer-assignments)
 * [Sugarizer Exerciser Evaluation mode](#exerciser-evaluation-mode)
@@ -54,7 +54,12 @@ Suggesting or adding features, fixing bugs, or releasing activities
 will help you to gain experience
 
 **Project Length**<br>
+
 **350** hours
+
+**Difficulty**<br>
+
+**Medium**
 
 **Coding Mentors**<br>
 [Ibiam Chihurumnaya](https://github.com/chimosky/), 
@@ -65,7 +70,7 @@ To be added.
 
 ------------
 
-## Improve and maintain 6 Sugar activities
+## Improve and maintain 8 Sugar activities
 
 **Prerequisites**<br>
  - Experience with Python
@@ -96,10 +101,14 @@ of this project may be selected**.
 Other issues will have been raised since.
 
 Suggesting or adding features, fixing bugs, or releasing activities
-will help you to gain experience
+will help you to gain experience.
 
 **Project Length**<br>
 **175** hours
+
+**Difficulty**<br>
+
+**Medium**
 
 **Coding Mentors**<br>
 [Ibiam Chihurumnaya](https://github.com/chimosky/),
@@ -147,6 +156,14 @@ collaboration between Sugar users.  The library does not have static
 bindings for Python 3, so porting Telepathy to the PyGObject binding
 is a prerequisite, see GitHub Project [Port to
 TelepathyGLib](https://github.com/orgs/sugarlabs/projects/4).
+
+**Expected size**<br>
+
+**350** hours
+
+**Difficulty**<br>
+
+**Hard**
 
 **Coding Mentors**<br>
 [Ibiam Chihurumnaya](https://github.com/chimosky/)

@@ -382,6 +382,10 @@ Ashish Aggarwal
 **Project length**<br>
 **175** hours
 
+**Difficulty**<br>
+
+**Medium**
+
 **Description**<br>
 While we continue to focus on Music Blocks 4.0, we still need to
 maintain Music Blocks v3. There are numerous issues with Music Blocks
@@ -404,6 +408,10 @@ Devin Ulibarri
 
 **Project length**<br>
 **175** hours
+
+**Difficulty**<br>
+
+**Easy**
 
 **Description**<br>
 Sugar runs on RPi and we should take advantage of that to reach the

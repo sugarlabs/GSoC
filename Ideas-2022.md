@@ -2,7 +2,7 @@
 
 ## Project Ideas
 * [Improve and maintain 12 Sugar activities](#improve-and-maintain-12-sugar-activities)
-* [Improve and maintain 8 Sugar activities](#improve-and-maintain-6-sugar-activities)
+* [Improve and maintain 6 Sugar activities](#improve-and-maintain-6-sugar-activities)
 * [Port Sugar and core activities to Python 3](#port-sugar-and-core-activities-to-python-3)
 * [Sugarizer Assignments](#sugarizer-assignments)
 * [Sugarizer Exerciser Evaluation mode](#exerciser-evaluation-mode)

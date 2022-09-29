@@ -82,9 +82,9 @@ I have build some Screens in dashboard.
    Functionalities in dashboard for assignments :
    - Search Assignment and Filter by Status.
       ![Screenshot from 2022-09-27 16-06-28](https://user-images.githubusercontent.com/48005711/192504171-0bbabd17-75b5-489d-834d-25d6ed7ff35e.png)
-        - Filter Assignmet by it's name.
-        - Filter Assignment by it's status.
-        - Also we can filter the assignment by the combination of it's name and it's status. ⬇️
+        - Filter Assignmet by its name.
+        - Filter Assignment by its status.
+        - Also we can filter the assignment by the combination of its name and its status. ⬇️
         ![Screenshot from 2022-09-27 16-12-49](https://user-images.githubusercontent.com/48005711/192505350-922c50f6-c2e6-41bd-9ba0-1aacf484e03c.png)
         - There are three types of status with an assignment. ⬇️
         

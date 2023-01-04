@@ -56,6 +56,9 @@ mailing list for communication. Join to participate in the discussion
 and ask for help.  Allow some days for reply.  See
 [Community etiquette](https://github.com/sugarlabs/GSoC#community-etiquette).
 
+We also have a [matrix channel](https://matrix.to/#/#sugar:matrix.org) where you can talk with
+other community members.
+
 Do not write secretly to mentors or developers unless they have asked
 you to.  This varies by idea.  Check the list of coding mentors for
 each idea.  We have added contact methods.

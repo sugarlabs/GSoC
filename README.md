@@ -2,7 +2,7 @@
 
 ## Shortcuts
 
-|[GSoC'22 Ideas](Ideas-2022.md)| [Proposal Template](Template.md) | [Sugar Labs @GitHub](https://github.com/sugarlabs) |
+|[GSoC'23 Ideas](Ideas-2023.md)| [Proposal Template](Template.md) | [Sugar Labs @GitHub](https://github.com/sugarlabs) |
 |:-------------------------:|----------------------|----------------------|
 |<a href="Ideas-2022.md">![](assets/gsoc-square.png)</a> | <a href="Template.md">![](assets/template.png)</a> | <a href="https://github.com/sugarlabs">![](assets/github.png)</a> |
 
@@ -27,14 +27,15 @@ Our archives of GSoC Projects:
 [2018](https://wiki.sugarlabs.org/go/Summer_of_Code/2018) |
 [2019](Ideas-2019.md) |
 [2020](Ideas-2020.md) |
-[2021](Ideas-2021.md)
+[2021](Ideas-2021.md) |
+[2022](Ideas-2022.md)
 
 ## Want to work with us ?
 
 Please get involved.  Familiarise yourself with our code, by
 reporting and fixing bugs.
 
-See our [ideas](Ideas-2022.md) page.  We would love to hear
+See our [ideas](Ideas-2023.md) page.  We would love to hear
 your own ideas as well.
 
 You may use our [proposal template](Template.md) or your own.

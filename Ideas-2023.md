@@ -4,6 +4,7 @@
 * [Improve and maintain 12 Sugar activities](#improve-and-maintain-12-sugar-activities)
 * [Improve and maintain 6 Sugar activities](#improve-and-maintain-6-sugar-activities)
 * [Port Sugar and core activities to Python 3](#port-sugar-and-core-activities-to-python-3)
+* [Maintain/port Sugar activities to FlatPak](#maintain-port-sugar-activities-to-flatpak)
 
 [Administrative notes](#administrative-notes)
 
@@ -153,6 +154,48 @@ TelepathyGLib](https://github.com/orgs/sugarlabs/projects/4).
 
 **Assisting Mentors**<br>
 To be added.
+
+----
+
+# Maintain Port Sugar Activities to Flatpak
+
+**Prerequisites**<br>
+ - Experience with Python
+ - Strong experience with
+   [Sugar Desktop](https://github.com/sugarlabs/sugar) and activities
+Activities](https://github.com/sugarlabs/sugar-docs/blob/master/src/contributing.md#modifying-activities)
+
+**Description**<br>We have a number of Sugar Activities bundled with
+  [Flatpak](https://flatpak.org/) as a way to reach a broader audience
+  within the Linux community. We'd like to both keep those activities
+  up to date and also port more.
+
+Two quite popular acitivities are
+[Pippy](https://beta.flathub.org/apps/details/org.sugarlabs.Pippy) and
+[Physics](https://beta.flathub.org/apps/details/org.sugarlabs.Physics). Both
+of these activities are using an unsupported version of pygame, so
+they can no longer be updated. The first goal, then, of this project
+would be to port these activities to pygame-2.0. Then, repackage them.
+
+From there, we'd love to add more Sugar activities to the Flatpak
+collection.
+
+It would also be nice to include the physics plugin with the
+TurtleBlocks Flatpak bundle, since it offers another fun way to create
+projects for the Physics activity mentioned above.
+
+**Project Length**<br>
+
+**350** hours
+
+**Difficulty**<br>
+
+**Medium**
+
+**Coding Mentors**<br>
+[Martin Abente](https://github.com/tchx84/)
+[Ibiam Chihurumnaya](https://github.com/chimosky/)
+[Walter Bender](https://github.com/walterbender/)
 
 -------------
 

@@ -5,6 +5,7 @@
 * [Improve and maintain 6 Sugar activities](#improve-and-maintain-6-sugar-activities)
 * [Port Sugar and core activities to Python 3](#port-sugar-and-core-activities-to-python-3)
 * [Maintain/port Sugar activities to FlatPak](#maintain-port-sugar-activities-to-flatpak)
+* [Maintenance/bug fixes for Music Blocks 3](#maintenace-bug-fixes-for-music-blocks-3)
 
 [Administrative notes](#administrative-notes)
 
@@ -196,6 +197,36 @@ projects for the Physics activity mentioned above.
 [Martin Abente](https://github.com/tchx84/)
 [Ibiam Chihurumnaya](https://github.com/chimosky/)
 [Walter Bender](https://github.com/walterbender/)
+
+-------------
+
+# Maintenance/bug fixes for Music Blocks 3
+
+**Prerequisites**<br>
+ - Strong experience with JavaScript
+ - Experience with basic music concepts
+
+**Description**<br>We are largely in maintenance mode for [Music
+  Blocks 3.0](https://github.com/sugarlabs/musicblocks) while we
+  continue to move forward on [Musick Blocks
+  4.0](https://github.com/sugarlabs/musicblocks-v4). That said, there
+  are a number of small bugs/regressions that would be worth fixing.
+
+  See [low-hanging
+  fruit](https://github.com/sugarlabs/musicblocks/issues?q=is%3Aissue+is%3Aopen+label%3A%22Good+first+issue%22)
+  for a list of issues we'd like to close out during GSoC 2023.
+
+**Project Length**<br>
+
+**150** hours
+
+**Difficulty**<br>
+
+**Low**
+
+**Coding Mentors**<br>
+[Walter Bender](https://github.com/walterbender/)
+[Devin Ulibarri)(https://github.com/pikurasa/)
 
 -------------
 

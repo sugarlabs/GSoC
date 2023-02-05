@@ -6,6 +6,8 @@
 * [Port Sugar and core activities to Python 3](#port-sugar-and-core-activities-to-python-3)
 * [Maintain/port Sugar activities to FlatPak](#maintain-port-sugar-activities-to-flatpak)
 * [Maintenance/bug fixes for Music Blocks 3](#maintenace-bug-fixes-for-music-blocks-3)
+* [Sugarizer VueJS Core](#sugarizer-vuejs-core)
+* [Sugarizer Server Testing Improvement](#sugarizer-server-testing-improvement)
 
 [Administrative notes](#administrative-notes)
 
@@ -226,7 +228,96 @@ projects for the Physics activity mentioned above.
 
 **Coding Mentors**<br>
 [Walter Bender](https://github.com/walterbender/)
-[Devin Ulibarri)(https://github.com/pikurasa/)
+[Devin Ulibarri](https://github.com/pikurasa/)
+
+-------------
+
+# Sugarizer VueJS Core
+
+![](assets/sugarizer_vue.png)
+
+**Prerequisites**<br>
+- Experience with JavaScript/HTML5 development
+- Experience with Vue.js framework development
+- Good understanding of Sugarizer Core architecture
+
+**Project length**<br>
+**175** hours
+
+**Difficulty:** &#9733; &#9733; &#9734; (medium)
+
+**Description**<br>Sugarizer Core UI rely on EnyoJS, a deprecated frameworks initially developed for WebOS.  
+<br>
+Last year a GSoC project built the basic components stack of the Sugarizer UI (see [here](https://github.com/S-kus/Sugarizer_vueJs)).<br>
+The idea of this new project is to reimplement a part of Sugarizer Core UI using VueJS components. 
+
+**Tasks**<br> 
+
+Use Sugarizer VueJS components and Sugarizer Server API to implement screens: 
+- First screen
+- Login 
+- Home view 
+- List view 
+- Settings 
+
+Each screen should integrate unit testing and code coverage.
+
+**First steps to starts**<br>
+
+- Complete both the [Sugarizer Vanilla Javascript activity development tutorial](https://github.com/llaske/sugarizer/blob/dev/docs/tutorial/VanillaJS/tutorial.md) and the [Sugarizer Vue.js activity development tutorial](https://github.com/llaske/sugarizer/blob/dev/docs/tutorial/VueJS/tutorial.md).
+- Explore the [VueJS Sugarizer UI components](https://github.com/S-kus/Sugarizer_vueJs) and try to use it in a web page.
+- Read and test the L10N study [here](https://github.com/llaske/l10nstudy) because the first step of the project will be to create a localization component.
+
+**Mentor**<br>
+[Lionel Laské](https://github.com/llaske/)
+
+
+-------------
+
+# Sugarizer Server Testing Improvement 
+
+![](assets/sugarizertesting.png)
+
+**Prerequisites**<br>
+- Experience with JavaScript/HTML5 development
+- Experience with node.js and EJS framework
+- Experience with unit testing tools
+
+**Project length**<br>
+**175** hours
+
+**Difficulty:** &#9733; &#9733; &#9734; (medium)
+
+**Description**<br>
+This project aims to increase the quality of Sugarizer Server. It consists in improving the coverage of unit tests and adding interface tests but also in making some evolutions of the UI. 
+
+**Tasks**<br> 
+
+- Improve unit testing: define real use case, implement new tests and ensure database is clean at the end of unit testing 
+- Improve test coverage: add new test to improve test coverage ratio 
+- Add some UI tests using [Selenium](https://www.selenium.dev/) testing tool
+- Add a Github action to launch unit testing for each new commit on dev branch 
+- Improve UI experience: 
+    - Fix next page button in users/assignment view don't take into account search criteria 
+    - Add users filtering while exporting 
+    - Improve create assignment form: add a search activity in journal feature 
+    - Add an export button to assignment deliveries 
+    - Add a recent assignment deliveries widget in teacher home screen 
+
+
+**First steps to starts**<br>
+
+* Install Sugarizer Server and dashboard
+* Create different Sugarizer users/teachers/classrooms and see how the dashboard work
+* Play with current unit testing and propose improvement
+* Study the source code of dashboard, try to fix bug or, propose improvement
+* Learn how [Selenium](https://www.selenium.dev/) works and propose how it could be use to test Sugarizer Server dashboard UI
+
+
+**Mentor**<br>
+[Nikhil Mehra](https://github.com/NikhilM98/)
+[Jaikishan Brijwani](https://github.com/ricknjacky/)
+
 
 -------------
 

@@ -8,6 +8,7 @@
 * [Maintenance/bug fixes for Music Blocks 3](#maintenace-bug-fixes-for-music-blocks-3)
 * [Sugarizer VueJS Core](#sugarizer-vuejs-core)
 * [Sugarizer Server Testing Improvement](#sugarizer-server-testing-improvement)
+* [GTK4 Exploration](#gtk4-exploration)
 
 [Administrative notes](#administrative-notes)
 
@@ -317,6 +318,39 @@ This project aims to increase the quality of Sugarizer Server. It consists in im
 [Nikhil Mehra](https://github.com/NikhilM98/)
 [Jaikishan Brijwani](https://github.com/ricknjacky/)
 
+# GTK4 Exploration
+
+**Prerequisites**<br>
+- Experience with C
+- Experience with Python
+- Experience with GTK
+- Good understanding of Sugar Core architecture
+
+**Project length**<br>
+**350** hours
+
+**Difficulty:**<br>
+**Hard**
+
+**Description**<br>
+Sugar 0.120 runs on GTK3 and needs to be ported to GT4, we need to port Sugar and it's core activities to support GTK4 before GTK3 gets to its EOL.
+
+**Project Task Checklist**
+- Migrate minimal [sugar-toolkit-gtk3](https://github.com/sugarlabs/sugar-toolkit-gtk3) components to support Hello World activity, in particular the activity and graphics classes.
+- Migrate [Hello World](https://github.com/sugarlabs/hello-world) activity.
+- Document migration strategy based on extending any existing upstream GTK3 to GTK4 porting documentation.
+- Migrate remaining toolkit components.
+- Extend Hello World to use remaining toolkit components, and rename as a Toolkit Test activity,
+- Migrate [Sugar](https://github.com/sugarlabs/sugar).
+- Migrate the [Fructose](https://wiki.sugarlabs.org/go/Development_Team/Release/Modules) activity set, as time permits.
+
+**Steps to start**
+- Plan migration.
+- Setup a [live build](https://github.com/sugarlabs/sugar/blob/master/docs/development-environment.md#sugar-live-build) development environment.
+- See the [GTK4 migrating](https://docs.gtk.org/gtk4/migrating-3to4.html#stop-using-direct-access-to-gdkevent-structs) doc.
+
+**Coding Mentors**<br>
+[Ibiam Chihurumnaya](https://github.com/chimosky/)
 
 -------------
 

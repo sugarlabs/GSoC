@@ -110,8 +110,7 @@ To be added.
  - Experience with Python
  - Experience with porting telepathy bindings
  - Strong experience with
-   [Sugar Desktop](https://github.com/sugarlabs/sugar) and activities
-Activities](https://github.com/sugarlabs/sugar-docs/blob/master/src/contributing.md#modifying-activities)
+   [Sugar Desktop](https://github.com/sugarlabs/sugar) and [Activities](https://github.com/sugarlabs/sugar-docs/blob/master/src/contributing.md#modifying-activities)
 
 
 **Description**<br> Support for Python 2 was withdrawn by the Python

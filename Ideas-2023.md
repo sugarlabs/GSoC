@@ -349,6 +349,9 @@ Sugar 0.120 runs on GTK3 and needs to be ported to GT4, we need to port Sugar an
 - Setup a [live build](https://github.com/sugarlabs/sugar/blob/master/docs/development-environment.md#sugar-live-build) development environment.
 - See the [GTK4 migrating](https://docs.gtk.org/gtk4/migrating-3to4.html#stop-using-direct-access-to-gdkevent-structs) doc.
 
+**Coding Mentors**<br>
+[Ibiam Chihurumnaya](https://github.com/chimosky/)
+
 -------------
 
 # Administrative notes

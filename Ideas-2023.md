@@ -324,6 +324,7 @@ This project aims to increase the quality of Sugarizer Server. It consists in im
 **Prerequisites**<br>
 - Experience with C
 - Experience with Python
+- Experience with GTK
 - Good understanding of Sugar Core architecture
 
 **Project length**<br>

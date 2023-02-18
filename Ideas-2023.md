@@ -296,13 +296,14 @@ This project aims to increase the quality of Sugarizer Server. It consists in im
 - Improve unit testing: define real use case, implement new tests and ensure database is clean at the end of unit testing 
 - Improve test coverage: add new test to improve test coverage ratio 
 - Add some UI tests using [Selenium](https://www.selenium.dev/) testing tool
-- Add a Github action to launch unit testing for each new commit on dev branch 
+- Add a Github action to launch unit testing for each new commit on dev branch [#293](https://github.com/llaske/sugarizer-server/issues/293)
 - Improve UI experience: 
-    - Fix next page button in users/assignment view don't take into account search criteria 
-    - Add users filtering while exporting 
-    - Improve create assignment form: add a search activity in journal feature 
-    - Add an export button to assignment deliveries 
-    - Add a recent assignment deliveries widget in teacher home screen 
+    - Replace Bootstrap tour by IntroJS in tutorial [#363](https://github.com/llaske/sugarizer-server/issues/363)
+    - Fix next page button in users/assignment view don't take into account search criteria [#364](https://github.com/llaske/sugarizer-server/issues/364)
+    - Add users filtering while exporting [#313](https://github.com/llaske/sugarizer-server/issues/313)
+    - Improve create assignment form: add a search activity in journal feature [#365](https://github.com/llaske/sugarizer-server/issues/365)
+    - Add an export button to assignment deliveries [#366](https://github.com/llaske/sugarizer-server/issues/366)
+    - Add a recent assignment deliveries widget in teacher home screen [#367](https://github.com/llaske/sugarizer-server/issues/367)
 
 
 **First steps to starts**<br>

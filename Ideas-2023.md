@@ -319,6 +319,67 @@ This project aims to increase the quality of Sugarizer Server. It consists in im
 [Nikhil Mehra](https://github.com/NikhilM98/)
 [Jaikishan Brijwani](https://github.com/ricknjacky/)
 
+-------------
+
+# Sugarizer Word Puzzle and Chart activities
+
+![](assets/chart.png)
+
+**Prerequisites**<br>
+- Experience with JavaScript/HTML5 development
+- Experience with Vue.js framework development
+- Experience with ReactJS framework development
+- Good understanding of Sugarizer Core architecture
+
+**Project length**<br>
+**175** hours
+
+**Difficulty:** &#9733; &#9733; &#9734; (medium)
+
+**Description**<br>The goal of this project is to develop new Sugarizer activities asked by teachers from Sugarizer deployments.
+
+Specifically, the goal of this project is to:
+
+- Develop a new Chart activity
+- Add a new template Word Puzzle for Exerciser activity 
+<br>
+ 
+
+**Tasks**<br> 
+
+*Chart Activity*
+
+The Chart activity will be inspired by the [Sugar Chart activity](https://help.sugarlabs.org/chart.html).  
+
+![](assets/chart-sugar.png)
+
+The detailed features will be discussed with the project mentor but the new activity will at least reproduce current features of the activity and add new features (share the activity, export chart as image, ...).
+
+
+*Word Puzzle template*
+
+The new template Word Puzzle in Exerciser activity will enable a teacher to create word puzzles Exercise by inputting custom words on the go during a lesson and have the learners practice. 
+
+The new template will allow to type words by text, images, sounds, speech or videos. It should work with the mouse and on touch devices.
+
+![](assets/wordpuzzle.png)
+
+The detailed features will be discussed with the project mentor but the new template will reproduce current features (edit, play, share, view results, convert to evaluation, ...) of other templates in Exerciser.
+
+It's possible to take inspiration for this new template from [Learning Apps web site](https://learningapps.org/) which propose a Word Puzzle template too.
+
+**First steps to starts**<br>
+
+- Complete both the [Sugarizer Vanilla Javascript activity development tutorial](https://github.com/llaske/sugarizer/blob/dev/docs/tutorial/VanillaJS/tutorial.md) and the [Sugarizer Vue.js activity development tutorial](https://github.com/llaske/sugarizer/blob/dev/docs/tutorial/VueJS/tutorial.md).
+- Study the [source code](https://github.com/llaske/ExerciserReact) of the Exerciser activity, try to fix bug or propose improvement
+- Install Sugar and the Sugar Chart activity and play with it to understand its current features.
+
+
+**Mentor**<br>
+[Lionel Laské](https://github.com/llaske/)
+
+-------------
+
 # GTK4 Exploration
 
 **Prerequisites**<br>

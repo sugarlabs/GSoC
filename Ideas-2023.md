@@ -8,6 +8,7 @@
 * [Maintenance/bug fixes for Music Blocks 3](#maintenace-bug-fixes-for-music-blocks-3)
 * [Sugarizer VueJS Core](#sugarizer-vuejs-core)
 * [Sugarizer Server Testing Improvement](#sugarizer-server-testing-improvement)
+* [Sugarizer Word Puzzle and Chart activities](#sugarizer-word-puzzle-and-chart-activities)
 * [GTK4 Exploration](#gtk4-exploration)
 
 [Administrative notes](#administrative-notes)

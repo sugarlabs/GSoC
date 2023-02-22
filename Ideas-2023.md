@@ -5,7 +5,7 @@
 * [Improve and maintain 6 Sugar activities](#improve-and-maintain-6-sugar-activities)
 * [Port Sugar and core activities to Python 3](#port-sugar-and-core-activities-to-python-3)
 * [Maintain/port Sugar activities to FlatPak](#maintain-port-sugar-activities-to-flatpak)
-* [Maintenance/bug fixes for Music Blocks 3](#maintenace-bug-fixes-for-music-blocks-3)
+* [Maintenance/bug fixes for Music Blocks 3](#maintenancebug-fixes-for-music-blocks-3)
 * [Sugarizer VueJS Core](#sugarizer-vuejs-core)
 * [Sugarizer Server Testing Improvement](#sugarizer-server-testing-improvement)
 * [Sugarizer Word Puzzle and Chart activities](#sugarizer-word-puzzle-and-chart-activities)

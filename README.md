@@ -102,7 +102,7 @@ mean you can't ask questions, but a clueless user and a lazy
 developer are two different things.
 
 Tell things as you see them. Be polite, but don't sugar coat it.
-You don't have to apologize everytime you make a mistake; but
+You don't have to apologize everytime you make a mistake, but
 avoid repeating it again ;-)
 
 Also see our [Code of

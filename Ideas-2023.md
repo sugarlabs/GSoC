@@ -5,6 +5,9 @@
 * [Improve and maintain 6 Sugar activities](#improve-and-maintain-6-sugar-activities)
 * [Port Sugar and core activities to Python 3](#port-sugar-and-core-activities-to-python-3)
 * [Maintain/port Sugar activities to FlatPak](#maintain-port-sugar-activities-to-flatpak)
+* [Music Blocks 4 Project Builder Integration](#music-blocks-4-project-builder-integration)
+* [Music Blocks 4 Widgets Framework](#music-blocks-4-widgets-framework)
+* [Music Blocks 4 Programming Framework Enhancements](#music-blocks-4-programing-framework-enhancements)
 * [Maintenance/bug fixes for Music Blocks 3](#maintenace-bug-fixes-for-music-blocks-3)
 * [Sugarizer VueJS Core](#sugarizer-vuejs-core)
 * [Sugarizer Server Testing Improvement](#sugarizer-server-testing-improvement)
@@ -202,6 +205,127 @@ projects for the Physics activity mentioned above.
 [Walter Bender](https://github.com/walterbender/)
 
 -------------
+
+# Music Blocks 4 Project Builder Integration
+
+**Difficulty:** &#9733; &#9733; &#9733; &#9733; &#9734;
+
+**Project Length:** **350** hours
+
+**Prerequisites**
+
+* Strong experience with TypeScript 4
+* Strong experience with JavaScript DOM API, Canvas API
+* Strong experience with React Functional Components and Hooks (React 18)
+* Understanding of the prototype
+[**Project Builder Framework**](https://github.com/sugarlabs/musicblocks-v4-builder-framework)
+
+**Description**
+
+The objective is to build the new _Project Builder Framework_ for _Music Blocks_ (_v4_).
+The _Project Builder_ is the graphical blocks manager module which can be used to
+create _Music Blocks_ programs. There is a prototype in
+[`musicblocks-v4-builder-framework`](https://github.com/sugarlabs/musicblocks-v4-builder-framework).
+
+General objectives are:
+
+* Refactor the prototype code
+* Integrate it in `musicblocks-v4`
+* Create a wrapper component _Project Builder_ (_builder_) in `musicblocks-v4`
+* Add utilities to the wrapper component so that the _Project Builder_ component
+can communicate with the _Specification_ and _Syntax Tree_ APIs of the
+[**Programming Framework**](https://github.com/sugarlabs/musicblocks-v4-lib)
+* Create a _Palette_ (_palette_) component
+
+**Mentors**
+
+[Anindya Kundu](https://github.com/meganindya/)
+
+**Assisting Mentors**
+
+[Walter Bender](https://github.com/walterbender/)
+
+------------
+
+# Music Blocks 4 Widgets Framework
+
+**Difficulty:** &#9733; &#9733; &#9733; &#9734; &#9734;
+
+**Project Length:** **175** hours
+
+**Prerequisites**
+
+* Good experience with TypeScript 4
+* Good experience with React Functional Components and Hooks (React 18)
+
+**Description**
+
+TBD.
+
+The first order of business is to build a widget framework that involves the main
+widget window and its paraphernalia, and integration hooks to the Singer API.
+The individual widgets will be built on top of that.
+
+**Mentors**
+
+[Walter Bender](https://github.com/walterbender/),
+[Devin Ulibarri](https://github.com/pikurasa/)
+
+**Coding Mentors**
+
+[Anindya Kundu](https://github.com/meganindya/)
+
+------------
+
+# Music Blocks 4 Programming Framework Enhancements
+
+**Difficulty:** &#9733; &#9733; &#9733; &#9733; &#9734;
+
+**Project Length:** **350** hours
+
+**Prerequisites**
+
+* Strong experience with TypeScript 4
+* Experience of writing tests using Jest
+* Good understanding of the JavaScript Event Loop
+
+**Description**
+
+There are three parts to this project:
+
+* Improvements and optimizations to the Program Syntax Framework
+* Enhancements and performance optimizations to the Execution Engine
+* Addition of Telemetry and Debugging support
+
+We need to revisit some design considerations made while initially building the
+Program Syntax Framework. This framework is responsible for defining the business
+logic and rules for units of a program's syntax (literals, expressions, statements,
+blocks, functions) and maintaining the Syntax Tree that represents a program.
+There's scope for some work to be done in it's refinement.
+
+The Execution Engine handles the runtime behavior of a program. Currently, it is
+in a very rudimentary state and is a work-in-progress. The goal is to build a low
+overhead interpreter that supports pseudo real-time and concurrency. Of course,
+JavaScript is single-threaded and the JavaScript engine on the browser doesn't
+support concurrency. So, we'll have to mock a closer behavior with Events.
+
+It is desirable to be able to monitor the runtime states of an executing program.
+We want to collect execution information, messages, errors while a program is
+executing, and also control the execution itself. The goal is to add support for
+the said.
+
+The framework code is contained in
+[github.com/sugarlabs/musicblocks-v4-lib](https://github.com/sugarlabs/musicblocks-v4-lib).
+
+**Mentors**
+
+[Anindya Kundu](https://github.com/meganindya/)
+
+**Assisting Mentors**
+
+[Walter Bender](https://github.com/walterbender/)
+
+------------
 
 # Maintenance/bug fixes for Music Blocks 3
 

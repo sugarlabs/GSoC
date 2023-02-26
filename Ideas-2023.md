@@ -260,11 +260,32 @@ can communicate with the _Specification_ and _Syntax Tree_ APIs of the
 
 **Description**
 
-TBD.
+In Music Blocks,
+[Widgets](https://github.com/sugarlabs/musicblocks/blob/master/guide/README.md#4-widgets)
+are tools that expose powerful ideas in music, such as rhythm, mode,
+temperament, etc. In Music Blocks v3, Widgets are subclessed from a
+common
+[framwwork](https://github.com/sugarlabs/musicblocks/blob/master/js/widgets/widgetWindows.js). They
+are launched from the blocks language itself so that Widget parameters
+can be programmed in the block language too -- although this is
+feature that adds lots of complexity to the code -- we will not
+support this in v4). However, a very important feature is that Widgets
+generate code as an output.
 
-The first order of business is to build a widget framework that involves the main
-widget window and its paraphernalia, and integration hooks to the Singer API.
-The individual widgets will be built on top of that.
+The first order of business is to build a widget framework that
+involves the main widget window and its paraphernalia, and integration
+hooks to the Singer API.  The individual widgets will be built on top
+of that.
+
+Priorities for the summer would be:
+
+* the framework
+
+* Rhythm Maker (drum machines)
+
+* Musical Mode
+
+* Phrase Maker
 
 **Mentors**
 

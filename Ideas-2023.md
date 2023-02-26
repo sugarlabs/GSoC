@@ -8,7 +8,7 @@
 * [Music Blocks 4 Project Builder Integration](#music-blocks-4-project-builder-integration)
 * [Music Blocks 4 Widgets Framework](#music-blocks-4-widgets-framework)
 * [Music Blocks 4 Programming Framework Enhancements](#music-blocks-4-programing-framework-enhancements)
-* [Maintenance/bug fixes for Music Blocks 3](#maintenace-bug-fixes-for-music-blocks-3)
+* [Maintenance/bug fixes for Music Blocks 3](#maintenancebug-fixes-for-music-blocks-3)
 * [Sugarizer VueJS Core](#sugarizer-vuejs-core)
 * [Sugarizer Server Testing Improvement](#sugarizer-server-testing-improvement)
 * [Sugarizer Word Puzzle and Chart activities](#sugarizer-word-puzzle-and-chart-activities)

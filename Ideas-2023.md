@@ -60,7 +60,7 @@ will help you to gain experience
 **Medium**
 
 **Coding Mentors**<br>
-[Ibiam Chihurumnaya](https://github.com/chimosky/),
+[Ibiam Chihurumnaya](https://github.com/chimosky/), [Sourabha G](https://github.com/sourabhaa)
 
 **Assisting Mentors**<br>
 To be added.
@@ -102,7 +102,7 @@ will help you to gain experience.
 **Medium**
 
 **Coding Mentors**<br>
-[Ibiam Chihurumnaya](https://github.com/chimosky/),
+[Ibiam Chihurumnaya](https://github.com/chimosky/), [Sourabha G](https://github.com/sourabhaa)
 
 **Assisting Mentors**<br>
 To be added.

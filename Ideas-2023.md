@@ -169,8 +169,7 @@ To be added.
 **Prerequisites**<br>
  - Experience with Python
  - Strong experience with
-   [Sugar Desktop](https://github.com/sugarlabs/sugar) and activities
-Activities](https://github.com/sugarlabs/sugar-docs/blob/master/src/contributing.md#modifying-activities)
+   [Sugar Desktop](https://github.com/sugarlabs/sugar) and [Activities](https://github.com/sugarlabs/sugar-docs/blob/master/src/contributing.md#modifying-activities)
 
 **Description**<br>We have a number of Sugar Activities bundled with
   [Flatpak](https://flatpak.org/) as a way to reach a broader audience

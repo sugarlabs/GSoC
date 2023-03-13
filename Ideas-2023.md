@@ -577,9 +577,9 @@ Sugar 0.120 runs on GTK3 and needs to be ported to GT4, we need to port Sugar an
 **Description**<br>
 Sugar runs on RPi and we should take advantage of that to reach the
 Maker community. This project involves ensuring that Sugar runs w/o
-and issues; that it is packaged in a way that is suiable for inclusion
-on https://www.raspberrypi.com/software/operating-systems/. Also,
-there are any number of Sugar activities that could be enhanced by
+any issues; that it is packaged in a way that is suiable for inclusion
+on the [Raspberry Pi operating system images](https://www.raspberrypi.com/software/operating-systems/).
+Also, there are any number of Sugar activities that could be enhanced by
 knowing some of the details of the RPi, such as Turtle Blocks,
 Measure, and Pippy, all of which could be tailored to take advantage
 of the sensors available on RPi.

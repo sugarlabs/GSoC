@@ -13,6 +13,7 @@
 * [Sugarizer Server Testing Improvement](#sugarizer-server-testing-improvement)
 * [Sugarizer Word Puzzle and Chart activities](#sugarizer-word-puzzle-and-chart-activities)
 * [GTK4 Exploration](#gtk4-exploration)
+* [Sugar on Raspberry Pi](#sugar-on-raspberry-pi)
 
 [Administrative notes](#administrative-notes)
 
@@ -558,6 +559,35 @@ Sugar 0.120 runs on GTK3 and needs to be ported to GT4, we need to port Sugar an
 
 **Coding Mentors**<br>
 [Ibiam Chihurumnaya](https://github.com/chimosky/)
+
+-------------
+
+## Sugar on Raspberry Pi
+
+**Prerequisites**<br>
+
+**Project length**<br>
+**175** hours
+
+**Difficulty**<br>
+
+**Easy**
+
+**Description**<br>
+Sugar runs on RPi and we should take advantage of that to reach the
+Maker community. This project involves ensuring that Sugar runs w/o
+any issues; that it is packaged in a way that is suiable for inclusion
+on the [Raspberry Pi operating system images](https://www.raspberrypi.com/software/operating-systems/).
+Also, there are any number of Sugar activities that could be enhanced by
+knowing some of the details of the RPi, such as Turtle Blocks,
+Measure, and Pippy, all of which could be tailored to take advantage
+of the sensors available on RPi.
+
+**Mentor**<br>
+Walter Bender
+
+**Backup mentor**<br>
+Alex Perez
 
 -------------
 

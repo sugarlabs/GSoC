@@ -4,7 +4,7 @@
 * [Improve and maintain 12 Sugar activities](#improve-and-maintain-12-sugar-activities)
 * [Improve and maintain 6 Sugar activities](#improve-and-maintain-6-sugar-activities)
 * [Port Sugar and core activities to Python 3](#port-sugar-and-core-activities-to-python-3)
-* [Maintain/port Sugar activities to FlatPak](#maintain-port-sugar-activities-to-flatpak)
+* [Maintain/port 12 Sugar activities to FlatPak](#maintain-port-12-sugar-activities-to-flatpak)
 * [Music Blocks 4 Project Builder Integration](#music-blocks-4-project-builder-integration)
 * [Music Blocks 4 Widgets Framework](#music-blocks-4-widgets-framework)
 * [Music Blocks 4 Programming Framework Enhancements](#music-blocks-4-programing-framework-enhancements)
@@ -165,7 +165,7 @@ To be added.
 
 ----
 
-# Maintain Port Sugar Activities to Flatpak
+# Maintain Port 12 Sugar Activities to Flatpak
 
 **Prerequisites**<br>
  - Experience with Python

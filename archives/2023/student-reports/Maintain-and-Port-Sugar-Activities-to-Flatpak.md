@@ -11,7 +11,7 @@ Maintain and Port Sugar Activities to Flatpak
 
 *Mentor - [Martin Abente Lahaye](https://github.com/tchx84), [Ibiam Chihurumnaya](https://github.com/chimosky/)*
 
-Reaching mid-evaluation for my project, I have learned a lot and helped to update the sugar activities to Flatpak.
+Reaching final evaluation for my project, I have learned a lot and helped to update the sugar activities to Flatpak.
 Here is a list of changes I have made till now:
 
 ## Activities updated
@@ -88,4 +88,4 @@ Here is a list of changes I have made till now:
 | 4.  |        Paint        | [New Tagged Release](https://github.com/sugarlabs/paint-activity/issues/40)                                       |  Resolved  |                                                                                                                         |
 | 5.  |      ReadETexts     | [Gtk warnings](https://github.com/sugarlabs/readetexts/issues/24)                                                 |    Open    |                                                                                                                         |
 
-Thanks to my mentors for their guidance and many useful tips, I have been enjoying working with them! I will try porting more new packages to Flatpak in the coming month too.
+Thanks to my mentors for their guidance and many useful tips, I really enjoyed working with them!

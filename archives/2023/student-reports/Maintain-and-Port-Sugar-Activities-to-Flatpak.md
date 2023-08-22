@@ -63,7 +63,7 @@ Here is a list of changes I have made till now:
 | 24. |         Paint       | Upstream:<br> [v71](https://github.com/sugarlabs/paint-activity/pull/41)                                          |   Merged   | Closed [#40](https://github.com/sugarlabs/paint-activity/issues/40)                                                     |
 |     |                     | [Update BaseApp and activity](https://github.com/flathub/org.sugarlabs.Paint/pull/3)                              |   Merged   |                                                                                                                         |
 |     |                     | [Add data checker and README](https://github.com/flathub/org.sugarlabs.Paint/pull/4)                              |   Merged   |                                                                                                                         |
-| 25. |         Speak       | [Update to BaseApp 23.06 and Runtime 44](https://github.com/flathub/org.sugarlabs.Speak/pull/5)                   |    Open    |                                                                                                                         |
+| 25. |         Speak       | [Update to BaseApp 23.06 and Runtime 44](https://github.com/flathub/org.sugarlabs.Speak/pull/5)                   |   Merged   |                                                                                                                         |
 
 ## Activities Ported
 | #   | **Flatpak Package** | **Pull Requests**                                                                                                 | **Status** | **Comments**                                                                                                            |

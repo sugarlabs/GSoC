@@ -16,7 +16,7 @@
 
 ------------
 
-## Math Game
+## Math Games
 
 **Prerequisites**<br>
  - Experience with Python
@@ -30,7 +30,7 @@ In the proposal, please mention _some_ specific ideas for games.
 
 **Project Length**<br>
 
-Either *175** or **350** hours
+Either **175** or **350** hours
 
 **Difficulty**<br>
 

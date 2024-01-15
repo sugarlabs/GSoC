@@ -219,7 +219,7 @@ projects for the Physics activity mentioned above.
 
 **Project Length**<br>
 
-**150** hours
+**175** hours
 
 **Difficulty**<br>
 
@@ -272,7 +272,7 @@ projects for the Physics activity mentioned above.
 
 **Project Length**<br>
 
-**150** hours
+**175** hours
 
 **Difficulty**<br>
 

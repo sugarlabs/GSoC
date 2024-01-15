@@ -10,7 +10,7 @@
 ## Introduction
 Google Summer of Code is a *global program focused on bringing
 more student developers into open source software development*.
-See [GSoC 2023 how it works](https://summerofcode.withgoogle.com/how-it-works)
+See [GSoC 2024 how it works](https://summerofcode.withgoogle.com/how-it-works)
 
 Sugar Labs is a Google Summer of Code 2023 mentoring organisation.
 

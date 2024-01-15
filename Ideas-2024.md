@@ -1,6 +1,7 @@
 # GSoC 2024 Ideas
 
 ## Project Ideas
+* [Math Games](#math-games)
 * [Improve and maintain 12 Sugar activities](#improve-and-maintain-12-sugar-activities)
 * [Improve and maintain 6 Sugar activities](#improve-and-maintain-6-sugar-activities)
 * [Port Sugar and core activities to Python 3](#port-sugar-and-core-activities-to-python-3)
@@ -12,6 +13,34 @@
 * [GTK4 exploration](#sugar-on-raspberry-pi)
 
 [Administrative notes](#administrative-notes)
+
+------------
+
+## Math Game
+
+**Prerequisites**<br>
+ - Experience with Python
+ - Experience with Sugar activities
+ - Interest in math puzzles and games
+
+**Description**<br>
+While Sugar has lots of activities, you can never have enough math games and puzzles. There is a great website with lots of ideas (See https://www.cut-the-knot.org/) for Sugar acitvities. This project (either medium or large) would be do develop 4 to 8 new activities based on some of Bogomolny's ideas.
+
+In the proposal, please mention _some_ specific ideas for games.
+
+**Project Length**<br>
+
+Either *175** or **350** hours
+
+**Difficulty**<br>
+
+**Medium**
+
+**Coding Mentors**<br>
+[Ibiam Chihurumnaya](https://github.com/chimosky/)
+
+**Assisting Mentors**<br>
+[Walter Bender](https://github.com/walterbender/)
 
 ------------
 

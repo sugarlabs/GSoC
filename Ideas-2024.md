@@ -201,19 +201,12 @@ To be added.
   within the Linux community. We'd like to both keep those activities
   up to date and also port more.
 
-Two quite popular acitivities are
-[Pippy](https://beta.flathub.org/apps/details/org.sugarlabs.Pippy) and
-[Physics](https://beta.flathub.org/apps/details/org.sugarlabs.Physics). Both
-of these activities are using an unsupported version of pygame, so
-they can no longer be updated. The first goal, then, of this project
-would be to port these activities to pygame-2.0. Then, repackage them.
+We'd love to add more Sugar activities to the Flatpak
+collection, a search for sugar on [flathub](https://flathub.org/apps/search?q=sugar) shows
+we have about 27 activities on flathub and we'd like to increase that number.
 
-From there, we'd love to add more Sugar activities to the Flatpak
-collection.
-
-It would also be nice to include the physics plugin with the
-TurtleBlocks Flatpak bundle, since it offers another fun way to create
-projects for the Physics activity mentioned above.
+We have a [guide](https://github.com/tchx84/sugarapp/blob/master/flatpak-guide.md) that shows
+you how to port Sugar activities to Flatpak.
 
 **Project Length**<br>
 

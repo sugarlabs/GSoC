@@ -206,7 +206,7 @@ collection, a search for sugar on [flathub](https://flathub.org/apps/search?q=su
 we have about 27 activities on flathub and we'd like to increase that number.
 
 We have a [guide](https://github.com/tchx84/sugarapp/blob/master/flatpak-guide.md) that shows
-you how to port Sugar activities to Flatpak.
+you how to port Sugar activities to Flatpak, you'll also need to [submit](https://docs.flathub.org/docs/for-app-authors/submission/) the activity to flatpak.
 
 **Project Length**<br>
 

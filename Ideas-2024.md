@@ -9,6 +9,8 @@
 * [Make your own Lesson Plan for Music Blocks](#make-your-own-lesson-plan-for-music-blocks)
 * [Maintain/port 12 Sugar activities to FlatPak](#maintain-port-12-sugar-activities-to-flatpak)
 * [Maintenance/bug fixes for Music Blocks 3](#maintenancebug-fixes-for-music-blocks-3)
+* [Sugarizer VueJS App](#sugarizer-vuejs-app)
+* [Sugarizer 3D Volume activity](#sugarizer-3d-volume-activity)
 * [Sugar on Raspberry Pi](#gtk4-exploration)
 * [GTK4 exploration](#sugar-on-raspberry-pi)
 
@@ -368,6 +370,119 @@ Walter Bender
 
 **Backup mentor**<br>
 Alex Perez
+
+
+-------------
+
+# Sugarizer VueJS App
+
+![](assets/sugarizer_vue.png)
+
+**Prerequisites**<br>
+- Experience with JavaScript/HTML5 development
+- Experience with Vue.js framework development
+- Good understanding of Sugarizer Core architecture
+
+**Project length**<br>
+**175** hours
+
+**Difficulty:** &#9733; &#9733; &#9734; (medium)
+
+**Description**<br>Sugarizer Core UI rely on EnyoJS, a deprecated frameworks initially developed for WebOS.  
+<br>
+Last year a GSoC project built first screens of Sugarizer Core using VueJS.
+<br>
+The idea of this new project is to finalize the implementation to have a really working Sugarizer VueJS App. <br>
+
+**Tasks**<br> 
+
+- Implement remaining screens: 
+  - Neighborhood view 
+  - Journal View 
+- Implement the tutorial
+- Port the Electron part to be able to work with the new implementation
+- Build Sugarizer for Android and test the new implementation to ensure it works
+
+
+**First steps to starts**<br>
+
+- Complete both the [Sugarizer Vanilla Javascript activity development tutorial](https://github.com/llaske/sugarizer/blob/dev/docs/tutorial/VanillaJS/tutorial.md) and the [Sugarizer Vue.js activity development tutorial](https://github.com/llaske/sugarizer/blob/dev/docs/tutorial/VueJS/tutorial.md).
+- Install the current Sugarizer Vue.js implementation from branch  [feature/v2](https://github.com/llaske/sugarizer/tree/feature/v2):
+    - See README to understand how to install and run it 
+    - Test it from file:// 
+    - Test if from a local Sugarizer Server 
+    - Identify differences with the legacy Sugarizer implementation 
+    - Check for bug or for unexpected behavior 
+    - Suggest improvement or fix 
+- Install and test [Sugarizer APK Builder](https://github.com/llaske/sugarizer-apkbuilder) to generate Sugarizer for Android.
+
+**Mentor**<br>
+[Lionel Laské](https://github.com/llaske/)
+
+
+-------------
+
+
+# Sugarizer 3D Volume activity
+
+![](assets/3dvolume.png)
+
+**Prerequisites**<br>
+- Experience with JavaScript/HTML5 development
+- Experience with Vue.js framework development
+- Understanding of 3D graphics and experience with a 3D engine
+
+**Project length**<br>
+**175** hours
+
+**Difficulty:** &#9733; &#9733; &#9734; (medium)
+
+**Description**<br> The objective of this project is to create a new Sugarizer activity to explore volume using dices.  
+<br>
+Features: 
+* Display volumes 
+* Zoom in/out button (or touch) 
+* Rotate board button (or touch) 
+* Choose color for facets and text (default is buddy colors) 
+* Choose volume size : 4, 6, 8, 10, 12, 20 (default is 6) 
+* Choose volume type : semi-transparent, without number (default), with number 
+* Choose board background: neutral (default), green playmat, red playmat, wood – friction depend of the background 
+* Add a volume on board 
+* Remove a volume on board 
+* Shake board: clicking on the button or shaking the device if an accelerator is included 
+* Share the activity: every users connected can do everything on board 
+* Display total: for volumes with number, when the app stop shaking 
+
+Inspirations:
+* Regular volumes (10 is irregular) 
+
+  - 4 Tetrahedron https://www.cut-the-knot.org/Curriculum/Geometry/Polyhedra/tetrahedron.shtml  
+  - 6 Cube https://www.cut-the-knot.org/Curriculum/Geometry/Polyhedra/cube.shtml  
+  - 8 Octahedron https://www.cut-the-knot.org/Curriculum/Geometry/Polyhedra/octahedron.shtml  
+  - 12 Dodecahedron https://www.cut-the-knot.org/Curriculum/Geometry/Polyhedra/dodecahedron.shtml  
+  - 20 Icosahedron https://www.cut-the-knot.org/Curriculum/Geometry/Polyhedra/icosahedron.shtml  
+
+* Dice simulators 
+
+  - https://dice-simulator.com/  
+  - https://heckadecimal.com/  
+
+* Existing Sugarizer activities 
+
+  - Physics JS because it allows handling of 2D objects in a board and use device accelerator 
+  - Fraction because it allows to customize the board 
+  - Planets because it's an activity to handle planets in 3D  
+
+**First steps to starts**<br>
+
+* Complete both the [Sugarizer Vanilla Javascript activity development tutorial](https://github.com/llaske/sugarizer/blob/dev/docs/tutorial/VanillaJS/tutorial.md) and the [Sugarizer Vue.js activity development tutorial](https://github.com/llaske/sugarizer/blob/dev/docs/tutorial/VueJS/tutorial.md).
+* Choose a JS 3D Framework: it should be open source, lightweight and be compatible with all Sugarizer platforms 
+* Try to create a Sugarizer activity displaying 3D objects
+* Create a mockup of the activity
+
+**Mentor**<br>
+[Lionel Laské](https://github.com/llaske/)
+
 
 -------------
 

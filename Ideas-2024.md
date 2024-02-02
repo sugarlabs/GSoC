@@ -294,6 +294,8 @@ you how to port Sugar activities to Flatpak, you'll also need to [submit](https:
   used to convert the musical and computational ideas expressed in a
   project to auto-generate the first draft of lesson plan.
 
+  Some examples of lesson plans can be found [here](https://drive.google.com/drive/folders/17dWeTTlA4Sv-KdQ4__9d2W6H0_3cu8EQ?usp=sharing).
+
 **Project Length**<br>
 
 **175** hours

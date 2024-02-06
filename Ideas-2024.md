@@ -239,7 +239,7 @@ you how to port Sugar activities to Flatpak, you'll also need to [submit](https:
 
   See [low-hanging
   fruit](https://github.com/sugarlabs/musicblocks/issues?q=is%3Aissue+is%3Aopen+label%3A%22Good+first+issue%22)
-  for a list of issues we'd like to close out during GSoC 2023.
+  for a list of issues we'd like to close out during GSoC 2024.
 
 **Project Length**<br>
 
@@ -490,7 +490,7 @@ Inspirations:
 
 # Administrative notes
 
-Above are a list of ideas we've planned for GSoC 2023 projects.
+Above are a list of ideas we've planned for GSoC 2024 projects.
 If you have any ideas which can be useful to us, but are not in the
 list, we'd love to hear from you.  You need not be a potential
 student or a mentor to suggest ideas.

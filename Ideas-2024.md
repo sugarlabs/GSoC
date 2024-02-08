@@ -7,6 +7,7 @@
 * [Port Sugar and core activities to Python 3](#port-sugar-and-core-activities-to-python-3)
 * [Musical ideation through Generative AI](#musical-ideation-through-generative-ai)
 * [Make your own Lesson Plan for Music Blocks](#make-your-own-lesson-plan-for-music-blocks)
+* [Musical creation and transcription assistance via generative AI](#musical-creation-and-transcription-assistance-via-generative-ai)
 * [Maintain/port 12 Sugar activities to FlatPak](#maintain-port-12-sugar-activities-to-flatpak)
 * [Maintenance/bug fixes for Music Blocks 3](#maintenancebug-fixes-for-music-blocks-3)
 * [Sugarizer VueJS App](#sugarizer-vuejs-app)
@@ -305,6 +306,36 @@ you how to port Sugar activities to Flatpak, you'll also need to [submit](https:
 **Difficulty**<br>
 
 **Medium**
+
+**Coding Mentors**<br>
+[Walter Bender](https://github.com/walterbender/)
+[Devin Ulibarri](https://github.com/pikurasa/)
+
+-------------
+
+# Musical creation and transcription assistance via generative AI
+
+**Prerequisites**<br>
+ - Experience with JavaScript
+ - Experience with musical theory/composition
+ - Experience with large language models (LLMs)
+
+**Description**<br>Many people have musical ideas, but struggle to
+  articulate them. Generative AI has promise to help people find a way
+  to transcribe their musical ideas. The goal would be to create a
+  generative AI tool that assists users such that they could sing (or
+  perform on an instrument) their idea -- as well as speak or type
+  instructions without music -- and be presented with some possible
+  transcriptions of their idea, output as Music Blocks code so that it
+  may be further refined and manipulated.
+
+**Project Length**<br>
+
+**350** hours
+
+**Difficulty**<br>
+
+**High**
 
 **Coding Mentors**<br>
 [Walter Bender](https://github.com/walterbender/)

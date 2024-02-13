@@ -1,21 +1,197 @@
 # GSoC 2024 Ideas
 
 ## Project Ideas
-* [Math Games](#math-games)
-* [Improve and maintain 12 Sugar activities](#improve-and-maintain-12-sugar-activities)
-* [Improve and maintain 6 Sugar activities](#improve-and-maintain-6-sugar-activities)
-* [Port Sugar and core activities to Python 3](#port-sugar-and-core-activities-to-python-3)
+* [Refactor the chatbot in the Speak Activity to use AI](#Refactor-the-chatbot-in-the-Speak-Activity-to-use-AI)
+* [Add an AI chatbot to the Chat Activity](#Add-an-AI-chatbot-to-the-Chat-Activity)
+* [Add AI-assistant to the Pippy Activity](*Add-AI-assistant-to-the-Pippy-Activity)
+* [Add AI-assistant to the Write Activity](#Add-AI-assistant-to-the-Write-Activity)
+* [Refactor the Wikipedia Activity to generate plain-language summaries](#Refactor-the-Wikipedia-Activity-to-generate-plain-language-summaries)
+* [Add real-time collaboration to Music Blocks](#Add-real-time-collaboration-to-Music-Blocks)
 * [Musical ideation through Generative AI](#musical-ideation-through-generative-ai)
 * [Make your own Lesson Plan for Music Blocks](#make-your-own-lesson-plan-for-music-blocks)
 * [Musical creation and transcription assistance via generative AI](#musical-creation-and-transcription-assistance-via-generative-ai)
 * [Maintain/port 12 Sugar activities to FlatPak](#maintain-port-12-sugar-activities-to-flatpak)
-* [Maintenance/bug fixes for Music Blocks 3](#maintenancebug-fixes-for-music-blocks-3)
 * [Sugarizer VueJS App](#sugarizer-vuejs-app)
 * [Sugarizer 3D Volume activity](#sugarizer-3d-volume-activity)
-* [Sugar on Raspberry Pi](#gtk4-exploration)
-* [GTK4 exploration](#sugar-on-raspberry-pi)
+* [Sugar on Raspberry Pi](#sugar-on-raspberry-pi)
+* [Math Games](#math-games)
+* [GTK4 exploration](#gtk4-exploration)
 
 [Administrative notes](#administrative-notes)
+
+------------
+
+## Refactor the chatbot in the Speak Activity to use AI
+
+**Prerequisites**<br>
+ - Experience with Python
+ - Experience with Sugar activities
+ - Experience with LLMs/Chatbots
+
+**Description**<br>
+
+The Speak Activity is one of most popular Sugar activities. It allows
+someone just beginning to familiarize themselves with reading to
+interact with synthetic speech. It has both chat and chatbot
+capabilities, so that learners can share what they type with others,
+often using invented spelling. It would be a nice improvement if there
+were a chatbot option to allow a learner to have a conversation with a
+more modern chatbot -- LLM-based. This would contextualize the
+learner's experience with writing -- a tool for both self express and
+communication.
+
+The project would entail both enabling the LLM chatbot and doing some
+tuning in order to accommodate invented spelling. Finally, it will be
+important to create the proper persona, in this case, an adult
+explaining to a young child.
+
+**Project Length**<br>
+
+**175** hours
+
+**Difficulty**<br>
+
+**Medium**
+
+**Coding Mentors**<br>
+[Ibiam Chihurumnaya](https://github.com/chimosky/)
+
+**Assisting Mentors**<br>
+[Walter Bender](https://github.com/walterbender/)
+
+------------
+
+## Add an AI chatbot to the Chat Activity
+
+**Prerequisites**<br>
+ - Experience with Python
+ - Experience with Sugar activities
+ - Experience with LLMs/Chatbots
+
+**Description**<br>
+
+The Chat Activity is an interactive chat program. The goal of this
+project is to add a chatbot that can be engaged as part of the
+conversation. The chatbot must be tuned to match the age of our
+learners, which skews younger than the typical chatbots, so some
+tuning may be necessary.
+
+**Project Length**<br>
+
+**175** hours
+
+**Difficulty**<br>
+
+**Medium**
+
+**Coding Mentors**<br>
+[Ibiam Chihurumnaya](https://github.com/chimosky/)
+
+**Assisting Mentors**<br>
+[Walter Bender](https://github.com/walterbender/)
+
+------------
+
+## Add an AI-assistant to the Pippy Activity
+
+**Prerequisites**<br>
+ - Experience with Python
+ - Experience with Sugar activities
+ - Experience with LLMs/Chatbots
+
+**Description**<br>
+
+Pippy is the Sugar "learn to program in Python" activity. It comes
+with lots of examples and has sufficient scaffolding such that a
+learner could modify an existing Sugar activity or write a new
+one. The goal of this project is to add "co-pilot"-like assistance to
+Pippy. A learner should be able to ask the AI to provide example
+Python code to help them navigate the language and explore
+possibilities in a more open way than the collection of Pippy examples
+affords. (The Pippy examples are geared towards activity development,
+which is largely how to navigate the basics of the Sugar toolkit and
+some GTK basics. This would be much broader in scope.)
+
+The challenge, beyond the plumbing, is to design and implement a
+sensible workflow such that the AI is helpful but not in the way.
+
+**Project Length**<br>
+
+**350** hours
+
+**Difficulty**<br>
+
+**Difficult**
+
+**Coding Mentors**<br>
+[Ibiam Chihurumnaya](https://github.com/chimosky/)
+
+**Assisting Mentors**<br>
+[Walter Bender](https://github.com/walterbender/)
+
+------------
+
+## Add an AI-assistant to the Write Activity
+
+**Prerequisites**<br>
+ - Experience with Python
+ - Experience with Sugar activities
+ - Experience with LLMs/Chatbots
+
+**Description**<br>
+
+Sugar pioneered peer editing in its Write activiy. However, the Write
+Activity has never had any serious support for grammar correction
+(just spell check) and none of the more recent developments around
+AI-assisted writing. The goal of this project is to add AI-assistance
+to the writing process: both in the form of providing feedback as to
+what has been written and making suggestions as to what might be
+written.
+
+The challenge will be both in terms of workflow integration and UX.
+
+**Project Length**<br>
+
+**350** hours
+
+**Difficulty**<br>
+
+**difficult**
+
+**Coding Mentors**<br>
+[Walter Bender](https://github.com/walterbender/)
+
+**Assisting Mentors**<br>
+[Ibiam Chihurumnaya](https://github.com/chimosky/)
+
+------------
+
+## Refactor the Wikipedia Activity to generate plain-language summaries
+
+**Prerequisites**<br>
+ - Experience with Python
+ - Experience with Sugar activities
+ - Experience with LLMs/Chatbots
+
+**Description**<br>
+
+The Wikipedia Activity is designed to help teachers extract content from the Wikipedia in order to create lesson plans. This is currently a manual, extractive process. It is well suited to generative AI. The goal would be to have a teacher type in a theme for a lesson and have the AI create a simple lesson plan, which the teacher can then edit.
+
+The biggest challenge to summarization using generative AI is hallucinations. A work-around for this is to include a validation step that surfaces evidence (or lack of evidence) for each assertion in the lesson plan. This will introduce some workflow and UX challenges.
+
+**Project Length**<br>
+
+**350** hours
+
+**Difficulty**<br>
+
+**difficult**
+
+**Coding Mentors**<br>
+[Walter Bender](https://github.com/walterbender/)
+
+**Assisting Mentors**<br>
+[Ibiam Chihurumnaya](https://github.com/chimosky/)
 
 ------------
 
@@ -27,7 +203,23 @@
  - Interest in math puzzles and games
 
 **Description**<br>
-While Sugar has lots of activities, you can never have enough math games and puzzles. There is a great website with lots of ideas (See https://www.cut-the-knot.org/) for Sugar acitvities. This project (either medium or large) would be do develop 4 to 8 new activities based on some of Bogomolny's ideas.
+
+While Sugar has lots of activities, you can never have enough math
+games and puzzles. There is a great website with lots of ideas (See
+https://www.cut-the-knot.org/) for Sugar acitvities. This project
+(either medium or large) would be do develop 4 to 8 new activities
+based on some of Bogomolny's ideas.
+
+Specifically, we are intereted in these games:
+
+* [Lewis Carroll's Game of Logic](https://www.cut-the-knot.org/LewisCarroll/LCGame.shtml)
+* [Pascal's Triangle](http://www.cut-the-knot.org/Curriculum/Algebra/DotPatterns.shtml)
+* [Nim](http://www.cut-the-knot.org/nim_st.shtml)
+* [The Candy Game](http://www.cut-the-knot.org/Curriculum/Algebra/IntergerIterationsOnACircle.shtml)
+* [Number Guessing Game](http://www.cut-the-knot.org/Curriculum/Algebra/Cards.shtml)
+* [Latin Squares](http://www.cut-the-knot.org/Curriculum/Algebra/Latin.shtml)
+* [3 Utilities Puzzle](http://www.cut-the-knot.org/do_you_know/3Utilities.shtml)
+* [Goat Cabbage Wolf](http://www.cut-the-knot.org/ctk/GoatCabbageWolf.shtml)
 
 In the proposal, please mention _some_ specific ideas for games.
 
@@ -47,151 +239,6 @@ Either **175** or **350** hours
 
 ------------
 
-## Improve and maintain 12 Sugar activities
-
-**Prerequisites**<br>
- - Experience with Python
- - Strong experience with Sugar activities
- - Experience with maintaining activities on ASLO and ASLO-v4
-
-**Description**<br>
-Sugar has a lot of activities, with 250+ on GitHub, and more
-elsewhere. These have scope for improvement; bugs,
-features, updated human translations, and release.  This project will involve
-working on **at least 12** activities to improve them. Students can choose
-activities on their own, and are encouraged to select activities which
-are either a part of Fructose or have a strong pedagogical value. To
-understand how to locate and work on activities, see our guide to
-[Modifying
-Activities](https://github.com/sugarlabs/sugar-docs/blob/master/src/contributing.md#modifying-activities)
-
-In their proposal, students may mention _some_ of the issues they will
-work on.  Any new feature suggestion should be discussed on GitHub
-Issues or on the mailing list before being added to a proposal.
-
-Since there are a lot of activities to work on, **more than one instance
-of this project may be selected**.
-
-**Suggested Issues to work on:**<br>
- - jukebox-activity: [#22 Add collaboration for sharing playlist items](https://github.com/sugarlabs/jukebox-activity/issues/22)
-
-Other issues will have been raised since.
-
-Suggesting or adding features, fixing bugs, or releasing activities
-will help you to gain experience
-
-**Project Length**<br>
-
-**350** hours
-
-**Difficulty**<br>
-
-**Medium**
-
-**Coding Mentors**<br>
-[Ibiam Chihurumnaya](https://github.com/chimosky/)
-
-**Assisting Mentors**<br>
-To be added.
-
-------------
-
-## Improve and maintain 6 Sugar activities
-
-**Prerequisites**<br>
- - Experience with Python
- - Strong experience with Sugar activities
- - Experience with maintaining activities on ASLO and ASLO-v4
-
-**Description**<br>
-Sugar has a lot of activities, with 250+ on GitHub, and more
-elsewhere. These have scope for improvement; bugs,
-features, updated human translations, and release.  This project will involve
-working on **at least 6** activities to improve them. Students can choose
-activities on their own, and are encouraged to select activities which
-are either a part of Fructose or have a strong pedagogical value. To
-understand how to locate and work on activities, see our guide to
-[Modifying
-Since there are a lot of activities to work on, **more than one instance
-of this project may be selected**.
-
-**Suggested Issues to work on:**<br>
- - jukebox-activity: [#22 Add collaboration for sharing playlist items](https://github.com/sugarlabs/jukebox-activity/issues/22)
-
-Other issues will have been raised since.
-
-Suggesting or adding features, fixing bugs, or releasing activities
-will help you to gain experience.
-
-**Project Length**<br>
-**175** hours
-
-**Difficulty**<br>
-
-**Medium**
-
-**Coding Mentors**<br>
-[Ibiam Chihurumnaya](https://github.com/chimosky/)
-
-**Assisting Mentors**<br>
-To be added.
-
-------------
-
-## Port Sugar and core activities to Python 3
-
-**Prerequisites**<br>
- - Experience with Python
- - Experience with porting telepathy bindings
- - Strong experience with
-   [Sugar Desktop](https://github.com/sugarlabs/sugar) and [Activities](https://github.com/sugarlabs/sugar-docs/blob/master/src/contributing.md#modifying-activities)
-
-**Description**<br> Support for Python 2 was withdrawn by the Python
-Foundation, so we need to finish the move to Python 3.  The move was
-started in GSoC 2018, and continued in GSoC 2020, but there is still
-work to be done.  Sugar 0.116 runs on Python 2 or Python 3.  Core
-activities run on Python 3.  Many other activities run on Python 2.
-Many regressions have been seen as a result of code not being tested.
-
-We have a [Python 3 Porting
-Guide](https://github.com/sugarlabs/sugar-docs/blob/master/src/python-porting-guide.md)
-which describes the process for activities.
-
-**Project Task Checklist**<br>
- - Review the Sugar source code changes since 0.112 that were made for porting to Python 3,
- - Design tests and iterate until the tests have sufficient [coverage](https://github.com/sugarlabs/sugar-docs/blob/master/src/python-coverage-guide.md) for the code changes identified about,
- - Fix regressions in Sugar, the Toolkit, and the Datastore,
- - For affected activities, port Telepathy bindings to TelepathyGLib, see [Port to TelepathyGLib](https://github.com/orgs/sugarlabs/projects/4).
- - For affected activities, port to the latest Sugargame or CollabWrapper library,
- - Port activities to Python 3, fixing any problems that prevent them from being ported or used,
-
-See GitHub Project [Port to Python 3 via
-six](https://github.com/orgs/sugarlabs/projects/1) for some open
-issues and pull requests.  Most activities do not have issues.  Some
-activities have problems that prevent them from being ported.
-
-The Telepathy library is used by some activities for network
-collaboration between Sugar users.  The library does not have static
-bindings for Python 3, so porting Telepathy to the PyGObject binding
-is a prerequisite, see GitHub Project [Port to
-TelepathyGLib](https://github.com/orgs/sugarlabs/projects/4).
-
-**Project Length**<br>
-
-**350** hours
-
-**Difficulty**<br>
-
-**Hard**
-
-**Coding Mentors**<br>
-[Ibiam Chihurumnaya](https://github.com/chimosky/)
-
-**Assisting Mentors**<br>
-To be added.
-
-----
-
 # Maintain Port 12 Sugar Activities to Flatpak
 
 **Prerequisites**<br>
@@ -199,17 +246,24 @@ To be added.
  - Strong experience with
    [Sugar Desktop](https://github.com/sugarlabs/sugar) and [Activities](https://github.com/sugarlabs/sugar-docs/blob/master/src/contributing.md#modifying-activities)
 
-**Description**<br>We have a number of Sugar Activities bundled with
-  [Flatpak](https://flatpak.org/) as a way to reach a broader audience
-  within the Linux community. We'd like to both keep those activities
-  up to date and also port more.
+**Description**<br>
 
-We'd love to add more Sugar activities to the Flatpak
-collection, a search for sugar on [flathub](https://flathub.org/apps/search?q=sugar) shows
-we have about 27 activities on flathub and we'd like to increase that number.
+We have a number of Sugar Activities bundled with
+[Flatpak](https://flatpak.org/) as a way to reach a broader audience
+within the Linux community. We'd like to both keep those activities up
+to date and also port more.
 
-We have a [guide](https://github.com/tchx84/sugarapp/blob/master/flatpak-guide.md) that shows
-you how to port Sugar activities to Flatpak, you'll also need to [submit](https://docs.flathub.org/docs/for-app-authors/submission/) the activity to flatpak.
+We'd love to add more Sugar activities to the Flatpak collection, a
+search for sugar on [flathub](https://flathub.org/apps/search?q=sugar)
+shows we have about 27 activities on flathub and we'd like to increase
+that number.
+
+We have a
+[guide](https://github.com/tchx84/sugarapp/blob/master/flatpak-guide.md)
+that shows you how to port Sugar activities to Flatpak, you'll also
+need to
+[submit](https://docs.flathub.org/docs/for-app-authors/submission/)
+the activity to flatpak.
 
 **Project Length**<br>
 
@@ -224,37 +278,35 @@ you how to port Sugar activities to Flatpak, you'll also need to [submit](https:
 [Ibiam Chihurumnaya](https://github.com/chimosky/)
 [Walter Bender](https://github.com/walterbender/)
 
--------------
+------------
 
-# Maintenance/bug fixes for Music Blocks 3
+# Add real-time collaboration to Music Blocks
 
 **Prerequisites**<br>
- - Strong experience with JavaScript
- - Experience with basic music concepts
+ - Experience with JavaScript
+ 
+**Description**<br>
 
-**Description**<br>We are largely in maintenance mode for [Music
-  Blocks 3.0](https://github.com/sugarlabs/musicblocks) while we
-  continue to move forward on [Musick Blocks
-  4.0](https://github.com/sugarlabs/musicblocks-v4). That said, there
-  are a number of small bugs/regressions that would be worth fixing.
-
-  See [low-hanging
-  fruit](https://github.com/sugarlabs/musicblocks/issues?q=is%3Aissue+is%3Aopen+label%3A%22Good+first+issue%22)
-  for a list of issues we'd like to close out during GSoC 2024.
+The Python version of Turtle Blocks has a collaboration mode, where
+the learner can share stacks of code and, in real time, share
+graphical output. This project is to add similar functionality to
+Music Blocks. Following the pattern of Turtle Blocks collaboration is
+pretty straight-forward. What makes this project difficult is that
+Music Blocks will require a higher degree of synchronization.
 
 **Project Length**<br>
 
-**175** hours
+**350** hours
 
 **Difficulty**<br>
 
-**Low**
+**High**
 
 **Coding Mentors**<br>
 [Walter Bender](https://github.com/walterbender/)
 [Devin Ulibarri](https://github.com/pikurasa/)
 
--------------
+------------
 
 # Musical ideation through Generative AI
 
@@ -263,12 +315,14 @@ you how to port Sugar activities to Flatpak, you'll also need to [submit](https:
  - Experience with musical composition
  - Experience with large language models (LLMs)
 
-**Description**<br>We would like to deploy generative AI in support of
-  musical composition. The basic idea is to use AI to generate
-  possible modifications of a phrase (or phrases) generated by the
-  user. In other words, the user would start the composition and the
-  AI would then present different possibilities for enriching the
-  composition to which the user would react and further enhance.
+**Description**<br>
+
+We would like to deploy generative AI in support of musical
+composition. The basic idea is to use AI to generate possible
+modifications of a phrase (or phrases) generated by the user. In other
+words, the user would start the composition and the AI would then
+present different possibilities for enriching the composition to which
+the user would react and further enhance.
 
 **Project Length**<br>
 
@@ -290,14 +344,16 @@ you how to port Sugar activities to Flatpak, you'll also need to [submit](https:
  - Experience with JavaScript
  - Experience with large language models (LLMs)
 
-**Description**<br>We would like to deploy generative AI in support of
-  converting Music Blocks projects into lesson plans. An LLM would be
-  used to convert the musical and computational ideas expressed in a
-  project to auto-generate the first draft of lesson plan.
+**Description**<br>
 
-  Some examples of lesson plans can be found
-  [here](https://drive.google.com/drive/folders/17dWeTTlA4Sv-KdQ4__9d2W6H0_3cu8EQ?usp=sharing)
-  and [here](https://mapflc.com/lesson-plans/).
+We would like to deploy generative AI in support of converting Music
+Blocks projects into lesson plans. An LLM would be used to convert the
+musical and computational ideas expressed in a project to
+auto-generate the first draft of lesson plan.
+
+Some examples of lesson plans can be found
+[here](https://drive.google.com/drive/folders/17dWeTTlA4Sv-KdQ4__9d2W6H0_3cu8EQ?usp=sharing)
+and [here](https://mapflc.com/lesson-plans/).
 
 **Project Length**<br>
 
@@ -320,14 +376,16 @@ you how to port Sugar activities to Flatpak, you'll also need to [submit](https:
  - Experience with musical theory/composition
  - Experience with large language models (LLMs)
 
-**Description**<br>Many people have musical ideas, but struggle to
-  articulate them. Generative AI has promise to help people find a way
-  to transcribe their musical ideas. The goal would be to create a
-  generative AI tool that assists users such that they could sing (or
-  perform on an instrument) their idea -- as well as speak or type
-  instructions without music -- and be presented with some possible
-  transcriptions of their idea, output as Music Blocks code so that it
-  may be further refined and manipulated.
+**Description**<br>
+
+Many people have musical ideas, but struggle to articulate
+them. Generative AI has promise to help people find a way to
+transcribe their musical ideas. The goal would be to create a
+generative AI tool that assists users such that they could sing (or
+perform on an instrument) their idea -- as well as speak or type
+instructions without music -- and be presented with some possible
+transcriptions of their idea, output as Music Blocks code so that it
+may be further refined and manipulated.
 
 **Project Length**<br>
 
@@ -358,7 +416,10 @@ you how to port Sugar activities to Flatpak, you'll also need to [submit](https:
 **Hard**
 
 **Description**<br>
-Sugar 0.120 runs on GTK3 and needs to be ported to GT4, we need to port Sugar and it's core activities to support GTK4 before GTK3 gets to its EOL.
+
+Sugar 0.120 runs on GTK3 and needs to be ported to GT4, we need to
+port Sugar and it's core activities to support GTK4 before GTK3 gets
+to its EOL.
 
 **Project Task Checklist**
 - Migrate minimal [sugar-toolkit-gtk3](https://github.com/sugarlabs/sugar-toolkit-gtk3) components to support Hello World activity, in particular the activity and graphics classes.
@@ -391,12 +452,14 @@ Sugar 0.120 runs on GTK3 and needs to be ported to GT4, we need to port Sugar an
 **Easy**
 
 **Description**<br>
+
 Sugar runs on RPi and we should take advantage of that to reach the
 Maker community. This project involves ensuring that Sugar runs w/o
 any issues; that it is packaged in a way that is suiable for inclusion
-on the [Raspberry Pi operating system images](https://www.raspberrypi.com/software/operating-systems/).
-Also, there are any number of Sugar activities that could be enhanced by
-knowing some of the details of the RPi, such as Turtle Blocks,
+on the [Raspberry Pi operating system
+images](https://www.raspberrypi.com/software/operating-systems/).
+Also, there are any number of Sugar activities that could be enhanced
+by knowing some of the details of the RPi, such as Turtle Blocks,
 Measure, and Pippy, all of which could be tailored to take advantage
 of the sensors available on RPi.
 
@@ -423,11 +486,13 @@ Alex Perez
 
 **Difficulty:** &#9733; &#9733; &#9734; (medium)
 
-**Description**<br>Sugarizer Core UI rely on EnyoJS, a deprecated frameworks initially developed for WebOS.  
-<br>
-Last year a GSoC project built first screens of Sugarizer Core using VueJS.
-<br>
-The idea of this new project is to finalize the implementation to have a really working Sugarizer VueJS App. <br>
+**Description**<br>
+
+Sugarizer Core UI rely on EnyoJS, a deprecated frameworks initially
+developed for WebOS.  <br> Last year a GSoC project built first
+screens of Sugarizer Core using VueJS.  <br> The idea of this new
+project is to finalize the implementation to have a really working
+Sugarizer VueJS App. <br>
 
 **Tasks**<br> 
 
@@ -454,9 +519,7 @@ The idea of this new project is to finalize the implementation to have a really 
 **Mentor**<br>
 [Lionel Laské](https://github.com/llaske/)
 
-
 -------------
-
 
 # Sugarizer 3D Volume activity
 
@@ -472,8 +535,11 @@ The idea of this new project is to finalize the implementation to have a really 
 
 **Difficulty:** &#9733; &#9733; &#9734; (medium)
 
-**Description**<br> The objective of this project is to create a new Sugarizer activity to explore volume using dices.  
-<br>
+**Description**<br>
+
+The objective of this project is to create a new Sugarizer activity to
+explore volume using dices. <br>
+
 Features: 
 * Display volumes 
 * Zoom in/out button (or touch) 

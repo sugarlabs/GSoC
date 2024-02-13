@@ -121,7 +121,7 @@ sensible workflow such that the AI is helpful but not in the way.
 
 **Difficulty**<br>
 
-**Difficult**
+**High**
 
 **Coding Mentors**<br>
 [Ibiam Chihurumnaya](https://github.com/chimosky/)
@@ -156,7 +156,7 @@ The challenge will be both in terms of workflow integration and UX.
 
 **Difficulty**<br>
 
-**difficult**
+**High**
 
 **Coding Mentors**<br>
 [Walter Bender](https://github.com/walterbender/)
@@ -185,7 +185,7 @@ The biggest challenge to summarization using generative AI is hallucinations. A 
 
 **Difficulty**<br>
 
-**difficult**
+**High**
 
 **Coding Mentors**<br>
 [Walter Bender](https://github.com/walterbender/)
@@ -225,7 +225,7 @@ In the proposal, please mention _some_ specific ideas for games.
 
 **Project Length**<br>
 
-Either **175** or **350** hours
+**350** hours
 
 **Difficulty**<br>
 
@@ -413,7 +413,7 @@ may be further refined and manipulated.
 **350** hours
 
 **Difficulty:**<br>
-**Hard**
+**High**
 
 **Description**<br>
 

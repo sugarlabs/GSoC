@@ -3,8 +3,8 @@
 ## Project Ideas
 * [Refactor the chatbot in the Speak Activity to use AI](#Refactor-the-chatbot-in-the-Speak-Activity-to-use-AI)
 * [Add an AI chatbot to the Chat Activity](#Add-an-AI-chatbot-to-the-Chat-Activity)
-* [Add AI-assistant to the Pippy Activity](*Add-AI-assistant-to-the-Pippy-Activity)
-* [Add AI-assistant to the Write Activity](#Add-AI-assistant-to-the-Write-Activity)
+* [Add AI-assistant to the Pippy Activity](#Add-an-AI-assistant-to-the-Pippy-Activity)
+* [Add AI-assistant to the Write Activity](#Add-an-AI-assistant-to-the-Write-Activity)
 * [Refactor the Wikipedia Activity to generate plain-language summaries](#Refactor-the-Wikipedia-Activity-to-generate-plain-language-summaries)
 * [Add real-time collaboration to Music Blocks](#Add-real-time-collaboration-to-Music-Blocks)
 * [Musical ideation through Generative AI](#musical-ideation-through-generative-ai)

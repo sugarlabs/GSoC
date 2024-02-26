@@ -30,7 +30,7 @@
 
 **Description**<br>
 
-The Speak Activity is one of most popular Sugar activities. It allows
+The [Speak Activity](https://github.com/sugarlabs/speak) is one of most popular Sugar activities. It allows
 someone just beginning to familiarize themselves with reading to
 interact with synthetic speech. It has both chat and chatbot
 capabilities, so that learners can share what they type with others,
@@ -70,7 +70,7 @@ explaining to a young child.
 
 **Description**<br>
 
-The Chat Activity is an interactive chat program. The goal of this
+The [Chat Activity](https://github.com/sugarlabs/chat) is an interactive chat program. The goal of this
 project is to add a chatbot that can be engaged as part of the
 conversation. The chatbot must be tuned to match the age of our
 learners, which skews younger than the typical chatbots, so some
@@ -101,7 +101,7 @@ tuning may be necessary.
 
 **Description**<br>
 
-Pippy is the Sugar "learn to program in Python" activity. It comes
+[Pippy](https://github.com/sugarlabs/Pippy) is the Sugar "learn to program in Python" activity. It comes
 with lots of examples and has sufficient scaffolding such that a
 learner could modify an existing Sugar activity or write a new
 one. The goal of this project is to add "co-pilot"-like assistance to

@@ -10,6 +10,8 @@
 * [Musical ideation through Generative AI](#musical-ideation-through-generative-ai)
 * [Make your own Lesson Plan for Music Blocks](#make-your-own-lesson-plan-for-music-blocks)
 * [Musical creation and transcription assistance via generative AI](#musical-creation-and-transcription-assistance-via-generative-ai)
+* [Music Blocks 4 Project Builder Integration](#music-blocks-4-project-builder-integration)
+* [Music Blocks 4 Programming Framework Enhancements](#music-blocks-4-programming-framework-enhancements)
 * [Maintain/port 12 Sugar activities to FlatPak](#maintain-port-12-sugar-activities-to-flatpak)
 * [Sugarizer VueJS App](#sugarizer-vuejs-app)
 * [Sugarizer 3D Volume activity](#sugarizer-3d-volume-activity)
@@ -428,6 +430,98 @@ Specifically, we would be working toward accomplishing the following:
 **Coding Mentors**<br>
 [Walter Bender](https://github.com/walterbender/)
 [Devin Ulibarri](https://github.com/pikurasa/)
+
+-------------
+
+# Music Blocks 4 Project Builder Integration
+
+**Difficulty:** &#9733; &#9733; &#9733; &#9733; &#9734;
+
+**Project Length:** **350** hours
+
+**Prerequisites**
+
+* Strong experience with TypeScript 4
+* Strong experience with JavaScript DOM API, Canvas API
+* Strong experience with React Functional Components and Hooks (React 18)
+* Understanding of the prototype
+[**Project Builder Framework**](https://github.com/sugarlabs/musicblocks-v4-builder-framework)
+
+**Description**
+
+The objective is to complete the _Project Builder Framework_ for _Music Blocks_ (_v4_).
+The _Project Builder_ is the graphical blocks manager module which can be used to
+create _Music Blocks_ programs. We started working on in last year, and the goal
+is to complete and integrate it with the application.
+
+General objectives are:
+
+* Create a design document for the WIP
+* Complete the incomplete pieces
+* Integrate it in `musicblocks-v4`
+* Create a wrapper component _Project Builder_ (_builder_) in `musicblocks-v4`
+* Add utilities to the wrapper component so that the _Project Builder_ component
+can communicate with the _Specification_ and _Syntax Tree_ APIs of the
+[**Programming Framework**](https://github.com/sugarlabs/musicblocks-v4-lib)
+* Create a _Palette_ (_palette_) component
+
+**Mentors**
+
+[Anindya Kundu](https://github.com/meganindya/)
+
+**Assisting Mentors**
+
+[Walter Bender](https://github.com/walterbender/)
+
+------------
+
+# Music Blocks 4 Programming Framework Enhancements
+
+**Difficulty:** &#9733; &#9733; &#9733; &#9733; &#9734;
+
+**Project Length:** **350** hours
+
+**Prerequisites**
+
+* Strong experience with TypeScript 4
+* Experience of writing tests using Jest
+* Good understanding of the JavaScript Event Loop
+
+**Description**
+
+There are three parts to this project:
+
+* Improvements and optimizations to the Program Syntax Framework
+* Enhancements and performance optimizations to the Execution Engine
+* Addition of Telemetry and Debugging support
+
+We need to revisit some design considerations made while initially building the
+Program Syntax Framework. This framework is responsible for defining the business
+logic and rules for units of a program's syntax (literals, expressions, statements,
+blocks, functions) and maintaining the Syntax Tree that represents a program.
+There's scope for some work to be done in it's refinement.
+
+The Execution Engine handles the runtime behavior of a program. Currently, it is
+in a very rudimentary state and is a work-in-progress. The goal is to build a low
+overhead interpreter that supports pseudo real-time and concurrency. Of course,
+JavaScript is single-threaded and the JavaScript engine on the browser doesn't
+support concurrency. So, we'll have to mock a closer behavior with Events.
+
+It is desirable to be able to monitor the runtime states of an executing program.
+We want to collect execution information, messages, errors while a program is
+executing, and also control the execution itself. The goal is to add support for
+the said.
+
+The framework code is contained in
+[github.com/sugarlabs/musicblocks-v4-lib](https://github.com/sugarlabs/musicblocks-v4-lib).
+
+**Mentors**
+
+[Anindya Kundu](https://github.com/meganindya/)
+
+**Assisting Mentors**
+
+[Walter Bender](https://github.com/walterbender/)
 
 -------------
 

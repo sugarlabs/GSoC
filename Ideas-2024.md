@@ -209,7 +209,7 @@ The biggest challenge to summarization using generative AI is hallucinations. A 
 While Sugar has lots of activities, you can never have enough math
 games and puzzles. There is a great website with lots of ideas (See
 https://www.cut-the-knot.org/) for Sugar acitvities. This project
-(either medium or large) would be do develop 4 to 8 new activities
+(either medium or large) would be to develop 4 to 8 new activities
 based on some of Bogomolny's ideas.
 
 Specifically, we are intereted in these games:

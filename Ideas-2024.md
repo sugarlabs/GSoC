@@ -5,7 +5,7 @@
 * [Add an AI chatbot to the Chat Activity](#Add-an-AI-chatbot-to-the-Chat-Activity)
 * [Add AI-assistant to the Pippy Activity](#Add-an-AI-assistant-to-the-Pippy-Activity)
 * [Add AI-assistant to the Write Activity](#Add-an-AI-assistant-to-the-Write-Activity)
-* [Refactor the Wikipedia Activity to generate plain-language summaries](#Refactor-the-Wikipedia-Activity-to-generate-plain-language-summaries)
+* [Refactor the Infoslicer Activity to generate plain-language summaries](#Refactor-the-Infoslicer-Activity-to-generate-plain-language-summaries)
 * [Add real-time collaboration to Music Blocks](#Add-real-time-collaboration-to-Music-Blocks)
 * [Musical ideation through Generative AI](#musical-ideation-through-generative-ai)
 * [Make your own Lesson Plan for Music Blocks](#make-your-own-lesson-plan-for-music-blocks)
@@ -168,7 +168,7 @@ The challenge will be both in terms of workflow integration and UX.
 
 ------------
 
-## Refactor the Wikipedia Activity to generate plain-language summaries
+## Refactor the Infoslicer Activity to generate plain-language summaries
 
 **Prerequisites**<br>
  - Experience with Python
@@ -177,7 +177,7 @@ The challenge will be both in terms of workflow integration and UX.
 
 **Description**<br>
 
-The Wikipedia Activity is designed to help teachers extract content from the Wikipedia in order to create lesson plans. This is currently a manual, extractive process. It is well suited to generative AI. The goal would be to have a teacher type in a theme for a lesson and have the AI create a simple lesson plan, which the teacher can then edit.
+The Infoslicer Activity is designed to help teachers extract content from the Wikipedia in order to create lesson plans. This is currently a manual, extractive process. It is well suited to generative AI. The goal would be to have a teacher type in a theme for a lesson and have the AI create a simple lesson plan, which the teacher can then edit.
 
 The biggest challenge to summarization using generative AI is hallucinations. A work-around for this is to include a validation step that surfaces evidence (or lack of evidence) for each assertion in the lesson plan. This will introduce some workflow and UX challenges.
 

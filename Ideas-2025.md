@@ -1,7 +1,7 @@
 # GSoC 2025 Ideas
 
 ## Project Ideas
-* [Put your ideas here](#example-idea)
+1. A model that analyses a lesson doc and answers using multimodal acessibility (inc sign lang), via LLMs
 
 [Administrative notes](#administrative-notes)
 

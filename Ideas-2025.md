@@ -33,3 +33,40 @@ The chatbot could provide real-time assistance—answering questions, explaining
 [Walter Bender](https://github.com/walterbender/)<br>
 **Assisting Mentors**<br>
 [Devin Ulibarri](https://github.com/pikurasa/)
+
+
+------------
+
+
+## Image generation for lesson plans and model abstraction layer
+
+**Prerequisites**<br>
+ - Experience with Python
+ - Experience with Music Blocks
+ - Experience with LLMs/Chatbots
+ - Experience with Fine tuning methods and RAG.
+
+**Description**<br>
+Develop and fine-tune an open-source language model to generate visually appealing and contextually accurate images for lesson plans, enhancing their usability and engagement. Leverage training datasets with annotated educational visuals for high-quality outputs. Also, Build a robust abstraction layer to make the AI system model-agnostic, allowing seamless integration of various models and ensuring flexibility and resilience in adapting to future advancements in AI.
+
+Specifically, we would be working toward accomplishing the following:
+
+- Train open source LLM to generate images for lesson plans.
+- Implement model abstraction layer to make our AI system model agnostic and robust.
+- Increase database size by including more lesson plans and projects' data to get better    response related to projects.
+- Implement Approximate Nearest Neighbor (ANN) algorithms for faster retrieval.
+- Develop FastApi endpoints to deploy the model on AWS.
+- Work on techniques to minimize hellucination.
+
+**Project Length**<br>
+
+**350** hours
+
+**Difficulty**<br>
+
+**Hard**<br>
+
+**Coding Mentors**<br>
+[Walter Bender](https://github.com/walterbender/)<br>
+**Assisting Mentors**<br>
+[Devin Ulibarri](https://github.com/pikurasa/)

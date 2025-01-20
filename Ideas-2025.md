@@ -47,7 +47,7 @@ The chatbot could provide real-time assistance—answering questions, explaining
  - Experience with Fine tuning methods and RAG.
 
 **Description**<br>
-Develop and train an open source Large Language Model to generate Music Blocks project code, enabling automated creation of new musical and programming activities. By implementing a model abstraction layer, the system will remain flexible and model-agnostic, allowing seamless integration of different AI models while maintaining consistent code generation capabilities. This approach ensures long-term sustainability and adaptability as AI technology evolves, while keeping the core functionality of Music Blocks accessible and extensible.
+Develop and train an open source Large Language Model to generate Music Blocks project code, enabling integration of code snippets to the lesson plan generator. By implementing a model abstraction layer, the system will remain flexible and model-agnostic, allowing seamless integration of different AI models while maintaining consistent code generation capabilities. This approach ensures long-term sustainability and adaptability as AI technology evolves, while keeping the core functionality of Music Blocks accessible and extensible.
 
 Specifically, we would be working toward accomplishing the following:
 
@@ -55,7 +55,7 @@ Specifically, we would be working toward accomplishing the following:
 - Implement model abstraction layer to make the AI system model agnostic and robust.
 - Increase database size by including more lesson plans and projects' data to get better response related to the projects.
 - Implement Approximate Nearest Neighbor (ANN) algorithms for faster retrieval.
-- Develop FastApi endpoints to deploy the model on AWS.
+- Develop FastApi endpoints to deploy the model.
 - Work on techniques to minimize hellucination.
 
 **Project Length**<br>

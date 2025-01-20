@@ -38,7 +38,7 @@ The chatbot could provide real-time assistance—answering questions, explaining
 ------------
 
 
-## Image generation for lesson plans and model abstraction layer
+## Code generation for lesson plans and model abstraction layer
 
 **Prerequisites**<br>
  - Experience with Python
@@ -47,13 +47,13 @@ The chatbot could provide real-time assistance—answering questions, explaining
  - Experience with Fine tuning methods and RAG.
 
 **Description**<br>
-Develop and fine-tune an open-source language model to generate visually appealing and contextually accurate images for lesson plans, enhancing their usability and engagement. Leverage training datasets with annotated educational visuals for high-quality outputs. Also, Build a robust abstraction layer to make the AI system model-agnostic, allowing seamless integration of various models and ensuring flexibility and resilience in adapting to future advancements in AI.
+Develop and train an open source Large Language Model to generate Music Blocks project code, enabling automated creation of new musical and programming activities. By implementing a model abstraction layer, the system will remain flexible and model-agnostic, allowing seamless integration of different AI models while maintaining consistent code generation capabilities. This approach ensures long-term sustainability and adaptability as AI technology evolves, while keeping the core functionality of Music Blocks accessible and extensible.
 
 Specifically, we would be working toward accomplishing the following:
 
-- Train open source LLM to generate images for lesson plans.
-- Implement model abstraction layer to make our AI system model agnostic and robust.
-- Increase database size by including more lesson plans and projects' data to get better    response related to projects.
+- Train open source LLM to generate code to create new Music Blocks projects.
+- Implement model abstraction layer to make the AI system model agnostic and robust.
+- Increase database size by including more lesson plans and projects' data to get better response related to the projects.
 - Implement Approximate Nearest Neighbor (ANN) algorithms for faster retrieval.
 - Develop FastApi endpoints to deploy the model on AWS.
 - Work on techniques to minimize hellucination.

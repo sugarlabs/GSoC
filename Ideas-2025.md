@@ -1,7 +1,7 @@
 # GSoC 2025 Ideas
 
 ## Project Ideas
-* [Interactive Chatbot and Debugger for Music Blocks](#Interactive-Chatbot-and-Debugger-for-Music-Blocks)
+* [Interactive AI-powered Chatbot and Debugger for Music Blocks](#Interactive-AI-powered-Chatbot-and-Debugger-for-Music-Blocks)
 
 [Administrative notes](#administrative-notes)
 
@@ -43,9 +43,15 @@ The goal of the project is to develop extended functionality to our exisiting to
  - Experience with FastAPI
 
 **Description**<br>
-The idea to enhance Music Blocks with a chatbot and project debugger. It must fulfill the gap between users' creative ideas and their 
-ability to troubleshoot or fully utilize its features.
-The chatbot could provide real-time assistance—answering questions, explaining features, and offering creative suggestions—while a project debugger helps users quickly identify and resolve issues in their project or blocks. This would make the platform more accessible, especially for beginners and streamlining the process for advanced users to debug and experiment with new features.
+The idea is to enhance Music Blocks with an AI-powered chatbot and project debugger. This feature aims to bridge the gap between users' creative ideas and their ability to troubleshoot or fully utilize the platform's features. The AI chatbot would provide real-time assistance by answering questions, explaining features, and offering creative suggestions, while the project debugger would help users quickly identify and resolve issues in their projects or block connections. This enhancement would make the platform more accessible for beginners while streamlining the debugging and experimentation process for advanced users.
+
+Specifically, we aim to achieve the following:
+
+- Train an open-source LLM to understand Music Blocks projects and develop the ability to debug them effectively.
+- Implement robust Retrieval-Augmented Generation (RAG) for the LLM model to enhance contextual understanding.
+- Integrate the AI chatbot and debugger into the Music Blocks platform.
+- Develop FastAPI endpoints to deploy the model efficiently.
+- Work on techniques to minimize hallucinations and improve accuracy.
 
 **Project Length**<br>
 

@@ -7,7 +7,33 @@
 
 ------------
 
-## Interactive AI-powered Chatbot and Debugger for Music Blocks
+## Color sensor for Music Blocks for photos and real-time video
+
+**Prerequisites**<br>
+ - Experience with JavaScript
+ - Experience with Music Blocks
+
+**Description**<br>
+Music Blocks has a feature to detect the color of pixels generated from drawing within the program, but it cannot detect the color of pixels from images that are either uploaded or from a webcam. By adding a feature to detect color from both uploaded images and a live webcam stream, users would be able to implement *Lego music notation for the blind* and similarly interactive programs.
+
+The goal of the project is to develop extended functionality to our exisiting tools of turtle/mouse glyph movement and limited color detection to sense color from uploaded images, as well as the real-time feed from a webcam. Upon successful implementation, the turtle/mouse glyph will be able to detect the color of pixels underneath it, regarless of whether those pixels were drawn by the turtle/mouse itself, part of an uploaded image stamped to the canvas, or part of a live webcam video feed into Music Blocks. One test of success is to run our *Lego music notation for the blind* project with a live feed. The result should be able to playback and record the abstract brick notation based on its contrasting colors.
+
+**Project Length**<br>
+
+**175** hours
+
+**Difficulty**<br>
+
+**Medium**<br>
+
+**Coding Mentors**<br>
+[Walter Bender](https://github.com/walterbender/)<br>
+**Assisting Mentors**<br>
+[Devin Ulibarri](https://github.com/pikurasa/)
+
+------------
+
+## Interactive Chatbot and Debugger for Music Blocks
 
 **Prerequisites**<br>
  - Experience with Python

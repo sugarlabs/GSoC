@@ -7,7 +7,7 @@
 * [Interactive Chatbot and Debugger for Music Blocks](#Interactive-Chatbot-and-Debugger-for-Music-Blocks)
 * [Add AI-assistant to the Write Activity](#Add-an-AI-assistant-to-the-Write-Activity)
 * [Refactor the Infoslicer Activity to generate plain-language summaries](#Refactor-the-Infoslicer-Ac    tivity-to-generate-plain-language-summaries)
-* [Refactor the chatbot in the Speak Activity to use AI](#Refactor-the-chatbot-in-the-Speak-Activity-    to-use-AI)
+* [Refactor the chatbot in the Speak Activity to use gen-AI](#Refactor-the-chatbot-in-the-Speak-Activity-to-use-gen-AI)
 * [GTK4 exploration](#gtk4-exploration)
 
 
@@ -223,9 +223,9 @@ The challenge will be both in terms of workflow integration and UX.
 
 **Description**<br>
 
-The Infoslicer Activity is designed to help teachers extract content from the Wikipedia in order to c    reate lesson plans. This is currently a manual, extractive process. It is well suited to generative A    I. The goal would be to have a teacher type in a theme for a lesson and have the AI create a simple l    esson plan, which the teacher can then edit.
+The Infoslicer Activity is designed to help teachers extract content from the Wikipedia in order to create lesson plans. This is currently a manual, extractive process. It is well suited to generative AI. The goal would be to have a teacher type in a theme for a lesson and have the AI create a simple lesson plan, which the teacher can then edit.
 
-The biggest challenge to summarization using generative AI is hallucinations. A work-around for this     is to include a validation step that surfaces evidence (or lack of evidence) for each assertion in th    e lesson plan. This will introduce some workflow and UX challenges.
+The biggest challenge to summarization using generative AI is hallucinations. A work-around for this is to include a validation step that surfaces evidence (or lack of evidence) for each assertion in the lesson plan. This will introduce some workflow and UX challenges.
 
 **Project Length**<br>
 
@@ -243,7 +243,7 @@ The biggest challenge to summarization using generative AI is hallucinations. A 
 
 ------------
 
- ## Refactor the chatbot in the Speak Activity to use AI
+ ## Refactor the chatbot in the Speak Activity to use gen-AI
 
 **Prerequisites**<br>
  - Experience with Python
@@ -252,14 +252,14 @@ The biggest challenge to summarization using generative AI is hallucinations. A 
 
 **Description**<br>
 
-The [Speak Activity](https://github.com/sugarlabs/speak) is one of most popular Sugar activities. It     allows
+The [Speak Activity](https://github.com/sugarlabs/speak) is one of most popular Sugar activities. It allows
 someone just beginning to familiarize themselves with reading to
 interact with synthetic speech. It has both chat and chatbot
 capabilities, so that learners can share what they type with others,
 often using invented spelling. It would be a nice improvement if there
 were a chatbot option to allow a learner to have a conversation with a
 more modern chatbot -- LLM-based. This would contextualize the
-learner's experience with writing -- a tool for both self express and
+learner's experience with writing -- a tool for both self expression and
 communication.
 
 The project would entail both enabling the LLM chatbot and doing some

@@ -1,11 +1,11 @@
 # GSoC 2025 Ideas
 
 ## Project Ideas
-* [Interactive AI-powered Chatbot and Debugger for Music Blocks](#Interactive-AI-powered-Chatbot-and-Debugger-for-Music-Blocks)
-* [Generative AI Instrument Sample Generation for Music Blocks](#Generative-AI-Instrument-Sample-Generation-for-Music-Blocks)
 * [Color sensor for Music Blocks for photos and real-time video](#Color-sensor-for-Music-Blocks-for-photos-and-real-time-video)
 * [Interactive AI-powered Chatbot and Debugger for Music Blocks](#Interactive-AI-powered-Chatbot-and-Debugger-for-Music-Blocks)
-* [Interactive Chatbot and Debugger for Music Blocks](#Interactive-Chatbot-and-Debugger-for-Music-Blocks)
+* [Improve syth and sample features in Music Blocks](#Improve-syth-and-sample-features-in-Music-Blocks)
+* [Generative AI Instrument Sample Generation for Music Blocks](#Generative-AI-Instrument-Sample-Generation-for-Music-Blocks)
+* [AI Code generation for lesson plans and model abstraction layer](#AI-Code-generation-for-lesson-plans-and-model-abstraction-layer)
 * [Add AI-assistant to the Write Activity](#Add-an-AI-assistant-to-the-Write-Activity)
 * [Refactor the Infoslicer Activity to generate plain-language summaries](#Refactor-the-Infoslicer-Activity-to-generate-plain-language-summaries)
 * [Refactor the chatbot in the Speak Activity to use gen-AI](#Refactor-the-chatbot-in-the-Speak-Activity-to-use-gen-AI)
@@ -42,7 +42,7 @@ The goal of the project is to develop extended functionality to our exisiting to
 
 ------------
 
-## Interactive Chatbot and Debugger for Music Blocks
+## Interactive AI-powered Chatbot and Debugger for Music Blocks
 
 **Prerequisites**<br>
  - Experience with Python

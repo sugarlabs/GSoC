@@ -2,6 +2,7 @@
 
 ## Project Ideas
 * [Interactive AI-powered Chatbot and Debugger for Music Blocks](#Interactive-AI-powered-Chatbot-and-Debugger-for-Music-Blocks)
+* [Generative AI Instrument Sample Generation for Music Blocks](#Generative-AI-Instrument-Sample-Generation-for-Music-Blocks)
 
 [Administrative notes](#administrative-notes)
 
@@ -100,10 +101,10 @@ The final part of the project is perhaps the most challenging. It will require a
 
 ------------
 
-## Gen-AI instrument sample generation
+## Generative AI Instrument Sample Generation for Music Blocks
 
 **Prerequisites**<br>
- - Experience with JavaScript
+ - Experience with JavaScript and Python
  - Experience with Music Blocks
  - Experience with Tone.JS
  - Experience with LLMs/neural-networks
@@ -112,6 +113,14 @@ The final part of the project is perhaps the most challenging. It will require a
 For this project, a contributor would work closely with their mentors create an API to a gen-AI to generate samples based on a user prompt.
 
 In order to give users (nearly) limitless options for samples, we are adding to the project's scope a gen-AI-enabled sample generator. A user should be able to prompt a sound font, such as "heavy metal guitar with deep bass" or "soothing clarinet with a crisp attack" and get a result that they can use in their project's code. A contributor will need to extend our sample widget (which currently records audio) to accept a user prompt, create an API to call an LLM/neural-network backend, and test/tweak the gen-AI backend to create an appropriate sample for the user. The results of this part of the project need not be "perfect" by the end of the summer. A solid proof of concept will be sufficient.
+
+In particular, our focus will be on achieving the following objectives:
+
+- Train an open-source LLM using music-heavy project data to generate sample code.  
+- Extend the sample widget to support user prompts for AI-generated sound samples.  
+- Develop an LLM-based generative AI backend to produce high-quality, relevant sound samples.  
+- Build a high-performance API using FastAPI to streamline interactions between the widget and the LLM.
+- Work on techniques to minimize hallucinations and improve contextual accuracy.
 
 **Project Length**<br>
 
@@ -128,7 +137,7 @@ In order to give users (nearly) limitless options for samples, we are adding to 
 
 ------------
 
-## Code generation for lesson plans and model abstraction layer
+## AI Code generation for lesson plans and model abstraction layer
 
 **Prerequisites**<br>
  - Experience with Python
@@ -146,7 +155,7 @@ Specifically, we would be working toward accomplishing the following:
 - Increase database size by including more lesson plans and projects' data to get better response related to the projects.
 - Implement Approximate Nearest Neighbor (ANN) algorithms for faster retrieval.
 - Develop FastApi endpoints to deploy the model.
-- Work on techniques to minimize hellucination.
+- Work on techniques to minimize hallucination.
 
 **Project Length**<br>
 

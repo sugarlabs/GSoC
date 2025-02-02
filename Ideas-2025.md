@@ -9,6 +9,8 @@
 * [Add AI-assistant to the Write Activity](#Add-an-AI-assistant-to-the-Write-Activity)
 * [Refactor the Infoslicer Activity to generate plain-language summaries](#Refactor-the-Infoslicer-Activity-to-generate-plain-language-summaries)
 * [Refactor the chatbot in the Speak Activity to use gen-AI](#Refactor-the-chatbot-in-the-Speak-Activity-to-use-gen-AI)
+* [Sugar on Raspberry Pi](#sugar-on-raspberry-pi)
+* [Math Games](#math-games)
 * [GTK4 exploration](#gtk4-exploration)
 
 
@@ -284,6 +286,114 @@ explaining to a young child.
 
 ------------
 
+## Sugar on Raspberry Pi
+
+**Prerequisites**<br>
+- Experience with Raspberry Pi OS, and packaging.  
+- Knowledge of Python and Sugar activity development.  
+- Familiarity with Raspberry Pi hardware, GPIO, and sensors.  
+- Ability to optimize and package Sugar for Raspberry Pi OS
+
+**Project length**<br>
+**350** hours
+
+**Difficulty**<br>
+**Medium**
+
+**Description**<br>
+
+### Enhancing Sugar on Raspberry Pi for the Maker Community 
+
+Sugar runs efficiently on Raspberry Pi, making it an excellent platform for **education and maker communities**. This project aims to **ensure full compatibility**, optimize packaging for **Raspberry Pi OS**, and enhance Sugar activities by leveraging **Raspberry Pi hardware and sensors**.  
+
+### Key Focus Areas  
+
+**1. Strengthening Turtle Art’s Raspberry Pi Support**  
+- **Turtle Art already has built-in support for Raspberry Pi GPIO.**  
+- Enhance **documentation and example projects** to help users utilize RPi-specific features.  
+- Improve **hardware integration** to make it more accessible for makers, students, and educators.  
+
+**2. Expanding Support for Pippy, Measure, and Physics Activities**  
+- **Pippy** (Python coding environment) can be extended with RPi libraries like **GPIO Zero** and **Sense HAT** for hands-on coding.  
+- **Measure** can leverage Raspberry Pi’s **I2C and SPI sensors** (e.g., temperature, humidity, distance sensors).  
+- **Physics Activity** can be enhanced to simulate real-world interactions using **RPi-connected hardware** (e.g., motors, servos, accelerometers).    
+
+**3. Sensor-Based Activity Development for Raspberry Pi OS** 
+- Design new **interactive learning activities** using sensors like:  
+  - **Ultrasonic Sensors** (for measuring distance in real-world projects).  
+  - **Temperature & Humidity Sensors** (for science experiments).  
+  - **Accelerometers & Gyroscopes** (for physics-based motion experiments). 
+  - More Activities like Gallery and RPi CC development.
+
+**4. Comprehensive Documentation for Maker Community** 
+- Create a **detailed guide** on setting up **Sugar on Raspberry Pi OS**.  
+- Provide **step-by-step tutorials** on using Sugar with Raspberry Pi’s **GPIO, sensors, and external modules**.  
+- Ensure the documentation is **accessible to educators, students, and makers**.   
+
+**5. Video Tutorials & Community Outreach** 
+- Develop **video tutorials** demonstrating how to use and develop Sugar activities with Raspberry Pi.  
+- Promote the activities via **social media platforms** to engage the maker community.
+- Encourage **contributions and collaboration** from Raspberry Pi and Sugar Labs communities.
+
+By ensuring **seamless integration**, **enhanced documentation**, and **community engagement**, this project will make **Sugar on Raspberry Pi** a powerful tool for learning, experimentation.
+
+**Coding Mentors**<br>
+[Ibiam Chihurumnaya](https://github.com/chimosky/)
+[Walter Bender](https://github.com/walterbender/)
+
+
+-------------
+
+## Math Games
+
+**Prerequisites**<br>
+ - Experience with Python
+ - Experience with Sugar activities
+ - Interest in math puzzles and games
+
+**Description**<br>
+
+While Sugar has lots of activities, you can never have enough math
+games and puzzles. There is a great website with lots of ideas (See
+https://www.cut-the-knot.org/) for Sugar acitvities. This project
+(either medium or large) would be to develop 4 to 8 new activities
+based on some of Bogomolny's ideas.
+
+These are the Maths games of interest:
+
+* [Lewis Carroll's Game of Logic](https://www.cut-the-knot.org/LewisCarroll/LCGame.shtml)
+* [Euclid's Game](https://www.cut-the-knot.org/blue/EuclidAlg.shtml)
+* [Odd Scoring](http://cut-the-knot.org/Curriculum/Games/OddScoring.shtml)
+* [The Candy Game](http://www.cut-the-knot.org/Curriculum/Algebra/IntergerIterationsOnACircle.shtml)
+* [Sierpinski Gasket](https://www.cut-the-knot.org/Curriculum/Geometry/Tremas.shtml)
+* [Make An Identity](http://www.cut-the-knot.org/Curriculum/Algebra/Latin.shtml)
+* Number Detective - 
+Number Detective is a fun math game that teaches pattern recognition and AI basics.  
+User input a number sequence, and the AI predicts the next number.  
+If the AI is wrong, the user corrects it, helping it learn over time!  
+The game uses simple rule-based logic and machine learning for predictions.  
+
+* Sorting Hat AI -  Sorting Hat AI is an interactive game that teaches how AI classifies objects.  
+User label animals, shapes, or numbers, and the AI learns to classify new ones.  
+If the AI makes a mistake, kids correct it, improving its learning over time!  
+The game uses **Decision Trees** or **k-Nearest Neighbors (k-NN)** for classification.  
+
+These are some of ideas , more ideas can be added/changed
+
+**Project Length**<br>
+**350** hours
+
+**Difficulty**<br>
+**Medium**
+
+**Coding Mentors**<br>
+[Ibiam Chihurumnaya](https://github.com/chimosky/)
+
+**Assisting Mentors**<br>
+[Walter Bender](https://github.com/walterbender/)
+
+------------
+
 # GTK4 Exploration
 
 **Prerequisites**<br>
@@ -326,7 +436,7 @@ to its EOL.
 
 # Administrative notes
 
-Above are a list of ideas we've planned for GSoC 2024 projects.
+Above are a list of ideas we've planned for GSoC 2025 projects.
 If you have any ideas which can be useful to us, but are not in the
 list, we'd love to hear from you.  You need not be a potential
 student or a mentor to suggest ideas.

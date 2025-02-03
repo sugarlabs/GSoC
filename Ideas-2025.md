@@ -10,10 +10,8 @@
 * [Refactor the Infoslicer Activity to generate plain-language summaries](#Refactor-the-Infoslicer-Activity-to-generate-plain-language-summaries)
 * [Refactor the chatbot in the Speak Activity to use gen-AI](#Refactor-the-chatbot-in-the-Speak-Activity-to-use-gen-AI)
 * [GTK4 exploration](#gtk4-exploration)
+* [JS internationalization](#js-internationalization)
 * [Sugarizer Human Activity pack](#sugarizer-human-activity-pack)
-
-
-
 
 ------------
 
@@ -324,6 +322,40 @@ to its EOL.
 
 -------------
 
+# JS internationalization
+
+**Prerequisites**<br>
+- Experience with JavaScript
+
+**Project length**<br>
+**175** hours
+
+**Difficulty:**<br>
+**Medium**
+
+**Description**<br>
+
+Our JavaScript activities are using a somewhat antiquated mechanism
+for internationalization, the webL10n.js library. It does not even
+support plurals or any language-specific formating.  i18next looks
+like a well-maintained and promising alternative.
+
+This project involves: (a) researching the state of art of language
+localization for JavaScript, keeping in mind that we are currently
+maintaining PO files; (b) making a recommendation as to the framework;
+(c) proposing a path to implementation; and (d) implementing the
+solution in Music Blocks. (Other JS projects can follow along.)
+
+**Project Task Checklist**<br>
+- research
+- recommendation
+- plan
+- coding
+
+**Coding Mentors**<br>
+[Walter Bender](https://github.com/walterbender/)
+
+-------------
 
 # Sugarizer Human Activity pack
 
@@ -388,7 +420,6 @@ Inspirations:<br>
 [Lionel Laské](https://github.com/llaske/)
 
 -------------
-
 
 # Administrative notes
 

@@ -11,6 +11,7 @@
 * [Refactor the chatbot in the Speak Activity to use gen-AI](#Refactor-the-chatbot-in-the-Speak-Activity-to-use-gen-AI)
 * [GTK4 exploration](#gtk4-exploration)
 * [JS internationalization](#js-internationalization)
+* [Sugarizer Human Activity pack](#sugarizer-human-activity-pack)
 
 ------------
 
@@ -343,7 +344,7 @@ This project involves: (a) researching the state of art of language
 localization for JavaScript, keeping in mind that we are currently
 maintaining PO files; (b) making a recommendation as to the framework;
 (c) proposing a path to implementation; and (d) implementing the
-solution in Music Blocks. (Other JS projects can follow along.
+solution in Music Blocks. (Other JS projects can follow along.)
 
 **Project Task Checklist**<br>
 - research
@@ -353,6 +354,70 @@ solution in Music Blocks. (Other JS projects can follow along.
 
 **Coding Mentors**<br>
 [Walter Bender](https://github.com/walterbender/)
+
+-------------
+
+# Sugarizer Human Activity pack
+
+**Prerequisites**<br>
+ - Experience with JavaScript/HTML5 in VanillaJS or with Vue.js
+ - Experience with three.js 3D framework
+ - Knowledge of 3D tools, capacity to create/combine 3D assets 
+
+**Project length**<br>
+**175** hours
+
+**Difficulty:** &#9733; &#9733; &#9734; (medium)
+
+**Description**<br>
+
+The objective of this project is:<br>
+ - Finalize the 3D Human Body activity   
+ - Create a new activity named Stickman Animation
+<br>
+
+**3D Human Body activity**<br>
+The human Body activity has been started on https://github.com/llaske/sugarizer/tree/feature/humanbody. 
+
+Tasks to do: <br>
+ - Identify the missing asses for the body layer and the organs layer (only skeleton layer is here today)  
+ - Integrate these layers in the activity and the way to change layer    
+ - Implement the shared mode for doctor mode 
+ - Review the UI for toolbar and popups 
+ - Localize the activity 
+ - Suggest other improvements
+
+**Stickman Animation activity**<br>
+Create a new activity to allow creation of animated sequence of a stickman 
+
+The idea of the activity is a "keyframe animation" tool that lets you pose and program a stick figure to rotate, twist, turn, tumble, and dance.  The new activity can be integrated into many school subject areas such as creative writing, art, drama, geometry and computer programming.  Students can make figures that relate to a subject the class is studying, and share them with peers using collaboration feature. It helps children develop spatial and analytical thinking skills and to express ideas that they might not have words for yet. 
+
+Features expected:<br>
+ - Put the stickman figure in different poses by moving dots 
+ - Create and order frames with the different poses created 
+ - Play/Pause the whole frames 
+ - Change speed 
+ - Share and collaborate    
+ - Export as a video 
+ - Access to a list of existing fun templates 
+
+Inspirations:<br>
+ - https://activities.sugarlabs.org/en/sugar/addon/4044  
+ - https://www.spatial.io/g/stick-animator  
+ - https://flipanim.com/  
+ - https://pivotanimator.net/  
+ - https://drawastickman.com  
+ - https://stickfigure-recorder.web.app/  
+
+
+**First steps to starts**<br>
+
+* Complete the [Sugarizer Vanilla Javascript activity development tutorial](https://github.com/llaske/sugarizer/blob/dev/docs/tutorial/VanillaJS/tutorial.md) or the [Sugarizer Vue.js activity development tutorial](https://github.com/llaske/sugarizer/blob/dev/docs/tutorial/VueJS/tutorial.md). Publish on Discord a video of the Pawn activity running.
+* Start working of tasks listed for Human Body activity 
+* Create a mockup of the Stickman Animation activity
+
+**Mentor**<br>
+[Lionel Laské](https://github.com/llaske/)
 
 -------------
 

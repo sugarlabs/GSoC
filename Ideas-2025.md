@@ -371,24 +371,32 @@ solution in Music Blocks. (Other JS projects can follow along.)
 
 **Description**<br>
 
-The objective of this project is:<br>
+The objective of this project is to:<br>
  - Finalize the 3D Human Body activity   
  - Create a new activity named Stickman Animation
 <br>
+
+<br>
+
+![](assets/sugarizer_humanbody.png)
 
 **3D Human Body activity**<br>
 The human Body activity has been started on https://github.com/llaske/sugarizer/tree/feature/humanbody. 
 
 Tasks to do: <br>
- - Identify the missing asses for the body layer and the organs layer (only skeleton layer is here today)  
+ - Identify the missing assets for the body layer and the organs layer (only skeleton layer is here today)  
  - Integrate these layers in the activity and the way to change layer    
  - Implement the shared mode for doctor mode 
  - Review the UI for toolbar and popups 
  - Localize the activity 
  - Suggest other improvements
 
+<br>
+
+![](assets/sugarizer_stickman.png)
+
 **Stickman Animation activity**<br>
-Create a new activity to allow creation of animated sequence of a stickman 
+Create a new activity to allow creation of animated sequence of a stickman. 
 
 The idea of the activity is a "keyframe animation" tool that lets you pose and program a stick figure to rotate, twist, turn, tumble, and dance.  The new activity can be integrated into many school subject areas such as creative writing, art, drama, geometry and computer programming.  Students can make figures that relate to a subject the class is studying, and share them with peers using collaboration feature. It helps children develop spatial and analytical thinking skills and to express ideas that they might not have words for yet. 
 
@@ -399,7 +407,8 @@ Features expected:<br>
  - Change speed 
  - Share and collaborate    
  - Export as a video 
- - Access to a list of existing fun templates 
+ - Access to a list of existing fun templates
+ - Import a photo of an human body to create a stickman figure in the same pose
 
 Inspirations:<br>
  - https://activities.sugarlabs.org/en/sugar/addon/4044  

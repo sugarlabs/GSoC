@@ -12,6 +12,7 @@
 * [GTK4 exploration](#gtk4-exploration)
 * [JS internationalization](#js-internationalization)
 * [Sugarizer Human Activity pack](#sugarizer-human-activity-pack)
+* [AI-Driven Vocabulary Games with Personalised Learning and Progress Tracking](#ai-driven-vocabulary-games-with-personalised-learning-and-progress-tracking)
 
 ------------
 
@@ -427,6 +428,37 @@ Inspirations:<br>
 
 **Mentor**<br>
 [Lionel Laské](https://github.com/llaske/)
+
+-------------
+
+# AI-Driven Vocabulary Games with Personalised Learning and Progress Tracking
+
+**Prerequisites**<br>
+ - Experience with Python
+ - Experience with Sugar activities
+ - Experience with LLMs
+ - Good vocabulary related knowledge
+
+**Project length**<br>
+**350** hours
+
+**Difficulty:**<br>
+**High**
+
+**Description**<br>
+
+This project addresses the gap in structured word-learning by introducing interactive vocabulary-based games. While existing games focus on visual learning, this project enhances word recognition, sentence formation, and grammar through engaging challenges. A universal personal vocabulary dictionary will track every word a student learns across all games, reinforcing long-term retention and enabling periodic assessments.
+
+To personalize learning, AI and RAG will be integrated to adjust difficulty levels in real time. If a student struggles with a word, AI will provide contextual hints, examples, and tailored exercises. A smart feedback system will analyze sentence structures and grammar, offering instant corrections and suggestions.
+The dictionary will be used across games, allowing students to revisit words in different contexts and take AI-curated revision quizzes. AI-powered tracking will generate progress reports for educators, offering insights into learning patterns.
+
+In essence, this project focuses on creating vocabulary based games, which will store new learnt words, phrases, idioms,etc of each student in their personalized dictionary. This data will be used to generate progress reports, giving educators a clear understanding of each student’s knowledge and also adjust the difficulty of each game.
+
+**Games to be developed**
+- WordQuest: A daily word-guessing game where students discover new words and expand their vocabulary.
+- AI Story Crafter: An AI-assisted game where students complete short stories by filling in missing words and phrases, enhancing creativity and contextual understanding.
+- Sentence Builder: Players form correct sentences from jumbled words, improving grammar and sentence structure.
+- Riddle Master: An engaging game where students solve word-based riddles, enhancing critical thinking and vocabulary in a fun way.
 
 -------------
 

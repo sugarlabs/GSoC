@@ -6,6 +6,7 @@
 * [Improve syth and sample features in Music Blocks](#Improve-syth-and-sample-features-in-Music-Blocks)
 * [Generative AI Instrument Sample Generation for Music Blocks](#Generative-AI-Instrument-Sample-Generation-for-Music-Blocks)
 * [AI Code generation for lesson plans and model abstraction layer](#AI-Code-generation-for-lesson-plans-and-model-abstraction-layer)
+* [Music Blocks 4 Masonry Module](#Music-Blocks-4-Masonry-Module)
 * [Add AI-assistant to the Write Activity](#Add-an-AI-assistant-to-the-Write-Activity)
 * [Refactor the Infoslicer Activity to generate plain-language summaries](#Refactor-the-Infoslicer-Activity-to-generate-plain-language-summaries)
 * [Refactor the chatbot in the Speak Activity to use gen-AI](#Refactor-the-chatbot-in-the-Speak-Activity-to-use-gen-AI)
@@ -175,6 +176,77 @@ Specifically, we would be working toward accomplishing the following:
 **Coding Mentors**<br>
 [Walter Bender](https://github.com/walterbender/)<br>
 **Assisting Mentors**<br>
+[Devin Ulibarri](https://github.com/pikurasa/)
+
+------------
+
+# Music Blocks 4 Masonry Module
+
+**Difficulty:** **High** (&#9733; &#9733; &#9733; &#9733; &#9734;)
+
+**Project Length:** **350** hours
+
+**Tech Stack**
+
+TypeScript 5, React 18, Sass, Storybook, Vitest, Vite
+
+**Prerequisites**
+
+* Proficiency in **TypeScript**
+* Proficiency in **JavaScript DOM API**
+* Experience with **React Functional Components and Hooks**
+* Familiarity with **Storybook** and **Vitest**
+* Familiarity with **SVG paths and groups**
+
+**Description**
+
+_Music Blocks_ programs are designed to be built interactively by connecting
+program constructs, which are visually represented as snap-together, Lego-like
+graphical bricks. The goal is to develop a module for _Music Blocks_ (_v4_) that
+enables the creation of _Music Blocks_ programs.
+
+The project will begin with the development of a framework for generating individual
+brick components that represent various program syntax constructs. This will be
+followed by the creation of utilities to represent any program structure through
+visual connections between the bricks. Next, a component will be built to display
+all available program bricks, organized into categories, sections, and groups.
+Finally, a workspace will be developed where users can drag-and-drop, as well as
+connect and disconnect the program bricks to create their programs.
+
+To draw the bricks, we will use SVG paths, so a solid understanding of SVG path
+commands is crucial. The development will follow an Object-Oriented Programming
+approach in TypeScript, with the rendering and management of visual states handled
+using React Functional Components. A strong understanding of both TypeScript and
+React is expected.
+
+This project began last year, and you will be expected to build upon the progress
+made and complete the module.
+
+The overall objectives are as follows:
+
+* Collaborate with project maintainers to create a design document outlining
+functional requirements, UI considerations, both high-level and low-level designs,
+and a technical specification.
+
+* Develop utilities to generate SVG paths for the bricks based on configurations.
+
+* Build utilities to represent and manipulate _Music Blocks_ programs in-memory.
+
+* Develop the four individual submodules outlined above.
+
+* Write Storybook stories to document and showcase UI components.
+
+* Implement unit tests for functions and classes using Vitest.
+
+* Focus on optimizing processing performance.
+
+* Export a minimal API for integration with other parts of the application.
+
+**Mentors**<br/>
+[Anindya Kundu](https://github.com/meganindya/)
+
+**Assisting Mentors**<br/>
+[Walter Bender](https://github.com/walterbender/)<br/>
 [Devin Ulibarri](https://github.com/pikurasa/)
 
 ------------

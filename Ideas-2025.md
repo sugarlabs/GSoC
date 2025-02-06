@@ -6,6 +6,7 @@
 * [Improve syth and sample features in Music Blocks](#Improve-syth-and-sample-features-in-Music-Blocks)
 * [Generative AI Instrument Sample Generation for Music Blocks](#Generative-AI-Instrument-Sample-Generation-for-Music-Blocks)
 * [AI Code generation for lesson plans and model abstraction layer](#AI-Code-generation-for-lesson-plans-and-model-abstraction-layer)
+* [Music Blocks 4 Program Engine](#Music-Blocks-4-Program-Engine)
 * [Add AI-assistant to the Write Activity](#Add-an-AI-assistant-to-the-Write-Activity)
 * [Refactor the Infoslicer Activity to generate plain-language summaries](#Refactor-the-Infoslicer-Activity-to-generate-plain-language-summaries)
 * [Refactor the chatbot in the Speak Activity to use gen-AI](#Refactor-the-chatbot-in-the-Speak-Activity-to-use-gen-AI)
@@ -175,6 +176,78 @@ Specifically, we would be working toward accomplishing the following:
 **Coding Mentors**<br>
 [Walter Bender](https://github.com/walterbender/)<br>
 **Assisting Mentors**<br>
+[Devin Ulibarri](https://github.com/pikurasa/)
+
+------------
+
+# Music Blocks 4 Program Engine
+
+**Difficulty:** **Hard** (&#9733; &#9733; &#9733; &#9733; &#9733;)
+
+**Project Length:** **350** hours
+
+**Tech Stack**
+
+TypeScript 5, Vitest, Vite
+
+**Prerequisites**
+
+* Proficiency in **TypeScript** and **Object-Oriented Programming**
+* Experience with writing unit tests using **Jest**/**Vitest**
+* Good understanding of the **JavaScript Event Loop**
+* Understanding of **Abstract Syntax Trees** (**AST**)
+
+**Description**
+
+_Music Blocks_ is a programming platform, and at its core is the execution engine
+responsible for running _Music Blocks_ programs. This project will focus on
+building the execution engine and the necessary components to represent and execute
+_Music Blocks_ programs in-memory.
+
+The project will begin by refining the Object-Oriented program syntax constructs.
+These constructs will encapsulate the logic for each syntax element and will serve
+as the foundation for developing a framework to represent Abstract Syntax Trees
+(ASTs) for _Music Blocks_ programs. Additional utilities will be built to manage
+instances of these syntax constructs, thus completing the static pieces.
+
+Next, several components will need to be developed to execute the program ASTs,
+forming the dynamic pieces of the project. Key components include:
+
+* **Parser:** Responsible for parsing the nodes of the ASTs in inorder traversal.
+* **State Manager:** Manages the program state at any given point during execution.
+* **Interpreter:** Executes individual expressions and instructions.
+
+It’s important to note that _Music Blocks_ programs combine both imperative and
+declarative constructs. Additionally, some instructions in the programs execute
+over a time duration, and the programs themselves are multi-threaded. These threads
+must run concurrently while ensuring proper synchronization.
+
+We currently have a work-in-progress on
+[github.com/sugarlabs/musicblocks-v4-lib](https://github.com/sugarlabs/musicblocks-v4-lib),
+but some design decisions need to be revisited. This project will involve understanding
+and refining these design choices and completing the remaining components.
+
+The overall objectives are as follows:
+
+* Collaborate with project maintainers to define all expected functionalities and
+behaviors, and write a technical specification.
+
+* Collaborate with project maintainers to develop a concrete execution algorithm,
+addressing time-based instructions, concurrency, and synchronization.
+
+* Refine and complete the static components responsible for program representation.
+
+* Refine and complete the dynamic components responsible for program execution.
+
+* Write comprehensive unit tests for all components.
+
+* Focus on optimizing runtime performance.
+
+**Mentors**<br/>
+[Anindya Kundu](https://github.com/meganindya/)
+
+**Assisting Mentors**<br/>
+[Walter Bender](https://github.com/walterbender/)<br/>
 [Devin Ulibarri](https://github.com/pikurasa/)
 
 ------------

@@ -3,7 +3,7 @@
 ## Project Ideas
 * [Color sensor for Music Blocks for photos and real-time video](#Color-sensor-for-Music-Blocks-for-photos-and-real-time-video)
 * [Interactive AI-powered Chatbot and Debugger for Music Blocks](#Interactive-AI-powered-Chatbot-and-Debugger-for-Music-Blocks)
-* [Improve syth and sample features in Music Blocks](#Improve-syth-and-sample-features-in-Music-Blocks)
+* [Improve synth and sample features in Music Blocks](#Improve-syth-and-sample-features-in-Music-Blocks)
 * [Generative AI Instrument Sample Generation for Music Blocks](#Generative-AI-Instrument-Sample-Generation-for-Music-Blocks)
 * [AI Code generation for lesson plans and model abstraction layer](#AI-Code-generation-for-lesson-plans-and-model-abstraction-layer)
 * [Music Blocks 4 Program Engine](#Music-Blocks-4-Program-Engine)
@@ -79,7 +79,7 @@ Specifically, we aim to achieve the following:
 
 ------------
 
-## Improve syth and sample features in Music Blocks
+## Improve synth and sample features in Music Blocks
 
 **Prerequisites**<br>
  - Experience with JavaScript

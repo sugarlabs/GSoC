@@ -14,6 +14,7 @@
 * [GTK4 exploration](#gtk4-exploration)
 * [JS internationalization](#js-internationalization)
 * [Sugarizer Human Activity pack](#sugarizer-human-activity-pack)
+* [Pippy Debugger](#pippy-debugger)
 
 ------------
 
@@ -567,6 +568,31 @@ Inspirations:<br>
 
 **Mentor**<br>
 [Lionel Laské](https://github.com/llaske/)
+
+## Pippy Debugger
+
+**Prerequisites**<br>
+ - Experience with Python
+ - Experience with Sugar activities
+ - Experience with LLMs/Chatbots
+
+**Description**<br>
+
+Many LLM programs for coding are almost exclusively marketed as "helping you write code for you". However, we believe that LLMs can also assist learners to *debug their code*. This project proposal is to create an LLM-powered debugger for Pippy, the Sugar Activity for creating code in Python.
+
+The proposed Pippy Debugger integrates with the existing Pippy Activity. The LLM-powered debugger should be able to read a learner's code and offer suggestions for improvement when prompted. And since we work with youth, we need to make sure that the debugger's output is age-appropriate. The Pippy interface will also be updated to expose the new feature to a user.
+
+**Project Length**<br>
+
+**175** hours
+
+**Difficulty**<br>
+
+**Medium**
+
+**Coding Mentors**<br>
+[Walter Bender](https://github.com/walterbender/)
+[Ibiam Chihurumnaya](https://github.com/chimosky/)
 
 -------------
 

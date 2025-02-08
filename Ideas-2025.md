@@ -580,7 +580,7 @@ Inspirations:<br>
 
 Many LLM programs for coding are almost exclusively marketed as "helping you write code for you". However, we believe that LLMs can also assist learners to *debug their code*. This project proposal is to create an LLM-powered debugger for Pippy, the Sugar Activity for creating code in Python.
 
-The proposed Pippy Debugger integrates with the existing Pippy Activity. The LLM-powered debugger should be able to read a learner's code and offer suggestions for improvement when prompted. And since we work with youth, we need to make sure that the debugger's output is age-appropriate. The Pippy interface will also be updated to expose the new feature to a user.
+The proposed Pippy Debugger integrates with the existing Pippy Activity. The LLM-powered debugger should be able to read a learner's code and offer suggestions for improvement when prompted. It should also help engage the learning in a conversation about how to discover where to look to find bugs and how to think about resolving them -- in other words, take the learning on a debugging journey as opposed to just spoon-feeding a solution. And since we work with youth, we need to make sure that the debugger's output is age-appropriate. The Pippy interface will also be updated to expose the new feature to a user.
 
 **Project Length**<br>
 

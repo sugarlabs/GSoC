@@ -1,6 +1,7 @@
 # GSoC 2025 Ideas
 
 ## Project Ideas
+* [Git backend for Turtle Blocks and Music Blocks](#Git-backend-for-Turtle-Blocks-and-Music-Blocks)
 * [Color sensor for Music Blocks for photos and real-time video](#Color-sensor-for-Music-Blocks-for-photos-and-real-time-video)
 * [Interactive AI-powered Chatbot and Debugger for Music Blocks](#Interactive-AI-powered-Chatbot-and-Debugger-for-Music-Blocks)
 * [Improve synth and sample features in Music Blocks](#Improve-syth-and-sample-features-in-Music-Blocks)
@@ -16,6 +17,34 @@
 * [Sugarizer Human Activity pack](#sugarizer-human-activity-pack)
 
 ------------
+
+## Git backend for Turtle Blocks and Music Blocks
+
+**Prerequisites**<br>
+ - Experience with Git
+ - Experience with JavaScript
+ - Experience with Music Blocks and Turtle Blocks
+
+**Description**<br>
+
+Portfolio creation, reflection, and collaboration are important parts of the educational philosophy at Sugar Labs, and Git version control is a great way to explore all these things.
+
+At Sugar Labs, [we've created some initial designs](https://drive.google.com/file/d/15G0vtr-1JyzCorwmgjvXE-37vwZMLgJD/view?usp=sharing) for a couple approaches to introducing Git version control to young learners. This proposal focuses on introducing Git version control through our existing web-based programs, namely Turtle Blocks and Music Blocks. Both these programs have a feature to publish projects to a server called the "Planet". Currently the Planet just stores projects that users have made, without any sort of version control features like *fork*, *history*, or *checkout*.
+
+This project requires a contributor to work closely with Sugar Labs mentors to implement a system of Git version control features, runing on a backend server, that are exposed to the user.
+
+**Project Length**<br>
+
+**350** hours
+
+**Difficulty**<br>
+
+**Hard**<br>
+
+**Coding Mentors**<br>
+[Walter Bender](https://github.com/walterbender/)<br>
+**Assisting Mentors**<br>
+[Devin Ulibarri](https://github.com/pikurasa/)
 
 ## Color sensor for Music Blocks for photos and real-time video
 

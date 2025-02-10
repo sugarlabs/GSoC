@@ -17,6 +17,7 @@
 * [JS internationalization](#js-internationalization)
 * [Sugarizer Human Activity pack](#sugarizer-human-activity-pack)
 * [Pippy Debugger](#pippy-debugger)
+* [Math Games](#math-games)
 
 ------------
 
@@ -763,6 +764,54 @@ interface will also be updated to expose the new feature to a user.
 [Ibiam Chihurumnaya](https://github.com/chimosky/)
 
 -------------
+
+## Math Games
+
+**Prerequisites**<br>
+ - Experience with Python
+ - Experience with Sugar activities
+ - Interest in math puzzles and games
+
+**Description**<br>
+
+While Sugar has lots of activities, you can never have enough math
+games and puzzles.This project would be to develop 8 new maths activities.
+
+These are some of the tentative Maths games of interest:
+
+* [Four Color map game](https://www.transum.org/maths/activity/colouring/)
+* [Broken Calculator](https://toytheater.com/broken-calculator/)
+* [Soma cubes](https://www.britannica.com/topic/Soma-Cubes),
+* [Fifteen Puzzle](https://www.britannica.com/topic/Fifteen-Puzzle).
+* [Euclid's Game](https://www.cut-the-knot.org/blue/EuclidAlg.shtml)
+* [Odd Scoring](http://cut-the-knot.org/Curriculum/Games/OddScoring.shtml)
+* [Make An Identity](http://www.cut-the-knot.org/Curriculum/Algebra/Latin.shtml)
+* Number Detective - 
+Number Detective is a fun math game that teaches pattern recognition and AI basics.  
+User input a number sequence, and the AI predicts the next number.  
+If the AI is wrong, the user corrects it, helping it learn over time!  
+The game uses simple rule-based logic and machine learning for predictions.  
+
+* Sorting Hat AI -  Sorting Hat AI is an interactive game that teaches how AI classifies objects.  
+User label animals, shapes, or numbers, and the AI learns to classify new ones.  
+If the AI makes a mistake, kids correct it, improving its learning over time!  
+The game uses **Decision Trees** or **k-Nearest Neighbors (k-NN)** for classification.  
+
+Note: These are some tentative ideas for math games. Further updates, additions, or modifications can be made through discussions with mentors to develop the best possible games.
+
+**Project Length**<br>
+**350** hours
+
+**Difficulty**<br>
+**Medium**
+
+**Coding Mentors**<br>
+[Ibiam Chihurumnaya](https://github.com/chimosky/)
+
+**Assisting Mentors**<br>
+[Walter Bender](https://github.com/walterbender/)
+
+------------
 
 # Administrative notes
 

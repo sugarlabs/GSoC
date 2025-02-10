@@ -719,8 +719,11 @@ Inspirations:<br>
 
 **Difficulty:** &#9733; &#9733; &#9734; (medium)
 
-**Mentor**<br>
+**Coding Mentors**<br>
 [Lionel Laské](https://github.com/llaske/)
+
+**Assisting Mentors**<br>
+[Samarth Bagga](https://github.com/SamarthBagga/)
 
 ## Pippy Debugger
 

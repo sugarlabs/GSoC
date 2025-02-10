@@ -578,7 +578,7 @@ explaining to a young child.
 **Description**<br>
 
 Sugar 0.120 runs on GTK3 and needs to be ported to GT4, we need to
-port Sugar and it's core activities to support GTK4 before GTK3 gets
+port Sugar and its core activities to support GTK4 before GTK3 gets
 to its EOL.
 
 **Project Task Checklist**

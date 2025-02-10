@@ -4,7 +4,7 @@
 * [Git backend for Turtle Blocks and Music Blocks](#Git-backend-for-Turtle-Blocks-and-Music-Blocks)
 * [Color sensor for Music Blocks for photos and real-time video](#Color-sensor-for-Music-Blocks-for-photos-and-real-time-video)
 * [Interactive AI-powered Chatbot and Debugger for Music Blocks](#Interactive-AI-powered-Chatbot-and-Debugger-for-Music-Blocks)
-* [Improve synth and sample features in Music Blocks](#Improve-syth-and-sample-features-in-Music-Blocks)
+* [Improve synth and sample features in Music Blocks](#Improve-synth-and-sample-features-in-Music-Blocks)
 * [Generative AI Instrument Sample Generation for Music Blocks](#Generative-AI-Instrument-Sample-Generation-for-Music-Blocks)
 * [AI Code generation for lesson plans and model abstraction layer](#AI-Code-generation-for-lesson-plans-and-model-abstraction-layer)
 * [Music Blocks 4 Program Engine](#Music-Blocks-4-Program-Engine)

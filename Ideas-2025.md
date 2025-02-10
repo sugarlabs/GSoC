@@ -155,7 +155,6 @@ In order to give users (nearly) limitless options for samples, we are adding to 
 
 In particular, our focus will be on achieving the following objectives:
 
-- Train an open-source LLM using music-heavy project data to generate sample code.  
 - Extend the sample widget to support user prompts for AI-generated sound samples.  
 - Develop an LLM-based generative AI backend to produce high-quality, relevant sound samples.  
 - Build a high-performance API using FastAPI to streamline interactions between the widget and the LLM.

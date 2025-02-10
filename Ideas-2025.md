@@ -44,7 +44,7 @@ projects that users have made, without any sort of version control
 features like *fork*, *history*, or *checkout*.
 
 This project requires a contributor to work closely with Sugar Labs
-mentors to implement a system of Git version control features, runing
+mentors to implement a system of Git version control features, running
 on a backend server, that are exposed to the user.
 
 **Project Length**<br>
@@ -76,11 +76,11 @@ webcam stream, users would be able to implement *Lego music notation
 for the blind* and similarly interactive programs.
 
 The goal of the project is to develop extended functionality to our
-exisiting tools of turtle/mouse glyph movement and limited color
+existing tools of turtle/mouse glyph movement and limited color
 detection to sense color from uploaded images, as well as the
 real-time feed from a webcam. Upon successful implementation, the
 turtle/mouse glyph will be able to detect the color of pixels
-underneath it, regarless of whether those pixels were drawn by the
+underneath it, regardless of whether those pixels were drawn by the
 turtle/mouse itself, part of an uploaded image stamped to the canvas,
 or part of a live webcam video feed into Music Blocks. One test of
 success is to run our *Lego music notation for the blind* project with
@@ -446,7 +446,7 @@ TypeScript 5, React 18, Sass, Storybook, Vitest, Vite
 
 **Description**<br>
 
-Sugar pioneered peer editing in its Write activiy. However, the Write
+Sugar pioneered peer editing in its Write activity. However, the Write
 Activity has never had any serious support for grammar correction
 (just spell check) and none of the more recent developments around
 AI-assisted writing. The goal of this project is to add AI-assistance
@@ -560,7 +560,7 @@ explaining to a young child.
 **Description**<br>
 
 Sugar 0.120 runs on GTK3 and needs to be ported to GT4, we need to
-port Sugar and it's core activities to support GTK4 before GTK3 gets
+port Sugar and its core activities to support GTK4 before GTK3 gets
 to its EOL.
 
 **Project Task Checklist**

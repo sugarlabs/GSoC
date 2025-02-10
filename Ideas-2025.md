@@ -33,7 +33,7 @@ Portfolio creation, reflection, and collaboration are important parts
 of the educational philosophy at Sugar Labs, and Git version control
 is a great way to explore all these things.
 
-At Sugar Labs, [we've created some initial
+At Sugar Labs, we've created some initial
 designs](https://drive.google.com/file/d/15G0vtr-1JyzCorwmgjvXE-37vwZMLgJD/view?usp=sharing)
 for a couple approaches to introducing Git version control to young
 learners. This proposal focuses on introducing Git version control
@@ -47,6 +47,9 @@ This project requires a contributor to work closely with Sugar Labs
 mentors to implement a system of Git version control features, running
 on a backend server, that are exposed to the user.
 
+References:
+ - <https://drive.google.com/file/d/15G0vtr-1JyzCorwmgjvXE-37vwZMLgJD/view?usp=sharing>
+
 **Project Length**<br>
 
 **350** hours
@@ -57,6 +60,7 @@ on a backend server, that are exposed to the user.
 
 **Coding Mentors**<br>
 [Walter Bender](https://github.com/walterbender/)<br>
+
 **Assisting Mentors**<br>
 [Devin Ulibarri](https://github.com/pikurasa/)
 
@@ -86,6 +90,11 @@ or part of a live webcam video feed into Music Blocks. One test of
 success is to run our *Lego music notation for the blind* project with
 a live feed. The result should be able to playback and record the
 abstract brick notation based on its contrasting colors.
+
+References:
+ - <https://medium.com/@sugarlabs/reflections-from-constructing-modern-knowledge-2024-1ce7d60fbb1c>
+ - <https://vimeo.com/983707992>
+ - <https://vimeo.com/983697295>
 
 **Project Length**<br>
 
@@ -142,9 +151,9 @@ Specifically, we aim to achieve the following:
 
 **Coding Mentors**<br>
 [Walter Bender](https://github.com/walterbender/)<br>
+
 **Assisting Mentors**<br>
 [Devin Ulibarri](https://github.com/pikurasa/)
-
 
 ------------
 
@@ -159,8 +168,8 @@ Specifically, we aim to achieve the following:
 
 Users have two main methods within Music Blocks to play with sound:
 synths and samples. For our synth, we use tone.js. For samples, we use
-a .wav binaries and transpose the sound to different pitches. While
-these features work "well enough", there is still more that can been
+.wav binaries and transpose the sound to different pitches. While
+these features work "well enough," there is still more that can been
 to make them useful. For this project, a contributor would work
 closely with their mentors to 1) update the sampler widget, 2) port a
 list of free/libre/open samples into Music Blocks, and 3) add to the
@@ -187,6 +196,13 @@ assigned to a custom instrument in Music Blocks. Doing this will make
 the overall tone of the instruments more persuasive. For example, if
 the Music Blocks project has short, staccato sounds, the playback can
 use the short sample created by a recorded instrument.
+
+References:
+ - <https://github.com/sugarlabs/musicblocks/tree/master/sounds/samples>
+ - "Processing for pitched (non-percussion) samples" section of <https://wiki.sugarlabs.org/go/Music_Blocks/2025-02-09-meeting>
+ - A professionals guide to creating "virtual instruments": <https://www.nicolastiteux.com/en/blog/making-a-virtual-instrument-a-guide-to-sampling/>
+ - Possible samples: <https://philharmonia.co.uk/resources/sound-samples/>
+ - Possible samples: <https://github.com/sonic-pi-net/sonic-pi/tree/dev/etc/samples>
 
 **Project Length**<br>
 
@@ -218,15 +234,15 @@ create an API to a gen-AI to generate samples based on a user prompt.
 
 In order to give users (nearly) limitless options for samples, we are
 adding to the project's scope a gen-AI-enabled sample generator. A
-user should be able to prompt a sound font, such as "heavy metal
-guitar with deep bass" or "soothing clarinet with a crisp attack" and
-get a result that they can use in their project's code. A contributor
-will need to extend our sample widget (which currently records audio)
-to accept a user prompt, create an API to call an LLM/neural-network
-backend, and test/tweak the gen-AI backend to create an appropriate
-sample for the user. The results of this part of the project need not
-be "perfect" by the end of the summer. A solid proof of concept will
-be sufficient.
+user should be able to prompt a sound font, such as "something between
+a heavy metal guitar and a lion roar" or "something between a clarinet
+and a human singing 'ah'" and get a result that they can use in their
+project's code. A contributor will need to extend our sample widget
+(which currently records audio) to accept a user prompt, create an API
+to call an LLM/neural-network backend, and test/tweak the gen-AI
+backend to create an appropriate sample for the user. The results of
+this part of the project need not be "perfect" by the end of the
+summer. A solid proof of concept will be sufficient.
 
 In particular, our focus will be on achieving the following objectives:
 
@@ -245,6 +261,7 @@ In particular, our focus will be on achieving the following objectives:
 
 **Coding Mentors**<br>
 [Walter Bender](https://github.com/walterbender/)<br>
+
 **Assisting Mentors**<br>
 [Devin Ulibarri](https://github.com/pikurasa/)
 
@@ -289,6 +306,7 @@ Specifically, we would be working toward accomplishing the following:
 
 **Coding Mentors**<br>
 [Walter Bender](https://github.com/walterbender/)<br>
+
 **Assisting Mentors**<br>
 [Devin Ulibarri](https://github.com/pikurasa/)
 
@@ -446,7 +464,7 @@ TypeScript 5, React 18, Sass, Storybook, Vitest, Vite
 
 **Description**<br>
 
-Sugar pioneered peer editing in its Write activity. However, the Write
+Sugar pioneered peer editing in its Write Activity. However, the Write
 Activity has never had any serious support for grammar correction
 (just spell check) and none of the more recent developments around
 AI-assisted writing. The goal of this project is to add AI-assistance
@@ -565,18 +583,18 @@ to its EOL.
 
 **Project Task Checklist**
 
-- Migrate minimal [sugar-toolkit-gtk3](https://github.com/sugarlabs/sugar-toolkit-gtk3) components to     support Hello World activity, in particular the activity and graphics classes.
+- Migrate minimal [sugar-toolkit-gtk3](https://github.com/sugarlabs/sugar-toolkit-gtk3) components to support Hello World activity, in particular the activity and graphics classes.
 - Migrate [Hello World](https://github.com/sugarlabs/hello-world) activity.
-- Document migration strategy based on extending any existing upstream GTK3 to GTK4 porting documenta    tion.
+- Document migration strategy based on extending any existing upstream GTK3 to GTK4 porting documentation.
 - Migrate remaining toolkit components.
 - Extend Hello World to use remaining toolkit components, and rename as a Toolkit Test activity,
 - Migrate [Sugar](https://github.com/sugarlabs/sugar).
-- Migrate the [Fructose](https://wiki.sugarlabs.org/go/Development_Team/Release/Modules) activity set    , as time permits.
+- Migrate the [Fructose](https://wiki.sugarlabs.org/go/Development_Team/Release/Modules) activity set, as time permits.
 
 **Steps to start**
 - Plan migration.
-- Setup a [live build](https://github.com/sugarlabs/sugar/blob/master/docs/development-environment.md    #sugar-live-build) development environment.
-- See the [GTK4 migrating](https://docs.gtk.org/gtk4/migrating-3to4.html#stop-using-direct-access-to-    gdkevent-structs) doc.
+- Setup a [live build](https://github.com/sugarlabs/sugar/blob/master/docs/development-environment.md#sugar-live-build) development environment.
+- See the [GTK4 migrating](https://docs.gtk.org/gtk4/migrating-3to4.html#stop-using-direct-access-to-gdkevent-structs) doc.
 
 **Project length**<br>
 **350** hours
@@ -598,7 +616,7 @@ to its EOL.
 
 Our JavaScript activities are using a somewhat antiquated mechanism
 for internationalization, the webL10n.js library. It does not even
-support plurals or any language-specific formating. i18next looks like
+support plurals or any language-specific formatting. i18next looks like
 a well-maintained and promising alternative.
 
 This project involves: (a) researching the state of art of language

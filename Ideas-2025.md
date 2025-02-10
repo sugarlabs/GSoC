@@ -212,20 +212,16 @@ Specifically, we would be working toward accomplishing the following:
 
 # Music Blocks 4 Masonry Module
 
-**Difficulty:** **High** (&#9733; &#9733; &#9733; &#9733; &#9734;)
-
-**Project Length:** **350** hours
-
-**Tech Stack**
-
-TypeScript 5, Vitest, Vite
-
 **Prerequisites**
 
 * Proficiency in **TypeScript** and **Object-Oriented Programming**
 * Experience with writing unit tests using **Jest**/**Vitest**
 * Good understanding of the **JavaScript Event Loop**
 * Understanding of **Abstract Syntax Trees** (**AST**)
+
+**Tech Stack**
+
+TypeScript 5, Vitest, Vite
 
 **Description**
 
@@ -273,6 +269,10 @@ addressing time-based instructions, concurrency, and synchronization.
 
 * Focus on optimizing runtime performance.
 
+**Project Length:** **350** hours
+
+**Difficulty:** **High** (&#9733; &#9733; &#9733; &#9733; &#9734;)
+
 **Mentors**<br/>
 [Anindya Kundu](https://github.com/meganindya/)
 
@@ -283,9 +283,6 @@ addressing time-based instructions, concurrency, and synchronization.
 ------------
 
 # Music Blocks 4 Program Engine
-
-**Difficulty:** **Hard** (&#9733; &#9733; &#9733; &#9733; &#9733;)
-TypeScript 5, React 18, Sass, Storybook, Vitest, Vite
 
 **Prerequisites**
 
@@ -338,6 +335,14 @@ and a technical specification.
 * Focus on optimizing processing performance.
 
 * Export a minimal API for integration with other parts of the application.
+
+**Project Length:** **350** hours
+
+**Difficulty:** **Hard** (&#9733; &#9733; &#9733; &#9733; &#9733;)
+
+**Tech Stack**
+
+TypeScript 5, React 18, Sass, Storybook, Vitest, Vite
 
 **Mentors**<br/>
 [Anindya Kundu](https://github.com/meganindya/)
@@ -460,12 +465,6 @@ explaining to a young child.
 - Experience with GTK
 - Good understanding of Sugar Core architecture
 
-**Project length**<br>
-**350** hours
-
-**Difficulty:**<br>
-**High**
-
 **Description**<br>
 
 Sugar 0.120 runs on GTK3 and needs to be ported to GT4, we need to
@@ -486,6 +485,12 @@ to its EOL.
 - Setup a [live build](https://github.com/sugarlabs/sugar/blob/master/docs/development-environment.md    #sugar-live-build) development environment.
 - See the [GTK4 migrating](https://docs.gtk.org/gtk4/migrating-3to4.html#stop-using-direct-access-to-    gdkevent-structs) doc.
 
+**Project length**<br>
+**350** hours
+
+**Difficulty:**<br>
+**High**
+
 **Coding Mentors**<br>
 [Ibiam Chihurumnaya](https://github.com/chimosky/)
 
@@ -495,12 +500,6 @@ to its EOL.
 
 **Prerequisites**<br>
 - Experience with JavaScript
-
-**Project length**<br>
-**175** hours
-
-**Difficulty:**<br>
-**Medium**
 
 **Description**<br>
 
@@ -521,6 +520,12 @@ solution in Music Blocks. (Other JS projects can follow along.)
 - plan
 - coding
 
+**Project length**<br>
+**175** hours
+
+**Difficulty:**<br>
+**Medium**
+
 **Coding Mentors**<br>
 [Walter Bender](https://github.com/walterbender/)
 
@@ -532,11 +537,6 @@ solution in Music Blocks. (Other JS projects can follow along.)
  - Experience with JavaScript/HTML5 in VanillaJS or with Vue.js
  - Experience with three.js 3D framework
  - Knowledge of 3D tools, capacity to create/combine 3D assets 
-
-**Project length**<br>
-**175** hours
-
-**Difficulty:** &#9733; &#9733; &#9734; (medium)
 
 **Description**<br>
 
@@ -593,6 +593,11 @@ Inspirations:<br>
 * Complete the [Sugarizer Vanilla Javascript activity development tutorial](https://github.com/llaske/sugarizer/blob/dev/docs/tutorial/VanillaJS/tutorial.md) or the [Sugarizer Vue.js activity development tutorial](https://github.com/llaske/sugarizer/blob/dev/docs/tutorial/VueJS/tutorial.md). Publish on Discord a video of the Pawn activity running.
 * Start working of tasks listed for Human Body activity 
 * Create a mockup of the Stickman Animation activity
+
+**Project length**<br>
+**175** hours
+
+**Difficulty:** &#9733; &#9733; &#9734; (medium)
 
 **Mentor**<br>
 [Lionel Laské](https://github.com/llaske/)

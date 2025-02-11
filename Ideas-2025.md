@@ -316,29 +316,29 @@ Specifically, we would be working toward accomplishing the following:
 # AI tools for reflection
 
 **Prerequisites**<br>
- - Experience with Python
+ - Experience with Python/JavaScript
  - Experience with LLMs/Chatbots
 
 **Description**<br>
 
-While Generative AI tools are great at helping a learner to create,
-they offer little in regard to reflecting upon those creations. But
-reflection is a critical (and too often overlooked) part of the
-Constructionist learning pedagogy. With some prompting -- something
-LLMs are quite good at -- we can engage the learner in a quality
-relfective practice. The dialog could occur when exiting any Sugar
-activity as part of the journaling process or whenever a Music Blocks
-or Turtle Blocks project is saved to the Planet. Rather than just
-being presented with an empty form, the learner will be prompted to
-talk about what they did, why they did it, what they learned and what
-they might do next.
+While off-the-shelf Generative AI tools are great at helping a learner
+to create, they offer little in regard to reflecting upon those
+creations. But reflection is a critical (and too often overlooked)
+part of the Constructionist learning pedagogy. With some prompting --
+something LLMs are quite good at -- we can engage the learner in a
+quality relfective practice. The dialog could occur when exiting any
+Sugar activity as part of the journaling process or whenever a Music
+Blocks or Turtle Blocks project is saved to the Planet. Rather than
+just being presented with an empty form, the learner will be prompted
+to talk about what they did, why they did it, what they learned and
+what they might do next.
 
 Specifically, we would be working toward accomplishing the following:
 
 - Research different approaches to reflective practice
-- Train open source LLM to generate code to prompt the learning a multitude of these approaches to reflection
+- Train open source LLM to generate code to prompt the learn with a multitude of these approaches to reflection
 - Develop FastApi endpoints to deploy the model.
-- Deploy this model in either the Music Blocks Planet or the Sugar Journal to be triggered whenever a project is paused or saved
+- Deploy this model in either the Music Blocks Planet or the Sugar Journal or the Sugarizer Journal to be triggered whenever a project is paused or saved
 
 **Project Length**<br>
 

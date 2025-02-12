@@ -278,7 +278,16 @@ In particular, our focus will be on achieving the following objectives:
 
 **Description**<br>
 
-Develop and train an open-source Large Language Model to generate Music Blocks project code, enabling the integration of code snippets into the lesson plan generator for better understanding of the projects. Additionally, by implementing a model abstraction layer, the AI system will remain flexible and model-agnostic, allowing seamless integration of different AI models while maintaining consistent code generation capabilities. This approach ensures long-term sustainability and adaptability as AI technology evolves while keeping the core functionality of Music Blocks accessible and extensible.
+Develop and train an open-source Large Language Model to generate 
+Music Blocks project code, enabling the integration of code snippets 
+into the lesson plan generator for better understanding of the projects.
+Additionally, by implementing a model abstraction layer, 
+the AI system will remain flexible and model-agnostic, allowing seamless 
+integration of different AI models while maintaining consistent code 
+generation capabilities. This approach ensures long-term 
+sustainability and adaptability as AI technology evolves while 
+keeping the core functionality of Music Blocks accessible and 
+extensible.
 
 Specifically, we would be working toward accomplishing the following:
 

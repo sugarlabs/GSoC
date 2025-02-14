@@ -8,6 +8,7 @@
 * [Improve synth and sample features in Music Blocks](#Improve-synth-and-sample-features-in-Music-Blocks)
 * [Generative AI Instrument Sample Generation for Music Blocks](#Generative-AI-Instrument-Sample-Generation-for-Music-Blocks)
 * [AI Code generation for lesson plans and model abstraction layer](#AI-Code-generation-for-lesson-plans-and-model-abstraction-layer)
+* [AI tools for reflection](#AI-tools-for-reflection)
 * [Music Blocks 4 Program Engine](#Music-Blocks-4-Program-Engine)
 * [Music Blocks 4 Masonry Module](#Music-Blocks-4-Masonry-Module)
 * [Add AI-assistant to the Write Activity](#Add-an-AI-assistant-to-the-Write-Activity)
@@ -297,6 +298,49 @@ Specifically, we would be working toward accomplishing the following:
 - Implement Approximate Nearest Neighbor (ANN) algorithms for faster retrieval.
 - Develop FastAPI endpoints to deploy the model.
 - Work on and implement techniques to minimize hallucination.
+
+**Project Length**<br>
+
+**350** hours
+
+**Difficulty**<br>
+
+**Hard**<br>
+
+**Coding Mentors**<br>
+[Walter Bender](https://github.com/walterbender/)<br>
+
+**Assisting Mentors**<br>
+[Devin Ulibarri](https://github.com/pikurasa/)
+
+------------
+
+# AI tools for reflection
+
+**Prerequisites**<br>
+ - Experience with Python/JavaScript
+ - Experience with LLMs/Chatbots
+
+**Description**<br>
+
+While off-the-shelf Generative AI tools are great at helping a learner
+to create, they offer little in regard to reflecting upon those
+creations. But reflection is a critical (and too often overlooked)
+part of the Constructionist learning pedagogy. With some prompting --
+something LLMs are quite good at -- we can engage the learner in a
+quality relfective practice. The dialog could occur when exiting any
+Sugar activity as part of the journaling process or whenever a Music
+Blocks or Turtle Blocks project is saved to the Planet. Rather than
+just being presented with an empty form, the learner will be prompted
+to talk about what they did, why they did it, what they learned and
+what they might do next.
+
+Specifically, we would be working toward accomplishing the following:
+
+- Research different approaches to reflective practice
+- Train open source LLM to generate code to prompt the learn with a multitude of these approaches to reflection
+- Develop FastApi endpoints to deploy the model.
+- Deploy this model in either the Music Blocks Planet or the Sugar Journal or the Sugarizer Journal to be triggered whenever a project is paused or saved
 
 **Project Length**<br>
 

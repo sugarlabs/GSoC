@@ -238,7 +238,8 @@ In order to give users (nearly) limitless options for samples, we are
 adding to the project's scope a gen-AI-enabled sample generator. A
 user should be able to prompt a sound font, such as "something between
 a heavy metal guitar and a lion roar" or "something between a clarinet
-and a human singing 'ah'" and get a result that they can use in their
+and a human singing 'ah'" or should be able to play an instrument or upload
+recorded audio of an instrument and get a result that they can use in their
 project's code. A contributor will need to extend our sample widget
 (which currently records audio) to accept a user prompt, create an API
 to call an LLM/neural-network backend, and test/tweak the gen-AI

@@ -61,7 +61,7 @@ References:
 **Hard**<br>
 
 **Coding Mentors**<br>
-[Walter Bender](https://github.com/walterbender/)<br>
+[Walter Bender](https://github.com/walterbender/) [Sumit Srivastava](https://github.com/sum2it)<br>
 
 **Assisting Mentors**<br>
 [Devin Ulibarri](https://github.com/pikurasa/)
@@ -152,7 +152,7 @@ Specifically, we aim to achieve the following:
 **Hard**<br>
 
 **Coding Mentors**<br>
-[Walter Bender](https://github.com/walterbender/)<br>
+[Walter Bender](https://github.com/walterbender/) [Sumit Srivastava](https://github.com/sum2it)<br>
 
 **Assisting Mentors**<br>
 [Devin Ulibarri](https://github.com/pikurasa/)
@@ -262,7 +262,7 @@ In particular, our focus will be on achieving the following objectives:
 **Hard**<br>
 
 **Coding Mentors**<br>
-[Walter Bender](https://github.com/walterbender/)<br>
+[Walter Bender](https://github.com/walterbender/) [Sumit Srivastava](https://github.com/sum2it)<br>
 
 **Assisting Mentors**<br>
 [Devin Ulibarri](https://github.com/pikurasa/)
@@ -308,7 +308,7 @@ Specifically, we would be working toward accomplishing the following:
 **Hard**<br>
 
 **Coding Mentors**<br>
-[Walter Bender](https://github.com/walterbender/)<br>
+[Walter Bender](https://github.com/walterbender/) [Sumit Srivastava](https://github.com/sum2it)<br>
 
 **Assisting Mentors**<br>
 [Devin Ulibarri](https://github.com/pikurasa/)
@@ -351,7 +351,7 @@ Specifically, we would be working toward accomplishing the following:
 **Hard**<br>
 
 **Coding Mentors**<br>
-[Walter Bender](https://github.com/walterbender/)<br>
+[Walter Bender](https://github.com/walterbender/) [Sumit Srivastava](https://github.com/sum2it)<br>
 
 **Assisting Mentors**<br>
 [Devin Ulibarri](https://github.com/pikurasa/)

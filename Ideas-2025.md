@@ -238,8 +238,12 @@ In order to give users (nearly) limitless options for samples, we are
 adding to the project's scope a gen-AI-enabled sample generator. A
 user should be able to prompt a sound font, such as "something between
 a heavy metal guitar and a lion roar" or "something between a clarinet
-and a human singing 'ah'" and get a result that they can use in their
-project's code. A contributor will need to extend our sample widget
+and a human singing 'ah'" additionally, a user should be able to play an
+instrument or upload recorded audio of an instrument and prompt modifications
+for the gen-AI to make to the sound, such as "make this recording of my 
+acoustic cello sound like an electric cello with heavy distortion
+and get a result that they can use in their project's code.
+A contributor will need to extend our sample widget
 (which currently records audio) to accept a user prompt, create an API
 to call an LLM/neural-network backend, and test/tweak the gen-AI
 backend to create an appropriate sample for the user. The results of
@@ -251,7 +255,6 @@ In particular, our focus will be on achieving the following objectives:
 - Extend the sample widget to support user prompts for AI-generated sound samples.  
 - Develop an LLM-based generative AI backend to produce high-quality, relevant sound samples.  
 - Build a high-performance API using FastAPI to streamline interactions between the widget and the LLM.
-- Work on techniques to minimize hallucinations and improve contextual accuracy.
 
 **Project Length**<br>
 

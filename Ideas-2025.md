@@ -181,7 +181,10 @@ low, short and long) for a more natural sound.
 
 Updating the sampler widget will involve updating tone.js to its
 current version, debugging any issues that updates may cause, and
-making improvements to the UI/UX of the widget itself.
+making improvements to the UI/UX of the widget itself. Improvements
+include adding a tuner feature in Sampler Widget, just like
+<https://www.musicca.com/tuner> and adding a way to do micro
+adjustments in cents.
 
 Porting samples into Music Blocks will require following the
 directions specified in the Music Blocks documentation to convert a
@@ -205,7 +208,8 @@ References:
  - A professionals guide to creating "virtual instruments": <https://www.nicolastiteux.com/en/blog/making-a-virtual-instrument-a-guide-to-sampling/>
  - Possible samples: <https://philharmonia.co.uk/resources/sound-samples/>
  - Possible samples: <https://github.com/sonic-pi-net/sonic-pi/tree/dev/etc/samples>
-
+ - Possible samples: <https://freesound.org/people/MTG/>
+ 
 **Project Length**<br>
 
 **350** hours

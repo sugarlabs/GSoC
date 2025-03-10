@@ -4,7 +4,7 @@
 
 * [Git backend for Turtle Blocks and Music Blocks](#Git-backend-for-Turtle-Blocks-and-Music-Blocks)
 * [Color sensor for Music Blocks for photos and real-time video](#Color-sensor-for-Music-Blocks-for-photos-and-real-time-video)
-* [Interactive AI-powered Chatbot and Debugger for Music Blocks](#Interactive-AI-powered-Chatbot-and-Debugger-for-Music-Blocks)
+* [AI-powered Debugger for Music Blocks](#AI-powered-Debugger-for-Music-Blocks)
 * [Improve synth and sample features in Music Blocks](#Improve-synth-and-sample-features-in-Music-Blocks)
 * [Generative AI Instrument Sample Generation for Music Blocks](#Generative-AI-Instrument-Sample-Generation-for-Music-Blocks)
 * [AI Code generation for lesson plans and model abstraction layer](#AI-Code-generation-for-lesson-plans-and-model-abstraction-layer)
@@ -113,7 +113,7 @@ References:
 
 ------------
 
-## Interactive AI-powered Chatbot and Debugger for Music Blocks
+## AI-powered Debugger for Music Blocks
 
 **Prerequisites**<br>
  - Experience with Python
@@ -124,14 +124,11 @@ References:
 
 **Description**<br>
 
-The idea is to enhance Music Blocks with an AI-powered chatbot and
-project debugger. This feature aims to bridge the gap between users'
+The idea is to enhance Music Blocks with an AI-powered debugger.
+This feature aims to bridge the gap between users'
 creative ideas and their ability to troubleshoot or fully utilize the
-platform's features. The AI chatbot would provide real-time assistance
-by answering questions, explaining features, and offering creative
-suggestions, while the project debugger would help users quickly
-identify and resolve issues in their projects or block
-connections. This enhancement would make the platform more accessible
+platform's features. This AI-powered debugger will provide real-time assistance by answering questions, explaining features, and offering creative suggestions. It will help users quickly identify and resolve issues in their projects or block connections
+This enhancement would make the platform more accessible
 for beginners while streamlining the debugging and experimentation
 process for advanced users.
 

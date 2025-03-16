@@ -864,42 +864,27 @@ Note: These are some tentative ideas for math games. Further updates, additions,
 
 ------------
 
-## Improve and Port Sugar and core activities to Python 3
+## Improve and Port Sugar Activities to Python 3
 
 **Prerequisites**<br>
  - Experience with Python
  - Experience with porting telepathy bindings
- - Strong experience with
-   [Sugar Desktop](https://github.com/sugarlabs/sugar) and activities
+ - Strong experience with [Sugar Desktop](https://github.com/sugarlabs/sugar) and activities
 
-**Description**<br> Support for Python 2 was withdrawn by the Python
-Foundation, so we need to finish the move to Python 3.  The move was
-started in GSoC 2018, and continued in GSoC 2020, but there is still
-work to be done.  Sugar 0.116 runs on Python 2 or Python 3.  Core
-activities run on Python 3.  Many other activities run on Python 2.
-Many regressions have been seen as a result of code not being tested.
+**Description**<br>
+Support for Python 2 was withdrawn by the Python Foundation, so we need to finish the move to Python 3. While the core Sugar system and many activities have already been ported, there are still some non-core activities that need updating and testing.
 
-We have a [Python 3 Porting
-Guide](https://github.com/sugarlabs/sugar-docs/blob/master/src/python-porting-guide.md)
-which describes the process for activities.
+We have a [Python 3 Porting Guide](https://github.com/sugarlabs/sugar-docs/blob/master/src/python-porting-guide.md) which describes the process for activities.
 
 **Project Task Checklist**<br>
- - Review the Sugar source code changes since 0.112 that were made for porting to Python 3,
- - Design tests and iterate until the tests have sufficient [coverage](https://github.com/sugarlabs/sugar-docs/blob/master/src/python-coverage-guide.md) for the code changes identified about,
- - Fix regressions in Sugar, the Toolkit, and the Datastore,
- - For affected activities, port Telepathy bindings to TelepathyGLib, see [Port to TelepathyGLib](https://github.com/search?q=org%3Asugarlabs+port+to+TelepathyGLib&type=issues).
- - For affected activities, port to the latest Sugargame or CollabWrapper library,
- - Port activities to Python 3, fixing any problems that prevent them from being ported or used,
+ - Review the existing Sugar activities and identify those that have not yet been ported to Python 3.
+ - Update the codebase of identified activities to be compatible with Python 3 syntax and libraries.
+ - Replace deprecated Python 2 modules with their Python 3 equivalents.
+ - Design and run tests to ensure everything works smoothly after the port, ensuring sufficient [coverage](https://github.com/sugarlabs/sugar-docs/blob/master/src/python-coverage-guide.md).
+ - Fix any regressions found during testing in the affected activities.
+ - Document changes and provide maintenance instructions.
 
-See GitHub Project [Port to Python 3](https://github.com/search?q=org%3Asugarlabs+port+to+python3&type=issues) for some open
-issues and pull requests.  Most activities do not have issues.  Some
-activities have problems that prevent them from being ported.
-
-The Telepathy library is used by some activities for network
-collaboration between Sugar users.  The library does not have static
-bindings for Python 3, so porting Telepathy to the PyGObject binding
-is a prerequisite, see GitHub Project [Port to
-TelepathyGLib](https://github.com/orgs/sugarlabs/projects/4).
+The Telepathy library is used by some activities for network collaboration between Sugar users. The library does not have static bindings for Python 3, so porting Telepathy to the PyGObject binding is a prerequisite. See [Port to TelepathyGLib](https://github.com/search?q=org%3Asugarlabs+port+to+TelepathyGLib&type=issues).
 
 **Project Length**<br>
 

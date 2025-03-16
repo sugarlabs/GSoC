@@ -19,7 +19,7 @@
 * [Sugarizer Human Activity pack](#sugarizer-human-activity-pack)
 * [Pippy Debugger](#pippy-debugger)
 * [Math Games](#math-games)
-* [Improve and Port Sugar and core activities to Python 3](#improve-and-port-sugar-and-core-activities-to-python-3)
+* [Improve and Port Sugar Activities to Python 3](#improve-and-port-sugar-activities-to-python-3)
 
 ------------
 

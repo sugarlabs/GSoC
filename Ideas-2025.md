@@ -35,7 +35,7 @@ Portfolio creation, reflection, and collaboration are important parts
 of the educational philosophy at Sugar Labs, and Git version control
 is a great way to explore all these things.
 
-At Sugar Labs, we've created some initial
+At Sugar Labs, we've created some [initial
 designs](https://drive.google.com/file/d/15G0vtr-1JyzCorwmgjvXE-37vwZMLgJD/view?usp=sharing)
 for a couple approaches to introducing Git version control to young
 learners. This proposal focuses on introducing Git version control

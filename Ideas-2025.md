@@ -332,7 +332,7 @@ to create, they offer little in regard to reflecting upon those
 creations. But reflection is a critical (and too often overlooked)
 part of the Constructionist learning pedagogy. With some prompting --
 something LLMs are quite good at -- we can engage the learner in a
-quality relfective practice. The dialog could occur when exiting any
+quality reflective practice. The dialog could occur when exiting any
 Sugar activity as part of the journaling process or whenever a Music
 Blocks or Turtle Blocks project is saved to the Planet. Rather than
 just being presented with an empty form, the learner will be prompted

@@ -664,19 +664,14 @@ to its EOL.
 
 **Description**<br>
 
-Music Blocks currently uses an outdated internationalization system, `webL10n.js`,
-which lacks modern features like plural support and language-specific formatting.
-This project will upgrade the system to `i18next`, a robust and widely supported framework, 
-while introducing AI translation services to assist human translators. 
-By integrating AI tools like Google Translate or DeepL,
-we can generate initial translations automatically
-, making it easier to support more languages and reduce manual effort.
+Music Blocks currently relies on an outdated internationalization system, webL10n.js,
+which lacks modern features such as plural support and language-specific formatting. 
+This project aims to modernize the internationalization (i18n) system by researching and implementing a robust, contemporary JavaScript i18n framework, 
+while integrating AI translation services to assist human translators.
+By leveraging AI tools like Google Translate or DeepL, initial translations can be generated automatically,
+streamlining the process of supporting additional languages and reducing manual effort.
 
-The project includes: (a) researching modern JavaScript i18n frameworks and AI translation services, considering our use of PO files;
-(b) recommending the best framework and AI approach based on findings;
-(c) planning the migration to `i18next` and designing an AI-assisted translation workflow;
-(d) implementing the solution in Music Blocks, including `i18next` setup and an AI pipeline for generating and refining translations.
-This will create a flexible, modern i18n system enhanced by AI, which can later benefit other JavaScript projects.
+The project will involve:(a) Researching modern JavaScript i18n frameworks (e.g., i18next, among others) and AI translation services, taking into account Music Blocks’ existing use of PO files;(b) Evaluating and recommending the most suitable framework and AI approach based on the research findings, with ongoing work to validate initial assumptions (e.g., the potential adoption of i18next);(c) Planning the migration to the selected framework and designing an AI-assisted translation workflow;(d) Implementing the solution in Music Blocks, including setting up the chosen i18n framework and an AI pipeline for generating and refining translation
 
 **Project Task Checklist**<br>
 - research

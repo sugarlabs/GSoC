@@ -15,7 +15,7 @@
 * [Refactor the Infoslicer Activity to generate plain-language summaries](#Refactor-the-Infoslicer-Activity-to-generate-plain-language-summaries)
 * [Refactor the chatbot in the Speak Activity to use gen-AI](#Refactor-the-chatbot-in-the-Speak-Activity-to-use-gen-AI)
 * [GTK4 exploration](#gtk4-exploration)
-* [JS internationalization](#js-internationalization)
+* [JS Internationalization with AI Translation Support](#js-internationalization-with-ai-translation-support)
 * [Sugarizer Human Activity pack](#sugarizer-human-activity-pack)
 * [Pippy Debugger](#pippy-debugger)
 * [Math Games](#math-games)
@@ -657,23 +657,21 @@ to its EOL.
 
 -------------
 
-# JS internationalization
+# JS Internationalization with AI Translation Support
 
 **Prerequisites**<br>
 - Experience with JavaScript
 
 **Description**<br>
 
-Our JavaScript activities are using a somewhat antiquated mechanism
-for internationalization, the webL10n.js library. It does not even
-support plurals or any language-specific formatting. i18next looks like
-a well-maintained and promising alternative.
+Music Blocks currently relies on an outdated internationalization system, webL10n.js,
+which lacks modern features such as plural support and language-specific formatting. 
+This project aims to modernize the internationalization (i18n) system by researching and implementing a robust, contemporary JavaScript i18n framework, 
+while integrating AI translation services to assist human translators.
+By leveraging AI tools like Google Translate or DeepL, initial translations can be generated automatically,
+streamlining the process of supporting additional languages and reducing manual effort.
 
-This project involves: (a) researching the state of art of language
-localization for JavaScript, keeping in mind that we are currently
-maintaining PO files; (b) making a recommendation as to the framework;
-(c) proposing a path to implementation; and (d) implementing the
-solution in Music Blocks. (Other JS projects can follow along.)
+The project will involve:(a) Researching modern JavaScript i18n frameworks (e.g., i18next, among others) and AI translation services, taking into account Music Blocks’ existing use of PO files;(b) Evaluating and recommending the most suitable framework and AI approach based on the research findings, with ongoing work to validate initial assumptions (e.g., the potential adoption of i18next);(c) Planning the migration to the selected framework and designing an AI-assisted translation workflow;(d) Implementing the solution in Music Blocks, including setting up the chosen i18n framework and an AI pipeline for generating and refining translation.
 
 **Project Task Checklist**<br>
 - research

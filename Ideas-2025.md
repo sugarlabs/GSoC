@@ -671,7 +671,7 @@ while integrating AI translation services to assist human translators.
 By leveraging AI tools like Google Translate or DeepL, initial translations can be generated automatically,
 streamlining the process of supporting additional languages and reducing manual effort.
 
-The project will involve:(a) Researching modern JavaScript i18n frameworks (e.g., i18next, among others) and AI translation services, taking into account Music Blocks’ existing use of PO files;(b) Evaluating and recommending the most suitable framework and AI approach based on the research findings, with ongoing work to validate initial assumptions (e.g., the potential adoption of i18next);(c) Planning the migration to the selected framework and designing an AI-assisted translation workflow;(d) Implementing the solution in Music Blocks, including setting up the chosen i18n framework and an AI pipeline for generating and refining translation
+The project will involve:(a) Researching modern JavaScript i18n frameworks (e.g., i18next, among others) and AI translation services, taking into account Music Blocks’ existing use of PO files;(b) Evaluating and recommending the most suitable framework and AI approach based on the research findings, with ongoing work to validate initial assumptions (e.g., the potential adoption of i18next);(c) Planning the migration to the selected framework and designing an AI-assisted translation workflow;(d) Implementing the solution in Music Blocks, including setting up the chosen i18n framework and an AI pipeline for generating and refining translation.
 
 **Project Task Checklist**<br>
 - research

@@ -19,6 +19,7 @@
 * [Sugarizer Human Activity pack](#sugarizer-human-activity-pack)
 * [Pippy Debugger](#pippy-debugger)
 * [Math Games](#math-games)
+* [Improve and Port Sugar Activities to Python 3](#improve-and-port-sugar-activities-to-python-3)
 
 ------------
 
@@ -867,6 +868,44 @@ We also require that you have Sugar setup and working, see [sugar-desktop](https
 
 **Assisting Mentors**<br>
 [Walter Bender](https://github.com/walterbender/)
+
+------------
+
+## Improve and Port Sugar Activities to Python 3
+
+**Prerequisites**<br>
+ - Experience with Python
+ - Experience with porting telepathy bindings
+ - Strong experience with [Sugar Desktop](https://github.com/sugarlabs/sugar) and activities
+
+**Description**<br>
+Support for Python 2 was withdrawn by the Python Foundation, so we need to finish the move to Python 3. While the core Sugar system and many activities have already been ported, there are still some non-core activities that need updating and testing.
+
+We have a [Python 3 Porting Guide](https://github.com/sugarlabs/sugar-docs/blob/master/src/python-porting-guide.md) which describes the process for activities.
+
+**Project Task Checklist**<br>
+ - Review the existing Sugar activities and identify those that have not yet been ported to Python 3.
+ - Update the codebase of identified activities to be compatible with Python 3 syntax and libraries.
+ - Replace deprecated Python 2 modules with their Python 3 equivalents.
+ - Design and run tests to ensure everything works smoothly after the port, ensuring sufficient [coverage](https://github.com/sugarlabs/sugar-docs/blob/master/src/python-coverage-guide.md).
+ - Fix any regressions found during testing in the affected activities.
+ - Document changes and provide maintenance instructions.
+
+The Telepathy library is used by some activities for network collaboration between Sugar users. The library does not have static bindings for Python 3, so porting Telepathy to the PyGObject binding is a prerequisite. See [Port to TelepathyGLib](https://github.com/search?q=org%3Asugarlabs+port+to+TelepathyGLib&type=issues).
+
+**Project Length**<br>
+
+**350** hours
+
+**Difficulty**<br>
+
+**Hard**
+
+**Coding Mentors**<br>
+[Ibiam Chihurumnaya](https://github.com/chimosky/)
+
+**Assisting Mentors**<br>
+[Devin Ulibarri](https://github.com/pikurasa/)
 
 ------------
 

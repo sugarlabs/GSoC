@@ -524,6 +524,8 @@ written.
 
 The challenge will be both in terms of workflow integration and UX.
 
+Note: We require that you have Sugar setup and working, see [sugar-desktop](https://github.com/sugarlabs/sugar-docs?tab=readme-ov-file#sugar-desktop).
+
 **Project Length**<br>
 
 **350** hours
@@ -559,6 +561,8 @@ The biggest challenge to summarization using generative AI is
 hallucinations. A work-around for this is to include a validation step
 that surfaces evidence (or lack of evidence) for each assertion in the
 lesson plan. This will introduce some workflow and UX challenges.
+
+Note: We require that you have Sugar setup and working, see [sugar-desktop](https://github.com/sugarlabs/sugar-docs?tab=readme-ov-file#sugar-desktop).
 
 **Project Length**<br>
 
@@ -600,6 +604,8 @@ The project would entail both enabling the LLM chatbot and doing some
 tuning in order to accommodate invented spelling. Finally, it will be
 important to create the proper persona, in this case, an adult
 explaining to a young child.
+
+Note: We require that you have Sugar setup and working, see [sugar-desktop](https://github.com/sugarlabs/sugar-docs?tab=readme-ov-file#sugar-desktop).
 
 **Project Length**<br>
 
@@ -798,6 +804,8 @@ just spoon-feeding a solution. And since we work with youth, we need
 to make sure that the debugger's output is age-appropriate. The Pippy
 interface will also be updated to expose the new feature to a user.
 
+Note: We require that you have Sugar setup and working, see [sugar-desktop](https://github.com/sugarlabs/sugar-docs?tab=readme-ov-file#sugar-desktop).
+
 **Project Length**<br>
 
 **175** hours
@@ -846,6 +854,7 @@ If the AI makes a mistake, kids correct it, improving its learning over time!
 The game uses **Decision Trees** or **k-Nearest Neighbors (k-NN)** for classification.  
 
 Note: These are some tentative ideas for math games. Further updates, additions, or modifications can be made through discussions with mentors to develop the best possible games.
+We also require that you have Sugar setup and working, see [sugar-desktop](https://github.com/sugarlabs/sugar-docs?tab=readme-ov-file#sugar-desktop).
 
 **Project Length**<br>
 **350** hours

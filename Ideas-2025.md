@@ -358,7 +358,7 @@ Specifically, we would be working toward accomplishing the following:
 [Walter Bender](https://github.com/walterbender/) [Sumit Srivastava](https://github.com/sum2it)<br>
 
 **Assisting Mentors**<br>
-[Devin Ulibarri](https://github.com/pikurasa/)
+[Devin Ulibarri](https://github.com/pikurasa/) [Samson Goddy](https://github.com/samswag)
 
 ------------
 
@@ -539,6 +539,7 @@ Note: We require that you have Sugar setup and working, see [sugar-desktop](http
 [Ibiam Chihurumnaya](https://github.com/chimosky/)
 
 **Assisting Mentors**<br>
+[Samson Goddy](https://github.com/samswag)
 
 ------------
 
@@ -619,7 +620,7 @@ Note: We require that you have Sugar setup and working, see [sugar-desktop](http
 [Ibiam Chihurumnaya](https://github.com/chimosky/)
 
 **Assisting Mentors**<br>
-[Walter Bender](https://github.com/walterbender/)
+[Walter Bender](https://github.com/walterbender/) [Samson Goddy](https://github.com/samswag)
 
 ------------
 
@@ -818,6 +819,9 @@ Note: We require that you have Sugar setup and working, see [sugar-desktop](http
 [Walter Bender](https://github.com/walterbender/)
 [Ibiam Chihurumnaya](https://github.com/chimosky/)
 [Kshitij Shah](https://github.com/kshitijdshah99/)
+
+**Assisting Mentors**<br>
+[Samson Goddy](https://github.com/samswag)
 
 -------------
 

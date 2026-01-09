@@ -71,3 +71,49 @@ These may help you to get familiar with the project.  The more
 you work on these issues, the more experienced you will be for
 the project.  However, this is not a strict list.  You _should_
 try and explore other issues as well.
+------------
+
+# Music Blocks
+
+## Integrated AI Debugging Assistant (Sustainable API Architecture)
+
+### Description
+Music Blocks currently includes an experimental AI debugging module (`aidebugger.js`), but it relies on deprecated local-model assumptions and lacks proper UI integration. This project proposes a **lightweight, API-based AI Debugging Assistant** that helps learners understand *why* their Music Blocks programs fail (logical debugging), rather than simply generating code.
+
+Critically, this project addresses the community's recent decision to shift away from self-hosted GPU infrastructure by implementing a sustainable **"Bring Your Own Key" (BYOK)** architecture.
+
+### Value to Sugar Labs
+1. **Sustainability:**
+   * **Students:** Access a rate-limited default endpoint (Zero Configuration) using Sugar Labs' free-tier quotas.
+   * **Contributors/Schools:** Can input custom API keys via a "Developer Mode", shifting API costs away from the organization.
+2. **Pedagogy:** The AI is tuned for **Explanation** over **Generation**. It focuses on diagnosing logic errors (e.g., infinite loops, silent audio, timing issues) to support constructionist learning.
+3. **Maintainability:** Establishes a provider-agnostic interface (starting with Google Gemini Flash) that decouples the UI from the AI backend, making future updates easier.
+
+### Expected Results
+* **Refactor `aidebugger.js`:** Clean removal of deprecated local-model code paths.
+* **API Integration:** Minimal client-side integration with the Google Gemini API and centralized error handling.
+* **UI Integration:** A non-intrusive "AI Assistant" side panel within the Music Blocks workspace.
+* **Settings Panel:** A local-storage based settings panel for managing custom API keys (BYOK).
+* **Documentation:** Guides for Teachers (classroom setup) and Developers (extending the provider).
+
+**Evaluation Metric:**
+The AI assistant should provide clear, actionable explanations for a defined set of common beginner error patterns observed in Music Blocks programs.
+
+### Project Size
+* Large (350 hours)
+
+### Knowledge Prerequisite
+* JavaScript / TypeScript
+* REST API Integration
+* Music Blocks Architecture
+
+### Suggested Issues to Work On
+* Refactor `aidebugger.js` to remove unused local-model dependencies.
+* Create a `plugin.json` manifest to register the AI debugger in the plugin loader.
+* Implement a structured debug state logger.
+
+### Coding Mentors
+* TBD (Pending assignment)
+
+### Assisting Mentors
+* TBD

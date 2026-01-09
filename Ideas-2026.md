@@ -1,4 +1,4 @@
-# Google Summer of Code 2026
+# Google Summer of Code 2026 Ideas
 
 ------------
 

@@ -1,6 +1,427 @@
 # Google Summer of Code 2026 Ideas
 
+## Project Ideas
+
+* [Git backend for Music Blocks Part 2: Deployment](#Git-backend-for-Music-Blocks-Part-2)
+* [GTK4 Transition Part 1 Fructose](#GTK4-Transition-Part-1-Fructose)
+* [GTK4 Transition Part 2 Sugar Shell](#GTK4-Transition-Part-2-Sugar-Shell)
+* [GTK4 Transition Part 3 Wayland Support](#GTK4-Transition-Part-3-Wayland)
+* [AI optimization](#AI-optimization)
+* [AI reflection in the Sugar Journal](#AI-reflection-in-the-Sugar-Journal)
+* [Music Blocks maintenance](#Music-Blocks-maintenance)
+* [Music Blocks temperament](#Music-Blocks-temperament)
+* [Music Blocks v4](#Music-Blocks-v4)
+
 ------------
+
+## Git backend for Music Blocks Part 2
+
+**Prerequisites**<br>
+ - Experience with Git
+ - Experience with JavaScript
+ - Experience with Music Blocks
+
+**Description**<br>
+
+Portfolio creation, reflection, and collaboration are important parts
+of the educational philosophy at Sugar Labs, and Git version control
+is a great way to explore all these things.
+
+Last summer (2025), Nikhil implemented the foundation for
+transitioning the Music Blocks to a "git-like" version control
+system. His work included both backend and frontend implementations.
+
+The goals for this summer are:
+
+* Smooth Transition from Planet: Fully transition existing Planet
+  projects to the new Git backend, ensuring students retain access to
+  their previous work.
+
+* Educate Students on Git: Introduce guided tutorials and interactive
+  features within Music Blocks to help students understand version
+  control and Git concepts.
+
+* Enhanced Collaboration & Reflection: Add features to encourage
+  students to explore, fork, and contribute to peers' projects while
+  reflecting on their own progress and learning journey.
+
+References:
+ - <https://github.com/benikk/GSoC-2025>
+
+**Project Length**<br>
+
+**350** hours
+
+**Difficulty**<br>
+
+**Hard**<br>
+
+**Coding Mentors**<br>
+[Nikhil Bhatt](https://github.com/benikk) [Walter Bender](https://github.com/walterbender/)<br>
+
+**Assisting Mentors**<br>
+[Devin Ulibarri](https://github.com/pikurasa/) [Sumit Srivastava](https://github.com/sum2it)<br>
+
+-----------
+
+# GTK4 Transition Part 1 Fructose
+
+**Prerequisites**<br>
+- Experience with C
+- Experience with Python
+- Experience with GTK
+- Good understanding of Sugar Core architecture
+
+**Description**<br>
+
+GTK3, the toolkit Sugar has been built on for years, is approaching
+end-of-life. Meanwhile, GTK4 brings us:
+
+* Better performance with a modern rendering pipeline
+* Wayland support: critical for modern display servers
+* Improved accessibility out of the box
+* Future-proofing: GTK4 is where GNOME and the Linux desktop ecosystem are headed
+
+But here's the thing: migrating isn't just about updating version
+numbers. It's about ensuring Sugar can run on today's hardware,
+today's distros, and continue being relevant for the next generation
+of learners.
+
+Last summer (2025), Krish made [great
+headway](https://www.sugarlabs.org/news/all/2026-1-11-how-to-gtk4) by
+mirgating the Sugar toolkit. That will be the basis of a number of
+projects this summer.
+
+Part 1. Migrating the [Fructose](https://wiki.sugarlabs.org/go/Development_Team/Release/Modules) activity set
+
+**Project Task Checklist**
+
+**Steps to start**
+1. Set up the environment
+2. Pick an activity
+3. Port the activity
+4. Do extensive testing
+5. Review with your mentors
+
+**Project length**<br>
+**350** hours
+
+**Difficulty:**<br>
+**High**
+
+**Coding Mentors**<br>
+[Krish Pandya](https://github.com/mostlykiguess) [Ibiam Chihurumnaya](https://github.com/chimosky/)<br>
+
+**Assisting Mentors**<br>
+[Walter Bender](https://github.com/walterbender/) [Juan Pablo Ugarte](https://github.com/xjuan)
+
+-------------
+
+# GTK4 Transition Part 2 Sugar Shell
+
+**Prerequisites**<br>
+- Experience with C
+- Experience with Python
+- Experience with GTK
+- Good understanding of Sugar Core architecture
+
+**Description**<br>
+
+GTK3, the toolkit Sugar has been built on for years, is approaching
+end-of-life. Meanwhile, GTK4 brings us:
+
+* Better performance with a modern rendering pipeline
+* Wayland support: critical for modern display servers
+* Improved accessibility out of the box
+* Future-proofing: GTK4 is where GNOME and the Linux desktop ecosystem are headed
+
+But here's the thing: migrating isn't just about updating version
+numbers. It's about ensuring Sugar can run on today's hardware,
+today's distros, and continue being relevant for the next generation
+of learners.
+
+Last summer (2025), Krish made [great
+headway](https://www.sugarlabs.org/news/all/2026-1-11-how-to-gtk4) by
+mirgating the Sugar toolkit. That will be the basis of a number of
+projects this summer.
+
+Part 2. Migrating the Sugar Shell -- the desktop environment
+itself. This includes:<br>- The frame (the iconic Sugar border)<br>-
+The Journal<br>- The neighborhood view<br>- Clipboard and palette
+systems
+
+**Project Task Checklist**
+
+**Steps to start**
+1. Set up the environment
+2. Pick an activity
+3. Port the activity
+4. Do extensive testing
+5. Review with your mentors
+
+**Project length**<br>
+**350** hours
+
+**Difficulty:**<br>
+**High**
+
+**Coding Mentors**<br>
+[Krish Pandya](https://github.com/mostlykiguess) [Ibiam Chihurumnaya](https://github.com/chimosky/)<br>
+
+**Assisting Mentors**<br>
+[Walter Bender](https://github.com/walterbender/) [Juan Pablo Ugarte](https://github.com/xjuan)
+
+-------------
+
+# GTK4 Transition Part 3 Wayland
+
+**Prerequisites**<br>
+- Experience with C
+- Experience with Python
+- Experience with GTK
+- Good understanding of Sugar Core architecture
+
+**Description**<br>
+
+GTK3, the toolkit Sugar has been built on for years, is approaching
+end-of-life. Meanwhile, GTK4 brings us:
+
+* Better performance with a modern rendering pipeline
+* Wayland support: critical for modern display servers
+* Improved accessibility out of the box
+* Future-proofing: GTK4 is where GNOME and the Linux desktop ecosystem are headed
+
+But here's the thing: migrating isn't just about updating version
+numbers. It's about ensuring Sugar can run on today's hardware,
+today's distros, and continue being relevant for the next generation
+of learners.
+
+Last summer (2025), Krish made [great
+headway](https://www.sugarlabs.org/news/all/2026-1-11-how-to-gtk4) by
+mirgating the Sugar toolkit. That will be the basis of a number of
+projects thuis summer:
+
+Part 3. Full Wayland support. Wayland is the modern display server
+protocol replacing X11. Wayland is not today’s problem, but today’s
+GTK4 work is what makes it possible later. Some GTK4 work already
+helps with Wayland (hello, Gtk.Popover!), but full integration
+requires deep work in the shell and core systems.
+
+**Project Task Checklist**
+
+**Steps to start**
+1. Set up the environment
+2. Pick an activity
+3. Port the activity
+4. Do extensive testing
+5. Review with your mentors
+
+**Project length**<br>**350** hours
+
+**Difficulty:**<br> High**
+
+**Coding Mentors**<br> [Krish Pandya](https://github.com/mostlykiguess) [Ibiam Chihurumnaya](https://github.com/chimosky/)<br>
+
+**Assisting Mentors**<br> [Walter Bender](https://github.com/walterbender/) [Juan Pablo Ugarte](https://github.com/xjuan)
+
+-------------
+
+# AI optimization
+
+**Prerequisites**<br>
+- Experience with Python
+- Good understanding of AI model deployment
+
+**Description**<br>
+
+We deploy AI in many parts of Sugar, for example, in the Reflection
+Widget, the debugger, the Write Activity, etc. Last summer (2025), we
+built Sugar-AI as a backend to support a variety of models and
+interfaces. It is currently hosted on AWS and we have some credits
+available to support the further development and testing of AI
+services.
+
+The goal of this project is to enable individuals and schools to use
+their own models. This is both to support the use of the plethora of
+emerging open models and to enable individuals and organizations that
+have access to credits to utilize them. (Sugar Labs does not have the
+resources to provide free AI hosting on a large scale, hence we want
+to enable our users to leverage any resources that they have at hand.)
+
+**Steps to start**
+Familiarize yourself with Sugar-AI
+
+**Project length**<br>**150** hours
+
+**Difficulty:**<br> Medium**
+
+**Coding Mentors**<br> [Krish Pandya](https://github.com/mostlykiguess) [Ibiam Chihurumnaya](https://github.com/chimosky/)<br>
+
+**Assisting Mentors**<br> [Walter Bender](https://github.com/walterbender/) [Sumit Srivastava](https://github.com/sum2it)<br>
+
+-------------
+
+# AI reflection in the Sugar Journal
+
+**Prerequisites**<br>
+ - Experience with Python
+ - Experience with LLMs/Chatbots
+
+**Description**<br>
+
+While off-the-shelf Generative AI tools are great at helping a learner
+to create, they offer little in regard to reflecting upon those
+creations. But reflection is a critical (and too often overlooked)
+part of the Constructionist learning pedagogy. With some prompting --
+something LLMs are quite good at -- we can engage the learner in a
+quality reflective practice. The dialog could occur when exiting any
+Sugar activity as part of the journaling process. Rather than
+just being presented with an empty form, the learner will be prompted
+to talk about what they did, why they did it, what they learned and
+what they might do next.
+
+Last summer, Diwangshu built a [reflection
+widget](https://www.sugarlabs.org/news/all/2025-09-01-gsoc-25-diwangshu-final-report)
+for Music Blocks. This summer, we'd like to do the same for the Sugar
+Journal so that AI-assisted reflection is part of the overall Sugar
+experience.
+
+Specifically, we would be working toward accomplishing the following:
+
+- Research different approaches to reflective practice
+- Train open source LLM to generate code to prompt the learn with a multitude of these approaches to reflection
+- Develop FastApi endpoints to deploy the model.
+- Deploy this model in the Sugar Journal to be triggered whenever a project is paused or saved
+
+**Project Length**<br>
+
+**350** hours
+
+**Difficulty**<br>
+
+**Hard**<br>
+
+**Coding Mentors**<br>
+[Walter Bender](https://github.com/walterbender/) [Ibiam Chihurumnaya](https://github.com/chimosky/)<br>
+
+**Assisting Mentors**<br>
+[Diwangshu Kakoty](https://github.com/Commanderk3)
+[Aman Naik](https://github.com/amannaik247)
+
+-------------
+
+# Music Blocks maintenance
+
+**Prerequisites**
+* Proficiency in **JavaScript**
+* Proficiency with CI/CD workflows
+* Familiarity with Music Blocks
+
+**Description**<br>
+
+While we are anticipating the arrival of Music Blocks v4 this summer,
+we still need to maintain Music Blocks v3. This is largely a matter of
+ensuring we have test coverage and we are keeping packages up to date.
+
+This project is both to bring to completion the test suite that Om
+Santosh began last year (2025). It is also to review the packages used
+by Music Blocks and ensure that, whereever possible, the latest
+packages are being used. (Package dependency is a bit of a nightmere
+in Music Blocks.) The latter will require some updates to various
+subsections -- for example, the latest JQuery breaks the search
+functionality.
+
+**Project Length**<br>
+
+**150** hours
+
+**Difficulty**<br>
+
+**Medium**<br>
+
+**Coding Mentors**<br>
+[Walter Bender](https://github.com/walterbender/) [Om Santosh Suneri](https://github.com/omsuneri)<br>
+
+-------------
+
+# Music Blocks temperament
+
+**Prerequisites**
+* Proficiency in **JavaScript**
+* Familiarity with Music Blocks
+* Familiarity with temperament and mode in music
+
+**Description**
+
+Temperament and mode in music are seemingly advanced topics in music
+theory, but we have an opportunity in Music Blocks to engage in these
+concepts at the start of a student's musical education, leading a
+fuller, more musically rich experience.
+
+A simple, but compelling example is the [Musical Galton
+Box](https://github.com/sugarlabs/musicblocks/blob/master/examples/Galton-music.html),
+which drives home the power of mode using a random sequence of note
+progressions.
+
+The [Temperament
+Widget](https://github.com/sugarlabs/musicblocks/tree/master/Docs/guide#412-changing-temperament)
+makes it possible to change and create different tuning systems within
+Music Blocks. While most music software geared towards beginners is
+restricted to 12 EDO (equal temperament or "piano tuning"), Music
+Blocks allows almost unlimited tuning options.
+
+The problem is that when Music Blocks was first written, it did not
+accommodate this full range of temperaments. The current
+implementation still has some artificts that cause some tuning choices
+to fail under some conditions, such as generating chords or pitch
+stepping.
+
+With Music Blocks v4, we built a version of "music utils" that is more
+robust regarding temperament. The goal of this project is to backport
+this code to Music Blocks v3 so that we have the full expression of
+temperament available.
+
+**Project Length**<br>
+
+**150** hours
+
+**Difficulty**<br>
+
+**Medium**<br>
+
+**Coding Mentors**<br>
+[Walter Bender](https://github.com/walterbender/) [Devin Ulibarri](https://github.com/pikurasa/)<br>
+
+-------------
+
+# Music Blocks v4
+
+**Prerequisites**
+
+* Proficiency in **TypeScript**
+* Proficiency in **JavaScript DOM API**
+* Experience with **React Functional Components and Hooks**
+
+**Description**
+
+PLACEHOLDER
+
+**Project Length:** **350** hours
+
+**Difficulty:** **Hard**
+
+**Tech Stack**
+
+TypeScript 5, React 18, Sass, Storybook, Vitest, Vite
+
+**Mentors**<br/>
+[Anindya Kundu](https://github.com/meganindya/)
+
+**Assisting Mentors**<br/>
+[Justin Charles](https://github.com/justin212407)<br/>
+[Safwan Sayeed](https://github.com/sa-fw-an)
+
+-------------
 
 # Administrative notes
 

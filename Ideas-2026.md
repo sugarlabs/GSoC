@@ -148,14 +148,15 @@ projects this summer.
 Part 2. Migrating the Sugar Shell -- the desktop environment
 itself. This includes:<br>- The frame (the iconic Sugar border)<br>-
 The Journal<br>- The neighborhood view<br>- Clipboard and palette
-systems
+systems.
+There's an open [PR](https://github.com/sugarlabs/sugar/pull/1019) for this, so look at it and base your work off it.
 
 **Project Task Checklist**
 
 **Steps to start**
-1. Set up the environment
-2. Pick an activity
-3. Port the activity
+1. Set up the environment - Sugar Live Build.
+2. Install sugar-toolkit-gtk4
+3. Port and test Sugar shell
 4. Do extensive testing
 5. Review with your mentors
 
@@ -206,13 +207,15 @@ protocol replacing X11. Wayland is not today’s problem, but today’s
 GTK4 work is what makes it possible later. Some GTK4 work already
 helps with Wayland (hello, Gtk.Popover!), but full integration
 requires deep work in the shell and core systems.
+There's an open [PR](https://github.com/sugarlabs/sugar/pull/1019) for this, so look at it and base your work off it.
+This PR uses [Casilda](https://gitlab.gnome.org/jpu/casilda/-/tree/main?ref_type=heads) as a wayland compositor for Sugar.
 
 **Project Task Checklist**
 
 **Steps to start**
-1. Set up the environment
-2. Pick an activity
-3. Port the activity
+1. Set up the environment - Sugar Live Build.
+2. Install sugar-toolkit-gtk4
+3. Port and test Sugar shell
 4. Do extensive testing
 5. Review with your mentors
 

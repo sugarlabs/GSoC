@@ -9,6 +9,7 @@
 * [AI optimization](#AI-optimization)
 * [AI reflection in the Sugar Journal](#AI-reflection-in-the-Sugar-Journal)
 * [Music Blocks maintenance](#Music-Blocks-maintenance)
+* [Music Blocks performance](#Music-Blocks-performance)
 * [Music Blocks temperament](#Music-Blocks-temperament)
 * [Music Blocks v4](#Music-Blocks-v4)
 
@@ -333,6 +334,43 @@ packages are being used. (Package dependency is a bit of a nightmere
 in Music Blocks.) The latter will require some updates to various
 subsections -- for example, the latest JQuery breaks the search
 functionality.
+
+**Project Length**<br>
+
+**150** hours
+
+**Difficulty**<br>
+
+**Medium**<br>
+
+**Coding Mentors**<br>
+[Walter Bender](https://github.com/walterbender/) [Om Santosh Suneri](https://github.com/omsuneri)<br>
+
+-------------
+
+# Music Blocks performance
+
+**Prerequisites**
+* Proficiency in **JavaScript**
+* Proficiency with CI/CD workflows
+* Familiarity with Music Blocks
+
+**Description**<br>
+
+While we are anticipating the arrival of Music Blocks v4 this summer,
+we still have a large Music Blocks v3 community to support. In
+particular three aspects of performance are impacting our users: (1)
+the time needed to take to load the page; (2) lag in performance for
+complex projects; and (3) memory usage, especially as it impacts
+operations such as recursion.
+
+While we have done some incremental work, such as deferring the
+loading of some package loading, a hollistic approach is
+needed. Google PageSpeed is a great tool to analysizing some aspects
+of performance and provides insights into where we can make
+improvements.
+
+This project is try to address the performance issues.
 
 **Project Length**<br>
 

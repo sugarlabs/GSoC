@@ -237,6 +237,8 @@ This PR uses [Casilda](https://gitlab.gnome.org/jpu/casilda/-/tree/main?ref_type
 **Prerequisites**<br>
 - Experience with Python
 - Good understanding of AI model deployment
+- Experience with Sugar activities
+
 
 **Description**<br>
 
@@ -254,6 +256,12 @@ generate Sugar Activities on demand?" In other words, have we reached
 a threshold of quality in LLM-generated code where a student or
 teacher could describe an Activity to a model and get a fully
 functioning Sugar Activity in response?
+
+You can take a look at the [Hello World](https://github.com/sugarlabs/hello-world) activity to see how a
+basic Sugar activity looks and works.
+
+This idea also requires that you have a working Sugar development environment,
+[setup a development environment](https://github.com/sugarlabs/sugar/blob/master/docs/development-environment.md) will help you setup one.
 
 **Project Length**<br>
 

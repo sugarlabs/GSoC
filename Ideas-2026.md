@@ -6,6 +6,7 @@
 * [GTK4 Transition Part 1 Fructose](#GTK4-Transition-Part-1-Fructose)
 * [GTK4 Transition Part 2 Sugar Shell](#GTK4-Transition-Part-2-Sugar-Shell)
 * [GTK4 Transition Part 3 Wayland Support](#GTK4-Transition-Part-3-Wayland)
+* [Sugar Activity on Demand](#Sugar-Activity-on-Demand)
 * [AI optimization](#AI-optimization)
 * [AI reflection in the Sugar Journal](#AI-reflection-in-the-Sugar-Journal)
 * [Music Blocks maintenance](#Music-Blocks-maintenance)
@@ -228,6 +229,42 @@ This PR uses [Casilda](https://gitlab.gnome.org/jpu/casilda/-/tree/main?ref_type
 **Coding Mentors**<br> [Krish Pandya](https://github.com/mostlykiguess) [Ibiam Chihurumnaya](https://github.com/chimosky/)<br>
 
 **Assisting Mentors**<br> [Walter Bender](https://github.com/walterbender/) [Juan Pablo Ugarte](https://github.com/xjuan)
+
+-------------
+
+# Sugar Activity on Demand
+
+**Prerequisites**<br>
+- Experience with Python
+- Good understanding of AI model deployment
+
+**Description**<br>
+
+Sugar Activities are the primary vehicle through which our user engage
+with Sugar and its various features, such as collaboration, the
+Journal, etc. While we offer a wide variety of Activities, there are
+undoubtedly gaps. While we provide support for Activity development
+(including a pathway from Turtle Art through Pippy to Sugar Activity)
+and add new Activities, we could do more to support the user
+community.
+
+AI-assisted code generation has turned a corner in terms of quality,
+which suggests we should be asking this question: "Can we use LLMs to
+generate Sugar Activities on demand?" In other words, have we reached
+a threshold of quality in LLM-generated code where a student or
+teacher could describe an Activity to a model and get a fully
+functioning Sugar Activity in response?
+
+**Project Length**<br>
+
+**350** hours
+
+**Difficulty**<br>
+
+**Hard**<br>
+
+**Coding Mentors**<br>
+[Walter Bender](https://github.com/walterbender/) [Ibiam Chihurumnaya](https://github.com/chimosky/)<br>
 
 -------------
 

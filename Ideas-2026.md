@@ -14,6 +14,7 @@
 * [Music Blocks temperament](#Music-Blocks-temperament)
 * [Music Blocks v4](#Music-Blocks-v4)
 * [Sugarizer Connect the dots activity](#Sugarizer-Connect-the-dots-activity)
+* [Speak-AI Multilingual Support](#Speak-AI-Multilingual-Support)
 
 ------------
 
@@ -544,6 +545,70 @@ Three distinct modes will be implemented:
 **Mentor**<br>
 [Lionel Laské](https://github.com/llaske/)
 
+
+-------------
+
+# Speak-AI Multilingual Support
+
+**Prerequisites**<br>
+ - Experience with Python
+ - Experience with Text-to-Speech (TTS) systems
+
+**Description**<br>
+
+The [Speak-AI activity](https://github.com/sugarlabs/speak-ai) is an enhanced version of the classic Speak activity that uses Kokoro TTS to provide more natural-sounding voices. However, current language support is limited.
+
+This project aims to significantly expand Speak-AI's multilingual capabilities by adding support for the most commonly used languages, with a strong emphasis on achieving high-quality, natural pronunciation. Getting pronunciation right is the top priority, as accurate and natural-sounding speech is essential for language learning and accessibility.
+
+**Project Goals:**
+
+1. **Multilingual TTS Support**: Here are some of the languages that we want to add support for:
+   - Spanish
+   - Portuguese (Brazilian)
+   - Hindi
+   - French
+   - Arabic
+   - Swahili
+   - Quechua/Aymara
+   - Chinese (Mandarin)
+   - Kinyarwanda
+   - Gurani
+
+2. **Pronunciation Quality**: Prioritize accurate pronunciation through:
+   - Extending or replacing the current G2P (Grapheme-to-Phoneme) layer to better support non-Latin scripts (Arabic, Devanagari for Hindi, Chinese characters, etc.)
+   - Evaluating and potentially integrating alternative open-source TTS models that may provide better multilingual support
+   - Creating a language-specific testing and evaluation framework
+
+3. **Performance Optimization**: Improve the efficiency of the TTS system through:
+   - Investigating ONNX runtime integration for faster inference
+   - Optimizing TTS model loading and memory usage for resource-constrained devices
+   - Implementing caching strategies for commonly used phrases
+
+4. **Community Validation**: Work with native speakers from the Sugar Labs community to:
+   - Test and validate pronunciation quality for each added language
+   - Gather feedback
+   - Iterate on improvements based on community input
+
+**Technical Approach:**
+
+The project will require research into various TTS backends and G2P systems to determine the best approach for each language family. Special attention must be paid to languages with complex phonological rules.
+
+**Steps to start:**
+1. Familiarize yourself with the current Speak-AI implementation
+2. Research TTS and G2P models for target languages
+3. Implement new TTS models / G2P systems within Speak-AI
+
+**Project length**<br>
+**90** hours
+
+**Project Size:**<br>
+**Small**
+
+**Coding Mentors**<br>
+[Mebin Thattil](https://github.com/mebinthattil) [Ibiam Chihurumnaya](https://github.com/chimosky/)<br>
+
+**Assisting Mentors**<br>
+[Walter Bender](https://github.com/walterbender/) [Devin Ulibarri](https://github.com/pikurasa/)<br>
 
 -------------
 

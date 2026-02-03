@@ -308,7 +308,7 @@ Familiarize yourself with Sugar-AI
 
 **Coding Mentors**<br> [Krish Pandya](https://github.com/mostlykiguess) [Ibiam Chihurumnaya](https://github.com/chimosky/)<br>
 
-**Assisting Mentors**<br> [Walter Bender](https://github.com/walterbender/) [Sumit Srivastava](https://github.com/sum2it)<br>
+**Assisting Mentors**<br> [Walter Bender](https://github.com/walterbender/) [Sumit Srivastava](https://github.com/sum2it) [Om Santosh Suneri](https://github.com/omsuneri)<br>
 
 -------------
 

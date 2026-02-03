@@ -33,6 +33,33 @@ Our archives of GSoC Projects:
 [2023](Ideas-2023.md) |
 [2024](Ideas-2024.md)
 
+## Start Here (New Contributors)
+
+If this is your first time contributing to Sugar Labs or applying for GSoC:
+
+1. Read this README once end-to-end
+2. Join the sugar-devel@ mailing list
+3. Introduce yourself briefly
+4. Pick one small issue to explore or fix
+5. Ask questions *publicly* if you get stuck
+
+⏱ Expected time to first contribution: 1–3 days
+
+
+## Why Sugar Labs?
+
+Sugar Labs builds learning software used by children and educators
+around the world.
+
+Contributors work on:
+- Education-focused open source software
+- Long-lived community projects
+- Tools with real social impact
+
+If you care about software that empowers learning,
+you’ll feel at home here.
+
+
 ## Want to work with us ?
 
 Please get involved.  Familiarise yourself with our code, by
@@ -63,9 +90,9 @@ and ask for help.  Allow some days for reply.  See
 We also have a [matrix channel](https://matrix.to/#/#sugar:matrix.org) where you can talk with
 other community members.
 
-Do not write secretly to mentors or developers unless they have asked
-you to.  This varies by idea.  Check the list of coding mentors for
-each idea.  We have added contact methods.
+Please avoid private communication unless invited to do so.
+This varies by idea. Check the list of coding mentors for each idea.
+We have added contact methods.
 
 ## How to Contribute
 
@@ -100,9 +127,11 @@ consider everyone else a member of a team and not a competitor.
 
 One should be considerate to everyone else's time. We would like
 to have quality discussions, and not answer questions that are
-already documented, or available on stackoverflow. This doesn't
-mean you can't ask questions, but a clueless user and a lazy
-developer are two different things.
+already documented, or available on stackoverflow. This does not 
+mean you cannot ask questions — curiosity is welcome.
+However, contributors are expected to make a reasonable effort to
+research and understand the project before asking.
+
 
 Tell things as you see them. Be polite, but don't sugar coat it.
 You don't have to apologize everytime you make a mistake; but
@@ -113,7 +142,7 @@ Conduct](https://github.com/sugarlabs/sugar-docs/blob/master/src/CODE_OF_CONDUCT
 
 ## Right fit
 
-When we start interacting with you during the application period, we have several ways to see if you are the right fit; see how you compare to our perfect student;
+When we start interacting with you during the application period, we have several ways to see if you are the right fit; see how you compare to what we typically look for in contributors;
 
 * you have a GitHub profile with a history of commits, pull requests, and issues in our project, other projects, or personal projects,
 
@@ -146,6 +175,34 @@ When we start interacting with you during the application period, we have severa
 * you don't just fix issues, but you also get involved in other people's work.
 
 <i>(abstracted by @quozl from a work-in-progress document shared among mentors of several organisations, titled "Tips for finding the right GSoC student for your org".)</i>
+
+## Common Mistakes to Avoid
+
+- Asking mentors to review a proposal privately
+- Writing a proposal without prior contributions
+- Using GSoC as justification for design choices
+- Not reading existing documentation or past ideas
+- Treating mentors as evaluators instead of collaborators
+
+
+## Proposal Guidelines (Sugar Labs)
+
+### Must
+- Be your own original work
+- Demonstrate fluency in the required programming language
+- Be submitted as Markdown or PDF
+- Be discussed publicly on sugar-devel@
+
+### Should
+- Assess mentor competency
+- Include technical reasoning and alternatives
+- Respond to feedback publicly
+
+### Must Not
+- Be a Google Docs link
+- Be sent privately to mentors
+- Be copied from other proposals
+
 
 ## Cheating
 

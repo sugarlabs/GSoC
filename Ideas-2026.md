@@ -696,15 +696,25 @@ Before last summer (2024), the chatbot was implemented with core features, but a
 
 1. Currently, the project uses a single-query retriever, this can be enhanced by upgrading to a multi-query retriever to improve the efficiency and quality of the generated lesson plans.
 
+Reason - A single-query retriever depends heavily on how the user phrases their request and may miss relevant content if the wording is ambiguous or incomplete. A multi-query retriever generates multiple semantically equivalent query variations, improving recall and ensuring that relevant lesson plan components are retrieved more consistently and selects the best-performing results based on retrieval scores. This leads to higher-quality and more comprehensive generated lesson plans.
+
 2. The current project uses a vector retriever for semantic search, integrating a hybrid retriever with BM25 keyword search can further improve retrieval performance.
+
+Reason - Vector retriver is semantic search and the BM25 is keyword based search. Vector-based retrieval excels at semantic similarity but can fail to capture exact keyword matches, such as specific song names, musical terms, or curriculum keywords. Integrating BM25 keyword search with vector retrieval combines semantic understanding with lexical precision, resulting in improved retrieval accuracy, so the LLM to generate the Lesson Plan will have more and concise Information.
 
 3. ["Research Paper"](https://pmc.ncbi.nlm.nih.gov/articles/PMC11979239/) refer this paper and test weather JSON, YAML, OR Hybrid/CSV which method will be best fit for our project. 
 
 4. Add a cache-based data storage mechanism informed by user reviews, enabling the system to directly serve previously generated lesson plans when the same request is made by other users.
 
+Reason - Many users request similar lesson plans repeatedly. A cache-based storage layer informed by user reviews allows the system to reuse high-quality, previously generated lesson plans instead of regenerating them from scratch. This reduces latency, lowers compute cost in deployed environment, and improves user experience while continuously reinforcing high-performing outputs.
+
 5. Implement a planning workflow in which the chatbot generates an initial lesson plan outline that can be iteratively refined and used to generate a complete lesson plan.
 
+Reason - Generating a full lesson plan in a single step can lead to hallucinations, such as missing steps, incorrect content. To address this, the chatbot will first generate an initial lesson plan outline the lesson introduction, the blocks to be used, and the required widgets, which can be reviewed and validated if required refined before being used to generate the complete lesson plan.
+
 6. Add Conversational Memory to chatbot for seamless converation.
+
+Reason - Without conversational memory, the chatbot forgets earlier messages and asks repeated questions. Conversational memory helps it remember context and improve lesson plans based on previous user input.
 
 7. Deploy the chatbot on an EC2 instance or an equivalent cloud hosting provider. 
 

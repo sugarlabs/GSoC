@@ -36,11 +36,6 @@ Our archives of GSoC Projects:
 
 
 
-
-
-
-
-
 ## Want to work with us ?
 
 Please get involved.  Familiarise yourself with our code, by

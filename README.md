@@ -33,6 +33,20 @@ Our archives of GSoC Projects:
 [2023](Ideas-2023.md) |
 [2024](Ideas-2024.md)
 
+
+## Start Here (New Contributors)
+
+If this is your first time contributing to Sugar Labs or applying for GSoC:
+
+1. Read this README once end-to-end
+2. Join the sugar-devel@ mailing list
+3. Introduce yourself briefly
+4. Pick one small issue to explore or fix
+5. Ask questions *publicly* if you get stuck
+
+⏱ Expected time to first contribution: 1–3 days
+
+
 ## Want to work with us ?
 
 Please get involved.  Familiarise yourself with our code, by

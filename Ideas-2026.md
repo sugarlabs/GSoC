@@ -15,7 +15,7 @@
 * [Music Blocks v4](#Music-Blocks-v4)
 * [Sugarizer Connect the dots activity](#Sugarizer-Connect-the-dots-activity)
 * [Speak-AI Multilingual Support](#Speak-AI-Multilingual-Support)
-
+* [Make your own Lesson Plan for Music Blocks Part 2](#Make your own Lesson Plan for Music Blocks Part 2)
 ------------
 
 ## Git backend for Music Blocks Part 2
@@ -681,3 +681,45 @@ These may help you to get familiar with the project.  The more
 you work on these issues, the more experienced you will be for
 the project.  However, this is not a strict list.  You _should_
 try and explore other issues as well.
+
+## Make your own Lesson Plan for Music Blocks Part 2
+
+**Prerequisites**<br>
+ - Experience with JavaScript, Python
+ - Experience with large language models (LLMs), RAG
+
+**Description**<br>
+
+Before last summer (2024), the chatbot was implemented with core features, but additional enhancements were required to achieve better accuracy. Link to GitHub Repo ["GitHub"](https://github.com/sugarlabs/Musicblocks-AI)
+
+**Features Required**
+
+1. Currently, the project uses a single-query retriever, this can be enhanced by upgrading to a multi-query retriever to improve the efficiency and quality of the generated lesson plans.
+
+2. The current project uses a vector retriever for semantic search, integrating a hybrid retriever with BM25 keyword search can further improve retrieval performance.
+
+3. ["Research Paper"](https://pmc.ncbi.nlm.nih.gov/articles/PMC11979239/) refer this paper and test weather JSON, YAML, OR Hybrid/CSV which method will be best fit for our project. 
+
+4. Add a cache-based data storage mechanism informed by user reviews, enabling the system to directly serve previously generated lesson plans when the same request is made by other users.
+
+5. Implement a planning workflow in which the chatbot generates an initial lesson plan outline that can be iteratively refined and used to generate a complete lesson plan.
+
+6. Add Conversational Memory to chatbot for seamless converation.
+
+7. Deploy the chatbot on an EC2 instance or an equivalent cloud hosting provider. 
+
+8. Still more features will be added. 
+
+**Project Length**<br>
+
+**175** hours
+
+**Difficulty**<br>
+
+**Medium**
+
+**Coding Mentors**<br>
+[Walter Bender](https://github.com/walterbender/)
+[Devin Ulibarri](https://github.com/pikurasa/)
+
+-------------

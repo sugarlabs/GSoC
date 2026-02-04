@@ -34,6 +34,8 @@ Our archives of GSoC Projects:
 [2024](Ideas-2024.md)
 
 
+hye 
+welcome you to the sugar labs
 
 
 ## Want to work with us ?

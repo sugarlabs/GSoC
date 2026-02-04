@@ -702,7 +702,7 @@ Reason - A single-query retriever depends heavily on how the user phrases their 
 
 Reason - Vector retriver is semantic search and the BM25 is keyword based search. Vector-based retrieval excels at semantic similarity but can fail to capture exact keyword matches, such as specific song names, musical terms, or curriculum keywords. Integrating BM25 keyword search with vector retrieval combines semantic understanding with lexical precision, resulting in improved retrieval accuracy, so the LLM to generate the Lesson Plan will have more and concise Information.
 
-3. ["Research Paper"](https://pmc.ncbi.nlm.nih.gov/articles/PMC11979239/) refer this paper and test weather JSON, YAML, OR Hybrid/CSV which method will be best fit for our project. 
+3. ["Research Paper"](https://pmc.ncbi.nlm.nih.gov/articles/PMC11979239/) refer this paper and test whether JSON, YAML, OR Hybrid/CSV which method will be best fit for our project. 
 
 4. Add a cache-based data storage mechanism informed by user reviews, enabling the system to directly serve previously generated lesson plans when the same request is made by other users.
 

@@ -1,8 +1,8 @@
-# GSoC @Sugar Labs
+# Google Summer of Code (GSoC) at Sugar Labs
 
 ## Shortcuts
 
-|[Sugar Labs Ideas for Google Summer of Code 2026](Ideas-2026.md)| [Proposal Template](Template.md) | [Sugar Labs @GitHub](https://github.com/sugarlabs) |
+|[Ideas for 2026](Ideas-2026.md)| [Proposal Template](Template.md) | [Sugar Labs @GitHub](https://github.com/sugarlabs) |
 |:-------------------------:|----------------------|----------------------|
 |<a href="Ideas-2026.md">![](assets/gsoc-square.png)</a> | <a href="Template.md">![](assets/template.png)</a> | <a href="https://github.com/sugarlabs">![](assets/github.png)</a> |
 
@@ -10,7 +10,7 @@
 ## Introduction
 Google Summer of Code is a *global program focused on bringing
 more student developers into open source software development*.
-See [how it works](https://summerofcode.withgoogle.com/how-it-works)
+See [how it works](https://summerofcode.withgoogle.com/how-it-works).
 
 Sugar Labs has applied to be a Google Summer of Code 2026 mentoring organisation
 
@@ -109,7 +109,7 @@ You don't have to apologize everytime you make a mistake; but
 avoid repeating it again ;-)
 
 Also see our [Code of
-Conduct](https://github.com/sugarlabs/sugar-docs/blob/master/src/CODE_OF_CONDUCT.md)
+Conduct](https://github.com/sugarlabs/sugar-docs/blob/master/src/CODE_OF_CONDUCT.md).
 
 ## Right fit
 

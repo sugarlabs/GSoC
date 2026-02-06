@@ -2,18 +2,17 @@
 
 ## Shortcuts
 
-|[GSoC'25 Ideas](Ideas-2025.md)| [Proposal Template](Template.md) | [Sugar Labs @GitHub](https://github.com/sugarlabs) |
+|[Sugar Labs Ideas for Google Summer of Code 2026](Ideas-2026.md)| [Proposal Template](Template.md) | [Sugar Labs @GitHub](https://github.com/sugarlabs) |
 |:-------------------------:|----------------------|----------------------|
-|<a href="Ideas-2025.md">![](assets/gsoc-square.png)</a> | <a href="Template.md">![](assets/template.png)</a> | <a href="https://github.com/sugarlabs">![](assets/github.png)</a> |
+|<a href="Ideas-2026.md">![](assets/gsoc-square.png)</a> | <a href="Template.md">![](assets/template.png)</a> | <a href="https://github.com/sugarlabs">![](assets/github.png)</a> |
 
 
 ## Introduction
 Google Summer of Code is a *global program focused on bringing
 more student developers into open source software development*.
-See [GSoC 2024 how it works](https://summerofcode.withgoogle.com/how-it-works)
+See [how it works](https://summerofcode.withgoogle.com/how-it-works)
 
-Sugar Labs is a Google Summer of Code 2024 mentoring organisation
-(completed).
+Sugar Labs has applied to be a Google Summer of Code 2026 mentoring organisation
 
 Our archives of GSoC Projects:
 [2009](https://wiki.sugarlabs.org/go/Summer_of_Code/2009) |
@@ -31,14 +30,15 @@ Our archives of GSoC Projects:
 [2021](Ideas-2021.md) |
 [2022](Ideas-2022.md) |
 [2023](Ideas-2023.md) |
-[2024](Ideas-2024.md)
+[2024](Ideas-2024.md) |
+[2025](Ideas-2025.md)
 
 ## Want to work with us ?
 
 Please get involved.  Familiarise yourself with our code, by
 reporting and fixing bugs.
 
-See our [ideas](Ideas-2025.md) page.  We would love to hear
+See our [ideas](Ideas-2026.md) page.  We would love to hear
 your own ideas as well.
 
 You may use our [proposal template](Template.md) or your own.
@@ -119,7 +119,7 @@ When we start interacting with you during the application period, we have severa
 
 * you are patient to apply every suggestion during a pull request review,
 
-* you care about our project beyond the specific task you are working on; you care about changes to documentation, tests, releases, issues, etc,
+* you care about our project beyond the specific task you are working on; you cae about changes to documentation, tests, releases, issues, etc,
 
 * your conversation with us is more than the topic you are working on, but flows naturally to any topic,
 

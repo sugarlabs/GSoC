@@ -647,12 +647,12 @@ in the form of contributions of code to Sugar Labs.
 
 Mentors for a project will be assigned after proposals are received.
 
-## Assisting Mentors For each idea, we may have offers from
+## Assisting Mentors
 
-mentors _who do not code_ willing to assist students in various
-other ways, such as gathering requirements, visual design,
-testing, and deployment; these are shown as an _assisting
-mentor_.
+For each idea, we may have offers from mentors _who do not code_ but
+are willing to assist students in various other ways, such as
+gathering requirements, visual design, testing, and deployment; these
+are shown as an _assisting mentor_.
 
 The only requirement for an _assisting mentor_ is _knowledge of
 the project_.

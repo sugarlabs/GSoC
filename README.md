@@ -25,13 +25,13 @@ Our archives of GSoC Projects:
 [2016](https://wiki.sugarlabs.org/go/Summer_of_Code/2016) |
 [2017](https://wiki.sugarlabs.org/go/Summer_of_Code/2017) |
 [2018](https://wiki.sugarlabs.org/go/Summer_of_Code/2018) |
-[2019](Ideas-2019.md) |
-[2020](Ideas-2020.md) |
-[2021](Ideas-2021.md) |
-[2022](Ideas-2022.md) |
-[2023](Ideas-2023.md) |
-[2024](Ideas-2024.md) |
-[2025](Ideas-2025.md)
+[2019](archives/Ideas-2019.md) |
+[2020](archives/Ideas-2020.md) |
+[2021](archives/Ideas-2021.md) |
+[2022](archives/Ideas-2022.md) |
+[2023](archives/Ideas-2023.md) |
+[2024](archives/Ideas-2024.md) |
+[2025](archives/Ideas-2025.md)
 
 ## Want to work with us ?
 

@@ -18,7 +18,7 @@
 
 ------------
 
-## Git backend for Music Blocks Part 2
+## Git Backend for Music Blocks Part 2
 
 **Prerequisites**<br>
  - Experience with Git
@@ -68,7 +68,7 @@ References:
 
 -----------
 
-# GTK4 Transition Part 1 Fructose
+## GTK4 Transition Part 1 Fructose
 
 **Prerequisites**<br>
 - Experience with C
@@ -121,7 +121,7 @@ Part 1. Migrating the [Fructose](https://wiki.sugarlabs.org/go/Development_Team/
 
 -------------
 
-# GTK4 Transition Part 2 Sugar Shell
+## GTK4 Transition Part 2 Sugar Shell
 
 **Prerequisites**<br>
 - Experience with C
@@ -178,7 +178,7 @@ There's an open [PR](https://github.com/sugarlabs/sugar/pull/1019) for this, so 
 
 -------------
 
-# GTK4 Transition Part 3 Wayland
+## GTK4 Transition Part 3 Wayland
 
 **Prerequisites**<br>
 - Experience with C
@@ -233,7 +233,7 @@ This PR uses [Casilda](https://gitlab.gnome.org/jpu/casilda/-/tree/main?ref_type
 
 -------------
 
-# Sugar Activity on Demand
+## Sugar Activity on Demand
 
 **Prerequisites**<br>
 - Experience with Python
@@ -277,7 +277,7 @@ This idea also requires that you have a working Sugar development environment,
 
 -------------
 
-# AI optimization
+## AI Optimization
 
 **Prerequisites**<br>
 - Experience with Python
@@ -312,7 +312,7 @@ Familiarize yourself with Sugar-AI
 
 -------------
 
-# AI reflection in the Sugar Journal
+## AI Reflection in the Sugar Journal
 
 **Prerequisites**<br>
  - Experience with Python
@@ -361,7 +361,7 @@ Specifically, we would be working toward accomplishing the following:
 
 -------------
 
-# Music Blocks maintenance
+## Music Blocks Maintenance
 
 **Prerequisites**
 * Proficiency in **JavaScript**
@@ -395,7 +395,7 @@ functionality.
 
 -------------
 
-# Music Blocks performance
+## Music Blocks Performance
 
 **Prerequisites**
 * Proficiency in **JavaScript**
@@ -432,7 +432,7 @@ This project is try to address the performance issues.
 
 -------------
 
-# Music Blocks temperament
+## Music Blocks Temperament
 
 **Prerequisites**
 * Proficiency in **JavaScript**
@@ -482,7 +482,7 @@ temperament available.
 
 -------------
 
-# Music Blocks v4
+## Music Blocks v4
 
 **Prerequisites**
 
@@ -511,7 +511,7 @@ TypeScript 5, React 18, Sass, Storybook, Vitest, Vite
 
 -------------
 
-# Sugarizer Connect the dots activity
+## Sugarizer Connect the Dots Activity
 
 **Prerequisites**
 
@@ -548,7 +548,7 @@ Three distinct modes will be implemented:
 
 -------------
 
-# Speak-AI Multilingual Support
+## Speak-AI Multilingual Support
 
 **Prerequisites**<br>
  - Experience with Python
@@ -612,7 +612,7 @@ The project will require research into various TTS backends and G2P systems to d
 
 -------------
 
-# Administrative notes
+# Administrative Notes
 
 Above are a list of ideas we've planned for GSoC 2026 projects.
 If you have any ideas which can be useful to us, but are not in the

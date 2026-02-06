@@ -1,20 +1,18 @@
-# Google Summer of Code 2026 Ideas
+# Google Summer of Code 2026 Project Ideas
 
-## Project Ideas
-
-* [Git backend for Music Blocks Part 2: Deployment](#Git-backend-for-Music-Blocks-Part-2)
-* [GTK4 Transition Part 1 Fructose](#GTK4-Transition-Part-1-Fructose)
-* [GTK4 Transition Part 2 Sugar Shell](#GTK4-Transition-Part-2-Sugar-Shell)
-* [GTK4 Transition Part 3 Wayland Support](#GTK4-Transition-Part-3-Wayland)
-* [Sugar Activity on Demand](#Sugar-Activity-on-Demand)
-* [AI optimization](#AI-optimization)
-* [AI reflection in the Sugar Journal](#AI-reflection-in-the-Sugar-Journal)
-* [Music Blocks maintenance](#Music-Blocks-maintenance)
-* [Music Blocks performance](#Music-Blocks-performance)
-* [Music Blocks temperament](#Music-Blocks-temperament)
-* [Music Blocks v4](#Music-Blocks-v4)
-* [Sugarizer Connect the dots activity](#Sugarizer-Connect-the-dots-activity)
-* [Speak-AI Multilingual Support](#Speak-AI-Multilingual-Support)
+* [Git Backend for Music Blocks Part 2](#git-backend-for-music-blocks-part-2)
+* [GTK4 Transition Part 1 Fructose](#gtk4-transition-part-1-fructose)
+* [GTK4 Transition Part 2 Sugar Shell](#gtk4-transition-part-2-sugar-shell)
+* [GTK4 Transition Part 3 Wayland](#gtk4-transition-part-3-wayland)
+* [Sugar Activity on Demand](#sugar-activity-on-demand)
+* [AI Optimization](#ai-optimization)
+* [AI Reflection in the Sugar Journal](#ai-reflection-in-the-sugar-journal)
+* [Music Blocks Maintenance](#music-blocks-maintenance)
+* [Music Blocks Performance](#music-blocks-performance)
+* [Music Blocks Temperament](#music-blocks-temperament)
+* [Music Blocks v4](#music-blocks-v4)
+* [Sugarizer Connect the Dots Activity](#sugarizer-connect-the-dots-activity)
+* [Speak-AI Multilingual Support](#speak-ai-multilingual-support)
 
 ------------
 

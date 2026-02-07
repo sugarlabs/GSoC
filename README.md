@@ -119,7 +119,7 @@ When we start interacting with you during the application period, we have severa
 
 * you are patient to apply every suggestion during a pull request review,
 
-* you care about our project beyond the specific task you are working on; you cae about changes to documentation, tests, releases, issues, etc,
+* you care about our project beyond the specific task you are working on; you care about changes to documentation, tests, releases, issues, etc,
 
 * your conversation with us is more than the topic you are working on, but flows naturally to any topic,
 

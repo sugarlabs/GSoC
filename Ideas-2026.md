@@ -209,8 +209,10 @@ protocol replacing X11. Wayland is not today’s problem, but today’s
 GTK4 work is what makes it possible later. Some GTK4 work already
 helps with Wayland (hello, Gtk.Popover!), but full integration
 requires deep work in the shell and core systems.
-There's an open [PR](https://github.com/sugarlabs/sugar/pull/1019) for this, so look at it and base your work off it.
-This PR uses [Casilda](https://gitlab.gnome.org/jpu/casilda/-/tree/main?ref_type=heads) as a wayland compositor for Sugar.
+There's an open [PR](https://github.com/sugarlabs/sugar/pull/1019)
+for this, so look at it and base your work off it.
+This PR uses [Casilda](https://gitlab.gnome.org/jpu/casilda/-/tree/main?ref_type=heads)
+as a wayland compositor for Sugar.
 
 **Project Task Checklist**
 
@@ -414,6 +416,15 @@ loading of some package loading, a hollistic approach is
 needed. Google PageSpeed is a great tool to analysizing some aspects
 of performance and provides insights into where we can make
 improvements.
+
+In addition, this project can take a data-driven approach to prioritization. 
+This may include analyzing real-world usage patterns such as:
+(1) most-used blocks, (2) frequently combined blocks, (3) recursion depth,
+(4) project size, and (5) memory-intensive operations. 
+These insights can help guide optimization efforts and reduce testing time
+by telling us areas that have the greatest impact on users.
+This might be done by implementing lightweight, privacy-friendly
+instrumentation to collect anonymous statistical data (as mentioned above).
 
 This project is try to address the performance issues.
 

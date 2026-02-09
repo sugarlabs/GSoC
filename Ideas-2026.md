@@ -13,8 +13,7 @@
 * [Music Blocks v4](#music-blocks-v4)
 * [Sugarizer Connect the Dots Activity](#sugarizer-connect-the-dots-activity)
 * [Speak-AI Multilingual Support](#speak-ai-multilingual-support)
-* [AI-Powered Personalized Learning Path Recommendations for Sugar](#AI-Powered-Personalized-Learning-Path-Recommendations-for-Sugar)
-AI-Powered Personalized Learning Path Recommendations for Sugar
+* [AI-Powered Learning Path Recommendations for Sugar](#AI-Powered-Personalized-Learning-Path-Recommendations-for-Sugar)
 ------------
 
 ## Git Backend for Music Blocks Part 2
@@ -638,7 +637,7 @@ An AI-powered, privacy-first recommendation system for Sugar Home that suggests 
 - Support offline usage through graceful fallbacks
 - Integrate seamlessly into the Sugar ecosystem
 
-## **Technical Approach:***
+## **Technical Approach:**
 - Local collection of short-horizon learner signals (activity, retries, time spent)
 - Prompt generation from summarized learner context
 - Fine-tuned small LLaMA-based LLM for recommendation generation

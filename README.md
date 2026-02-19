@@ -12,7 +12,7 @@ Google Summer of Code is a *global program focused on bringing
 more student developers into open source software development*.
 See [how it works](https://summerofcode.withgoogle.com/how-it-works).
 
-Sugar Labs has applied to be a Google Summer of Code 2026 mentoring organisation
+Sugar Labs is a Google Summer of Code 2026 mentoring organisation.
 
 Our archives of GSoC Projects:
 [2009](https://wiki.sugarlabs.org/go/Summer_of_Code/2009) |

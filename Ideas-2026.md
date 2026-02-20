@@ -13,7 +13,7 @@
 * [Music Blocks v4](#music-blocks-v4)
 * [Sugarizer Connect the Dots Activity](#sugarizer-connect-the-dots-activity)
 * [Speak-AI Multilingual Support](#speak-ai-multilingual-support)
-
+* [AI-Powered Learning Path Recommendations for Sugar](#AI-Powered-Personalized-Learning-Path-Recommendations-for-Sugar)
 ------------
 
 ## Git Backend for Music Blocks Part 2
@@ -618,6 +618,49 @@ The project will require research into various TTS backends and G2P systems to d
 
 **Assisting Mentors**<br>
 [Walter Bender](https://github.com/walterbender/) [Devin Ulibarri](https://github.com/pikurasa/)<br>
+
+-------------
+# AI-Powered Personalized Learning Path Recommendations for Sugar
+
+## **Prerequisites**
+- JavaScript, HTML, CSS fundamentals
+- Basic understanding of ML / LLMs
+- Familiarity with open-source workflows
+- Python and SQLite experience
+
+## **Description**
+An AI-powered, privacy-first recommendation system for Sugar Home that suggests the next best activities or reflections based on recent learner behavior. It uses a fine-tuned small LLaMA model with an offline, rule-based fallback to ensure usability without internet access or user consent.
+
+## **Project Goals**
+- Provide contextual and explainable learning recommendations
+- Preserve learner privacy with local data storage
+- Support offline usage through graceful fallbacks
+- Integrate seamlessly into the Sugar ecosystem
+
+## **Technical Approach:**
+- Local collection of short-horizon learner signals (activity, retries, time spent)
+- Prompt generation from summarized learner context
+- Fine-tuned small LLaMA-based LLM for recommendation generation
+- Sugar Home UI integration with consent handling
+- On-device rule-based fallback system
+
+## **Steps to start**
+1. Analyze Sugar activities and learner interaction signals
+2. Implement local data collection and storage
+3. Design prompt templates and training examples
+4. Fine-tune and deploy the LLM inference service
+5. Integrate UI, consent flow, and offline fallback
+6. Test and iterate based on feedback
+
+## **Difficulty**
+Medium 
+
+## **Project length**
+~300 hrs
+
+## **Coding Mentors***
+[Walter Bender](https://github.com/walterbender/) 
+
 
 -------------
 

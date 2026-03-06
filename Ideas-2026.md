@@ -7,6 +7,7 @@
 * [Sugar Activity on Demand](#sugar-activity-on-demand)
 * [AI Optimization](#ai-optimization)
 * [AI Reflection in the Sugar Journal](#ai-reflection-in-the-sugar-journal)
+* [Automated Release Pipeline for Music Blocks](#automated-release-pipeline-for-music-blocks)
 * [Music Blocks Maintenance](#music-blocks-maintenance)
 * [Music Blocks Performance](#music-blocks-performance)
 * [Music Blocks Temperament](#music-blocks-temperament)
@@ -360,6 +361,48 @@ Specifically, we would be working toward accomplishing the following:
 [Aman Naik](https://github.com/amannaik247)
 
 -------------
+
+## Automated Release Pipeline for Music Blocks
+
+**Prerequisites**<br>
+ - Experience with GitHub Actions or CI/CD platforms
+ - Experience with Docker and containerization
+ - Experience with JavaScript/Node.js testing frameworks
+ - Understanding of DevOps principles and automated deployment
+ - Familiarity with Git workflows and versioning tools
+
+**Description**<br>
+
+Music Blocks is a Visual Programming Language and web application for exploring musical and mathematical concepts. While the project has basic CI workflows (linting, testing, security scans, and performance audits), it currently **lacks a structured, automated deployment pipeline**. Releases from the master branch to production are done **manually and irregularly**, resulting in unpredictable deployments, risk of human error, slow time-to-market for bug fixes and features, and project agility bottlenecks. There is no automated deployment workflow, versioning automation, multi-environment strategy (dev/staging/production), rollback mechanisms, deployment monitoring, automated changelog generation, or optimized containerized deployment options.
+
+This project will transform Music Blocks' release process from manual and ad-hoc to automated, reliable, and auditable. The contributor will design and implement an automated release pipeline covering the entire software delivery lifecycle, including multi-environment infrastructure (staging and production), semantic versioning automation, optimized Docker builds with GitHub Container Registry, automated deployment workflows with approval gates and preview deployments, one-click rollback mechanisms, pre/post-deployment validation, error tracking and performance monitoring, deployment notifications and dashboards, and comprehensive documentation with runbooks and troubleshooting guides.
+
+**Expected Deliverables:**
+- Fully automated deployment pipeline with multi-environment support (staging, production, preview)
+- Automated semantic versioning, changelog generation, and GitHub releases
+- Optimized Docker containerization with GitHub Container Registry
+- One-click rollback and deployment recovery mechanisms
+- Comprehensive monitoring, error tracking, and deployment dashboards
+- Complete documentation with runbooks and troubleshooting guides
+
+References:
+ - <https://github.com/sugarlabs/musicblocks>
+ - <https://github.com/sugarlabs/musicblocks/tree/master/.github/workflows>
+ - <https://docs.github.com/en/actions>
+ - <https://www.conventionalcommits.org/>
+
+**Project Length**<br>
+
+**350** hours
+
+**Difficulty**<br>
+
+**Hard**<br>
+
+**Coding Mentors**<br>
+[Om Santosh Suneri](https://github.com/omsuneri) [Walter Bender](https://github.com/walterbender/)<br>
+
+-----------
 
 ## Music Blocks Maintenance
 

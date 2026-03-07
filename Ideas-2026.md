@@ -378,6 +378,8 @@ Music Blocks is a Visual Programming Language and web application for exploring 
 This project will transform Music Blocks' release process from manual and ad-hoc to automated, reliable, and auditable. The contributor will design and implement an automated release pipeline covering the entire software delivery lifecycle, including multi-environment infrastructure (staging and production), semantic versioning automation, optimized Docker builds with GitHub Container Registry, automated deployment workflows with approval gates and preview deployments, one-click rollback mechanisms, pre/post-deployment validation, error tracking and performance monitoring, deployment notifications and dashboards, and comprehensive documentation with runbooks and troubleshooting guides.
 
 **Expected Deliverables:**
+- Perform the audit of current infrastructure with mentors and create a documentation of the existing infrastructure
+- Design the effective CI-CD pipelines that goes well of with the semi-automated/automated deployments to cop-up with the translations feature development cycles lagging behind
 - Fully automated deployment pipeline with multi-environment support (staging, production, preview)
 - Automated semantic versioning, changelog generation, and GitHub releases
 - Optimized Docker containerization with GitHub Container Registry

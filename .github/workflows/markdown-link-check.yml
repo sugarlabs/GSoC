@@ -1,0 +1,39 @@
+name: Markdown Link Check
+
+on:
+  pull_request:
+    branches: [master]
+    paths:
+      - "**/*.md"
+      - ".github/workflows/markdown-link-check.yml"
+      - ".github/scripts/collect-markdown-files.sh"
+      - ".github/lychee.toml"
+
+permissions:
+  contents: read
+
+jobs:
+  check-links:
+    name: Validate markdown links
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Collect markdown files to validate
+        id: markdown
+        run: bash .github/scripts/collect-markdown-files.sh
+
+      - name: Run link check
+        if: steps.markdown.outputs.has_files == 'true'
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: >-
+            --config .github/lychee.toml
+            --no-progress
+            --verbose
+            ${{ steps.markdown.outputs.files }}
+          fail: true

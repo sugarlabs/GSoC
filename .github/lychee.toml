@@ -1,0 +1,13 @@
+exclude = [
+  '^http://lists\.sugarlabs\.org/listinfo/sugar-devel$',
+  '^https://wiki\.sugarlabs\.org/go/.*$',
+  '^https://www\.sugarlabs\.org/news/all/2025-09-01-gsoc-25-diwangshu-final-report$',
+  '^https://www\.sugarlabs\.org/news/all/2026-1-11-how-to-gtk4$',
+]
+
+max_retries = 2
+retry_wait_time = 2
+timeout = 20
+
+# Some sites throttle bot-like traffic.
+accept = [200, 403, 429]

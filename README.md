@@ -48,14 +48,14 @@ In addition to the [Google Summer of Code requirements for a proposal](https://g
 * must be your own work, and not the work of others, except where the work of others is minimal, duly credited and quoted,
 * must show you are fluent in the programming language needed,
 * must show your assessment of the competency of your mentors,
-* should be posted on our [sugar-devel@](http://lists.sugarlabs.org/listinfo/sugar-devel) mailing list as GitHub Markdown or PDF, and supported with answers to any questions posted in reply,
-* should not be posted to our [sugar-devel@](http://lists.sugarlabs.org/listinfo/sugar-devel) mailing list as a Google Docs (a document can change after you send the link, a document can disappear, the export feature may be turned off, and we don't want to require our members to use Google Docs).
+* should be posted on our [sugar-devel@](https://lists.sugarlabs.org/postorius/lists/sugar-devel.lists.sugarlabs.org/) mailing list as GitHub Markdown or PDF, and supported with answers to any questions posted in reply,
+* should not be posted to our [sugar-devel@](https://lists.sugarlabs.org/postorius/lists/sugar-devel.lists.sugarlabs.org/) mailing list as a Google Docs (a document can change after you send the link, a document can disappear, the export feature may be turned off, and we don't want to require our members to use Google Docs).
 
 For students who wish to be able to delete their proposal after failing to win a project, please do not post it on our mailing list.  Our decisions will be based on the contents of the final PDF proposal and our interactions with the student.
 
 ## How to talk to us ?
 We use the
-[sugar-devel@](http://lists.sugarlabs.org/listinfo/sugar-devel)
+[sugar-devel@](https://lists.sugarlabs.org/postorius/lists/sugar-devel.lists.sugarlabs.org/)
 mailing list for communication. Join to participate in the discussion
 and ask for help.  Allow some days for reply.  See
 [Community etiquette](https://github.com/sugarlabs/GSoC#community-etiquette).

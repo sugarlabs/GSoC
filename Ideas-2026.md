@@ -91,7 +91,7 @@ today's distros, and continue being relevant for the next generation
 of learners.
 
 Last summer (2025), Krish made [great
-headway](https://www.sugarlabs.org/news/all/2026-1-11-how-to-gtk4) by
+headway](https://github.com/sugarlabs/sugar/pull/1019) by
 mirgating the Sugar toolkit. That will be the basis of a number of
 projects this summer.
 
@@ -144,7 +144,7 @@ today's distros, and continue being relevant for the next generation
 of learners.
 
 Last summer (2025), Krish made [great
-headway](https://www.sugarlabs.org/news/all/2026-1-11-how-to-gtk4) by
+headway](https://github.com/sugarlabs/sugar/pull/1019) by
 mirgating the Sugar toolkit. That will be the basis of a number of
 projects this summer.
 
@@ -201,7 +201,7 @@ today's distros, and continue being relevant for the next generation
 of learners.
 
 Last summer (2025), Krish made [great
-headway](https://www.sugarlabs.org/news/all/2026-1-11-how-to-gtk4) by
+headway](https://github.com/sugarlabs/sugar/pull/1019) by
 mirgating the Sugar toolkit. That will be the basis of a number of
 projects thuis summer:
 
@@ -333,7 +333,7 @@ to talk about what they did, why they did it, what they learned and
 what they might do next.
 
 Last summer, Diwangshu built a [reflection
-widget](https://www.sugarlabs.org/news/all/2025-09-01-gsoc-25-diwangshu-final-report)
+widget](https://wiki.sugarlabs.org/go/Music_Blocks/2025-03-16-meeting)
 for Music Blocks. This summer, we'd like to do the same for the Sugar
 Journal so that AI-assisted reflection is part of the overall Sugar
 experience.

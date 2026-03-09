@@ -587,7 +587,7 @@ Three distinct modes will be implemented:
 
 * ***Draw mode***: A very basic mode for young users. Let users create freely like in Gridpaint activity - inspired by [pok pok](https://playpokpok.com/res/img/video/connect-the-dots.mp4). In shared mode, all users are drawing together on the same board like in Paint activity.
 * ***Number mode***: The user chooses a template with numbered dots and has to connect them in the correct order - inspired by [connect-the-dots-activity](https://github.com/sugarlabs/connect-the-dots-activity/tree/master). In shared mode, all users compete to finish the template first like in Maze activity. It should also be possible to create and share new templates like in Calligra or Tangram activities.
-* ***Game mode***: Strategic mode to conquer territory, each users should fill a maximum part of the screen starting from a little square in a border - inspired by [paper io](https://github.com/sugarlabs/connect-the-dots-activity/tree/master). If the user is alone, an AI opponent will try to beat him. In shared mode, all users compete to conquer the most territory.
+* ***Game mode***: Strategic mode to conquer territory, each users should fill a maximum part of the screen starting from a little square in a border - inspired by [paper io](https://paper-io.com/). If the user is alone, an AI opponent will try to beat him. In shared mode, all users compete to conquer the most territory.
 
 **First steps to starts**<br>
 

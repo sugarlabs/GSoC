@@ -471,7 +471,7 @@ by telling us areas that have the greatest impact on users.
 This might be done by implementing lightweight, privacy-friendly
 instrumentation to collect anonymous statistical data (as mentioned above).
 
-This project is try to address the performance issues.
+This project tries to address the performance issues.
 
 **Project Length**<br>
 

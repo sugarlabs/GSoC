@@ -11,7 +11,7 @@
 * [Music Blocks Maintenance](#music-blocks-maintenance)
 * [Music Blocks Performance](#music-blocks-performance)
 * [Music Blocks Temperament](#music-blocks-temperament)
-* [Music Blocks v4](#music-blocks-v4)
+* [Music Blocks 4 Program Builder](#music-blocks-4-program-builder)
 * [Sugarizer Connect the Dots Activity](#sugarizer-connect-the-dots-activity)
 * [Speak-AI Multilingual Support](#speak-ai-multilingual-support)
 
@@ -536,25 +536,72 @@ temperament available.
 
 -------------
 
-## Music Blocks v4
+# Music Blocks 4 Program Builder
 
 **Prerequisites**
 
 * Proficiency in **TypeScript**
 * Proficiency in **JavaScript DOM API**
 * Experience with **React Functional Components and Hooks**
-
-**Description**
-
-PLACEHOLDER
-
-**Project Length:** **350** hours
-
-**Difficulty:** **Hard**
+* Familiarity with **Storybook** and **Vitest**
+* Familiarity with **SVG paths and groups**
 
 **Tech Stack**
 
 TypeScript 5, React 18, Sass, Storybook, Vitest, Vite
+
+**Description**
+
+_Music Blocks_ is a visual programming platform where users build programs using
+_Lego_-like snap-together blocks. These blocks represent atomic programming
+constructs such as literals, variables, functions, and other language elements.
+
+In GSoC 2025, significant progress was made toward implementing this
+functionality in _Music Blocks 4_
+([musicblocks-v4](https://github.com/sugarlabs/musicblocks-v4)).
+The goal of this project is to build on the existing work and continue progress
+toward completing this feature set.
+
+We prefer a methodical approach when working on this objective. The process
+begins with documenting the intended end-user functionality. This document is a
+_specification_, often called a **Functional Specification**, which describes the
+features and capabilities that will be exposed to the user. It provides a clear
+overview of the feature set and serves as a contract defining the expected
+behavior for developers implementing the system.
+
+The Functional Specification is agnostic of the technical implementation, it
+focuses solely on what the user will see and be able to do. This is followed by
+another document, the **Technical Specification**, which describes how the
+feature set will be implemented. It covers the technical details including, but
+not limited to, modules, data flow between components, classes and objects, core
+algorithms, and other implementation considerations.
+
+Consider the following loose guidelines when writing your proposal:
+
+* Write a Functional Specification that describes what this feature set is about
+  and what features and capabilities users will have.
+
+  * Go into sufficient depth so that a person with very little prior context can
+    understand what you are building.
+  * Since this feature set involves modeling program syntax, it is important to
+    capture the different programming constructs and their constraints.
+  * Review the work that was completed last year and indicate the progress made
+    on the different parts of your Functional Specification (your specification
+    should naturally capture the work that has already been done).
+
+* Write a Technical Specification that describes how you propose to implement
+  this feature set.
+
+  * Review the work that was completed last year and summarize what was built
+    and how it was implemented.
+  * Describe how you plan to implement the remaining pieces. Provide sufficient
+    technical depth so that someone reading both the Functional and Technical
+    specifications should be able to implement the system without requiring
+    additional context.
+
+**Project Length:** **350** hours
+
+**Difficulty:** &#9733; &#9733; &#9733; &#9733; &#9734;
 
 **Mentors**<br/>
 [Anindya Kundu](https://github.com/meganindya/)

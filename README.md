@@ -9,7 +9,7 @@
 
 ## Introduction
 Google Summer of Code is a *global program focused on bringing
-more student developers into open source software development*.
+more applicant developers into open source software development*.
 See [how it works](https://summerofcode.withgoogle.com/how-it-works).
 
 Sugar Labs is a Google Summer of Code 2026 mentoring organisation.
@@ -51,7 +51,7 @@ In addition to the [Google Summer of Code requirements for a proposal](https://g
 * should be posted on our [sugar-devel@](https://lists.sugarlabs.org/mailman3/lists/sugar-devel.lists.sugarlabs.org/) mailing list as GitHub Markdown or PDF, and supported with answers to any questions posted in reply,
 * should not be posted to our [sugar-devel@](https://lists.sugarlabs.org/mailman3/lists/sugar-devel.lists.sugarlabs.org/) mailing list as a Google Docs (a document can change after you send the link, a document can disappear, the export feature may be turned off, and we don't want to require our members to use Google Docs).
 
-For students who wish to be able to delete their proposal after failing to win a project, please do not post it on our mailing list.  Our decisions will be based on the contents of the final PDF proposal and our interactions with the student.
+For applicants who wish to be able to delete their proposal after failing to win a project, please do not post it on our mailing list.  Our decisions will be based on the contents of the final PDF proposal and our interactions with the applicant.
 
 ## How to talk to us ?
 We use the
@@ -75,16 +75,16 @@ with many different
 [programming languages and libraries](https://github.com/sugarlabs/sugar-docs/blob/master/src/languages.md).
 
 ## Getting Help
-Got a problem? Ask your mentors, ask other students, or ask the
+Got a problem? Ask your mentors, ask other applicants, or ask the
 Sugar Labs community.
 
 The Sugar Labs community is large, and there are people who are
 not mentors in the contest. Mentors are listed. Everyone else
 you talk with may be a non-mentor.
 
-Students should keep in mind that some people are non-mentors,
+applicants should keep in mind that some people are non-mentors,
 and cannot see the contest progress, dates, or information
-about students. When communicating widely, be sure to;
+about applicants. When communicating widely, be sure to;
  - Introduce yourself, the first time,
  - Talk about the task as if you want to do it yourself, not
    because of the contest,
@@ -113,7 +113,7 @@ Conduct](https://github.com/sugarlabs/sugar-docs/blob/master/src/CODE_OF_CONDUCT
 
 ## Right fit
 
-When we start interacting with you during the application period, we have several ways to see if you are the right fit; see how you compare to our perfect student;
+When we start interacting with you during the application period, we have several ways to see if you are the right fit; see how you compare to our perfect applicant;
 
 * you have a GitHub profile with a history of commits, pull requests, and issues in our project, other projects, or personal projects,
 
@@ -145,7 +145,7 @@ When we start interacting with you during the application period, we have severa
 
 * you don't just fix issues, but you also get involved in other people's work.
 
-<i>(abstracted by @quozl from a work-in-progress document shared among mentors of several organisations, titled "Tips for finding the right GSoC student for your org".)</i>
+<i>(abstracted by @quozl from a work-in-progress document shared among mentors of several organisations, titled "Tips for finding the right GSoC applicant for your org".)</i>
 
 ## Cheating
 

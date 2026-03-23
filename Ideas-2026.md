@@ -92,7 +92,7 @@ of learners.
 
 Last summer (2025), Krish made [great
 headway](https://www.sugarlabs.org/news/all/2026-1-11-how-to-gtk4) by
- the Sugar toolkit. That will be the basis of a number of
+migrating the Sugar toolkit. That will be the basis of a number of
 projects this summer.
 
 Part 1. Migrating the [Fructose](https://wiki.sugarlabs.org/go/Development_Team/Release/Modules) activity set
@@ -145,7 +145,7 @@ of learners.
 
 Last summer (2025), Krish made [great
 headway](https://www.sugarlabs.org/news/all/2026-1-11-how-to-gtk4) by
- the Sugar toolkit. That will be the basis of a number of
+migrating the Sugar toolkit. That will be the basis of a number of
 projects this summer.
 
 Part 2. Migrating the Sugar Shell -- the desktop environment
@@ -202,7 +202,7 @@ of learners.
 
 Last summer (2025), Krish made [great
 headway](https://www.sugarlabs.org/news/all/2026-1-11-how-to-gtk4) by
- the Sugar toolkit. That will be the basis of a number of
+migrating the Sugar toolkit. That will be the basis of a number of
 projects this summer:
 
 Part 3. Full Wayland support. Wayland is the modern display server
@@ -226,7 +226,7 @@ as a wayland compositor for Sugar.
 
 **Project length**<br>**350** hours
 
-**Difficulty:**<br> High**
+**Difficulty:**<br> **High**
 
 **Coding Mentors**<br> [Krish Pandya](https://github.com/mostlykiguess) [Ibiam Chihurumnaya](https://github.com/chimosky/)<br>
 
@@ -305,7 +305,7 @@ Familiarize yourself with Sugar-AI
 
 **Project length**<br>**150** hours
 
-**Difficulty:**<br> Medium**
+**Difficulty:**<br> **Medium**
 
 **Coding Mentors**<br> [Krish Pandya](https://github.com/mostlykiguess) [Ibiam Chihurumnaya](https://github.com/chimosky/)<br>
 

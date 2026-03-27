@@ -1,4 +1,4 @@
-# Google Summer of Code 2026 Project Ideas
+# Google Summer of Code (GSoC) 2026 Project Ideas
 
 * [Git Backend for Music Blocks Part 2](#git-backend-for-music-blocks-part-2)
 * [GTK4 Transition Part 1 Fructose](#gtk4-transition-part-1-fructose)

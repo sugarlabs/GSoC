@@ -712,6 +712,11 @@ The project will require research into various TTS backends and G2P systems to d
 [Walter Bender](https://github.com/walterbender/) [Devin Ulibarri](https://github.com/pikurasa/)<br>
 
 -------------
+### Current Limitations of TTS in Sugar
+
+The current text-to-speech system has limited support for non-English and non-Latin languages. For example, languages like Hindi (Devanagari script), Arabic, and Chinese are either not supported or produce inaccurate pronunciation. This creates a barrier for many children who rely on their native languages for learning.
+
+Additionally, existing TTS systems may sound robotic and fail to capture natural speech patterns, which affects user engagement and learning experience. Improving multilingual support and pronunciation quality is essential to make the platform more inclusive and effective.
 
 # Administrative Notes
 

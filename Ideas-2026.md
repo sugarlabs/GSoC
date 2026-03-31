@@ -421,8 +421,8 @@ ensuring we have test coverage and we are keeping packages up to date.
 
 This project is both to bring to completion the test suite that Om
 Santosh began last year (2025). It is also to review the packages used
-by Music Blocks and ensure that, whereever possible, the latest
-packages are being used. (Package dependency is a bit of a nightmere
+by Music Blocks and ensure that, wherever possible, the latest
+packages are being used. (Package dependency is a bit of a nightmare
 in Music Blocks.) The latter will require some updates to various
 subsections -- for example, the latest JQuery breaks the search
 functionality.
@@ -457,8 +457,8 @@ complex projects; and (3) memory usage, especially as it impacts
 operations such as recursion.
 
 While we have done some incremental work, such as deferring the
-loading of some package loading, a hollistic approach is
-needed. Google PageSpeed is a great tool to analysizing some aspects
+loading of some package loading, a holistic approach is
+needed. Google PageSpeed is a great tool to analyzing some aspects
 of performance and provides insights into where we can make
 improvements.
 

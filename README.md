@@ -154,3 +154,4 @@ When we suspect cheating we are to report it to the GSoC coordinator.  We have a
 Your proposal, source code and other submissions must be your own work, and not the work of others.  Except where the work of others is minimal, and duly credited and quoted.  See [Cheating](https://google.github.io/gsocguides/mentor/selecting-students-and-mentors#cheating-and-proposals-from-outer-space).
 
 Thanks for reading all the way to the end!
+Exploring Sugar Labs repository as part of GSoC preparation.

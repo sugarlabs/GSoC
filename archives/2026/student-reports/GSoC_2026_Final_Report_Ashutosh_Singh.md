@@ -86,6 +86,51 @@ Keeping these stages separate made the project much easier to reason about. It a
 
 ---
 
+## System Architecture
+
+The standalone studio follows a layered architecture. The GTK interface talks to a service facade instead of calling the generation code directly. The service owns background jobs, cancellation, saved sessions, and revisions. The generation layer then coordinates model access, retrieval, validation, repair, project assembly, and packaging.
+
+```mermaid
+flowchart TB
+    Learner["Learner idea or visual reference"] --> UI
+
+    subgraph Studio["Sugar Activity Studio"]
+        UI["GTK interface<br/>Home, Create, Preview, Review, Versions"]
+        Service["Service layer<br/>Jobs, worker queue, sessions, revisions"]
+        Generation["Generation pipeline<br/>Enhance, retrieve, plan, generate"]
+        LLM["Model layer<br/>Providers, credentials, local or hosted models"]
+        Core["Core data<br/>ActivitySpec, licenses, saved projects"]
+
+        Static["Static validation<br/>Syntax, safety, bundle, request fidelity"]
+        Runtime["Runtime gate<br/>Isolated GTK process and Journal round-trip"]
+        Critic["Behavior critic<br/>Handlers, feedback, reachable game states"]
+        Repair["Transactional repair<br/>Focused SEARCH/REPLACE patches"]
+
+        Package["Accepted Sugar project<br/>Source, metadata, icon, revision history"]
+        Preview["Preview runner"]
+        Export["Export and install<br/>XO bundle, Flatpak source, direct install"]
+    end
+
+    UI --> Service
+    Service --> Generation
+    Service --> Core
+    Generation --> LLM
+    Generation --> Core
+    Generation --> Static
+    Static --> Runtime
+    Runtime --> Critic
+    Critic -->|Accepted| Package
+    Critic -->|Needs a focused fix| Repair
+    Repair --> Static
+    Package --> Preview
+    Package --> Export
+    Preview --> UI
+```
+
+The arrows also show the important trust boundary. Generated code cannot move to preview or export until it passes the acceptance pipeline. If the critic finds a focused problem, the repair is applied transactionally and sent through the checks again. The original working candidate remains available if a patch fails.
+
+---
+
 ## Phase 1: Finding the Learner Journey, Weeks 1 and 2
 
 I started with the part a learner would see. The first GTK prototype included a Prompt Screen for describing an idea and a Reflective Studio for previewing, reviewing, and modifying the generated activity.

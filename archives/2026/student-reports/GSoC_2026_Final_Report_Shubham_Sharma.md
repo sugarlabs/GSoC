@@ -9,7 +9,6 @@
 | **Mentors** | [Walter Bender](https://github.com/walterbender), [Ibiam Chihurumnaya](https://github.com/chimosky) |
 | **Assisting mentors** | [Sumit Srivastava](https://github.com/sum2it), [Mebin J Thattil](https://github.com/mebinthattil), [Diwangshu Kakoty](https://github.com/Commanderk3), [Harshit Verma](https://github.com/therealharshit), [Aman Naik](https://github.com/AmanNaik) |
 | **Code** | [sugarlabs/reflection-engine v0.1.0](https://github.com/sugarlabs/reflection-engine/releases/tag/v0.1.0) · [the pull requests](#pull-requests) |
-| **Written** | 2026-08-25. The seventeen pull requests were open and awaiting review, the engine was released as v0.1.0, and no child had used Jo. Everything below describes the project as it stood that day. |
 
 ## Summary
 

@@ -70,9 +70,9 @@ each idea.  We have added contact methods.
 ## How to Contribute
 
 At Sugar Labs we have
-[opportunities for contributing](https://github.com/sugarlabs/sugar-docs/blob/master/src/contributing.md)
+[opportunities for contributing](https://github.com/sugarlabs/docs/blob/master/src/contributing.md)
 with many different
-[programming languages and libraries](https://github.com/sugarlabs/sugar-docs/blob/master/src/languages.md).
+[programming languages and libraries](https://github.com/sugarlabs/docs/blob/master/src/languages.md).
 
 ## Getting Help
 Got a problem? Ask your mentors, ask other students, or ask the
@@ -109,7 +109,7 @@ You don't have to apologize everytime you make a mistake; but
 avoid repeating it again ;-)
 
 Also see our [Code of
-Conduct](https://github.com/sugarlabs/sugar-docs/blob/master/src/CODE_OF_CONDUCT.md).
+Conduct](https://github.com/sugarlabs/docs/blob/master/src/CODE_OF_CONDUCT.md).
 
 ## Right fit
 

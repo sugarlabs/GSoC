@@ -770,9 +770,9 @@ _mentor_ is obliged to respond when a student has a question, even if
 the answer is "I don't know."  When a _mentor_ receives a question for
 which the best forum is _everyone else_, then they are to respectively
 redirect the student to ask _everyone else_.  See ["Be
-flexible"](https://github.com/sugarlabs/sugar-docs/blob/master/src/CODE_OF_CONDUCT.md#be-flexible)
+flexible"](https://github.com/sugarlabs/docs/blob/master/src/CODE_OF_CONDUCT.md#be-flexible)
 and ["When you are unsure, ask for
-help"](https://github.com/sugarlabs/sugar-docs/blob/master/src/CODE_OF_CONDUCT.md#when-you-are-unsure-ask-for-help)
+help"](https://github.com/sugarlabs/docs/blob/master/src/CODE_OF_CONDUCT.md#when-you-are-unsure-ask-for-help)
 in our Code of Conduct.
 
 ## Suggested Issues
